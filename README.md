@@ -1,4 +1,4 @@
-# hitobito
+# hitobito Standard
 
 Rollen sind ein zentrales Konzept von hitobito.
 

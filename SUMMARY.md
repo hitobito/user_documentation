@@ -1,5 +1,5 @@
 # Table of contents
 
-* [hitobito](README.md)
+* [hitobito Standard](README.md)
 * [Stuff](stuff.md)
 
