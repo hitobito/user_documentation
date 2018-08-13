@@ -1,3 +1,32 @@
+# User Documentation
+
+We need a good way to handle our user documentation, taking into account, that we need seperate Version for our customized installations.
+
+We think it has to be git-based as otherwise keeping everything up to date across the different version will be impossible. Or then we need something very customized.
+
+Candidates:
+
+- gitbook.io
+- readthedocs.org
+
+Both use git, and can be used with Markdown, so we are not locked in.
+
+## Gitbook.io
+
+- Provides a nice editor
+- Version can be done with different branches
+- no custom css
+
+## Readthedocs.org
+
+- No Editors
+- Versions can be done with different branches
+- Multi Language support
+- high customization possibility
+
+Currently I lean towards readthedocs.org even though a slightly higher learning curve.
+
+
 # hitobito Standard
 
 Rollen sind ein zentrales Konzept von hitobito.
