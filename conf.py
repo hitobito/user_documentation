@@ -20,8 +20,8 @@
 # -- Project information -----------------------------------------------------
 
 project = u'hitobito'
-copyright = u'2018, Roland'
-author = u'Roland'
+copyright = u'2018, hitobito AG'
+author = u'hitobito'
 
 # The short X.Y version
 version = u''
@@ -50,7 +50,7 @@ templates_path = ['_templates']
 # You can specify multiple suffix as a list of string:
 #
 # source_suffix = ['.rst', '.md']
-source_suffix = '.md'
+source_suffix = '.rst'
 
 # The master toctree document.
 master_doc = 'index'
