@@ -10,3 +10,6 @@ This will be built with https://readthedocs.org/
 
 A helpful overview over the restructured syntax that we use can be found here: http://docs.sphinxdocs.com/en/latest/step-1.html
 
+## Developer documentation for hitobito
+
+If you are looking for the docs for development of hitobito head over to https://github.com/hitobito/hitobito/tree/master/doc
