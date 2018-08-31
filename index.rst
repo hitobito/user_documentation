@@ -1,4 +1,5 @@
-## JUBLA VERSION
+JUBLA VERSION
+=============
 
 .. hitobito documentation master file, created by
    sphinx-quickstart on Mon Aug 13 09:21:58 2018.
