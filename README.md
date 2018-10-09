@@ -1,5 +1,7 @@
 # User Documentation
 
+This is the source of https://hitobito.readthedocs.io
+
 We try to have a better solution to handle all the documentation. A challenge is that every organisation has specific custom things, they need to have adressed. To have a common core of documentation with extensions for the different organization, we will try this git-based approach with Sphinx.
 
 Every organization will have their own branch in the git repo. We will the merge selectively from the master and adjust locally on the branch what is different.
