@@ -1,6 +1,8 @@
 MailChimp-Export von Mailinglisten / Abos
 =========================================
 
+.. info:: Coming Soon
+
 Mit dem MailChimp-Export können die EmpfängerInnen von Mailinglisten exportiert werden in eine MailChimp-Liste.
 
 Bitte beachtet vor Benutzung dieses Features zwei Dinge:
@@ -36,7 +38,9 @@ Gratuliere, nach dem Speichern dieser zwei Informationen ist nun deine Mailingli
 Exportieren nach MailChimp
 --------------------------
 
-Um die EmpfängerInnen einer Mailingliste nach MailChimp zu exportieren, wähle die entsprechende Option im «Export»-Menu des «Abonnenten»-Tabs deiner Mailingliste in Hitobito aus. **Bitte beachte, dass der Export deine verknüpfte Liste in MailChimp überschreiben und bestehende Kontakte löschen wird.**
+Um die EmpfängerInnen einer Mailingliste nach MailChimp zu exportieren, wähle die entsprechende Option im «Export»-Menu des «Abonnenten»-Tabs deiner Mailingliste in Hitobito aus.
+
+.. danger:: Bitte beachte, dass der Export deine verknüpfte Liste in MailChimp überschreiben und bestehende Kontakte löschen wird.
 
 .. image:: mailing_lists_mailchimp_export/mailing_list_export.png
 
