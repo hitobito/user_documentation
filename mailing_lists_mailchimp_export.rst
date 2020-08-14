@@ -44,4 +44,4 @@ Um die EmpfängerInnen einer Mailingliste nach MailChimp zu exportieren, wähle 
 
 .. image:: mailing_lists_mailchimp_export/mailing_list_export.png
 
-Nach dem Auslösen des Exports wird die Liste im Hintergrund in die gewählte MailChimp-Liste exportiert und die EmpfängerInnen deiner MailingListe sollten nach einiger Zeit dort erscheinen.
+Nach dem Auslösen des Exports wird die Liste im Hintergrund in die gewählte MailChimp-Liste exportiert und die EmpfängerInnen deiner Mailingliste sollten nach einiger Zeit dort erscheinen.

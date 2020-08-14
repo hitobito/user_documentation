@@ -14,7 +14,7 @@ Um korrekte Rechnungen zu erstellen, musst du zuerst die Rechnungseinstellungen 
 Rechnungseinstellungen anpassen
 ---------------------------------------
 
-Du kannst sowohl für rote und orange Einzahlungsschein für Post und Bank erstellen.
+Du kannst rote und orange Einzahlungsscheine für Post und Bank erstellen.
 
 Rechnungsartikel sind optional
 --------------------------------------
@@ -24,8 +24,10 @@ Du kannst Rechnungsartikel anlegen, für Dinge wie Hausmiete, Wohnmiete usw.
 Rechnungen erstellen
 --------------------------
 
-.. note:: Rechnungen werden nicht auf der Ansicht Rechnungen erstellt, sondern ausgehend von Personenlisten oder auf der Ansicht auf eine bestimmte Person.
+.. note:: Rechnungen werden nicht auf der Ansicht Rechnungen erstellt, sondern ausgehend von Personenlisten oder auf der Ansicht einer bestimmten Person.
 
-- Rechnungen werden von Personenlisten aus erstellt
-- oder von einer Teilnehmerliste aus.
-- oder von einer Einzelperson aus
+Rechnungen können aus folgenden Ansichten erstellt werden:
+
+- Personenlisten
+- Teilnehmerliste
+- Einzelperson

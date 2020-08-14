@@ -1,7 +1,7 @@
 Mailinglisten / Abos
 ========================
 
-Mit Mailinglisten / Abos können die Empfänger von Zeitschriften / Abos vewaltetet werden, man kann sie auch für die interne Kommunikation benutzen.
+Mit Mailinglisten / Abos können die Empfänger von Zeitschriften / Abos verwaltetet werden, man kann sie auch für die interne Kommunikation benutzen.
 
 
 Für Mailversände und das Verwalten von Abonnementen könnt ihr entsprechende Verteilerlisten erfassen.
