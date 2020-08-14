@@ -174,7 +174,7 @@ Spezialfall ``finance``
 
 Erlaubt auf der entsprechenden Ebene Rechnungen zu erstellen und einzusehen.
 
-Spezialfall ``Impersonate``
+Spezialfall ``impersonation``
 -------------------------------------------------
 
 Darf andere Accounts temporär übernehmen, z. B. für Support Aufgaben oder für Tests. Dies ist eine sehr mächtige Funktion und sollte nur an klar definierte Rollen vergeben werden.
