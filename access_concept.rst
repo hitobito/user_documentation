@@ -52,7 +52,7 @@ Luca sieht alle Mitglieder und Leitung innerhalb des Gremiums. Sonst sieht er ni
 Luca sehen:
 ^^^^^^^^^^^^^^^^
 
-Luca ist für Personen mit vollen Rechten (``layer_full`` oder ``layer_and_below_full`` für die Dachverbandsebene sicht- und änderbar. Zusätzlich kann die Leitung innerhalb seines Gremiums seine Daten einsehen und ändern (``group_full``). Seine Kollegen mit gleicher Rolle im Gremium sehen seine Daten, können diese aber nicht ändern (``group_read``)
+Luca ist für Personen mit vollen Rechten (``layer_full`` oder ``layer_and_below_full``) für die Dachverbandsebene sicht- und änderbar. Zusätzlich kann die Leitung innerhalb seines Gremiums seine Daten einsehen und ändern (``group_full``). Seine Kollegen mit gleicher Rolle im Gremium sehen seine Daten, können diese aber nicht ändern (``group_read``)
 
 Maria hat eine Rolle in der Region
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
