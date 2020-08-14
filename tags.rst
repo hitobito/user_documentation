@@ -19,4 +19,4 @@ Bsp.:
 Personen mit Tags auswählen
 --------------------------------
 
-Aktuell gibt es noch keine Filtermöglichkeiten auf Personenlisten. Ein Entwurf dafür findet ihr hier: https://github.com/hitobito/hitobito/issues/291. Jedoch können bei Mailinglisten Personen mit Tags ausgewählt werden. Näheres dazu https://github.com/hitobito/hitobito/wiki/Mailinglisten---Abo.
+Auf der Personenlisten können nach Tags gefilter werden. Weiter können bei Mailinglisten Personen mit Tags ausgewählt werden. Näheres dazu https://github.com/hitobito/hitobito/wiki/Mailinglisten---Abo.
