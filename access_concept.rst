@@ -168,3 +168,13 @@ Spezialfall ``Contact_Data``
 
 Ist die Rolle einer Person als kontaktrelevant markiert, so hat diese Person auf alle anderen Personen mit kontaktrelevanten Rollen Zugriff. Gleichzeitig ist sie auch für alle anderen Personen mit kontaktrelevanten Rollen sichtbar. 
 Dies umfasst Rollen, welche häufig im Austausch mit Personen aus anderen Ortsgruppen stehen. 
+
+Spezialfall ``finance``
+-------------------------------------------------
+
+Erlaubt auf der entsprechenden Ebene Rechnungen zu erstellen und einzusehen.
+
+Spezialfall ``Impersonate``
+-------------------------------------------------
+
+Darf andere Accounts temporär übernehmen, z. B. für Support Aufgaben oder für Tests. Dies ist eine sehr mächtige Funktion und sollte nur an klar definierte Rollen vergeben werden.
