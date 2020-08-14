@@ -34,4 +34,4 @@ ergänzen, indem du im Rollendialog das zusätzliche Feld ausfüllst.
 Nach diesen Bezeichnung kann allerdings aktuell noch nicht gefiltert
 werden.
 
-.. _Zugriffsrechte: Berechtigunskonzept
+.. _Zugriffsrechte: https://hitobito.readthedocs.io/de/latest/access_concept.html#berechtigunskonzept
