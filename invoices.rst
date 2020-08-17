@@ -29,5 +29,5 @@ Rechnungen erstellen
 Rechnungen können aus folgenden Ansichten erstellt werden:
 
 - Personenlisten
-- Teilnehmerliste
+- Teilnehmerlisten
 - Einzelperson
