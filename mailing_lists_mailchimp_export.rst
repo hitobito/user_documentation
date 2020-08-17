@@ -8,13 +8,13 @@ Mit dem MailChimp-Export können die EmpfängerInnen von Mailinglisten exportier
 Bitte beachtet vor Benutzung dieses Features zwei Dinge:
 
 * Die MailChimp-Liste wird durch den Export **überschrieben** (siehe auch folgenden Abschnitt)
-* Die MailChimp-Liste wird **auf Knopfdruck exportiert**, nicht periodisch
+* Die MailChimp-Liste wird **regelmässig** (alle 24h) oder **auf Knopfdruck** exportiert
 
 
 Grundsatz
 ---------
 
-Das MailChimp-Feature ermöglicht es, die in Hitobito organisierten Daten zu brauchen, um mit MailChimp gestaltete Newsletter zu versenden. Es kann nicht gebraucht werden, um eine MailChimp-Liste mit einer Hitobito-Mailingliste zu synchronisieren, da es **keine Daten von MailChimp importiert** und **bestehende Daten von MailChimp bei jedem Export löscht**.
+Das MailChimp-Feature ermöglicht es, die in Hitobito organisierten Daten zu brauchen, um mit MailChimp gestaltete Newsletter zu versenden. Es kann nicht gebraucht werden, um eine MailChimp-Liste mit einer Hitobito-Mailingliste zu synchronisieren, da es **keine Daten von MailChimp importiert** und **bestehende Daten von MailChimp bei jedem Export überschreibt**.
 
 
 Verknüpfen einer Mailingliste mit MailChimp
@@ -40,7 +40,7 @@ Exportieren nach MailChimp
 
 Um die EmpfängerInnen einer Mailingliste nach MailChimp zu exportieren, wähle die entsprechende Option im «Export»-Menu des «Abonnenten»-Tabs deiner Mailingliste in Hitobito aus.
 
-.. danger:: Bitte beachte, dass der Export deine verknüpfte Liste in MailChimp überschreiben und bestehende Kontakte löschen wird.
+.. danger:: Bitte beachte, dass der Export deine verknüpfte Liste in MailChimp überschreiben. Bestehende Kontakte werden in Mailchimp archiviert.
 
 .. image:: mailing_lists_mailchimp_export/mailing_list_export.png
 
