@@ -11,7 +11,7 @@ In hitobito können komplexe hierarchische Organisationen abgebildet werden. All
 - Jede Ebene kann intern wieder ihre innere Struktur haben, es gibt einen Vorstand, Arbeitsgruppen, Mitgliederlisten, Kontaktlisten.
 - Jede Person hat eine oder mehrere Rollen. Diese Rollen definieren, wen man sehen kann, und von vom man gesehen wird.
 
-Hier einige Beispiele, wie das Aussehen kann.
+Hier einige Beispiele, wie das aussehen kann.
 
 
 Karin ist Geschäftsleiter direkt im Dachverband
