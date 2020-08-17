@@ -1,7 +1,7 @@
 Personenfilter
 ==============
 
-Auf der Personenliste kannst hast du zwei Typen von Filtern zur Verfügung:
+Auf der Personenliste hast du zwei Typen von Filtern zur Verfügung:
 
 - Rollenfilter
 - Qualifikationsfilter

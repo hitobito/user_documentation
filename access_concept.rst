@@ -5,13 +5,13 @@ Berechtigunskonzept
 Gruppen / Rollen - Wie funktioniert das?
 -------------------------------------------------
 
-In hitobito können komplexe hierarchische Organisationen abgebildet werden, alles basiert darauf, dass wir verschiedene Gruppentypen zulassen, welche auch definieren welche Rollen zur Verfügung stehen. 
+In hitobito können komplexe hierarchische Organisationen abgebildet werden. Alles basiert darauf, dass wir verschiedene Gruppentypen zulassen, welche auch definieren welche Rollen zur Verfügung stehen.
 
 - Jede Organisation kann aus mehreren Ebenen bestehen, z. B. Dachverband, Kantonalverband (, optionale Zwischenstufen wie Regionen) und Ortsgruppen.
 - Jede Ebene kann intern wieder ihre innere Struktur haben, es gibt einen Vorstand, Arbeitsgruppen, Mitgliederlisten, Kontaktlisten.
-- Jede Person hat eine oder mehrere Rollen, diese Rollen definieren, wen man sehen kann, und von vom man gesehen wird.
+- Jede Person hat eine oder mehrere Rollen. Diese Rollen definieren, wen man sehen kann, und von vom man gesehen wird.
 
-Hier einige Beispiel, wie das Aussehen kann.
+Hier einige Beispiele, wie das aussehen kann.
 
 
 Karin ist Geschäftsleiter direkt im Dachverband
@@ -25,7 +25,7 @@ Karin sieht:
 
 .. image:: http://hitobito.com/images/berechtigungskonzept/TopLayerFullRestrained.png
 
-Karin hat vollen Zugriff auf ihrer Ebene und alle darunter liegenden Ebenen. Dadurch kann sie alle Personen im Dachverband, in Regionen und auf oberster Ebene der Ortsgruppen sehen und ändern. 
+Karin hat vollen Zugriff auf ihrer Ebene und auf alle darunter liegenden Ebenen. Dadurch kann sie alle Personen im Dachverband, in Regionen und auf oberster Ebene der Ortsgruppen sehen und ändern.
 Nicht sichtbar und änderbar sind für sie alle Personen, die innerhalb einer Ortsgruppe, also in einer Untergruppe unter der Ortsgruppe, aufgehängt sind. 
 Da Karin's Rolle als kontaktrelevant geführt ist (sog. ContactData-Flag, siehe unten), kann sie alle anderen Personen mit Kontaktrelevanz sehen, unabhängig von deren Position innerhalb der Struktur. 
 
@@ -34,7 +34,7 @@ Da Karin's Rolle als kontaktrelevant geführt ist (sog. ContactData-Flag, siehe 
 Karin sehen:  
 ^^^^^^^^^^^^^^^^^^
 
-Karin ist für alle anderen Personen mit Rechte innerhalb der Ebene des Dachverbands sichtbar. 
+Karin ist für alle anderen Personen mit Rechten innerhalb der Ebene des Dachverbands sichtbar.
 Auf Grund der Kontaktrelevanz von Karin's Rolle ist sie ebenfalls für alle anderen kontaktrelevanten Rollen sichtbar. 
 
 Luca ist ein Mitglied in einem Gremium im Dachverband
@@ -52,12 +52,12 @@ Luca sieht alle Mitglieder und Leitung innerhalb des Gremiums. Sonst sieht er ni
 Luca sehen:
 ^^^^^^^^^^^^^^^^
 
-Luca ist für Personen mit vollen Rechten (``layer_full`` oder ``layer_and_below_full`` für die Dachverbandsebene sicht- und änderbar. Zusätzlich kann die Leitung innerhalb seines Gremiums seine Daten einsehen und ändern (``group_full``). Seine Kollegen mit gleicher Rolle im Gremium sehen seine Daten, können diese aber nicht ändern (``group_read``)
+Luca ist für Personen mit vollen Rechten (``layer_full`` oder ``layer_and_below_full``) für die Dachverbandsebene sicht- und änderbar. Zusätzlich kann die Leitung innerhalb seines Gremiums seine Daten einsehen und ändern (``group_full``). Seine Kollegen mit gleicher Rolle im Gremium sehen seine Daten, können diese aber nicht ändern (``group_read``)
 
 Maria hat eine Rolle in der Region
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-technisch: ``group_read`` inkl.``contact_data``
+technisch: ``group_read`` inkl. ``contact_data``
 
 Maria sieht
 ^^^^^^^^^^^^^^^
@@ -71,7 +71,7 @@ Da Maria's Rolle als kontaktrelevant geführt ist (sog. ContactData-Flag, siehe 
 Maria sehen
 ^^^^^^^^^^^^^^
 
-Maria ist für alle anderen Personen mit Rechte innerhalb der Ebene des Dachverbands sichtbar. 
+Maria ist für alle anderen Personen mit Rechten innerhalb der Ebene des Dachverbands sichtbar.
 Auf Grund der Kontaktrelevanz von Maria's Rolle ist sie ebenfalls für alle anderen kontaktrelevanten Rollen sichtbar. 
 
 Petra leitet ein Gremium in der Region
@@ -92,7 +92,7 @@ Da Petra's Rolle als kontaktrelevant geführt ist (sog. ContactData-Flag, siehe 
 Petra sehen
 ^^^^^^^^^^^^^^^
 
-Petra ist für Personen auf Kantonaler oder Dachverbandsebene sichtbar, welche über eine Rolle mit Zugriff auf untergeordnete Ebenen besitzen (``layer_and_below``). Zudem sehen alle Personen in der Region ihre Daten, die über Rechte innerhalb der Gruppe oder innerhalb der Ebene besitzen.
+Petra ist für Personen auf kantonaler oder Dachverbandsebene sichtbar, welche eine Rolle mit Zugriff auf untergeordnete Ebenen besitzen (``layer_and_below``). Zudem sehen alle Personen in der Region, die Rechte innerhalb der Gruppe oder der Ebene besitzen, ihre Daten.
 
 Auf Grund der Kontaktrelevanz von Petra's Rolle ist sie ebenfalls für alle anderen kontaktrelevanten Rollen sichtbar. 
 
@@ -114,8 +114,8 @@ Da Anna's Rolle als kontaktrelevant geführt ist (sog. ContactData-Flag, siehe u
 Anna sehen
 ^^^^^^^^^^^^^
 
-Anna ist für Personen oberhalb der Ortsgruppe sichtbar, falls diese über das Recht besitzen, Personen unterhalb ihrer Ebene zu sehen.  
-Zudem können ihre Kolleginnen und Kollegen innerhalb der Ortsgruppe ihre Daten sehen, falls sie über das Recht für die Gruppe oder die Ebene besitzen. 
+Anna ist für Personen oberhalb der Ortsgruppe sichtbar, falls diese das Recht besitzen, Personen unterhalb ihrer Ebene zu sehen.
+Zudem können ihre Kolleginnen und Kollegen innerhalb der Ortsgruppe ihre Daten sehen, falls sie das Recht für die Gruppe oder die Ebene besitzen.
 Auf Grund der Kontaktrelevanz von Anna's Rolle ist sie ebenfalls für alle anderen kontaktrelevanten Rollen sichtbar. 
 
 Franz leitet eine Einheit innerhalb einer Ortsgruppe
