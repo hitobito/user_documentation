@@ -1,8 +1,6 @@
 MailChimp-Export von Mailinglisten / Abos
 =========================================
 
-.. info:: Coming Soon
-
 Mit dem MailChimp-Export können die EmpfängerInnen von Mailinglisten exportiert werden in eine MailChimp-Liste.
 
 Bitte beachtet vor Benutzung dieses Features zwei Dinge:
