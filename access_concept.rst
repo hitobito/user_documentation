@@ -92,7 +92,7 @@ Da Petra's Rolle als kontaktrelevant geführt ist (sog. ContactData-Flag, siehe 
 Petra sehen
 ^^^^^^^^^^^^^^^
 
-Petra ist für Personen auf Kantonaler oder Dachverbandsebene sichtbar, welche eine Rolle mit Zugriff auf untergeordnete Ebenen besitzen (``layer_and_below``). Zudem sehen alle Personen in der Region, die Rechte innerhalb der Gruppe oder der Ebene besitzen, ihre Daten.
+Petra ist für Personen auf kantonaler oder Dachverbandsebene sichtbar, welche eine Rolle mit Zugriff auf untergeordnete Ebenen besitzen (``layer_and_below``). Zudem sehen alle Personen in der Region, die Rechte innerhalb der Gruppe oder der Ebene besitzen, ihre Daten.
 
 Auf Grund der Kontaktrelevanz von Petra's Rolle ist sie ebenfalls für alle anderen kontaktrelevanten Rollen sichtbar. 
 
