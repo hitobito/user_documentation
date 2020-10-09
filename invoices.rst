@@ -7,11 +7,11 @@ Rechnungen
 .. note:: Ob du Rechnungen verwalten kannst hängt davon ab, ob dir eine entsprechende Rolle vergeben wurde. Welche Rolle das ist hängt von der jeweiligen Organisation ab.
 
 
-In hitobito kannst du auch Rechnungen erstellen und Debitoren verwalten
+In hitobito können Rechnungen erstellt und Debitoren verwaltet werden.
 
 Rechnung
 ---------------------------------------
-Hier finden Sie die Übersicht über alle erstellten Rechnungen und hier können diese verschickt, bearbeitet, gelöscht oder gedruckt werden. Pro Rechnung ist der jweilige Status sichtbar. Zahlungen können manuell auf der jeweiligen Rechnung erfasst oder mittels camt.054 XML-Datei [#f2]_ eingelesen werden.
+Hier finden Sie die Übersicht über alle erstellten Rechnungen und hier können diese verschickt, bearbeitet, gelöscht oder gedruckt werden. Pro Rechnung ist der Status sichtbar. Zahlungen können manuell auf der jeweiligen Rechnung erfasst oder mittels camt.054 XML-Datei [#f2]_ eingelesen werden.
 
 Bei Bedarf können die Rechnungen auch als CSV exportiert und in eine Buchhaltungsapplikation eingelesen werden.
 
