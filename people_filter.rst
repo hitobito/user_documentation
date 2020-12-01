@@ -1,14 +1,14 @@
 Personenfilter
 ==============
 
-Auf der Personenliste hast du zwei Typen von Filtern zur Verfügung:
+Auf der Personenliste kann nach unterschiedlichen Kriterien gefilter werden:
 
 - Rollenfilter
 - Qualifikationsfilter
+- Felder
+- Tags
 
-Leider kann aktuell noch nicht nach Tags oder anderen Attributen gefiltert werden.
-
-Wie filtere ich Personen? 
+Filtern von Personen
 -------------------------
 
 Neuen Filter Anlegen
@@ -18,12 +18,12 @@ Neuen Filter Anlegen
 
 Unter `weitere Ansichten` `Neuer Filter` wählen.
 
-Auswählen, ob du nur auf der aktuellen Ebene / Gruppe suchen willst. 
+Auswahl auf welcher Ebene / Gruppe gesucht werden soll. 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: https://content.screencast.com/users/RolandStuder/folders/Jing/media/c6812a37-d718-4a08-8544-35df1ae7c41e/00000007.png
 
-Wähle aus Personen mit welchen Rollen du sehen willst.
+Auswahl an Personen mit gesuchten Rollen.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: https://content.screencast.com/users/RolandStuder/folders/Jing/media/64c6ad05-1a4e-4b77-a42e-b3f3b5c98528/00000009.png
@@ -36,4 +36,4 @@ Gefilterte Listen speichern
 
 .. image:: https://content.screencast.com/users/RolandStuder/folders/Jing/media/76e0ddd3-307b-4b6b-937e-063d43de61a4/00000010.png
 
-Du kannst Filter speichern, sie stehen allen anderen Personen auch zur Verfügung.
+Der definierte Filter kann gespeichert werden und, steht allen anderen Benutzern zur Verfügung.
