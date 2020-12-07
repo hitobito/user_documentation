@@ -1,6 +1,11 @@
-# User Documentation
+# Hitobito User Documentation
 
-This is the source of https://hitobito.readthedocs.io
+
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/hitobito/user_documentation/graphs/commit-activity)
+[![Documentation Status](https://readthedocs.org/projects/hitobito/badge/?version=latest)](https://hitobito.readthedocs.io/de/latest/?badge=latest)
+[![GitHub](https://img.shields.io/github/license/hitobito/user_documentation)](https://github.com/hitobito//user_documentation/blob/master/LICENSE)
+
+This is the source of https://hitobito.readthedocs.io a generic user documenation about hitobito.
 
 We try to have a better solution to handle all the documentation. A challenge is that every organisation has specific custom things, they need to have adressed. To have a common core of documentation with extensions for the different organization, we will try this git-based approach with Sphinx.
 
