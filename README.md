@@ -15,7 +15,7 @@ We will have to see if this a practicable approach, as we will have to merge ver
 
 This will be built with https://readthedocs.org/
 
-A helpful overview over the restructured syntax that we use can be found here: http://docs.sphinxdocs.com/en/latest/step-1.html
+A helpful overview over the restructured syntax that we use can be found here: https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html
 
 ## Developer documentation for hitobito
 
