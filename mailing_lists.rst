@@ -39,3 +39,8 @@ Etiketten drucken
 ----------------------
 
 Falls ihr ein entsprechendes Etikettenformat definiert habt, könnt ihr diese im Abo unter "Export" auswählen, damit euch für physische Versände die Adressen der gewählten Mitglieder exportiert werden.
+
+
+Mailinglisten nach Tags filtern
+----------------------
+Personen können beim hinzufügen via Rolle/Gruppe auch nach Tags gefiltert werden
