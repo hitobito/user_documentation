@@ -6,7 +6,7 @@ Mit dem MailChimp-Export können die Abonnent*innen von Mailinglisten exportiert
 Bitte beachtet vor Benutzung dieses Features zwei Dinge:
 
 * Die MailChimp-Liste wird durch den Export **überschrieben** (siehe auch folgenden Abschnitt)
-* Die MailChimp-Liste wird **regelmässig** (alle 24h) oder **auf Knopfdruck** exportiert
+* Die MailChimp-Liste wird **regelmässig** (alle 24h) und bei Bedarf zusätzlich **auf Knopfdruck** exportiert
 
 
 Grundsatz
