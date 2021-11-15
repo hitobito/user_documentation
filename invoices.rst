@@ -48,7 +48,7 @@ In den Rechnungseinstellungen können allgemeine Angaben gemacht werden, wie die
 
 Diese Einstellungen können pro Ebene individuell vorgenommen werden.
 
-Du kannst rote und orange Einzahlungsscheine für Post und Bank erstellen. Zusätzlich stehen noch QR Rechnungen zur Verfügung.
+Du kannst rote und orange Einzahlungsscheine für Post und Bank erstellen. Zusätzlich stehen noch QR Rechnungen zur Verfügung. Für QR Rechnungen muss eine spezielle QR-IBAN (https://www.moneytoday.ch/lexikon/qr-iban/) hinterlegt werden. Diese unterscheidet sich von der bestehenden IBAN Nummer.
 
 
 
