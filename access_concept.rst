@@ -178,3 +178,21 @@ Spezialfall ``impersonation``
 -------------------------------------------------
 
 Darf andere Accounts temporär übernehmen, z. B. für Support Aufgaben oder für Tests. Dies ist eine sehr mächtige Funktion und sollte nur an klar definierte Rollen vergeben werden.
+
+Security: Zugriffsanfragen und manuelle Freigabe
+-------------------------------------------------
+
+Angenommen, Anna möchte unberechtigt Zugriff auf die persönlichen Daten von John bekommen. Dazu kann Anna John einfach in einer Gruppe, einem Anlass oder Abo hinzufügen, in der sie Zugriffsrechte hat. Dieses Datenschutz-Problem kann in hitobito mit den "manuellen Freigaben" verhindert werden.
+
+Beim Hinzufügen von John in Gruppen, Anlässen und Abos überprüft hitobito Johns Haupt-Rolle (die Rolle die mit einem Stern markiert ist). Falls John keine aktive Rolle mehr hat, überprüft hitobito stattdessen die letzte Rolle die noch aktiv war.
+Es wird überprüft, ob in der Ebene dieser Rolle die manuellen Freigaben aktiviert sind. Beispiel: John hat seine Haupt-Rolle in der Arbeitsgruppe "Saturn" des Vereins "Sterngucker Luzern". Die manuellen Freigaben können bei der Ebene (Verein Sterngucker Luzern) auf dem Anfragen-Tab aktiviert werden.
+
+Sind manuelle Freigaben in der Ebene aktiviert, dann wird John nicht direkt in die neue fremde Gruppe, Anlass oder Abo hinzugefügt, sondern es wird eine Zugriffsanfrage ausgelöst. Anna sieht dann folgende Nachricht:
+
+.. image:: person_add_requests/pending_role_approval.png
+
+Alle Personen die auf dem Anfragen-Tab ausgewählt sind, sowie John falls er einen Login hat, bekommen ein E-Mail welches darüber informiert dass Anna John an einem neuen Ort hinzufügen will. Von diesem E-Mail aus oder auf dem Anfragen-Tab der Gruppe kann die Zugriffsanfrage akzeptiert oder abgelehnt werden.
+
+.. image:: person_add_requests/approvals_tab.png
+
+So bekommt Anna nie unberechtigten Zugriff auf die Personendaten von John. Das Ganze funktioniert aber nur, wenn die manuellen Freigaben auf der Ebene aktiviert sind.
