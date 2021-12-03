@@ -195,4 +195,4 @@ Alle Personen die auf dem Anfragen-Tab ausgewählt sind, sowie John falls er ein
 
 .. image:: person_add_requests/approvals_tab.png
 
-So bekommt Anna nie unberechtigten Zugriff auf die Personendaten von John. Das Ganze funktioniert aber nur, wenn die manuellen Freigaben auf der Ebene aktiviert sind.
+So bekommt Anna nie unberechtigten Zugriff auf die Personendaten von John. Das Ganze funktioniert aber nur, wenn die manuellen Freigaben auf der Ebene aktiviert sind. Es wird keine Zugriffsanfrage ausgelöst wenn Anna bereits vorher Zugriff auf John hat (z.B. wenn beide eine Rolle mit `contact_data` haben).
