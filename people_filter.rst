@@ -30,6 +30,8 @@ Auswahl an Personen mit gesuchten Rollen.
 
 z. B. alle Leiter von Gremien/Projektgruppen
 
+.. hint:: Tipp: Beim klicken auf die Gruppe, werden alle Rollen dieser Gruppe ausgewählt.
+
 Gefilterte Listen speichern
 ---------------------------------
 
