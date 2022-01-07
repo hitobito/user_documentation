@@ -30,6 +30,7 @@ Vorhanden, jedoch noch keine abschliessende Verifikation:
 - Zürcher Kantonalbank
 - BancaStato
 - BEKB | BCBE
+- Valiant
 - Zuger Kantonalbank
 
 Gerne ergänzen wir diese Liste mit weiteren Banken. 
