@@ -19,9 +19,9 @@
 
 # -- Project information -----------------------------------------------------
 
-project = u'hitobito'
-copyright = u'2018, hitobito AG'
-author = u'hitobito'
+project = u'Hitobito'
+copyright = u'2021, hitobito AG'
+author = u'Hitobito Contritubtors'
 
 # The short X.Y version
 version = u''
