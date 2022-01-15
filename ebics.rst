@@ -3,7 +3,7 @@ EBICS Schnittstelle
 
 Über die `EBICS Schnittstelle <https://www.six-group.com/de/products-services/banking-services/standardization.html#scrollTo=ebics/>`_ können camt054 Dateien regelmässig von einem Finanzinstitut bezogen werden. Mittels Referenznummer werden die Zahlungen einer Rechnung von der Ebene zugewiesen. Zahlungen die keiner Rechnung zugewiesen werden können, werden ignoriert
 
-In den Rechnungseinstellungen kann pro Ebene die EBICS Schnittstelle definiert werden. Zugangsdaten werden verschlüsselt in Hitobito ablegen.
+In den Rechnungseinstellungen kann pro Ebene die EBICS Schnittstelle definiert werden. Zugangsdaten werden verschlüsselt in Hitobito abgelegt.
 
 Einrichten
 --------------
