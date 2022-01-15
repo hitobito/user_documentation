@@ -4,7 +4,7 @@ In Hitobito können unterschiedliche Arten von Events geführt werden. Einfache 
 
 Anlässe
 ----
-In der Organisation von Anlässen unterstützt Hitobito auf eine einfache Weise. Mitglieder können sich mit ihrem Benutzer direkt anmelden, ohne erneut ihre Angaben wie Adressen erneut einzugeben.
+In der Organisation von Anlässen unterstützt Hitobito auf eine einfache Weise. Mitglieder können sich mit ihrem Benutzer direkt anmelden, ohne erneut ihre Angaben wie Adressen eingeben zu müssen.
 
 Kurse
 ----
