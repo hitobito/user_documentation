@@ -18,6 +18,7 @@ Du kannst selbst deinen Beitrag leisten und Ergänzungen vornehmen, in dem du au
 
   roles
   people_filter
+  events
   tags
   mailing_lists
   invoices
@@ -28,6 +29,7 @@ Du kannst selbst deinen Beitrag leisten und Ergänzungen vornehmen, in dem du au
   :caption: Anbindung
 
   mailing_lists_mailchimp_export
+  ebics
   
 .. toctree::
   :maxdepth: 3
