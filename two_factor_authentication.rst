@@ -1,9 +1,9 @@
-Zwei Faktor Authentifizierung
+Zwei-Faktor-Authentifizierung
 ========================
 
-Hitobito unterstützt die Zwei Faktor Authentifizierung mit folgenden Methoden:
+Hitobito unterstützt die Zwei-Faktor-Authentifizierung mit folgender Methode:
 
-- TOTP mittels QR Code und sechsstelligem Code
+- TOTP mittels Authenticator-App und sechsstelligem Code
 
 TOTP
 ========================
@@ -11,29 +11,29 @@ TOTP
 Voraussetzungen
 -------------------------------
 
-Für die zwei Faktor Authentifizierung wird ein Smartphone und die freeOTP App: https://freeotp.github.io/ benötigt. Zum Herunterladen der App benötigen Sie eine Internetverbindung und evtl. ein Konto bei Ihrem App Store. Die App ist komplett kostenfrei.
+Für die Zwei-Faktor-Authentifizierung wird ein Smartphone und eine Authenticator-App benötigt. Die Zwei-Faktor-Authentifizierung wurde mit der kostenfreien freeOTP App (https://freeotp.github.io/) entwickelt und getestet, sollte aber grundsätzlich auch mit anderen ähnlichen Apps wie Google Authenticator oder andOTP funktionieren.
 
 Einrichten
 ------------------------------
 
-Um die zwei Faktor Authentifizierung einzurichten, müssen Sie sich erst in Hitobito anmelden. Navigieren Sie anschliessend mittels ihrem Namen als Link oben rechts auf ihr Profil. Sie sollten nun unter dem Dropdown "Login" den Knopf "Zwei Faktor Authentifizierung einrichten" sehen. Sobald Sie den entsprechenden Knopf drücken, landen Sie auf einer neuen Seite mit einem QR Code.
+Um die Zwei-Faktor-Authentifizierung einzurichten, muss man sich erst in Hitobito anmelden. Auf dem eigenen Profil kann man nun im Dropdown "Login" den Knopf "Zwei Faktor Authentifizierung einrichten" sehen. Durch Klicken auf diesen Knopf landet man auf einer Seite mit einem QR-Code.
 
-Öffnen Sie nun die freeOTP App auf Ihrem Smartphone und drücken Sie auf den QR Code Knopf in der Kopfzeile der App. Nun öffnet sich die Kamera mit einem Quadrat in der Mitte. Scannen Sie den QR Code indem sie das Quadrat in der Kamera über den QR Code halten.
+In der freeOTP App auf dem Smartphone klickt man nun auf den QR-Code-Knopf in der Kopfzeile. Dadurch öffnet sich die Kamera mit einem Quadrat in der Mitte. Der QR-Code in hitobito kann nun mit der Kamera gescannt werden.
 
-Sobald der Code gescannt wurde, schliesst sich die Kamera und ein neues Element in der Liste sollte auf der App ersichtlich sein. Dies erkennen Sie anhand der Bezeichnung ''hitobito'' und ihrer E-Mail. Klicken Sie nun auf den Eintrag und ein sechsstelliger Code wird angezeigt.
+Sobald der Code gescannt wurde, schliesst sich die Kamera und ein neues Element in der Liste sollte auf der App ersichtlich sein. Dies erkennt man anhand der Bezeichnung ''hitobito'' und der E-Mail-Adresse. Durch einen Klick auf den Eintrag wird ein sechsstelliger Code wird angezeigt.
 
-Dieser Code ändert sich alle paar Sekunden. Tippen Sie den Code in Hitobito ab und klicken Sie auf "Absenden". Sollte der Code inkorrekt sein, wird eine enstprechende Nachricht angezeigt und Sie müssen es erneut versuchen. Sobald der Code korrekt eingegeben wurde, werden Sie auf Ihr Profil zurückgeleitet und die zwei Faktor Authentifizierung ist eingerichtet.
+Dieser Code ändert sich alle paar Sekunden. Nun tippt man den Code in hitobito ein und klickt auf "Absenden". Sollte der Code inkorrekt sein, wird eine enstprechende Nachricht angezeigt und mann muss es erneut versuchen. Sobald der Code korrekt und rechtzeitig eingegeben wurde, wird man auf das Profil zurückgeleitet, und die Zwei-Faktor-Authentifizierung ist eingerichtet.
 
-Login mit zwei Faktor Authentifizierung
+Login mit Zwei-Faktor-Authentifizierung
 -----------------------------------------------
 
-Sobald Sie die zwei Faktor Authentifizierung eingerichtet haben, müssen Sie den Code auf der App bei jedem Login eingeben. Nach der Eingabe Ihrer E-Mail und Passwort werden Sie auf eine Seite mit einer Eingabeaufforderung weitergeleitet. Tippen Sie nun wieder den Code aus Ihrer freeOTP App ab und klicken Sie auf "Absenden". Sollte der Code nicht korrekt sein, wird eine entsprechende Nachricht angezeigt. Ist der Code jedoch korrekt, werden Sie authentifiziert und in Hitobito weitergeleitet.
+Sobald die Zwei-Faktor-Authentifizierung eingerichtet ist, muss der Code von der App bei jedem Login eingegeben werden. Nach der Eingabe von E-Mail und Passwort wird man auf eine Seite mit einer Eingabeaufforderung weitergeleitet. Hier tippt man nun wieder den Code aus der freeOTP App ab und klickt auf "Absenden". Sollte der Code nicht korrekt oder bereits abgelaufen sein, wird eine entsprechende Nachricht angezeigt. Ist der Code jedoch korrekt, wird man authentifiziert und in hitobito weitergeleitet.
 
-Zurücksetzen und Deaktivieren
+Zurücksetzen und deaktivieren
 --------------------------------------
 
-Admins können die Zwei Faktor Authentifizierung einer Person zurücksetzen oder deaktivieren, indem Sie auf das Profil einer Person navigieren. Dort erscheinen unter dem Dropdown "Login" zwei Knöpfe "Zwei Faktor Authentifizierung zurücksetzen" & "Zwei Faktor Authentifizierung deaktivieren".
+Administratoren können die Zwei-Faktor-Authentifizierung einer Person auf deren Profil zurücksetzen oder deaktivieren. Dort erscheinen unter dem Dropdown "Login" zwei Knöpfe "Zwei Faktor Authentifizierung zurücksetzen" und "Zwei Faktor Authentifizierung deaktivieren".
 
-Wird die 2FA zurückgesetzt, wird der Nutzer beim nächsten Login einen neuen QR Code scannen müssen.
+Wird die Zwei-Faktor-Authentifizierung zurückgesetzt, wird der Nutzer beim nächsten Login einen neuen QR Code scannen müssen.
 
-Bei der Deaktivierung wird der Nutzer nicht mehr zur 2FA aufgefordert.
+Bei der Deaktivierung wird der Nutzer nicht mehr zur Zwei-Faktor-Authentifizierung aufgefordert.
