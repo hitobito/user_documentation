@@ -5,9 +5,6 @@ Hitobito unterstützt die Zwei-Faktor-Authentifizierung mit folgender Methode:
 
 - TOTP mittels Authenticator-App und sechsstelligem Code
 
-TOTP
-========================
-
 Voraussetzungen
 -------------------------------
 
