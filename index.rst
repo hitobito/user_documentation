@@ -8,7 +8,7 @@ Benutzeranleitung für Hitobito
 
 Hier findest du die generische Benutzerdokumentation für Hitobito.
 
-Du kannst selbst deinen Beitrag leisten und Ergänzungen vornehmen, in dem du auf  _Github: https://github.com/hitobito/user_documentation Korrekturen an den Anleitungsseiten vornimmst. Wenn dir das zu kompliziert ist, kannst du einfach auch Änderungen, Ergänzungen über dieses Formular: https://github.com/hitobito/user_documentation/issues/new vorschlagen.
+Du kannst selbst deinen Beitrag leisten und Ergänzungen vornehmen, in dem du auf Github: https://github.com/hitobito/user_documentation Korrekturen an den Anleitungsseiten vornimmst. Wenn dir das zu kompliziert ist, kannst du einfach auch Änderungen, Ergänzungen über dieses Formular: https://github.com/hitobito/user_documentation/issues/new vorschlagen.
 
 
 
