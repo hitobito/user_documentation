@@ -37,8 +37,7 @@ Wir richte ich die Schnittstelle ein?
 ACHTUNG: Für die Zuordnung einer Zahlung an eine Person ist die Referenznummer einziges relevantes
 Merkmal. Macht Eure Mitglieder darauf Aufmerksam, dass Zahlungen nicht mit alten Referenznummern
 gemacht werden sollen. Fehlerquellen sind hauptsächlich falsch eingegebene oder alte Referenznummern.
-In solchen Fällen muss über die Bank die Nachforschung zur entsprechenden Zahlung gemacht werden. Die
-Mitte Schweiz oder hitobito kann in solchen Fällen nicht unterstützen.
+In solchen Fällen muss über die Bank die Nachforschung zur entsprechenden Zahlung gemacht werden. Weder Puzzle ITC noch Hitobito kann in solchen Fällen unterstützen.
 
 
 Einrichten
@@ -54,11 +53,11 @@ Unterstützte Finanzinstitute
 Folgende Banken können via EBICS angebunden werden.
 
 - Postfinance
+- Raiffeisen Schweiz
 
 Vorhanden, jedoch noch keine abschliessende Verifikation:
 
 - Credit Suisse
-- Raiffeisen Schweiz
 - UBS
 - Luzerner Kantonalbank
 - St.Galler Kantonalbank
