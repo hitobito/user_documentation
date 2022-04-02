@@ -11,6 +11,20 @@ Neues Abo erstellen
 --------------------------
 
 Mit den nötigen Berechtigungen könnt ihr im Tab "Abos" ein neues Abo erstellen.
+Minimal muss ein Name für das Abo vergeben werden.
+Falls das Abo für Mailversände verwendet werden soll, muss zudem unter "Mailinglisten Adresse"
+eine Adresse eingetragen werden.
+
+Absender-Rechte
+~~~~~~~~~~~~~~~
+Ohne weitere Konfiguration dürfen alle Personen, die das Abo bearbeiten können auch Mails an den Verteiler senden.
+Kontrolliert wird dabei ob die im Absender eingetragene Mail-Adresse bei den berechtigten Kontakten als Haupt- oder weitere Mailadresse hinterlegt ist.
+
+Zusätzliche Absender können mit folgenden Optionen berechtigt werden
+
+1. Das Feld "Zusätzliche Absender": Mails mit den aufgeführten Absender-Adressen dürfen auf die Liste schreiben.
+2. "Abonnenten dürfen auf die Mailingliste schreiben": Die bei den Abonnenten erfassten Mail-Adresse dürfen auf die Liste schreiben. 
+3. "Beliebige Absender/-innen dürfen auf die Mailingliste schreiben": Alle, die die Abo-Adresse kennen, können Mails dort hin senden.
 
 
 Empfänger zuweisen
