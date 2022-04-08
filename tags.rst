@@ -25,6 +25,4 @@ Als Administrator können die Tags unter Einstellungen für die ganze Instanz er
 Personen mit Tags auswählen
 --------------------------------
 
-Auf der Personenlisten können nach Tags gefilter werden. Weiter können bei Mailinglisten Personen mit Tags ausgewählt werden. Näheres dazu https://github.com/hitobito/hitobito/wiki/Mailinglisten---Abo.
-
-Weiter können die Tags auch bei den Abos verwendet werden. Personen mit Tags können entweder ein oder ausgeschlossen werden.
+Auf der Personenlisten können nach Tags gefilter werden. Weiter können bei Mailinglisten/Abo Personen aufgrund der gesetzten Tags ausgewählt werden.
