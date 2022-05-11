@@ -8,7 +8,7 @@ Hitobito unterstützt die Zwei-Faktor-Authentifizierung mit folgender Methode:
 Voraussetzungen
 -------------------------------
 
-Für die Zwei-Faktor-Authentifizierung wird ein Smartphone und eine Authenticator-App benötigt. Die Zwei-Faktor-Authentifizierung wurde mit der kostenfreien freeOTP App (https://freeotp.github.io/) entwickelt und getestet, sollte aber grundsätzlich auch mit anderen ähnlichen Apps wie Google Authenticator oder andOTP funktionieren.
+Für die Zwei-Faktor-Authentifizierung wird ein Smartphone und eine Authenticator-App benötigt. Die Zwei-Faktor-Authentifizierung wurde mit der kostenfreien [freeOTP App](https://freeotp.github.io/) entwickelt und getestet, sollte aber grundsätzlich auch mit anderen ähnlichen Apps wie [andOTP](https://github.com/andOTP/andOTP) oder Google Authenticator funktionieren.
 
 Einrichten
 ------------------------------
