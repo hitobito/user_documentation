@@ -18,6 +18,25 @@ Mailadressen Export für Outlook
 
 Der Export "Mailadressen" gibt eine Liste aller Mailadressen getrennt durch Kommas aus. Outlook erkennt standardmässig die einzelnen Mailadressen nicht. Bei den meisten Mailprogrammen, ausser Outlook, funktioniert Komma als Trennzeichen. Outlook kann konfiguriert werden, dass auch Kommas funktionieren: https://www.officetooltips.com/outlook_365/tips/how_to_use_commas_as_separators_for_multiple_email_recipients.html
 
+Wie werden Personen-Duplikate erkannt?
+--------------
+
+Wenn eine Person mehrfach erfasst wurde, dann kann man die Duplikate zusammenführen. Dazu gibt es auf dem "Personen"-Tab einer :doc:`Ebene</access_concept>` (z.B. Dachverband, Region, Ortsgruppe) einen Button "Duplikate". Der Button ist nur für Personen mit sehr hohen Berechtigungen (``layer_and_below_full`` oder ``admin``) sichtbar.
+
+Hitobito analysiert jede Nacht die Einträge in der Datenbank und ergänzt die Liste von Duplikaten. Zwei Personen zählen als Duplikate, wenn die Felder Vorname, Nachname, Firmenname, Postleitzahl und Geburtsdatum übereinstimmen (bei Postleitzahl und Geburtsdatum zählt es auch, wenn das Feld bei einer der Personen leer ist). Ein Beispiel: Anna Berger (PLZ 1000, Geburtsdatum 01.01.1970) wird als Duplikat von Anna Berger (ohne PLZ oder Geburtsdatum) erkannt. Anna (PLZ 1000, Geburtsdatum 01.01.1970) ohne Nachname ist hingegen kein Duplikat, der Nachname muss zwingend übereinstimmen oder bei beiden Personen leer sein.
+
+Dieselbe Duplikatserkennung wird auch schon direkt während dem Import einer CSV-Datei angewendet. Dort bekommt man gleich während dem Import noch die Möglichkeit, auszuwählen welche Zeilen eine bestehende Person aktualisieren sollen und welche Zeilen wirklich neue Personen sind.
+
+
+Wann wird welche Referenznummer verwendet?
+-------
+
+Hitobito unterstützt sowohl die QR-Referenz wie die Creditor Reference (SCOR). Die QR-Referenz entspricht im Aufbau der ESR-Referenz (immer 26 numerische Zeichen gefolgt von einer Prüfziffer nach Modulo 10 rekursiv) und kann vom Rechnungssteller als strukturierte Referenz verwendet werden. 
+Creditor Reference ist gemäss ISO-11649-Standard implementiert. Die Prüfziffer der Creditor Reference muss mit Modulo 97-10 berechnet werden. Weitere Infos unter 
+https://www.paymentstandards.ch/dam/downloads/ig-qr-bill-de.pdf 
+
+Wenn keine QR-IBAN in Hitobito erfasst wurde, wird eine Creditor Reference (SCOR) bei der generierung von Rechnungen verwendet.
+
 Was bedeutet Hitobito 人人
 --------------------------
 

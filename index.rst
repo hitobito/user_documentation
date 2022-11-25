@@ -3,12 +3,12 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Benutzeranleitung für hitobito
+Benutzeranleitung für Hitobito
 ==============================
 
-Hier findest du die generische Benutzerdokumentatio für hitobito.
+Hier findest du die generische Benutzerdokumentation für Hitobito.
 
-Du kannst selbst deinen Beitrag leisten und Ergänzungen vornehmen, in dem du auf  _Github: https://github.com/hitobito/user_documentation Korrekturen an den Anleitungsseiten vornimmst. Wenn dir das zu kompliziert ist, kannst du einfach auch Änderungen, Ergänzungen über _dieses Formular: https://github.com/hitobito/user_documentation/issues/new vorschlagen.
+Du kannst selbst deinen Beitrag leisten und Ergänzungen vornehmen, in dem du auf Github: https://github.com/hitobito/user_documentation Korrekturen an den Anleitungsseiten vornimmst. Wenn dir das zu kompliziert ist, kannst du einfach auch Änderungen, Ergänzungen über dieses Formular: https://github.com/hitobito/user_documentation/issues/new vorschlagen.
 
 
 
@@ -30,6 +30,7 @@ Du kannst selbst deinen Beitrag leisten und Ergänzungen vornehmen, in dem du au
 
   mailing_lists_mailchimp_export
   ebics
+  two_factor_authentication
   
 .. toctree::
   :maxdepth: 3
