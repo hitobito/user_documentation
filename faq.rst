@@ -18,16 +18,16 @@ Ein Beispiel: Ich bin in der Ortsgruppe Wabern und habe eher wenig Rechte im Sys
 Geänderte Haupt-E-Mail muss bestätigt werden
 --------------
 
-Wird die Haupt-E-Mail einer Person mit Login geändert, so wird ein Mail mit Bestätigungslink an die **neue** E-Mail-Adresse gesendet. So wird sichergestellt, dass die neue Adresse funktioniert und die Person hinter der Mail-Adresse mit der Verwendung einverstanden ist. Die Haupt-E-Mail von Personen ohne aktiviertem Login lassen sich sofort ändern.
+Wird die Haupt-E-Mail einer Person mit Login geändert, so wird ein Mail mit Bestätigungslink an die **neue** E-Mail-Adresse gesendet. So wird sichergestellt, dass die neue Adresse funktioniert und die Person hinter der E-Mail-Adresse mit der Verwendung einverstanden ist. Die Haupt-E-Mail von Personen ohne aktiviertem Login lassen sich sofort ändern.
 
 Die Bestätigung ist wichtig, da Hitobito als OAuth Provider genutzt werden kann und viele OAuth Dienste die E-Mail zur Identifikation nutzen. Ohne Bestätigung würde folgendes Angriffsszenario funktionieren:
-Ein konkretes Angriffs-Szenario welches durch die Email Verification verhindert wird ist:
 
 1. Eine Person A loggt sich via hitobito bei einem Drittservice ein
-2. Der Drittservice merkt sich A anhand der Haupt-Mailadresse
-3. Eine Person X mit Schreibzugriff auf A bearbeitet A und löscht die Haupt-Mailadresse
-4. Person X füllt bei sich selber die ehemalige Haupt-Mailadresse von Person A ein. *Dieser Schritt wird durch die aktuelle Email-Verifikation verhindert.*
+2. Der Drittservice merkt sich A anhand der Haupt-E-Mailadresse
+3. Eine Person X mit Schreibzugriff auf A bearbeitet A und löscht die Haupt-E-Mailadresse
+4. Person X füllt bei sich selber die ehemalige Haupt-E-Mailadresse von Person A ein. *Dieser Schritt wird durch die aktuelle E-Mail-Verifikation verhindert.*
 5. Person X verwendet beim Drittservice den "Login via hitobito" und kann nun den dortigen Account von Person A übernehmen.
+
 
 Mailadressen Export für Outlook
 --------------
