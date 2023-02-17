@@ -2,274 +2,74 @@
 host = https://www.transifex.com
 
 [o:hitobito:p:user_documentation:r:access_concept]
-file_filter  = locales/<lang>/LC_MESSAGES/access_concept.po
-source_file  = _build/gettext/access_concept.pot
-source_lang  = de
-type         = PO
-minimum_perc = 0
+file_filter = locales/<lang>/LC_MESSAGES/access_concept.po
+source_file = _build/gettext/access_concept.pot
+source_lang = de
+type        = PO
 
 [o:hitobito:p:user_documentation:r:ebics]
-file_filter  = locales/<lang>/LC_MESSAGES/ebics.po
-source_file  = _build/gettext/ebics.pot
-type         = PO
-minimum_perc = 0
+file_filter = locales/<lang>/LC_MESSAGES/ebics.po
+source_file = _build/gettext/ebics.pot
+source_lang = de
+type        = PO
 
 [o:hitobito:p:user_documentation:r:events]
-file_filter  = locales/<lang>/LC_MESSAGES/events.po
-source_file  = _build/gettext/events.pot
-type         = PO
-minimum_perc = 0
+file_filter = locales/<lang>/LC_MESSAGES/events.po
+source_file = _build/gettext/events.pot
+source_lang = de
+type        = PO
 
 [o:hitobito:p:user_documentation:r:faq]
-file_filter  = locales/<lang>/LC_MESSAGES/faq.po
-source_file  = _build/gettext/faq.pot
-type         = PO
-minimum_perc = 0
+file_filter = locales/<lang>/LC_MESSAGES/faq.po
+source_file = _build/gettext/faq.pot
+source_lang = de
+type        = PO
 
 [o:hitobito:p:user_documentation:r:index]
-file_filter  = locales/<lang>/LC_MESSAGES/index.po
-source_file  = _build/gettext/index.pot
-source_lang  = de
-type         = PO
-minimum_perc = 0
+file_filter = locales/<lang>/LC_MESSAGES/index.po
+source_file = _build/gettext/index.pot
+source_lang = de
+type        = PO
 
 [o:hitobito:p:user_documentation:r:invoices]
-file_filter  = locales/<lang>/LC_MESSAGES/invoices.po
-source_file  = _build/gettext/invoices.pot
-source_lang  = de
-type         = PO
-minimum_perc = 0
-
-[o:hitobito:p:user_documentation:r:locales_en_LC_MESSAGES_access_concept]
-file_filter = locales/<lang>/access_concept.po
-source_file = locales/en/LC_MESSAGES/access_concept.po
-source_lang = de
-type        = PO
-
-[o:hitobito:p:user_documentation:r:locales_en_LC_MESSAGES_index]
-file_filter = locales/<lang>/index.po
-source_file = locales/en/LC_MESSAGES/index.po
-source_lang = de
-type        = PO
-
-[o:hitobito:p:user_documentation:r:locales_en_LC_MESSAGES_invoices]
-file_filter = locales/<lang>/invoices.po
-source_file = locales/en/LC_MESSAGES/invoices.po
-source_lang = de
-type        = PO
-
-[o:hitobito:p:user_documentation:r:locales_en_LC_MESSAGES_mailing_lists]
-file_filter = locales/<lang>/mailing_lists.po
-source_file = locales/en/LC_MESSAGES/mailing_lists.po
-source_lang = de
-type        = PO
-
-[o:hitobito:p:user_documentation:r:locales_en_LC_MESSAGES_mailing_lists_mailchimp_export]
-file_filter = locales/<lang>/mailing_lists_mailchimp_export.po
-source_file = locales/en/LC_MESSAGES/mailing_lists_mailchimp_export.po
-source_lang = de
-type        = PO
-
-[o:hitobito:p:user_documentation:r:locales_en_LC_MESSAGES_people_filter]
-file_filter = locales/<lang>/people_filter.po
-source_file = locales/en/LC_MESSAGES/people_filter.po
-source_lang = de
-type        = PO
-
-[o:hitobito:p:user_documentation:r:locales_en_LC_MESSAGES_roles]
-file_filter = locales/<lang>/roles.po
-source_file = locales/en/LC_MESSAGES/roles.po
-source_lang = de
-type        = PO
-
-[o:hitobito:p:user_documentation:r:locales_en_LC_MESSAGES_tags]
-file_filter = locales/<lang>/tags.po
-source_file = locales/en/LC_MESSAGES/tags.po
-source_lang = de
-type        = PO
-
-[o:hitobito:p:user_documentation:r:locales_fr_LC_MESSAGES_access_concept]
-file_filter = locales/<lang>/access_concept.po
-source_file = locales/fr/LC_MESSAGES/access_concept.po
-source_lang = de
-type        = PO
-
-[o:hitobito:p:user_documentation:r:locales_fr_LC_MESSAGES_index]
-file_filter = locales/<lang>/index.po
-source_file = locales/fr/LC_MESSAGES/index.po
-source_lang = de
-type        = PO
-
-[o:hitobito:p:user_documentation:r:locales_fr_LC_MESSAGES_invoices]
-file_filter = locales/<lang>/invoices.po
-source_file = locales/fr/LC_MESSAGES/invoices.po
-source_lang = de
-type        = PO
-
-[o:hitobito:p:user_documentation:r:locales_fr_LC_MESSAGES_mailing_lists]
-file_filter = locales/<lang>/mailing_lists.po
-source_file = locales/fr/LC_MESSAGES/mailing_lists.po
-source_lang = de
-type        = PO
-
-[o:hitobito:p:user_documentation:r:locales_fr_LC_MESSAGES_mailing_lists_mailchimp_export]
-file_filter = locales/<lang>/mailing_lists_mailchimp_export.po
-source_file = locales/fr/LC_MESSAGES/mailing_lists_mailchimp_export.po
-source_lang = de
-type        = PO
-
-[o:hitobito:p:user_documentation:r:locales_fr_LC_MESSAGES_people_filter]
-file_filter = locales/<lang>/people_filter.po
-source_file = locales/fr/LC_MESSAGES/people_filter.po
-source_lang = de
-type        = PO
-
-[o:hitobito:p:user_documentation:r:locales_fr_LC_MESSAGES_roles]
-file_filter = locales/<lang>/roles.po
-source_file = locales/fr/LC_MESSAGES/roles.po
-source_lang = de
-type        = PO
-
-[o:hitobito:p:user_documentation:r:locales_fr_LC_MESSAGES_tags]
-file_filter = locales/<lang>/tags.po
-source_file = locales/fr/LC_MESSAGES/tags.po
-source_lang = de
-type        = PO
-
-[o:hitobito:p:user_documentation:r:locales_it_LC_MESSAGES_access_concept]
-file_filter = locales/<lang>/access_concept.po
-source_file = locales/it/LC_MESSAGES/access_concept.po
-source_lang = de
-type        = PO
-
-[o:hitobito:p:user_documentation:r:locales_it_LC_MESSAGES_index]
-file_filter = locales/<lang>/index.po
-source_file = locales/it/LC_MESSAGES/index.po
-source_lang = de
-type        = PO
-
-[o:hitobito:p:user_documentation:r:locales_it_LC_MESSAGES_invoices]
-file_filter = locales/<lang>/invoices.po
-source_file = locales/it/LC_MESSAGES/invoices.po
-source_lang = de
-type        = PO
-
-[o:hitobito:p:user_documentation:r:locales_it_LC_MESSAGES_mailing_lists]
-file_filter = locales/<lang>/mailing_lists.po
-source_file = locales/it/LC_MESSAGES/mailing_lists.po
-source_lang = de
-type        = PO
-
-[o:hitobito:p:user_documentation:r:locales_it_LC_MESSAGES_mailing_lists_mailchimp_export]
-file_filter = locales/<lang>/mailing_lists_mailchimp_export.po
-source_file = locales/it/LC_MESSAGES/mailing_lists_mailchimp_export.po
-source_lang = de
-type        = PO
-
-[o:hitobito:p:user_documentation:r:locales_it_LC_MESSAGES_people_filter]
-file_filter = locales/<lang>/people_filter.po
-source_file = locales/it/LC_MESSAGES/people_filter.po
-source_lang = de
-type        = PO
-
-[o:hitobito:p:user_documentation:r:locales_it_LC_MESSAGES_roles]
-file_filter = locales/<lang>/roles.po
-source_file = locales/it/LC_MESSAGES/roles.po
-source_lang = de
-type        = PO
-
-[o:hitobito:p:user_documentation:r:locales_it_LC_MESSAGES_tags]
-file_filter = locales/<lang>/tags.po
-source_file = locales/it/LC_MESSAGES/tags.po
+file_filter = locales/<lang>/LC_MESSAGES/invoices.po
+source_file = _build/gettext/invoices.pot
 source_lang = de
 type        = PO
 
 [o:hitobito:p:user_documentation:r:mailing_lists]
-file_filter  = locales/<lang>/LC_MESSAGES/mailing_lists.po
-source_file  = _build/gettext/mailing_lists.pot
-source_lang  = de
-type         = PO
-minimum_perc = 0
+file_filter = locales/<lang>/LC_MESSAGES/mailing_lists.po
+source_file = _build/gettext/mailing_lists.pot
+source_lang = de
+type        = PO
 
 [o:hitobito:p:user_documentation:r:mailing_lists_mailchimp_export]
-file_filter  = locales/<lang>/LC_MESSAGES/mailing_lists_mailchimp_export.po
-source_file  = _build/gettext/mailing_lists_mailchimp_export.pot
-source_lang  = de
-type         = PO
-minimum_perc = 0
+file_filter = locales/<lang>/LC_MESSAGES/mailing_lists_mailchimp_export.po
+source_file = _build/gettext/mailing_lists_mailchimp_export.pot
+source_lang = de
+type        = PO
 
 [o:hitobito:p:user_documentation:r:people_filter]
-file_filter  = locales/<lang>/LC_MESSAGES/people_filter.po
-source_file  = _build/gettext/people_filter.pot
-source_lang  = de
-type         = PO
-minimum_perc = 0
+file_filter = locales/<lang>/LC_MESSAGES/people_filter.po
+source_file = _build/gettext/people_filter.pot
+source_lang = de
+type        = PO
 
 [o:hitobito:p:user_documentation:r:roles]
-file_filter  = locales/<lang>/LC_MESSAGES/roles.po
-source_file  = _build/gettext/roles.pot
-source_lang  = de
-type         = PO
-minimum_perc = 0
-
-[o:hitobito:p:user_documentation:r:sphinx--lib--python3_8--site-packages--Jinja2-3_1_2_dist-info--LICENSE]
-file_filter  = locales/<lang>/LC_MESSAGES/sphinx/lib/python3.8/site-packages/Jinja2-3.1.2.dist-info/LICENSE.po
-source_file  = _build/gettext/sphinx/lib/python3.8/site-packages/Jinja2-3.1.2.dist-info/LICENSE.pot
-type         = PO
-minimum_perc = 0
-
-[o:hitobito:p:user_documentation:r:sphinx--lib--python3_8--site-packages--MarkupSafe-2_1_2_dist-info--LICENSE]
-file_filter  = locales/<lang>/LC_MESSAGES/sphinx/lib/python3.8/site-packages/MarkupSafe-2.1.2.dist-info/LICENSE.po
-source_file  = _build/gettext/sphinx/lib/python3.8/site-packages/MarkupSafe-2.1.2.dist-info/LICENSE.pot
-type         = PO
-minimum_perc = 0
-
-[o:hitobito:p:user_documentation:r:sphinx--lib--python3_8--site-packages--click-8_1_3_dist-info--LICENSE]
-file_filter  = locales/<lang>/LC_MESSAGES/sphinx/lib/python3.8/site-packages/click-8.1.3.dist-info/LICENSE.po
-source_file  = _build/gettext/sphinx/lib/python3.8/site-packages/click-8.1.3.dist-info/LICENSE.pot
-type         = PO
-minimum_perc = 0
-
-[o:hitobito:p:user_documentation:r:sphinx--lib--python3_8--site-packages--imagesize-1_4_1_dist-info--LICENSE]
-file_filter  = locales/<lang>/LC_MESSAGES/sphinx/lib/python3.8/site-packages/imagesize-1.4.1.dist-info/LICENSE.po
-source_file  = _build/gettext/sphinx/lib/python3.8/site-packages/imagesize-1.4.1.dist-info/LICENSE.pot
-type         = PO
-minimum_perc = 0
-
-[o:hitobito:p:user_documentation:r:sphinx--lib--python3_8--site-packages--sphinx--ext--autosummary--templates--autosummary--base]
-file_filter  = locales/<lang>/LC_MESSAGES/sphinx/lib/python3.8/site-packages/sphinx/ext/autosummary/templates/autosummary/base.po
-source_file  = _build/gettext/sphinx/lib/python3.8/site-packages/sphinx/ext/autosummary/templates/autosummary/base.pot
-type         = PO
-minimum_perc = 0
-
-[o:hitobito:p:user_documentation:r:sphinx--lib--python3_8--site-packages--sphinx--ext--autosummary--templates--autosummary--class]
-file_filter  = locales/<lang>/LC_MESSAGES/sphinx/lib/python3.8/site-packages/sphinx/ext/autosummary/templates/autosummary/class.po
-source_file  = _build/gettext/sphinx/lib/python3.8/site-packages/sphinx/ext/autosummary/templates/autosummary/class.pot
-type         = PO
-minimum_perc = 0
-
-[o:hitobito:p:user_documentation:r:sphinx--lib--python3_8--site-packages--sphinx--ext--autosummary--templates--autosummary--module]
-file_filter  = locales/<lang>/LC_MESSAGES/sphinx/lib/python3.8/site-packages/sphinx/ext/autosummary/templates/autosummary/module.po
-source_file  = _build/gettext/sphinx/lib/python3.8/site-packages/sphinx/ext/autosummary/templates/autosummary/module.pot
-type         = PO
-minimum_perc = 0
-
-[o:hitobito:p:user_documentation:r:sphinx--lib--python3_8--site-packages--sphinx_intl-2_1_0_dist-info--AUTHORS]
-file_filter  = locales/<lang>/LC_MESSAGES/sphinx/lib/python3.8/site-packages/sphinx_intl-2.1.0.dist-info/AUTHORS.po
-source_file  = _build/gettext/sphinx/lib/python3.8/site-packages/sphinx_intl-2.1.0.dist-info/AUTHORS.pot
-type         = PO
-minimum_perc = 0
+file_filter = locales/<lang>/LC_MESSAGES/roles.po
+source_file = _build/gettext/roles.pot
+source_lang = de
+type        = PO
 
 [o:hitobito:p:user_documentation:r:tags]
-file_filter  = locales/<lang>/LC_MESSAGES/tags.po
-source_file  = _build/gettext/tags.pot
-source_lang  = de
-type         = PO
-minimum_perc = 0
+file_filter = locales/<lang>/LC_MESSAGES/tags.po
+source_file = _build/gettext/tags.pot
+source_lang = de
+type        = PO
 
 [o:hitobito:p:user_documentation:r:two_factor_authentication]
-file_filter  = locales/<lang>/LC_MESSAGES/two_factor_authentication.po
-source_file  = _build/gettext/two_factor_authentication.pot
-type         = PO
-minimum_perc = 0
+file_filter = locales/<lang>/LC_MESSAGES/two_factor_authentication.po
+source_file = _build/gettext/two_factor_authentication.pot
+source_lang = de
+type        = PO
 

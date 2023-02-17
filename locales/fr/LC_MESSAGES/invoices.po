@@ -2,20 +2,21 @@
 # Copyright (C) 2018, hitobito AG
 # This file is distributed under the same license as the hitobito package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
-#
+# 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: hitobito \n"
+"Project-Id-Version: hitobito\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-06 16:50+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2021-03-07 11:26+0000\n"
+"Language-Team: French (https://www.transifex.com/hitobito/teams/4727/fr/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.9.0\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../invoices.rst:2
 msgid "Rechnungen"
@@ -27,9 +28,9 @@ msgstr ""
 
 #: ../../invoices.rst:7
 msgid ""
-"Ob du Rechnungen verwalten kannst hängt davon ab, ob dir eine "
-"entsprechende Rolle vergeben wurde. Welche Rolle das ist hängt von der "
-"jeweiligen Organisation ab."
+"Ob du Rechnungen verwalten kannst hängt davon ab, ob dir eine entsprechende "
+"Rolle vergeben wurde. Welche Rolle das ist hängt von der jeweiligen "
+"Organisation ab."
 msgstr ""
 
 #: ../../invoices.rst:10
@@ -43,8 +44,7 @@ msgstr ""
 #: ../../invoices.rst:16
 msgid ""
 "Rechnungen werden nicht auf der Ansicht Rechnungen erstellt, sondern "
-"ausgehend von Personenlisten oder auf der Ansicht einer bestimmten "
-"Person."
+"ausgehend von Personenlisten oder auf der Ansicht einer bestimmten Person."
 msgstr ""
 
 #: ../../invoices.rst:18
@@ -88,9 +88,9 @@ msgstr ""
 
 #: ../../invoices.rst:31
 msgid ""
-"An dieser Stelle können auch **externe** Rechnungen erstellt werden, d.h."
-" Rechnungen, welche an externe Empfänger geschickt werden, welche nicht "
-"in hitobito erfasst sind."
+"An dieser Stelle können auch **externe** Rechnungen erstellt werden, d.h. "
+"Rechnungen, welche an externe Empfänger geschickt werden, welche nicht in "
+"hitobito erfasst sind."
 msgstr ""
 
 #: ../../invoices.rst:34
@@ -99,10 +99,9 @@ msgstr ""
 
 #: ../../invoices.rst:36
 msgid ""
-"Werden Rechnungen aus dem Abo generiert, wird eine Sammelrechnung "
-"erstellt. Dies fasst die Rechnungen zu einem Eintrag zusammen. Dabei wird"
-" neben der Anzahl Rechnungen auch die offenen und bezahlten Beträge "
-"angezeigt."
+"Werden Rechnungen aus dem Abo generiert, wird eine Sammelrechnung erstellt. "
+"Dies fasst die Rechnungen zu einem Eintrag zusammen. Dabei wird neben der "
+"Anzahl Rechnungen auch die offenen und bezahlten Beträge angezeigt."
 msgstr ""
 
 #: ../../invoices.rst:40
@@ -111,9 +110,9 @@ msgstr ""
 
 #: ../../invoices.rst:42
 msgid ""
-"Häufig verwendete Rechnungspositionen (z.B. Mitgliederbeitrag, Jahresabo,"
-" etc.) können hier vordefiniert werden. Diese Artikel können beim "
-"Erstellen von Rechnungen ausgewählt und individuell angepasst werden."
+"Häufig verwendete Rechnungspositionen (z.B. Mitgliederbeitrag, Jahresabo, "
+"etc.) können hier vordefiniert werden. Diese Artikel können beim Erstellen "
+"von Rechnungen ausgewählt und individuell angepasst werden."
 msgstr ""
 
 #: ../../invoices.rst:45
@@ -122,10 +121,10 @@ msgstr ""
 
 #: ../../invoices.rst:47
 msgid ""
-"In den Rechnungseinstellungen können allgemeine Angaben gemacht werden, "
-"wie die Absenderadresse, Absender-E-Mail, Tage bis Fälligkeit, "
-"MwSt.-Nummer etc. Hier können auch die Texte für die erste, zweite und "
-"dritte Mahnung definiert werden."
+"In den Rechnungseinstellungen können allgemeine Angaben gemacht werden, wie "
+"die Absenderadresse, Absender-E-Mail, Tage bis Fälligkeit, MwSt.-Nummer etc."
+" Hier können auch die Texte für die erste, zweite und dritte Mahnung "
+"definiert werden."
 msgstr ""
 
 #: ../../invoices.rst:49
@@ -134,15 +133,14 @@ msgstr ""
 
 #: ../../invoices.rst:51
 msgid ""
-"Du kannst rote und orange Einzahlungsscheine für Post und Bank erstellen."
-" Zusätzlich stehen noch QR Rechnungen zur Verfügung."
+"Du kannst rote und orange Einzahlungsscheine für Post und Bank erstellen. "
+"Zusätzlich stehen noch QR Rechnungen zur Verfügung."
 msgstr ""
 
 #: ../../invoices.rst:56
 msgid ""
-"Eine camt.054 XML-Datei ist die Sammelbuchungs-auflösung und Belastungs- "
-"und Gutschriftsanzeige. Diese enthält eine Reihe verschiedene "
-"Buchungspositionen welche automatisiert auf Basis der ESR-Nummer "
-"bestehenden Rechnungen zugeordnet werden."
+"Eine camt.054 XML-Datei ist die Sammelbuchungs-auflösung und Belastungs- und"
+" Gutschriftsanzeige. Diese enthält eine Reihe verschiedene "
+"Buchungspositionen welche automatisiert auf Basis der ESR-Nummer bestehenden"
+" Rechnungen zugeordnet werden."
 msgstr ""
-

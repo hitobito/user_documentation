@@ -2,20 +2,21 @@
 # Copyright (C) 2018, hitobito AG
 # This file is distributed under the same license as the hitobito package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
-#
+# 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: hitobito \n"
+"Project-Id-Version: hitobito\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-06 16:50+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2021-03-07 11:26+0000\n"
+"Language-Team: French (https://www.transifex.com/hitobito/teams/4727/fr/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.9.0\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../tags.rst:2
 msgid "Tags"
@@ -23,8 +24,8 @@ msgstr ""
 
 #: ../../tags.rst:4
 msgid ""
-"Mit Tags (engl. für Etikett, Schildchen) lassen sich in hitobito "
-"Kategorien oder Merkmale auf Personen abbilden."
+"Mit Tags (engl. für Etikett, Schildchen) lassen sich in hitobito Kategorien "
+"oder Merkmale auf Personen abbilden."
 msgstr ""
 
 #: ../../tags.rst:7
@@ -43,8 +44,8 @@ msgstr ""
 
 #: ../../tags.rst:13
 msgid ""
-"Tag \"Newsletter\" vergeben, falls diese Person einen Newsletter erhalten"
-" soll."
+"Tag \"Newsletter\" vergeben, falls diese Person einen Newsletter erhalten "
+"soll."
 msgstr ""
 
 #: ../../tags.rst:14
@@ -59,8 +60,7 @@ msgstr ""
 
 #: ../../tags.rst:22
 msgid ""
-"Auf der Personenlisten können nach Tags gefilter werden. Weiter können "
-"bei Mailinglisten Personen mit Tags ausgewählt werden. Näheres dazu "
+"Auf der Personenlisten können nach Tags gefilter werden. Weiter können bei "
+"Mailinglisten Personen mit Tags ausgewählt werden. Näheres dazu "
 "https://github.com/hitobito/hitobito/wiki/Mailinglisten---Abo."
 msgstr ""
-

@@ -2,78 +2,83 @@
 # Copyright (C) 2018, hitobito AG
 # This file is distributed under the same license as the hitobito package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
-#
+# 
+# Translators:
+# Michael Schär <it@pbs.ch>, 2022
+# 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: hitobito \n"
+"Project-Id-Version: hitobito\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-06 16:50+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2021-03-07 11:26+0000\n"
+"Last-Translator: Michael Schär <it@pbs.ch>, 2022\n"
+"Language-Team: Italian (https://www.transifex.com/hitobito/teams/4727/it/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.9.0\n"
+"Language: it\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../people_filter.rst:2
 msgid "Personenfilter"
-msgstr ""
+msgstr "Filtro per le persone"
 
 #: ../../people_filter.rst:4
 msgid ""
-"Auf der Personenliste kann nach unterschiedlichen Kriterien gefilter "
-"werden:"
-msgstr ""
+"Auf der Personenliste kann nach unterschiedlichen Kriterien gefilter werden:"
+msgstr "L'elenco delle persone può essere filtrato in base a diversi criteri:"
 
 #: ../../people_filter.rst:6
 msgid "Rollenfilter"
-msgstr ""
+msgstr "Filtro dei ruoli"
 
 #: ../../people_filter.rst:7
 msgid "Qualifikationsfilter"
-msgstr ""
+msgstr "Filtro delle qualifiche"
 
 #: ../../people_filter.rst:8
 msgid "Felder"
-msgstr ""
+msgstr "Campi"
 
 #: ../../people_filter.rst:9
 msgid "Tags"
-msgstr ""
+msgstr "Tags"
 
 #: ../../people_filter.rst:12
 msgid "Filtern von Personen"
-msgstr ""
+msgstr "Filtrare le persone"
 
 #: ../../people_filter.rst:15
 msgid "Neuen Filter Anlegen"
-msgstr ""
+msgstr "Crea un nuovo filtro"
 
 #: ../../people_filter.rst:19
 msgid "Unter `weitere Ansichten` `Neuer Filter` wählen."
-msgstr ""
+msgstr "Seleziona \"Nuovo filtro\" in \"Altre visualizzazioni\"."
 
 #: ../../people_filter.rst:22
 msgid "Auswahl auf welcher Ebene / Gruppe gesucht werden soll."
-msgstr ""
+msgstr "Selezione su quale livello/gruppo cercare."
 
 #: ../../people_filter.rst:27
 msgid "Auswahl an Personen mit gesuchten Rollen."
-msgstr ""
+msgstr "Selezione di persone con ruoli ricercati."
 
 #: ../../people_filter.rst:31
 msgid "alle Leiter von Gremien/Projektgruppen"
-msgstr ""
+msgstr "Tutti gli animatori di gremi / gruppi di progetto"
 
 #: ../../people_filter.rst:34
 msgid "Gefilterte Listen speichern"
-msgstr ""
+msgstr "Salva elenchi filtrati"
 
 #: ../../people_filter.rst:39
 msgid ""
 "Der definierte Filter kann gespeichert werden und, steht allen anderen "
 "Benutzern zur Verfügung."
 msgstr ""
-
+"Il filtro definito può essere salvato ed è disponibile per tutti gli altri "
+"utenti."

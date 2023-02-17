@@ -2,20 +2,21 @@
 # Copyright (C) 2018, hitobito AG
 # This file is distributed under the same license as the hitobito package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
-#
+# 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: hitobito \n"
+"Project-Id-Version: hitobito\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-06 16:50+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2021-03-07 11:26+0000\n"
+"Language-Team: English (https://www.transifex.com/hitobito/teams/4727/en/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.9.0\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../../index.rst:15
 msgid "Anleitung"
@@ -35,11 +36,9 @@ msgstr ""
 
 #: ../../index.rst:11
 msgid ""
-"Du kannst selbst deinen Beitrag leisten und Ergänzungen vornehmen, in dem"
-" du auf  _Github: https://github.com/hitobito/user_documentation "
-"Korrekturen an den Anleitungsseiten vornimmst. Wenn dir das zu "
-"kompliziert ist, kannst du einfach auch Änderungen, Ergänzungen über "
-"_dieses Formular: "
+"Du kannst selbst deinen Beitrag leisten und Ergänzungen vornehmen, in dem du"
+" auf  _Github: https://github.com/hitobito/user_documentation Korrekturen an"
+" den Anleitungsseiten vornimmst. Wenn dir das zu kompliziert ist, kannst du "
+"einfach auch Änderungen, Ergänzungen über _dieses Formular: "
 "https://github.com/hitobito/user_documentation/issues/new vorschlagen."
 msgstr ""
-
