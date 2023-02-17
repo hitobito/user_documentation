@@ -26,7 +26,7 @@ namespace :tx do
 end
 
 namespace :build do
-  task all: ['tx:pull', :en, :it, :fr]
+  task all: %i[en it fr]
 
   task :en do
     Rake::Task['build:docs'].execute(locale: 'en')
