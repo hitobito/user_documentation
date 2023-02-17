@@ -1,5 +1,5 @@
 Zwei-Faktor-Authentifizierung
-========================
+=============================
 
 Hitobito unterstützt die Zwei-Faktor-Authentifizierung mit folgender Methode:
 
