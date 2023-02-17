@@ -61,12 +61,16 @@ file 'bin/tx': ['bin/'] do
     'tar xz -C bin/'
 end
 
-file 'sphinx/bin/sphinx-build' => 'sphinx' do
-  sh 'sphinx/bin/pip install sphinx_rtd_theme' # ensure correct dependency resolution
-  sh 'sphinx/bin/pip install sphinx sphinx-intl[transifex]'
+directory 'sphinx/' do
+  sh 'virtualenv sphinx'
 end
 
-file 'sphinx' do
-  sh 'virtualenv sphinx'
+file 'sphinx/bin/sphinx-build': ['sphinx/'] do
+  sh 'sphinx/bin/pip install sphinx_rtd_theme' # ensure correct dependency resolution
+  sh 'sphinx/bin/pip install sphinx'
+end
+
+file 'sphinx/bin/sphinx-intl': ['sphinx/'] do
+  sh 'sphinx/bin/pip install sphinx-intl[transifex]'
 end
 
