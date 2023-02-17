@@ -20,3 +20,12 @@ A helpful overview over the restructured syntax that we use can be found here: h
 ## Developer documentation for hitobito
 
 If you are looking for the docs for development of hitobito head over to https://github.com/hitobito/hitobito/tree/master/doc
+
+## Manual building
+
+Ensure that you have virtualenv and rake installed. Then:
+
+`rake build:all`
+
+In case the translations cannot be pulled, you need to configure transifex correctly.
+`rake tx:status` can help
