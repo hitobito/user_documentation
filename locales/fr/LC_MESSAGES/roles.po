@@ -1,71 +1,70 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2018, hitobito AG
-# This file is distributed under the same license as the hitobito package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+# Copyright (C) 2021, hitobito AG
+# This file is distributed under the same license as the Hitobito package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: hitobito\n"
+"Project-Id-Version: Hitobito\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-06 16:50+0100\n"
-"PO-Revision-Date: 2021-03-07 11:25+0000\n"
+"POT-Creation-Date: 2023-02-17 18:43+0100\n"
+"PO-Revision-Date: 2023-02-17 22:36+0000\n"
 "Language-Team: French (https://www.transifex.com/hitobito/teams/4727/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.0\n"
 "Language: fr\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
-#: ../../roles.rst:2
+#: ../../roles.rst:2 2700abffa3c74398ba23003f7494d7b7
 msgid "Rollen"
 msgstr ""
 
-#: ../../roles.rst:4
+#: ../../roles.rst:4 17fe6fc832bd45c8badb35387dc097cc
 msgid "Rollen sind ein zentrales Konzept in hitobito:"
 msgstr ""
 
-#: ../../roles.rst:6
+#: ../../roles.rst:6 b4cb92e60d254b67b3496bc68d6aa51f
 msgid ""
 "Jede Person kann beliebig viele Rollen in verschiedenen Kontexten haben. "
 "Peter kann z. B. gleichzeitig Leiter eines Gremiums in einem Kantonalverband"
 " sein, als auch Mitglied in einer Ortsgruppe."
 msgstr ""
 
-#: ../../roles.rst:9
+#: ../../roles.rst:9 a931df67b62a41739f035b9b70e3adfd
 msgid ""
 "Welche Rollen zur Verfügung stehen, hängt davon ab, in welcher Gruppe du die"
 " Person zuweist. Z. B. hat eine Gruppe vom Typ Vorstand Rollen wie "
 "PräsidentIn und SekretärIn zur Verfügung."
 msgstr ""
 
-#: ../../roles.rst:12
+#: ../../roles.rst:12 4371d320e0c74212abb74c085e8f3f7b
 msgid "Die Rolle der Person bestimmt die `Zugriffsrechte`_ dieser Person."
 msgstr ""
 
-#: ../../roles.rst:15
+#: ../../roles.rst:15 0c279e59924f4e7a873eb2d698212bf2
 msgid "Empfehlungen"
 msgstr ""
 
-#: ../../roles.rst:20
+#: ../../roles.rst:20 70fce73c707549d89ba1f10cb9022048
 msgid ""
 "Für jede Organisation stellen wir die passenden Rollen bereit. Versuch also "
 "möglich die passende Art von Gruppentyp auszuwählen, damit du dort der "
 "Person die richtige Rolle zuweisen kannst."
 msgstr ""
 
-#: ../../roles.rst:25
+#: ../../roles.rst:25 9690c6447e834f85b6933b33aea9bfe5
 msgid "Eigene Bezeichnungen für Rollen"
 msgstr ""
 
-#: ../../roles.rst:31
+#: ../../roles.rst:31 96605ac79cc34d4b819d34e3a9caa44e
 msgid ""
 "Du kannst neben der offiziellen Rollenbezeichnung noch deine eigene "
 "ergänzen, indem du im Rollendialog das zusätzliche Feld ausfüllst."
 msgstr ""
 
-#: ../../roles.rst:34
+#: ../../roles.rst:34 e28f03936448437dbb9e1d7f5c9abb83
 msgid ""
 "Nach diesen Bezeichnung kann allerdings aktuell noch nicht gefiltert werden."
 msgstr ""

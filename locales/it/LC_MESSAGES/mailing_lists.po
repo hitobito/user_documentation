@@ -1,32 +1,31 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2018, hitobito AG
-# This file is distributed under the same license as the hitobito package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+# Copyright (C) 2021, hitobito AG
+# This file is distributed under the same license as the Hitobito package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Michael Schär <it@pbs.ch>, 2022
+# Jenkins <hudson@puzzle.ch>, 2023
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: hitobito\n"
+"Project-Id-Version: Hitobito\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-06 16:50+0100\n"
-"PO-Revision-Date: 2021-03-07 11:25+0000\n"
-"Last-Translator: Michael Schär <it@pbs.ch>, 2022\n"
+"POT-Creation-Date: 2023-02-17 18:43+0100\n"
+"PO-Revision-Date: 2023-02-17 22:36+0000\n"
+"Last-Translator: Jenkins <hudson@puzzle.ch>, 2023\n"
 "Language-Team: Italian (https://www.transifex.com/hitobito/teams/4727/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.0\n"
 "Language: it\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
-#: ../../mailing_lists.rst:2
+#: ../../mailing_lists.rst:2 26d8250276574455a1c2dcc66d4a9d9c
 msgid "Mailinglisten / Abos"
 msgstr "Mailing lists / abbonamenti"
 
-#: ../../mailing_lists.rst:4
+#: ../../mailing_lists.rst:4 686241cac5c7462d8b85267a225c7001
 msgid ""
 "Mit Mailinglisten / Abos können die Empfänger von Zeitschriften / Abos "
 "verwaltet werden, man kann sie auch für die interne Kommunikation benutzen."
@@ -34,7 +33,7 @@ msgstr ""
 "Con le mailing list/abbonamenti si possono gestire i destinatari delle "
 "riviste/abbonamenti, utilizzabili anche per la comunicazione interna."
 
-#: ../../mailing_lists.rst:7
+#: ../../mailing_lists.rst:7 f3e4f0e6bbe0462dbb98825ee29c708b
 msgid ""
 "Für Mailversände und das Verwalten von Abonnementen könnt ihr entsprechende "
 "Verteilerlisten erfassen."
@@ -42,23 +41,63 @@ msgstr ""
 "È possibile creare liste di distribuzione corrispondenti per l'invio di "
 "e-mail e la gestione degli abbonamenti."
 
-#: ../../mailing_lists.rst:11
+#: ../../mailing_lists.rst:11 e653af5f766c4ead9c4f2e63a28d9f3f
 msgid "Neues Abo erstellen"
 msgstr "Creare un nuovo abbonamento"
 
-#: ../../mailing_lists.rst:13
+#: ../../mailing_lists.rst:13 69edb2d0a1f1464481a0f9d175fcab16
 msgid ""
 "Mit den nötigen Berechtigungen könnt ihr im Tab \"Abos\" ein neues Abo "
-"erstellen."
+"erstellen. Minimal muss ein Name für das Abo vergeben werden. Falls das Abo "
+"für Mailversände verwendet werden soll, muss zudem unter \"Mailinglisten "
+"Adresse\" eine Adresse eingetragen werden."
 msgstr ""
-"Con le autorizzazioni necessarie, puoi creare un nuovo abbonamento nella "
-"scheda \"Abbonamenti\"."
 
-#: ../../mailing_lists.rst:17
+#: ../../mailing_lists.rst:19 0e2487d281e64e2daaed38bf80e1fff7
+msgid "Absender-Rechte"
+msgstr ""
+
+#: ../../mailing_lists.rst:20 f26bb282a98f4a16801b4dad42cba5b9
+msgid ""
+"Ohne weitere Konfiguration dürfen alle Personen, die das Abo bearbeiten "
+"können auch Mails an den Verteiler senden. Kontrolliert wird dabei ob die im"
+" Absender eingetragene Mail-Adresse bei den berechtigten Kontakten als "
+"Haupt- oder weitere Mailadresse hinterlegt ist."
+msgstr ""
+
+#: ../../mailing_lists.rst:23 9b999accb36f44d982461adb7d3b9ba8
+msgid ""
+"Die Mailadressen der Gruppe, zu dem das Abo gehört, dürfen ebenfalls "
+"jederzeit Mails an den Verteiler senden."
+msgstr ""
+
+#: ../../mailing_lists.rst:25 5d50da6bcdf14b46a0de4b9b1f7b17a8
+msgid "Zusätzliche Absender können mit folgenden Optionen berechtigt werden"
+msgstr ""
+
+#: ../../mailing_lists.rst:27 afa9c2f1ffaa4a21b856836577741ea2
+msgid ""
+"Das Feld \"Zusätzliche Absender\": Mails mit den aufgeführten Absender-"
+"Adressen dürfen auf die Liste schreiben."
+msgstr ""
+
+#: ../../mailing_lists.rst:28 6af1ad468e5545f6af5ec533a225bd0c
+msgid ""
+"\"Abonnenten dürfen auf die Mailingliste schreiben\": Die bei den Abonnenten"
+" erfassten Mail-Adressen dürfen auf die Liste schreiben."
+msgstr ""
+
+#: ../../mailing_lists.rst:29 169d1e518b52425a827f01377ba97fd2
+msgid ""
+"\"Beliebige Absender/-innen dürfen auf die Mailingliste schreiben\": Alle, "
+"die die Abo-Adresse kennen, können Mails dorthin senden."
+msgstr ""
+
+#: ../../mailing_lists.rst:33 6fccfd57e23446409dc68eb0c28fef77
 msgid "Empfänger zuweisen"
 msgstr "Assegnare destinatario"
 
-#: ../../mailing_lists.rst:19
+#: ../../mailing_lists.rst:35 de9f8d071f634c62a67be4363ace134f
 msgid ""
 "In einem zweiten Schritt gilt es noch, die Empfänger dieses Abos zu "
 "bestimmen. Hierfür orientieren wir uns primär an den Organisationsstrukturen"
@@ -68,19 +107,19 @@ msgstr ""
 "sottoscrizione. A tal fine, ci orientiamo principalmente sulle strutture "
 "organizzative e sui ruoli definiti."
 
-#: ../../mailing_lists.rst:22
+#: ../../mailing_lists.rst:38 4a1688bb170249e18c773b23c36090a1
 msgid "Gruppe/Rolle hinzufügen wählen"
 msgstr "Selezionare aggiungere gruppo/ruolo"
 
-#: ../../mailing_lists.rst:27
+#: ../../mailing_lists.rst:43 dc836fc9d31f4c1caa4ff083131c5a93
 msgid "Nach Tags einschränken (optional)"
 msgstr "Limita per tag (facoltativo)"
 
-#: ../../mailing_lists.rst:34
+#: ../../mailing_lists.rst:50 b2a1abe178d1425babfd3d691c2a9b82
 msgid "Mailversände"
 msgstr "Spedizioni di mail"
 
-#: ../../mailing_lists.rst:36
+#: ../../mailing_lists.rst:52 efb9a61722624b17a99b0985df5a638a
 msgid ""
 "Wenn ihr für das vorliegende Beispiel eine Einladung an alle Mitglieder der "
 "Region Bern versenden möchtet, könnt ihr diese an die gewählte E-Mail-"
@@ -91,11 +130,11 @@ msgstr ""
 " esempio, puoi inviarlo all'indirizzo e-mail selezionato. hitobito lo "
 "\"inoltra\" quindi ai ruoli associati, agli eventi, ecc."
 
-#: ../../mailing_lists.rst:39
+#: ../../mailing_lists.rst:55 253356603e204b3e88645c7e733cfc12
 msgid "Etiketten drucken"
 msgstr "Stampare etichette"
 
-#: ../../mailing_lists.rst:41
+#: ../../mailing_lists.rst:57 d6f150b0074c41a1bb7e317b528cbd25
 msgid ""
 "Falls ihr ein entsprechendes Etikettenformat definiert habt, könnt ihr diese"
 " im Abo unter \"Export\" auswählen, damit euch für physische Versände die "
@@ -104,3 +143,13 @@ msgstr ""
 "Se hai definito un formato di etichetta corrispondente, puoi selezionarlo "
 "nell'abbonamento sotto \"Esporta\" in modo che gli indirizzi dei membri "
 "selezionati vengano esportati per gli invii fisici."
+
+#: ../../mailing_lists.rst:61 488e12b8db17402785cd63f464d8f407
+msgid "Mailinglisten nach Tags filtern"
+msgstr ""
+
+#: ../../mailing_lists.rst:62 5236c50cbb304feba7a76a4243cf8194
+msgid ""
+"Personen können beim hinzufügen via Rolle/Gruppe auch nach Tags gefiltert "
+"werden"
+msgstr ""
