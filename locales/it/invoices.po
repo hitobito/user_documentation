@@ -1,0 +1,183 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, hitobito AG
+# This file is distributed under the same license as the hitobito package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+# 
+# Translators:
+# Michael Schär <it@pbs.ch>, 2022
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: hitobito\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-06 16:50+0100\n"
+"PO-Revision-Date: 2021-03-07 11:26+0000\n"
+"Last-Translator: Michael Schär <it@pbs.ch>, 2022\n"
+"Language-Team: Italian (https://www.transifex.com/hitobito/teams/4727/it/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+"Language: it\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../invoices.rst:2
+msgid "Rechnungen"
+msgstr "Fatture"
+
+#: ../../invoices.rst:4
+msgid "Rechnungen sind ein Feature welches pro Instanz aktiviert werden kann."
+msgstr "Le fatture sono una funzionalità che può essere attivata per istanza."
+
+#: ../../invoices.rst:7
+msgid ""
+"Ob du Rechnungen verwalten kannst hängt davon ab, ob dir eine entsprechende "
+"Rolle vergeben wurde. Welche Rolle das ist hängt von der jeweiligen "
+"Organisation ab."
+msgstr ""
+"La possibilità di gestire le fatture dipende dal fatto che ti sia stato "
+"assegnato un ruolo corrispondente. Quale ruolo è dipende "
+"dall'organizzazione."
+
+#: ../../invoices.rst:10
+msgid "In hitobito können Rechnungen erstellt und Debitoren verwaltet werden."
+msgstr "In hitobito è possibile creare fatture e gestire i debitori."
+
+#: ../../invoices.rst:14
+msgid "Rechnungen erstellen"
+msgstr "Creare fatture"
+
+#: ../../invoices.rst:16
+msgid ""
+"Rechnungen werden nicht auf der Ansicht Rechnungen erstellt, sondern "
+"ausgehend von Personenlisten oder auf der Ansicht einer bestimmten Person."
+msgstr ""
+"Le fatture non vengono create dalla visualizzazione fatture, ma da elenchi "
+"di persone o dalla visualizzazione di una persona specifica."
+
+#: ../../invoices.rst:18
+msgid "Rechnungen können aus folgenden Ansichten erstellt werden:"
+msgstr "Le fatture possono essere create dalle seguenti visualizzazioni:"
+
+#: ../../invoices.rst:20
+msgid "Personenlisten"
+msgstr "Liste di persone"
+
+#: ../../invoices.rst:21
+msgid "Teilnehmerlisten von einem Event, Lager oder Kurs"
+msgstr "Elenchi dei partecipanti ad un evento, campo o corso"
+
+#: ../../invoices.rst:22
+msgid "Einzelperson"
+msgstr "Persone singole"
+
+#: ../../invoices.rst:23
+msgid "im Abo an die jeweiligen Empfänger, dies erstellt eine Sammelrechnung"
+msgstr "in abbonamento ai rispettivi destinatari, crea una fattura collettiva"
+
+#: ../../invoices.rst:26
+msgid "Rechnung"
+msgstr "Fattura"
+
+#: ../../invoices.rst:27
+msgid ""
+"Hier finden Sie die Übersicht über alle erstellten Rechnungen und hier "
+"können diese verschickt, bearbeitet, gelöscht oder gedruckt werden. Pro "
+"Rechnung ist der Status sichtbar. Zahlungen können manuell auf der "
+"jeweiligen Rechnung erfasst oder mittels camt.054 XML-Datei [#f2]_ "
+"eingelesen werden."
+msgstr ""
+"Qui troverai una panoramica di tutte le fatture create e qui possono essere "
+"inviate, modificate, cancellate o stampate. Lo stato è visibile per ogni "
+"fattura. I pagamenti possono essere inseriti manualmente nella relativa "
+"fattura o importati tramite un file XML camt.054 [#f2]_."
+
+#: ../../invoices.rst:29
+msgid ""
+"Bei Bedarf können die Rechnungen auch als CSV exportiert und in eine "
+"Buchhaltungsapplikation eingelesen werden."
+msgstr ""
+"Se necessario, le fatture possono anche essere esportate come CSV e lette in"
+" un'applicazione contabile."
+
+#: ../../invoices.rst:31
+msgid ""
+"An dieser Stelle können auch **externe** Rechnungen erstellt werden, d.h. "
+"Rechnungen, welche an externe Empfänger geschickt werden, welche nicht in "
+"hitobito erfasst sind."
+msgstr ""
+"A questo punto si possono creare anche fatture **esterne**, ovvero fatture "
+"che vengono inviate a destinatari esterni che non sono registrati in "
+"hitobito."
+
+#: ../../invoices.rst:34
+msgid "Sammelrechnungen"
+msgstr "Fatture collettive"
+
+#: ../../invoices.rst:36
+msgid ""
+"Werden Rechnungen aus dem Abo generiert, wird eine Sammelrechnung erstellt. "
+"Dies fasst die Rechnungen zu einem Eintrag zusammen. Dabei wird neben der "
+"Anzahl Rechnungen auch die offenen und bezahlten Beträge angezeigt."
+msgstr ""
+"Se vengono generate fatture dalla sottoscrizione, viene creata una fattura "
+"collettiva. Questo combina le fatture in un'unica voce. Oltre al numero di "
+"fatture vengono visualizzati anche gli importi aperti e pagati."
+
+#: ../../invoices.rst:40
+msgid "Rechnungsartikel"
+msgstr "Elemento della fattura"
+
+#: ../../invoices.rst:42
+msgid ""
+"Häufig verwendete Rechnungspositionen (z.B. Mitgliederbeitrag, Jahresabo, "
+"etc.) können hier vordefiniert werden. Diese Artikel können beim Erstellen "
+"von Rechnungen ausgewählt und individuell angepasst werden."
+msgstr ""
+"Gli elementi della fattura utilizzati di frequente (ad es. quota "
+"associativa, abbonamento annuale, ecc.) possono essere predefiniti qui. "
+"Questi elementi possono essere selezionati e personalizzati durante la "
+"creazione delle fatture."
+
+#: ../../invoices.rst:45
+msgid "Einstellungen"
+msgstr "Impostazioni"
+
+#: ../../invoices.rst:47
+msgid ""
+"In den Rechnungseinstellungen können allgemeine Angaben gemacht werden, wie "
+"die Absenderadresse, Absender-E-Mail, Tage bis Fälligkeit, MwSt.-Nummer etc."
+" Hier können auch die Texte für die erste, zweite und dritte Mahnung "
+"definiert werden."
+msgstr ""
+"Nelle impostazioni della fattura è possibile inserire informazioni generali,"
+" come l'indirizzo del mittente, l'e-mail del mittente, i giorni mancanti "
+"alla scadenza, la partita IVA, ecc. Qui è anche possibile definire i testi "
+"per il primo, secondo e terzo sollecito."
+
+#: ../../invoices.rst:49
+msgid "Diese Einstellungen können pro Ebene individuell vorgenommen werden."
+msgstr ""
+"Queste impostazioni possono essere effettuate individualmente per ogni "
+"livello."
+
+#: ../../invoices.rst:51
+msgid ""
+"Du kannst rote und orange Einzahlungsscheine für Post und Bank erstellen. "
+"Zusätzlich stehen noch QR Rechnungen zur Verfügung."
+msgstr ""
+"È possibile creare polizze di versamento rosse e arancioni per l'ufficio "
+"postale e la banca. Sono disponibili anche fatture QR."
+
+#: ../../invoices.rst:56
+msgid ""
+"Eine camt.054 XML-Datei ist die Sammelbuchungs-auflösung und Belastungs- und"
+" Gutschriftsanzeige. Diese enthält eine Reihe verschiedene "
+"Buchungspositionen welche automatisiert auf Basis der ESR-Nummer bestehenden"
+" Rechnungen zugeordnet werden."
+msgstr ""
+"Un file XML camt.054 è la ripartizione collettiva della registrazione e "
+"l'avviso di addebito e accredito. Questo contiene una serie di diverse "
+"posizioni contabili che vengono automaticamente assegnate a fatture "
+"esistenti in base al numero PVR."

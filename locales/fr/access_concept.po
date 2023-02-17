@@ -1,0 +1,355 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, hitobito AG
+# This file is distributed under the same license as the hitobito package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: hitobito\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-06 16:50+0100\n"
+"PO-Revision-Date: 2021-03-07 11:25+0000\n"
+"Language-Team: French (https://www.transifex.com/hitobito/teams/4727/fr/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../access_concept.rst:2
+msgid "Berechtigunskonzept"
+msgstr ""
+
+#: ../../access_concept.rst:6
+msgid "Gruppen / Rollen - Wie funktioniert das?"
+msgstr ""
+
+#: ../../access_concept.rst:8
+msgid ""
+"In hitobito können komplexe hierarchische Organisationen abgebildet werden. "
+"Alles basiert darauf, dass wir verschiedene Gruppentypen zulassen, welche "
+"auch definieren welche Rollen zur Verfügung stehen."
+msgstr ""
+
+#: ../../access_concept.rst:10
+msgid ""
+"Jede Organisation kann aus mehreren Ebenen bestehen, z. B. Dachverband, "
+"Kantonalverband (, optionale Zwischenstufen wie Regionen) und Ortsgruppen."
+msgstr ""
+
+#: ../../access_concept.rst:11
+msgid ""
+"Jede Ebene kann intern wieder ihre innere Struktur haben, es gibt einen "
+"Vorstand, Arbeitsgruppen, Mitgliederlisten, Kontaktlisten."
+msgstr ""
+
+#: ../../access_concept.rst:12
+msgid ""
+"Jede Person hat eine oder mehrere Rollen. Diese Rollen definieren, wen man "
+"sehen kann, und von vom man gesehen wird."
+msgstr ""
+
+#: ../../access_concept.rst:14
+msgid "Hier einige Beispiele, wie das aussehen kann."
+msgstr ""
+
+#: ../../access_concept.rst:18
+msgid "Karin ist Geschäftsleiter direkt im Dachverband"
+msgstr ""
+
+#: ../../access_concept.rst:20
+msgid ""
+"technisch: ``layer_and_below_full`` direkt in Dachverband, inkl. "
+"``contact_data``"
+msgstr ""
+
+#: ../../access_concept.rst:24
+msgid "Karin sieht:"
+msgstr ""
+
+#: ../../access_concept.rst:28
+msgid ""
+"Karin hat vollen Zugriff auf ihrer Ebene und auf alle darunter liegenden "
+"Ebenen. Dadurch kann sie alle Personen im Dachverband, in Regionen und auf "
+"oberster Ebene der Ortsgruppen sehen und ändern. Nicht sichtbar und änderbar"
+" sind für sie alle Personen, die innerhalb einer Ortsgruppe, also in einer "
+"Untergruppe unter der Ortsgruppe, aufgehängt sind. Da Karin's Rolle als "
+"kontaktrelevant geführt ist (sog. ContactData-Flag, siehe unten), kann sie "
+"alle anderen Personen mit Kontaktrelevanz sehen, unabhängig von deren "
+"Position innerhalb der Struktur."
+msgstr ""
+
+#: ../../access_concept.rst:35
+msgid "Karin sehen:"
+msgstr ""
+
+#: ../../access_concept.rst:37
+msgid ""
+"Karin ist für alle anderen Personen mit Rechten innerhalb der Ebene des "
+"Dachverbands sichtbar. Auf Grund der Kontaktrelevanz von Karin's Rolle ist "
+"sie ebenfalls für alle anderen kontaktrelevanten Rollen sichtbar."
+msgstr ""
+
+#: ../../access_concept.rst:41
+msgid "Luca ist ein Mitglied in einem Gremium im Dachverband"
+msgstr ""
+
+#: ../../access_concept.rst:43
+msgid "technisch: ``group_read`` in Gremium ohne ``contact_data``"
+msgstr ""
+
+#: ../../access_concept.rst:46
+msgid "Luca sieht:"
+msgstr ""
+
+#: ../../access_concept.rst:50
+msgid ""
+"Luca sieht alle Mitglieder und Leitung innerhalb des Gremiums. Sonst sieht "
+"er niemanden ausserhalb des Gremiums."
+msgstr ""
+
+#: ../../access_concept.rst:53
+msgid "Luca sehen:"
+msgstr ""
+
+#: ../../access_concept.rst:55
+msgid ""
+"Luca ist für Personen mit vollen Rechten (``layer_full`` oder "
+"``layer_and_below_full``) für die Dachverbandsebene sicht- und änderbar. "
+"Zusätzlich kann die Leitung innerhalb seines Gremiums seine Daten einsehen "
+"und ändern (``group_full``). Seine Kollegen mit gleicher Rolle im Gremium "
+"sehen seine Daten, können diese aber nicht ändern (``group_read``)"
+msgstr ""
+
+#: ../../access_concept.rst:58
+msgid "Maria hat eine Rolle in der Region"
+msgstr ""
+
+#: ../../access_concept.rst:60
+msgid "technisch: ``group_read`` inkl. ``contact_data``"
+msgstr ""
+
+#: ../../access_concept.rst:63
+msgid "Maria sieht"
+msgstr ""
+
+#: ../../access_concept.rst:67
+msgid ""
+"Maria kann alle Mitglieder ihrer Gruppe sehen, also alle Mitarbeitenden auf "
+"Regionsebene."
+msgstr ""
+
+#: ../../access_concept.rst:69
+msgid ""
+"Da Maria's Rolle als kontaktrelevant geführt ist (sog. ContactData-Flag, "
+"siehe unten), kann sie alle anderen Personen mit Kontaktrelevanz sehen, "
+"unabhängig von deren Position innerhalb der Struktur."
+msgstr ""
+
+#: ../../access_concept.rst:72
+msgid "Maria sehen"
+msgstr ""
+
+#: ../../access_concept.rst:74
+msgid ""
+"Maria ist für alle anderen Personen mit Rechten innerhalb der Ebene des "
+"Dachverbands sichtbar. Auf Grund der Kontaktrelevanz von Maria's Rolle ist "
+"sie ebenfalls für alle anderen kontaktrelevanten Rollen sichtbar."
+msgstr ""
+
+#: ../../access_concept.rst:78
+msgid "Petra leitet ein Gremium in der Region"
+msgstr ""
+
+#: ../../access_concept.rst:80
+msgid "technisch: ``layer_read`` inkl. ``contact_data``"
+msgstr ""
+
+#: ../../access_concept.rst:83
+msgid "Petra sieht:"
+msgstr ""
+
+#: ../../access_concept.rst:88
+msgid ""
+"Petra sieht alle Personen in der Region inkl. Personen in allfälligen "
+"Untergruppen. Sie sieht jedoch keine Personen in Ortsgruppen, welche der "
+"Region angehängt sind."
+msgstr ""
+
+#: ../../access_concept.rst:90
+msgid ""
+"Da Petra's Rolle als kontaktrelevant geführt ist (sog. ContactData-Flag, "
+"siehe unten), kann sie alle anderen Personen mit Kontaktrelevanz sehen, "
+"unabhängig von deren Position innerhalb der Struktur."
+msgstr ""
+
+#: ../../access_concept.rst:93
+msgid "Petra sehen"
+msgstr ""
+
+#: ../../access_concept.rst:95
+msgid ""
+"Petra ist für Personen auf kantonaler oder Dachverbandsebene sichtbar, "
+"welche eine Rolle mit Zugriff auf untergeordnete Ebenen besitzen "
+"(``layer_and_below``). Zudem sehen alle Personen in der Region, die Rechte "
+"innerhalb der Gruppe oder der Ebene besitzen, ihre Daten."
+msgstr ""
+
+#: ../../access_concept.rst:97
+msgid ""
+"Auf Grund der Kontaktrelevanz von Petra's Rolle ist sie ebenfalls für alle "
+"anderen kontaktrelevanten Rollen sichtbar."
+msgstr ""
+
+#: ../../access_concept.rst:100
+msgid "Anna leitet eine Ortsgruppe"
+msgstr ""
+
+#: ../../access_concept.rst:102
+msgid "technisch: ``layer_full`` incl. ``contact_data``"
+msgstr ""
+
+#: ../../access_concept.rst:105
+msgid "Anna sieht"
+msgstr ""
+
+#: ../../access_concept.rst:110
+msgid "Anna sieht alle Personen innerhalb der Ortsgruppe."
+msgstr ""
+
+#: ../../access_concept.rst:112
+msgid ""
+"Da Anna's Rolle als kontaktrelevant geführt ist (sog. ContactData-Flag, "
+"siehe unten), kann sie alle anderen Personen mit Kontaktrelevanz sehen, "
+"unabhängig von deren Position innerhalb der Struktur."
+msgstr ""
+
+#: ../../access_concept.rst:115
+msgid "Anna sehen"
+msgstr ""
+
+#: ../../access_concept.rst:117
+msgid ""
+"Anna ist für Personen oberhalb der Ortsgruppe sichtbar, falls diese das "
+"Recht besitzen, Personen unterhalb ihrer Ebene zu sehen. Zudem können ihre "
+"Kolleginnen und Kollegen innerhalb der Ortsgruppe ihre Daten sehen, falls "
+"sie das Recht für die Gruppe oder die Ebene besitzen. Auf Grund der "
+"Kontaktrelevanz von Anna's Rolle ist sie ebenfalls für alle anderen "
+"kontaktrelevanten Rollen sichtbar."
+msgstr ""
+
+#: ../../access_concept.rst:122
+msgid "Franz leitet eine Einheit innerhalb einer Ortsgruppe"
+msgstr ""
+
+#: ../../access_concept.rst:124
+msgid "technisch: ``layer_read`` (ohne ``contact_data``)"
+msgstr ""
+
+#: ../../access_concept.rst:127
+msgid "Franz sieht"
+msgstr ""
+
+#: ../../access_concept.rst:130
+msgid ""
+"Franz sieht alle Personen innerhalb der Ortsgruppe, kann diese aber nicht "
+"ändern."
+msgstr ""
+
+#: ../../access_concept.rst:133
+msgid "Franz sehen"
+msgstr ""
+
+#: ../../access_concept.rst:134
+msgid ""
+"Franz ist für Personen in der Ortsgruppe sichtbar, falls diese das Recht "
+"besitzen, Personen innerhalb der ganzen Ebene zu sehen. Personen oberhalb "
+"der Ortsgruppe können Franz nicht sehen."
+msgstr ""
+
+#: ../../access_concept.rst:138
+msgid "Jonas ist Mitglied innerhalb einer Gruppe in der Ortsgruppe"
+msgstr ""
+
+#: ../../access_concept.rst:140
+msgid "technisch: ``none``"
+msgstr ""
+
+#: ../../access_concept.rst:143
+msgid "Jonas sieht"
+msgstr ""
+
+#: ../../access_concept.rst:148
+msgid "Jonas sieht keine weiteren Personen."
+msgstr ""
+
+#: ../../access_concept.rst:151
+msgid "Jonas sehen"
+msgstr ""
+
+#: ../../access_concept.rst:153
+msgid ""
+"Jonas ist für Personen in der Ortsgruppe sichtbar, falls diese das Recht "
+"besitzen, Personen innerhalb der ganzen Ebene zu sehen. Personen oberhalb "
+"der Ortsgruppe können Jonas nicht sehen."
+msgstr ""
+
+#: ../../access_concept.rst:156
+msgid "Kumulierung von Rollen innerhalb der Struktur"
+msgstr ""
+
+#: ../../access_concept.rst:158
+msgid ""
+"Die Zugriffe durch mehrere Rollen kumulieren sich. So ist ein Mitglied einer"
+" Ortsgruppe, das gleichzeitig in der Region aktiv ist, trotzdem für die "
+"Regionsleitung sichtbar."
+msgstr ""
+
+#: ../../access_concept.rst:161
+msgid "Daten in Anlässen (Lagern, Kursen)"
+msgstr ""
+
+#: ../../access_concept.rst:163
+msgid ""
+"Teilnehmer in einem Anlass können die Teilnehmerliste einsehen und sehen "
+"dort ihre gegenseitigen Kontaktdaten. Die Daten sind nur im Kontext "
+"\"Anlass\" sichtbar, wenn über die Teilnehmerliste zur Person navigiert "
+"wird. Im Kontext einer \"Gruppe\", wenn über die Gruppenhierarchie zur "
+"Person navigiert wird, gelten die Zugriffsrechte gemäss den "
+"strukturbasierten Rechten oben."
+msgstr ""
+
+#: ../../access_concept.rst:167
+msgid "Spezialfall ``Contact_Data``"
+msgstr ""
+
+#: ../../access_concept.rst:169
+msgid ""
+"Ist die Rolle einer Person als kontaktrelevant markiert, so hat diese Person"
+" auf alle anderen Personen mit kontaktrelevanten Rollen Zugriff. "
+"Gleichzeitig ist sie auch für alle anderen Personen mit kontaktrelevanten "
+"Rollen sichtbar. Dies umfasst Rollen, welche häufig im Austausch mit "
+"Personen aus anderen Ortsgruppen stehen."
+msgstr ""
+
+#: ../../access_concept.rst:173
+msgid "Spezialfall ``finance``"
+msgstr ""
+
+#: ../../access_concept.rst:175
+msgid ""
+"Erlaubt auf der entsprechenden Ebene Rechnungen zu erstellen und einzusehen."
+msgstr ""
+
+#: ../../access_concept.rst:178
+msgid "Spezialfall ``impersonation``"
+msgstr ""
+
+#: ../../access_concept.rst:180
+msgid ""
+"Darf andere Accounts temporär übernehmen, z. B. für Support Aufgaben oder "
+"für Tests. Dies ist eine sehr mächtige Funktion und sollte nur an klar "
+"definierte Rollen vergeben werden."
+msgstr ""

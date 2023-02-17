@@ -1,0 +1,88 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, hitobito AG
+# This file is distributed under the same license as the hitobito package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+# 
+# Translators:
+# Michael Schär <it@pbs.ch>, 2022
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: hitobito\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-06 16:50+0100\n"
+"PO-Revision-Date: 2021-03-07 11:25+0000\n"
+"Last-Translator: Michael Schär <it@pbs.ch>, 2022\n"
+"Language-Team: Italian (https://www.transifex.com/hitobito/teams/4727/it/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+"Language: it\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../roles.rst:2
+msgid "Rollen"
+msgstr "Ruoli"
+
+#: ../../roles.rst:4
+msgid "Rollen sind ein zentrales Konzept in hitobito:"
+msgstr "I ruoli sono un concetto centrale in hitobito:"
+
+#: ../../roles.rst:6
+msgid ""
+"Jede Person kann beliebig viele Rollen in verschiedenen Kontexten haben. "
+"Peter kann z. B. gleichzeitig Leiter eines Gremiums in einem Kantonalverband"
+" sein, als auch Mitglied in einer Ortsgruppe."
+msgstr ""
+"Ogni persona può avere un numero qualsiasi di ruoli in contesti diversi. "
+"Peter può ad es. essere contemporaneamente capo di un comitato in "
+"un'associazione cantonale, nonché membro di un gruppo locale."
+
+#: ../../roles.rst:9
+msgid ""
+"Welche Rollen zur Verfügung stehen, hängt davon ab, in welcher Gruppe du die"
+" Person zuweist. Z. B. hat eine Gruppe vom Typ Vorstand Rollen wie "
+"PräsidentIn und SekretärIn zur Verfügung."
+msgstr ""
+"I ruoli disponibili dipendono dal gruppo a cui si assegna la persona. Ad "
+"esempio, un gruppo di tipo consiglio ha ruoli come presidente e segretario "
+"disponibili."
+
+#: ../../roles.rst:12
+msgid "Die Rolle der Person bestimmt die `Zugriffsrechte`_ dieser Person."
+msgstr ""
+"Il ruolo della persona determina i `diritti di accesso`_ di quella persona."
+
+#: ../../roles.rst:15
+msgid "Empfehlungen"
+msgstr "Raccomandazioni"
+
+#: ../../roles.rst:20
+msgid ""
+"Für jede Organisation stellen wir die passenden Rollen bereit. Versuch also "
+"möglich die passende Art von Gruppentyp auszuwählen, damit du dort der "
+"Person die richtige Rolle zuweisen kannst."
+msgstr ""
+"Forniamo i ruoli giusti per ogni organizzazione. Quindi cerca di scegliere "
+"il tipo giusto di tipo di gruppo, se possibile, in modo da poter assegnare "
+"il ruolo giusto alla persona nel gruppo."
+
+#: ../../roles.rst:25
+msgid "Eigene Bezeichnungen für Rollen"
+msgstr "Designazioni personalizzate per i ruoli"
+
+#: ../../roles.rst:31
+msgid ""
+"Du kannst neben der offiziellen Rollenbezeichnung noch deine eigene "
+"ergänzen, indem du im Rollendialog das zusätzliche Feld ausfüllst."
+msgstr ""
+"Oltre al nome del ruolo ufficiale, puoi aggiungerne uno tuo compilando il "
+"campo aggiuntivo nella finestra di dialogo del ruolo."
+
+#: ../../roles.rst:34
+msgid ""
+"Nach diesen Bezeichnung kann allerdings aktuell noch nicht gefiltert werden."
+msgstr ""
+"Tuttavia, al momento non è possibile filtrare in base a questa designazione."
