@@ -1,24 +1,37 @@
 # frozen_string_literal: true
 
-require 'rake/clean'
+namespace :sources do
+  task extract: ['sphinx/bin/sphinx-build'] do
+    sh 'sphinx/bin/sphinx-build -b gettext . _build/gettext'
+  end
+
+  desc 'Update gettext and config from the source and push to transifex'
+  task update: %i[sources:extract tx:config tx:push]
+end
+
+namespace :translations do
+  desc 'Pull translations from transifex and commit'
+  task update: %i[tx:pull] do
+    sh 'git add locales/'
+    sh 'git commit -m "Update translations from transifex"'
+
+    puts 'You can now push the docs, so the website can be rebuilt.'
+  end
+end
 
 namespace :tx do
-  desc 'Push source-files to transifex'
   task push: ['bin/tx'] do
     sh 'bin/tx push --source'
   end
 
-  desc 'Pull translations from transifex'
   task pull: ['bin/tx'] do
     sh 'bin/tx pull --translations --all --force'
   end
 
-  desc 'Generate/Update transifex config'
   task :config do
     Rake::Task['.tx/config'].execute
   end
 
-  desc 'output staus'
   task status: ['bin/tx'] do
     sh 'bin/tx --version'
     sh 'bin/tx status'
@@ -31,33 +44,20 @@ namespace :build do
   task :en do
     Rake::Task['build:docs'].execute(locale: 'en')
   end
-  CLOBBER.include(FileList['_build/html/en'])
 
   task :it do
     Rake::Task['build:docs'].execute(locale: 'it')
   end
-  CLOBBER.include(FileList['_build/html/it'])
 
   task :fr do
     Rake::Task['build:docs'].execute(locale: 'fr')
   end
-  CLOBBER.include(FileList['_build/html/fr'])
 
   task :docs, [:locale] => ['sphinx/bin/sphinx-build'] do |_t, args|
     locale = args[:locale]
 
     sh "sphinx/bin/sphinx-build -b html -D language=#{locale} . _build/html/#{locale}"
   end
-end
-
-namespace :sources do
-  desc 'Extract sources'
-  task extract: ['sphinx/bin/sphinx-build'] do
-    sh 'sphinx/bin/sphinx-build -b gettext . _build/gettext'
-  end
-
-  desc 'Update gettext and such from the source'
-  task update: %i[sources:extract tx:config tx:push]
 end
 
 directory 'bin/'
