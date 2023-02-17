@@ -45,6 +45,13 @@ namespace :build do
   end
 end
 
+namespace :sources do
+  desc 'Extract sources'
+  task extract: ['sphinx/bin/sphinx-build'] do
+    sh 'sphinx/bin/sphinx-build -b gettext . _build/gettext'
+  end
+end
+
 directory 'bin/'
 
 file 'bin/tx': ['bin/'] do
