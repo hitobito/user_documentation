@@ -50,6 +50,22 @@ namespace :sources do
   task extract: ['sphinx/bin/sphinx-build'] do
     sh 'sphinx/bin/sphinx-build -b gettext . _build/gettext'
   end
+
+  desc 'Update transifex config'
+  task configure: ['sphinx/bin/sphinx-intl'] do
+    # generate new config
+    sh %w[
+      sphinx-intl update-txconfig-resources
+      --transifex-organization-name hitobito
+      --transifex-project-name user_documentation
+    ].join(' ')
+
+    # correct the source-language, as sphinx-intl does this wrongly
+    sh %q[sed -i 's/\(source_lang.*= \)en/\1de/' .tx/config]
+  end
+
+  desc 'Update gettext and such from the source'
+  task update: ['sphinx/bin/sphinx-build', :'sources:extract', :'sources:configure', :'tx:push']
 end
 
 directory 'bin/'
