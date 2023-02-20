@@ -1,318 +1,316 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2018, hitobito AG
-# This file is distributed under the same license as the hitobito package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
-#
+# Copyright (C) 2021, hitobito AG
+# This file is distributed under the same license as the Hitobito package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: hitobito \n"
+"Project-Id-Version: Hitobito\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-06 16:50+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2023-02-17 18:43+0100\n"
+"PO-Revision-Date: 2023-02-17 22:36+0000\n"
+"Language-Team: French (https://www.transifex.com/hitobito/teams/4727/fr/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.0\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
-#: ../../access_concept.rst:2
-msgid "Berechtigunskonzept"
+#: ../../access_concept.rst:2 c2b5ad4abd584b61a846e9c6d905091d
+msgid "Berechtigungskonzept"
 msgstr ""
 
-#: ../../access_concept.rst:6
+#: ../../access_concept.rst:6 be170d18dd784d6d8930a90d79c1304a
 msgid "Gruppen / Rollen - Wie funktioniert das?"
 msgstr ""
 
-#: ../../access_concept.rst:8
+#: ../../access_concept.rst:8 31ebe29f4bc7436d97dd59b80f1d3e56
 msgid ""
-"In hitobito können komplexe hierarchische Organisationen abgebildet "
-"werden. Alles basiert darauf, dass wir verschiedene Gruppentypen "
-"zulassen, welche auch definieren welche Rollen zur Verfügung stehen."
+"In hitobito können komplexe hierarchische Organisationen abgebildet werden. "
+"Alles basiert darauf, dass wir verschiedene Gruppentypen zulassen, welche "
+"auch definieren welche Rollen zur Verfügung stehen."
 msgstr ""
 
-#: ../../access_concept.rst:10
+#: ../../access_concept.rst:10 85b31378f44743b8b66695779d08e753
 msgid ""
 "Jede Organisation kann aus mehreren Ebenen bestehen, z. B. Dachverband, "
-"Kantonalverband (, optionale Zwischenstufen wie Regionen) und "
-"Ortsgruppen."
+"Kantonalverband (, optionale Zwischenstufen wie Regionen) und Ortsgruppen."
 msgstr ""
 
-#: ../../access_concept.rst:11
+#: ../../access_concept.rst:11 b70826e43858446d807f2dad7365be90
 msgid ""
 "Jede Ebene kann intern wieder ihre innere Struktur haben, es gibt einen "
 "Vorstand, Arbeitsgruppen, Mitgliederlisten, Kontaktlisten."
 msgstr ""
 
-#: ../../access_concept.rst:12
+#: ../../access_concept.rst:12 fbeee891df25472c9911ec951b20df14
 msgid ""
-"Jede Person hat eine oder mehrere Rollen. Diese Rollen definieren, wen "
-"man sehen kann, und von vom man gesehen wird."
+"Jede Person hat eine oder mehrere Rollen. Diese Rollen definieren, wen man "
+"sehen kann, und von vom man gesehen wird."
 msgstr ""
 
-#: ../../access_concept.rst:14
+#: ../../access_concept.rst:14 cdf742aad217497cbf8810276fbefca6
 msgid "Hier einige Beispiele, wie das aussehen kann."
 msgstr ""
 
-#: ../../access_concept.rst:18
+#: ../../access_concept.rst:18 35f5c35d097f4d1c93ec14caf44875e0
 msgid "Karin ist Geschäftsleiter direkt im Dachverband"
 msgstr ""
 
-#: ../../access_concept.rst:20
+#: ../../access_concept.rst:20 4af19508c7ff44e4a312656c026d5dce
 msgid ""
 "technisch: ``layer_and_below_full`` direkt in Dachverband, inkl. "
 "``contact_data``"
 msgstr ""
 
-#: ../../access_concept.rst:24
+#: ../../access_concept.rst:24 178c22e31b82420d972ff601a690c61b
 msgid "Karin sieht:"
 msgstr ""
 
-#: ../../access_concept.rst:28
+#: ../../access_concept.rst:28 1122b9d09ed74d65b2d39629959c619e
 msgid ""
 "Karin hat vollen Zugriff auf ihrer Ebene und auf alle darunter liegenden "
-"Ebenen. Dadurch kann sie alle Personen im Dachverband, in Regionen und "
-"auf oberster Ebene der Ortsgruppen sehen und ändern. Nicht sichtbar und "
-"änderbar sind für sie alle Personen, die innerhalb einer Ortsgruppe, also"
-" in einer Untergruppe unter der Ortsgruppe, aufgehängt sind. Da Karin's "
-"Rolle als kontaktrelevant geführt ist (sog. ContactData-Flag, siehe "
-"unten), kann sie alle anderen Personen mit Kontaktrelevanz sehen, "
-"unabhängig von deren Position innerhalb der Struktur."
+"Ebenen. Dadurch kann sie alle Personen im Dachverband, in Regionen und auf "
+"oberster Ebene der Ortsgruppen sehen und ändern. Nicht sichtbar und änderbar"
+" sind für sie alle Personen, die innerhalb einer Ortsgruppe, also in einer "
+"Untergruppe unter der Ortsgruppe, aufgehängt sind. Da Karin's Rolle als "
+"kontaktrelevant geführt ist (sog. ContactData-Flag, siehe unten), kann sie "
+"alle anderen Personen mit Kontaktrelevanz sehen, unabhängig von deren "
+"Position innerhalb der Struktur."
 msgstr ""
 
-#: ../../access_concept.rst:35
+#: ../../access_concept.rst:35 88d4eb44029a4339a08389b1bf59cd74
 msgid "Karin sehen:"
 msgstr ""
 
-#: ../../access_concept.rst:37
+#: ../../access_concept.rst:37 7ad2534ddd3c4bf8acf5a90b6a4c0424
 msgid ""
 "Karin ist für alle anderen Personen mit Rechten innerhalb der Ebene des "
-"Dachverbands sichtbar. Auf Grund der Kontaktrelevanz von Karin's Rolle "
-"ist sie ebenfalls für alle anderen kontaktrelevanten Rollen sichtbar."
+"Dachverbands sichtbar. Auf Grund der Kontaktrelevanz von Karin's Rolle ist "
+"sie ebenfalls für alle anderen kontaktrelevanten Rollen sichtbar."
 msgstr ""
 
-#: ../../access_concept.rst:41
+#: ../../access_concept.rst:41 e78e2d8498ff41d09437ecbf73aebc5a
 msgid "Luca ist ein Mitglied in einem Gremium im Dachverband"
 msgstr ""
 
-#: ../../access_concept.rst:43
+#: ../../access_concept.rst:43 fd336212d73143f7b47ade717c504737
 msgid "technisch: ``group_read`` in Gremium ohne ``contact_data``"
 msgstr ""
 
-#: ../../access_concept.rst:46
+#: ../../access_concept.rst:46 3dff1109bf6147e984701730429821d6
 msgid "Luca sieht:"
 msgstr ""
 
-#: ../../access_concept.rst:50
+#: ../../access_concept.rst:50 5910cfcc09a04d62b10bd921bf898e88
 msgid ""
-"Luca sieht alle Mitglieder und Leitung innerhalb des Gremiums. Sonst "
-"sieht er niemanden ausserhalb des Gremiums."
+"Luca sieht alle Mitglieder und Leitung innerhalb des Gremiums. Sonst sieht "
+"er niemanden ausserhalb des Gremiums."
 msgstr ""
 
-#: ../../access_concept.rst:53
+#: ../../access_concept.rst:53 65e70d26c7ed48f7a13852650ad7521c
 msgid "Luca sehen:"
 msgstr ""
 
-#: ../../access_concept.rst:55
+#: ../../access_concept.rst:55 aab81547cc0b454f892473443d4a2791
 msgid ""
 "Luca ist für Personen mit vollen Rechten (``layer_full`` oder "
 "``layer_and_below_full``) für die Dachverbandsebene sicht- und änderbar. "
-"Zusätzlich kann die Leitung innerhalb seines Gremiums seine Daten "
-"einsehen und ändern (``group_full``). Seine Kollegen mit gleicher Rolle "
-"im Gremium sehen seine Daten, können diese aber nicht ändern "
-"(``group_read``)"
+"Zusätzlich kann die Leitung innerhalb seines Gremiums seine Daten einsehen "
+"und ändern (``group_full``). Seine Kollegen mit gleicher Rolle im Gremium "
+"sehen seine Daten, können diese aber nicht ändern (``group_read``)"
 msgstr ""
 
-#: ../../access_concept.rst:58
+#: ../../access_concept.rst:58 63741f20cff440168772fde606bfd746
 msgid "Maria hat eine Rolle in der Region"
 msgstr ""
 
-#: ../../access_concept.rst:60
+#: ../../access_concept.rst:60 84120cb2e02b4ed895491f521a4168e2
 msgid "technisch: ``group_read`` inkl. ``contact_data``"
 msgstr ""
 
-#: ../../access_concept.rst:63
+#: ../../access_concept.rst:63 04e67f13685f4e6b80dd95a38e1736b9
 msgid "Maria sieht"
 msgstr ""
 
-#: ../../access_concept.rst:67
+#: ../../access_concept.rst:67 016293aaeb70463cbc6f9620100f213b
 msgid ""
-"Maria kann alle Mitglieder ihrer Gruppe sehen, also alle Mitarbeitenden "
-"auf Regionsebene."
+"Maria kann alle Mitglieder ihrer Gruppe sehen, also alle Mitarbeitenden auf "
+"Regionsebene."
 msgstr ""
 
-#: ../../access_concept.rst:69
+#: ../../access_concept.rst:69 c13f8c6e83924ac2a4b83dca5deabc54
 msgid ""
 "Da Maria's Rolle als kontaktrelevant geführt ist (sog. ContactData-Flag, "
 "siehe unten), kann sie alle anderen Personen mit Kontaktrelevanz sehen, "
 "unabhängig von deren Position innerhalb der Struktur."
 msgstr ""
 
-#: ../../access_concept.rst:72
+#: ../../access_concept.rst:72 6bdc05a1e1f445479b818e907f7a0cab
 msgid "Maria sehen"
 msgstr ""
 
-#: ../../access_concept.rst:74
+#: ../../access_concept.rst:74 190b415f7ab1403eaf0b2a41664ebd59
 msgid ""
 "Maria ist für alle anderen Personen mit Rechten innerhalb der Ebene des "
-"Dachverbands sichtbar. Auf Grund der Kontaktrelevanz von Maria's Rolle "
-"ist sie ebenfalls für alle anderen kontaktrelevanten Rollen sichtbar."
+"Dachverbands sichtbar. Auf Grund der Kontaktrelevanz von Maria's Rolle ist "
+"sie ebenfalls für alle anderen kontaktrelevanten Rollen sichtbar."
 msgstr ""
 
-#: ../../access_concept.rst:78
+#: ../../access_concept.rst:78 14442ea3637947c4947aad369df0ea10
 msgid "Petra leitet ein Gremium in der Region"
 msgstr ""
 
-#: ../../access_concept.rst:80
+#: ../../access_concept.rst:80 71547c427afa4aca9fac4eea58302445
 msgid "technisch: ``layer_read`` inkl. ``contact_data``"
 msgstr ""
 
-#: ../../access_concept.rst:83
+#: ../../access_concept.rst:83 9603708ab724429cbb6c4d04147965d6
 msgid "Petra sieht:"
 msgstr ""
 
-#: ../../access_concept.rst:88
+#: ../../access_concept.rst:88 1d7ed588979d4e6fae944c872e94c12d
 msgid ""
 "Petra sieht alle Personen in der Region inkl. Personen in allfälligen "
 "Untergruppen. Sie sieht jedoch keine Personen in Ortsgruppen, welche der "
 "Region angehängt sind."
 msgstr ""
 
-#: ../../access_concept.rst:90
+#: ../../access_concept.rst:90 36bdc2e7a3b44a738850c6d69190e277
 msgid ""
 "Da Petra's Rolle als kontaktrelevant geführt ist (sog. ContactData-Flag, "
 "siehe unten), kann sie alle anderen Personen mit Kontaktrelevanz sehen, "
 "unabhängig von deren Position innerhalb der Struktur."
 msgstr ""
 
-#: ../../access_concept.rst:93
+#: ../../access_concept.rst:93 4a9279bbea1c43a3998812e37b63537c
 msgid "Petra sehen"
 msgstr ""
 
-#: ../../access_concept.rst:95
+#: ../../access_concept.rst:95 db29966484ea470f82b4cef3ead5b162
 msgid ""
 "Petra ist für Personen auf kantonaler oder Dachverbandsebene sichtbar, "
 "welche eine Rolle mit Zugriff auf untergeordnete Ebenen besitzen "
-"(``layer_and_below``). Zudem sehen alle Personen in der Region, die "
-"Rechte innerhalb der Gruppe oder der Ebene besitzen, ihre Daten."
+"(``layer_and_below``). Zudem sehen alle Personen in der Region, die Rechte "
+"innerhalb der Gruppe oder der Ebene besitzen, ihre Daten."
 msgstr ""
 
-#: ../../access_concept.rst:97
+#: ../../access_concept.rst:97 c5581e94e32f4deab75882031b1493cf
 msgid ""
-"Auf Grund der Kontaktrelevanz von Petra's Rolle ist sie ebenfalls für "
-"alle anderen kontaktrelevanten Rollen sichtbar."
+"Auf Grund der Kontaktrelevanz von Petra's Rolle ist sie ebenfalls für alle "
+"anderen kontaktrelevanten Rollen sichtbar."
 msgstr ""
 
-#: ../../access_concept.rst:100
+#: ../../access_concept.rst:100 0d89ecf168cb45a4ab26454d2e56a17c
 msgid "Anna leitet eine Ortsgruppe"
 msgstr ""
 
-#: ../../access_concept.rst:102
+#: ../../access_concept.rst:102 9b831d5aa3ee4de3afef3c68e5052aed
 msgid "technisch: ``layer_full`` incl. ``contact_data``"
 msgstr ""
 
-#: ../../access_concept.rst:105
+#: ../../access_concept.rst:105 8476593f3e554592a3bad19a56e46b00
 msgid "Anna sieht"
 msgstr ""
 
-#: ../../access_concept.rst:110
+#: ../../access_concept.rst:110 743c4f16a7bf4c06b94ff461d912c860
 msgid "Anna sieht alle Personen innerhalb der Ortsgruppe."
 msgstr ""
 
-#: ../../access_concept.rst:112
+#: ../../access_concept.rst:112 994b0bc9c7454acea2b308f300a6efc2
 msgid ""
 "Da Anna's Rolle als kontaktrelevant geführt ist (sog. ContactData-Flag, "
 "siehe unten), kann sie alle anderen Personen mit Kontaktrelevanz sehen, "
 "unabhängig von deren Position innerhalb der Struktur."
 msgstr ""
 
-#: ../../access_concept.rst:115
+#: ../../access_concept.rst:115 d5aa11a705e24d0e871a576ea6a0ec96
 msgid "Anna sehen"
 msgstr ""
 
-#: ../../access_concept.rst:117
+#: ../../access_concept.rst:117 977fb7c71a0d4d02806a6793bd038944
 msgid ""
 "Anna ist für Personen oberhalb der Ortsgruppe sichtbar, falls diese das "
-"Recht besitzen, Personen unterhalb ihrer Ebene zu sehen. Zudem können "
-"ihre Kolleginnen und Kollegen innerhalb der Ortsgruppe ihre Daten sehen, "
-"falls sie das Recht für die Gruppe oder die Ebene besitzen. Auf Grund der"
-" Kontaktrelevanz von Anna's Rolle ist sie ebenfalls für alle anderen "
+"Recht besitzen, Personen unterhalb ihrer Ebene zu sehen. Zudem können ihre "
+"Kolleginnen und Kollegen innerhalb der Ortsgruppe ihre Daten sehen, falls "
+"sie das Recht für die Gruppe oder die Ebene besitzen. Auf Grund der "
+"Kontaktrelevanz von Anna's Rolle ist sie ebenfalls für alle anderen "
 "kontaktrelevanten Rollen sichtbar."
 msgstr ""
 
-#: ../../access_concept.rst:122
+#: ../../access_concept.rst:122 be06c8b399404a0fbdbcc3bb5e8f3bca
 msgid "Franz leitet eine Einheit innerhalb einer Ortsgruppe"
 msgstr ""
 
-#: ../../access_concept.rst:124
+#: ../../access_concept.rst:124 024c572e9c404ee1b567832948f46216
 msgid "technisch: ``layer_read`` (ohne ``contact_data``)"
 msgstr ""
 
-#: ../../access_concept.rst:127
+#: ../../access_concept.rst:127 b2d233cec4314240bad5f46a2991e803
 msgid "Franz sieht"
 msgstr ""
 
-#: ../../access_concept.rst:130
+#: ../../access_concept.rst:130 45c4b7bb17d44d3aac2a1dac0b3254c5
 msgid ""
-"Franz sieht alle Personen innerhalb der Ortsgruppe, kann diese aber nicht"
-" ändern."
+"Franz sieht alle Personen innerhalb der Ortsgruppe, kann diese aber nicht "
+"ändern."
 msgstr ""
 
-#: ../../access_concept.rst:133
+#: ../../access_concept.rst:133 c5440b12c7b54914a5b7b7b307559d08
 msgid "Franz sehen"
 msgstr ""
 
-#: ../../access_concept.rst:134
+#: ../../access_concept.rst:134 19ed3b68501344dd9505d4f3bddd1a0e
 msgid ""
 "Franz ist für Personen in der Ortsgruppe sichtbar, falls diese das Recht "
-"besitzen, Personen innerhalb der ganzen Ebene zu sehen. Personen oberhalb"
-" der Ortsgruppe können Franz nicht sehen."
+"besitzen, Personen innerhalb der ganzen Ebene zu sehen. Personen oberhalb "
+"der Ortsgruppe können Franz nicht sehen."
 msgstr ""
 
-#: ../../access_concept.rst:138
+#: ../../access_concept.rst:138 711315abbf404ca48036c5cfdb5b18aa
 msgid "Jonas ist Mitglied innerhalb einer Gruppe in der Ortsgruppe"
 msgstr ""
 
-#: ../../access_concept.rst:140
+#: ../../access_concept.rst:140 ed24d3c1aa8f4a8785d6a4347dd9c5b3
 msgid "technisch: ``none``"
 msgstr ""
 
-#: ../../access_concept.rst:143
+#: ../../access_concept.rst:143 030052c4ba3f4521af80c9e1b740074d
 msgid "Jonas sieht"
 msgstr ""
 
-#: ../../access_concept.rst:148
+#: ../../access_concept.rst:148 6a795269043d4717b63c5904d9507439
 msgid "Jonas sieht keine weiteren Personen."
 msgstr ""
 
-#: ../../access_concept.rst:151
+#: ../../access_concept.rst:151 6d9d4707663a41109eda3c63392b2fda
 msgid "Jonas sehen"
 msgstr ""
 
-#: ../../access_concept.rst:153
+#: ../../access_concept.rst:153 4d44e34df2104476b9199b7e67b391a2
 msgid ""
 "Jonas ist für Personen in der Ortsgruppe sichtbar, falls diese das Recht "
-"besitzen, Personen innerhalb der ganzen Ebene zu sehen. Personen oberhalb"
-" der Ortsgruppe können Jonas nicht sehen."
+"besitzen, Personen innerhalb der ganzen Ebene zu sehen. Personen oberhalb "
+"der Ortsgruppe können Jonas nicht sehen."
 msgstr ""
 
-#: ../../access_concept.rst:156
+#: ../../access_concept.rst:156 446c77f21ea74b9da7ac23eaf38efd79
 msgid "Kumulierung von Rollen innerhalb der Struktur"
 msgstr ""
 
-#: ../../access_concept.rst:158
+#: ../../access_concept.rst:158 fa7ba3e4878e460b9ec94219941e4f6b
 msgid ""
-"Die Zugriffe durch mehrere Rollen kumulieren sich. So ist ein Mitglied "
-"einer Ortsgruppe, das gleichzeitig in der Region aktiv ist, trotzdem für "
-"die Regionsleitung sichtbar."
+"Die Zugriffe durch mehrere Rollen kumulieren sich. So ist ein Mitglied einer"
+" Ortsgruppe, das gleichzeitig in der Region aktiv ist, trotzdem für die "
+"Regionsleitung sichtbar."
 msgstr ""
 
-#: ../../access_concept.rst:161
+#: ../../access_concept.rst:161 84732ec4c0bd437793e4bef7f2ac3cb3
 msgid "Daten in Anlässen (Lagern, Kursen)"
 msgstr ""
 
-#: ../../access_concept.rst:163
+#: ../../access_concept.rst:163 5763dbdb3ae34bfb97f6b34476b74caf
 msgid ""
 "Teilnehmer in einem Anlass können die Teilnehmerliste einsehen und sehen "
 "dort ihre gegenseitigen Kontaktdaten. Die Daten sind nur im Kontext "
@@ -322,37 +320,84 @@ msgid ""
 "strukturbasierten Rechten oben."
 msgstr ""
 
-#: ../../access_concept.rst:167
+#: ../../access_concept.rst:167 f36f2be44725429489ec1d67f601e2e9
 msgid "Spezialfall ``Contact_Data``"
 msgstr ""
 
-#: ../../access_concept.rst:169
+#: ../../access_concept.rst:169 f95cfbcb95074d1f95004f6da72f586f
 msgid ""
-"Ist die Rolle einer Person als kontaktrelevant markiert, so hat diese "
-"Person auf alle anderen Personen mit kontaktrelevanten Rollen Zugriff. "
-"Gleichzeitig ist sie auch für alle anderen Personen mit kontaktrelevanten"
-" Rollen sichtbar. Dies umfasst Rollen, welche häufig im Austausch mit "
+"Ist die Rolle einer Person als kontaktrelevant markiert, so hat diese Person"
+" auf alle anderen Personen mit kontaktrelevanten Rollen Zugriff. "
+"Gleichzeitig ist sie auch für alle anderen Personen mit kontaktrelevanten "
+"Rollen sichtbar. Dies umfasst Rollen, welche häufig im Austausch mit "
 "Personen aus anderen Ortsgruppen stehen."
 msgstr ""
 
-#: ../../access_concept.rst:173
+#: ../../access_concept.rst:173 520a3b93ac71483092a8bd551d38a8d1
 msgid "Spezialfall ``finance``"
 msgstr ""
 
-#: ../../access_concept.rst:175
+#: ../../access_concept.rst:175 2f695c2073934b85b44afefccb988a3e
 msgid ""
-"Erlaubt auf der entsprechenden Ebene Rechnungen zu erstellen und "
-"einzusehen."
+"Erlaubt auf der entsprechenden Ebene Rechnungen zu erstellen und einzusehen."
 msgstr ""
 
-#: ../../access_concept.rst:178
+#: ../../access_concept.rst:178 1f91c43a488746d6837a1b3496f7edbf
 msgid "Spezialfall ``impersonation``"
 msgstr ""
 
-#: ../../access_concept.rst:180
+#: ../../access_concept.rst:180 090946be410d4c9a8101fc8efad092e0
 msgid ""
-"Darf andere Accounts temporär übernehmen, z. B. für Support Aufgaben oder"
-" für Tests. Dies ist eine sehr mächtige Funktion und sollte nur an klar "
+"Darf andere Accounts temporär übernehmen, z. B. für Support Aufgaben oder "
+"für Tests. Dies ist eine sehr mächtige Funktion und sollte nur an klar "
 "definierte Rollen vergeben werden."
 msgstr ""
 
+#: ../../access_concept.rst:183 22bcf751bfd748eaa28cc224439f11d7
+msgid "Security: Zugriffsanfragen und manuelle Freigabe"
+msgstr ""
+
+#: ../../access_concept.rst:185 5d28cb9a390a4f678daec484a10e85a3
+msgid ""
+"Angenommen, Anna möchte unberechtigt Zugriff auf die persönlichen Daten von "
+"John bekommen. Dazu kann Anna John einfach in einer Gruppe, einem Anlass "
+"oder Abo hinzufügen, in der sie Zugriffsrechte hat. Dieses Datenschutz-"
+"Problem kann in hitobito mit den \"manuellen Freigaben\" verhindert werden."
+msgstr ""
+
+#: ../../access_concept.rst:187 fa55b466fa39453b9ec056faf976a2ee
+msgid ""
+"Beim Hinzufügen von John in Gruppen, Anlässen und Abos überprüft hitobito "
+"Johns Haupt-Rolle (die Rolle die mit einem Stern markiert ist). Falls John "
+"keine aktive Rolle mehr hat, überprüft hitobito stattdessen die letzte Rolle"
+" die noch aktiv war. Es wird überprüft, ob in der Ebene dieser Rolle die "
+"manuellen Freigaben aktiviert sind. Beispiel: John hat seine Haupt-Rolle in "
+"der Arbeitsgruppe \"Saturn\" des Vereins \"Sterngucker Luzern\". Die "
+"manuellen Freigaben können bei der Ebene (Verein Sterngucker Luzern) auf dem"
+" Anfragen-Tab aktiviert werden."
+msgstr ""
+
+#: ../../access_concept.rst:190 36ae708a6cc841b4aae898a827d0df52
+msgid ""
+"Sind manuelle Freigaben in der Ebene aktiviert, dann wird John nicht direkt "
+"in die neue fremde Gruppe, Anlass oder Abo hinzugefügt, sondern es wird eine"
+" Zugriffsanfrage ausgelöst. Anna sieht dann folgende Nachricht:"
+msgstr ""
+
+#: ../../access_concept.rst:194 2f8e3a29b49740b9844575efb9883fc8
+msgid ""
+"Alle Personen die auf dem Anfragen-Tab ausgewählt sind, sowie John falls er "
+"einen Login hat, bekommen ein E-Mail welches darüber informiert dass Anna "
+"John an einem neuen Ort hinzufügen will. Von diesem E-Mail aus oder auf dem "
+"Anfragen-Tab der Gruppe kann die Zugriffsanfrage akzeptiert oder abgelehnt "
+"werden."
+msgstr ""
+
+#: ../../access_concept.rst:198 06862aa0ee654384b310e3c12373abca
+msgid ""
+"So bekommt Anna nie unberechtigten Zugriff auf die Personendaten von John. "
+"Das Ganze funktioniert aber nur, wenn die manuellen Freigaben auf der Ebene "
+"aktiviert sind. Es wird keine Zugriffsanfrage ausgelöst wenn Anna bereits "
+"vorher Zugriff auf John hat (z.B. wenn beide eine Rolle mit `contact_data` "
+"haben)."
+msgstr ""

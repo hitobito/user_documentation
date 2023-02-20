@@ -1,79 +1,83 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2018, hitobito AG
-# This file is distributed under the same license as the hitobito package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
-#
+# Copyright (C) 2021, hitobito AG
+# This file is distributed under the same license as the Hitobito package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: hitobito \n"
+"Project-Id-Version: Hitobito\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-06 16:50+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2023-02-17 18:43+0100\n"
+"PO-Revision-Date: 2023-02-17 22:36+0000\n"
+"Language-Team: English (https://www.transifex.com/hitobito/teams/4727/en/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.0\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../../people_filter.rst:2
+#: ../../people_filter.rst:2 426ffcc381394f1a89785aea7e58826f
 msgid "Personenfilter"
 msgstr ""
 
-#: ../../people_filter.rst:4
+#: ../../people_filter.rst:4 e3bc5a666f8f46f89b2ca8062a64216d
 msgid ""
-"Auf der Personenliste kann nach unterschiedlichen Kriterien gefilter "
-"werden:"
+"Auf der Personenliste kann nach unterschiedlichen Kriterien gefilter werden:"
 msgstr ""
 
-#: ../../people_filter.rst:6
+#: ../../people_filter.rst:6 aaf10ae344a54257a328845493f47e56
 msgid "Rollenfilter"
 msgstr ""
 
-#: ../../people_filter.rst:7
+#: ../../people_filter.rst:7 98b3a2f6c3b342d8bcc91ad31ca7ee3c
 msgid "Qualifikationsfilter"
 msgstr ""
 
-#: ../../people_filter.rst:8
+#: ../../people_filter.rst:8 bbd7dc6bb367485887744911aa41dab3
 msgid "Felder"
 msgstr ""
 
-#: ../../people_filter.rst:9
+#: ../../people_filter.rst:9 251021b1d38e4a628582a52e01a5eee5
 msgid "Tags"
 msgstr ""
 
-#: ../../people_filter.rst:12
+#: ../../people_filter.rst:12 4d717c2ae0164eb29a1c3216bee80b60
 msgid "Filtern von Personen"
 msgstr ""
 
-#: ../../people_filter.rst:15
+#: ../../people_filter.rst:15 7d68a6b4dedf4b649ed055fc245fd4ac
 msgid "Neuen Filter Anlegen"
 msgstr ""
 
-#: ../../people_filter.rst:19
+#: ../../people_filter.rst:19 dd4eb254a51d4397b47de6ab4db0c455
 msgid "Unter `weitere Ansichten` `Neuer Filter` wählen."
 msgstr ""
 
-#: ../../people_filter.rst:22
+#: ../../people_filter.rst:22 a97a83fc72354e18891d502d8fb1f147
 msgid "Auswahl auf welcher Ebene / Gruppe gesucht werden soll."
 msgstr ""
 
-#: ../../people_filter.rst:27
+#: ../../people_filter.rst:27 49df2a069d5142cf862d3c26118631d0
 msgid "Auswahl an Personen mit gesuchten Rollen."
 msgstr ""
 
-#: ../../people_filter.rst:31
+#: ../../people_filter.rst:31 44a15ec6a53944b184c8ae6387426728
 msgid "alle Leiter von Gremien/Projektgruppen"
 msgstr ""
 
-#: ../../people_filter.rst:34
+#: ../../people_filter.rst:33 699809017c10479690e64912f20677e4
+msgid ""
+"Tipp: Beim klicken auf die Gruppe, werden alle Rollen dieser Gruppe "
+"ausgewählt."
+msgstr ""
+
+#: ../../people_filter.rst:36 44f56e36a40340f79d2f9dff414445e9
 msgid "Gefilterte Listen speichern"
 msgstr ""
 
-#: ../../people_filter.rst:39
+#: ../../people_filter.rst:41 5ea261dd5e4145b1b98ff258d6e75180
 msgid ""
 "Der definierte Filter kann gespeichert werden und, steht allen anderen "
 "Benutzern zur Verfügung."
 msgstr ""
-

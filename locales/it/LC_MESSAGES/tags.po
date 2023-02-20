@@ -1,66 +1,86 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2018, hitobito AG
-# This file is distributed under the same license as the hitobito package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
-#
+# Copyright (C) 2021, hitobito AG
+# This file is distributed under the same license as the Hitobito package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Jenkins <hudson@puzzle.ch>, 2023
+# 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: hitobito \n"
+"Project-Id-Version: Hitobito\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-06 16:50+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2023-02-17 18:43+0100\n"
+"PO-Revision-Date: 2023-02-17 22:36+0000\n"
+"Last-Translator: Jenkins <hudson@puzzle.ch>, 2023\n"
+"Language-Team: Italian (https://www.transifex.com/hitobito/teams/4727/it/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.0\n"
+"Language: it\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
-#: ../../tags.rst:2
+#: ../../tags.rst:2 e8e95bf57d194b2aa08c26775f049c0d
 msgid "Tags"
-msgstr ""
+msgstr "Tags"
 
-#: ../../tags.rst:4
+#: ../../tags.rst:4 734a4a5f7a0b4053a05861fe04c6bf88
 msgid ""
-"Mit Tags (engl. für Etikett, Schildchen) lassen sich in hitobito "
-"Kategorien oder Merkmale auf Personen abbilden."
+"Mit Tags (engl. für Etikett, Schildchen) lassen sich in hitobito Kategorien "
+"oder Merkmale auf Personen abbilden. Tags sind nicht strukturierte "
+"Informationen und können frei definiert werden. Um Tags zu vergeben, sind "
+"schreibrechte auf der Person erforderlich."
 msgstr ""
 
-#: ../../tags.rst:7
+#: ../../tags.rst:7 946a52bad0a04364a3d9076873b38ee5
 msgid "Erfassen von Tags"
-msgstr ""
+msgstr "Inserire i tags"
 
-#: ../../tags.rst:9
+#: ../../tags.rst:9 92997e602ded405d82f89e91924a6310
 msgid ""
 "Beim Erfassen der Tags könnt ihr die Kategorie direkt eingeben oder auch "
 "Unterkategorien bilden."
 msgstr ""
+"Quando inserisci i tag puoi inserire direttamente la categoria o creare "
+"sottocategorie."
 
-#: ../../tags.rst:11
+#: ../../tags.rst:11 c5e393dc313147e285683f235a77e373
 msgid "Bsp.:"
-msgstr ""
+msgstr "Es.:"
 
-#: ../../tags.rst:13
+#: ../../tags.rst:13 45e4dd9abc3846928382946d464e465c
 msgid ""
-"Tag \"Newsletter\" vergeben, falls diese Person einen Newsletter erhalten"
-" soll."
+"Tag \"Newsletter\" vergeben, falls diese Person einen Newsletter erhalten "
+"soll."
 msgstr ""
+"Assegna il tag \"Newsletter\" se questa persona deve ricevere una "
+"newsletter."
 
-#: ../../tags.rst:14
+#: ../../tags.rst:14 5ecd1daea67243db8dd19c401f0c199e
 msgid ""
 "Tag \"Mailings: News\" oder \"Mailings: Events\" vergeben, wenn es "
 "Newsletter für verschiedene Fälle gibt."
 msgstr ""
+"Assegna il tag \"Mailings: News\" o \"Mailings: Events\" se ci sono "
+"newsletter per casi diversi."
 
-#: ../../tags.rst:20
-msgid "Personen mit Tags auswählen"
+#: ../../tags.rst:20 3dd738ccbf2142a69736ed42580b0306
+msgid "Verwalten von Tags"
 msgstr ""
 
-#: ../../tags.rst:22
+#: ../../tags.rst:22 029f98ae554b407b9106cd3e385a471b
 msgid ""
-"Auf der Personenlisten können nach Tags gefilter werden. Weiter können "
-"bei Mailinglisten Personen mit Tags ausgewählt werden. Näheres dazu "
-"https://github.com/hitobito/hitobito/wiki/Mailinglisten---Abo."
+"Als Administrator können die Tags unter Einstellungen für die ganze Instanz "
+"erstellt, bearbeitet, gelöscht und zusammengeführt werden."
 msgstr ""
 
+#: ../../tags.rst:26 200120d008aa43a6bc7c8cf3e2f6c3f9
+msgid "Personen mit Tags auswählen"
+msgstr "Seleziona le persone con tag"
+
+#: ../../tags.rst:28 6f0f8b6641774f73a2b988969545fe73
+msgid ""
+"Auf der Personenlisten können nach Tags gefilter werden. Weiter können bei "
+"Mailinglisten/Abo Personen aufgrund der gesetzten Tags ausgewählt werden."
+msgstr ""

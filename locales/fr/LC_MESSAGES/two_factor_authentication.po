@@ -1,0 +1,122 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, hitobito AG
+# This file is distributed under the same license as the Hitobito package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Hitobito\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-17 18:43+0100\n"
+"PO-Revision-Date: 2023-02-17 22:36+0000\n"
+"Language-Team: French (https://www.transifex.com/hitobito/teams/4727/fr/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../two_factor_authentication.rst:2 9c2654c60afc42f4a8442a2c0aeacca5
+msgid "Zwei-Faktor-Authentifizierung"
+msgstr ""
+
+#: ../../two_factor_authentication.rst:4 07d86d7be50f48c698346eda1d6fbdfb
+msgid ""
+"Hitobito unterstützt die Zwei-Faktor-Authentifizierung mit folgender "
+"Methode:"
+msgstr ""
+
+#: ../../two_factor_authentication.rst:6 947bfdd92be042529dd959479ab3bfd6
+msgid "TOTP mittels Authenticator-App und sechsstelligem Code"
+msgstr ""
+
+#: ../../two_factor_authentication.rst:9 2f6c9c219b7e4c5388b2b69b2ea4aca9
+msgid "Voraussetzungen"
+msgstr ""
+
+#: ../../two_factor_authentication.rst:11 8d6d32fe611e47acab79da70e40a21ff
+msgid ""
+"Für die Zwei-Faktor-Authentifizierung wird ein Smartphone und eine "
+"Authenticator-App benötigt. Die Zwei-Faktor-Authentifizierung wurde mit der "
+"kostenfreien freeOTP App (https://freeotp.github.io/) entwickelt und "
+"getestet, sollte aber grundsätzlich auch mit anderen ähnlichen Apps wie "
+"andOTP (https://github.com/andOTP/andOTP) oder Google Authenticator "
+"funktionieren."
+msgstr ""
+
+#: ../../two_factor_authentication.rst:14 0b89082c68624cb2b983d0a8b76fe234
+msgid "Einrichten"
+msgstr ""
+
+#: ../../two_factor_authentication.rst:16 e0fd0e00ce9244f5b8496d2e618f291f
+msgid ""
+"Um die Zwei-Faktor-Authentifizierung einzurichten, muss man sich erst in "
+"Hitobito anmelden. Auf dem eigenen Profil kann man nun im Dropdown \"Login\""
+" den Knopf \"Zwei Faktor Authentifizierung einrichten\" sehen. Durch Klicken"
+" auf diesen Knopf landet man auf einer Seite mit einem QR-Code."
+msgstr ""
+
+#: ../../two_factor_authentication.rst:18 6fc9073b97af4a19b820872f749ec19a
+msgid ""
+"In der freeOTP App auf dem Smartphone klickt man nun auf den QR-Code-Knopf "
+"in der Kopfzeile. Dadurch öffnet sich die Kamera mit einem Quadrat in der "
+"Mitte. Der QR-Code in hitobito kann nun mit der Kamera gescannt werden."
+msgstr ""
+
+#: ../../two_factor_authentication.rst:20 e6094cacc0f24c0f8a4c7779a6a89060
+msgid ""
+"Sobald der Code gescannt wurde, schliesst sich die Kamera und ein neues "
+"Element in der Liste sollte auf der App ersichtlich sein. Dies erkennt man "
+"anhand der Bezeichnung ''hitobito'' und der E-Mail-Adresse. Durch einen "
+"Klick auf den Eintrag wird ein sechsstelliger Code wird angezeigt."
+msgstr ""
+
+#: ../../two_factor_authentication.rst:22 23a2713a58a2433a894568aec820d26b
+msgid ""
+"Dieser Code ändert sich alle paar Sekunden. Nun tippt man den Code in "
+"hitobito ein und klickt auf \"Absenden\". Sollte der Code inkorrekt sein, "
+"wird eine enstprechende Nachricht angezeigt und mann muss es erneut "
+"versuchen. Sobald der Code korrekt und rechtzeitig eingegeben wurde, wird "
+"man auf das Profil zurückgeleitet, und die Zwei-Faktor-Authentifizierung ist"
+" eingerichtet."
+msgstr ""
+
+#: ../../two_factor_authentication.rst:25 5a868e0705714cc1a9891904dcbc90c2
+msgid "Login mit Zwei-Faktor-Authentifizierung"
+msgstr ""
+
+#: ../../two_factor_authentication.rst:27 f718cad046f541c7a8c71c66634eb49e
+msgid ""
+"Sobald die Zwei-Faktor-Authentifizierung eingerichtet ist, muss der Code von"
+" der App bei jedem Login eingegeben werden. Nach der Eingabe von E-Mail und "
+"Passwort wird man auf eine Seite mit einer Eingabeaufforderung "
+"weitergeleitet. Hier tippt man nun wieder den Code aus der freeOTP App ab "
+"und klickt auf \"Absenden\". Sollte der Code nicht korrekt oder bereits "
+"abgelaufen sein, wird eine entsprechende Nachricht angezeigt. Ist der Code "
+"jedoch korrekt, wird man authentifiziert und in hitobito weitergeleitet."
+msgstr ""
+
+#: ../../two_factor_authentication.rst:30 401bd7623ede46aeb1f3247a0021746b
+msgid "Zurücksetzen und deaktivieren"
+msgstr ""
+
+#: ../../two_factor_authentication.rst:32 f31be3cf2c8a407e8b937717b652b253
+msgid ""
+"Administratoren können die Zwei-Faktor-Authentifizierung einer Person auf "
+"deren Profil zurücksetzen oder deaktivieren. Dort erscheinen unter dem "
+"Dropdown \"Login\" zwei Knöpfe \"Zwei Faktor Authentifizierung "
+"zurücksetzen\" und \"Zwei Faktor Authentifizierung deaktivieren\"."
+msgstr ""
+
+#: ../../two_factor_authentication.rst:34 7e9e577e545641dbab0a987795d704c0
+msgid ""
+"Wird die Zwei-Faktor-Authentifizierung zurückgesetzt, wird der Nutzer beim "
+"nächsten Login einen neuen QR Code scannen müssen."
+msgstr ""
+
+#: ../../two_factor_authentication.rst:36 4cb0811f88814a77953d896bc0289cda
+msgid ""
+"Bei der Deaktivierung wird der Nutzer nicht mehr zur Zwei-Faktor-"
+"Authentifizierung aufgefordert."
+msgstr ""

@@ -1,0 +1,188 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, hitobito AG
+# This file is distributed under the same license as the Hitobito package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Hitobito\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-17 18:43+0100\n"
+"PO-Revision-Date: 2023-02-17 22:36+0000\n"
+"Language-Team: French (https://www.transifex.com/hitobito/teams/4727/fr/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../faq.rst:2 2f4508158be0431ab8a4b67cb7617bef
+msgid "Fragen und Antworten"
+msgstr ""
+
+#: ../../faq.rst:5 779f2ae02d9f44d98af994a7ec49f1be
+msgid "Hitobito meldet, dass die IBAN Nummer ungültig ist"
+msgstr ""
+
+#: ../../faq.rst:7 7535a00238564ce1a766aa9e28918dfe
+msgid ""
+"Falls als Einzahlungschein QR Rechnungen ausgewählt sind, muss eine "
+"spezielle QR-IBAN (https://www.moneytoday.ch/lexikon/qr-iban/) hinterlegt "
+"werden. Diese unterscheidet sich von der bestehenden IBAN Nummer."
+msgstr ""
+
+#: ../../faq.rst:10 67421d1ff9d043c381c217df2700c199
+msgid "Die Haupt-E-Mail kann nicht geändert werden"
+msgstr ""
+
+#: ../../faq.rst:12 a092a1abdfab4f758a92d594bc4c532d
+msgid ""
+"Wenn ein Account beispielsweise bei einer Ortsgruppe und im Dachverband eine"
+" aktive Rolle hat, kann die **Haupt-E-Mail** nur von einer Person geändert "
+"werden, welche Schreibrechte in beiden Gruppen hat. Folgende Nachricht wird "
+"dann jeweils angezeigt: \"Die Haupt-E-Mail Adresse einer Person mit mehreren"
+" Rollen kann nur von einem über alle diese Rollen übergeordneten Benutzer "
+"geändert werden\" Der Account selbst kann seine Haupt-E-Mail immer ändern."
+msgstr ""
+
+#: ../../faq.rst:15 91f34fa0fb2f4abcacc5ab75f67174f0
+msgid ""
+"Ein Beispiel: Ich bin in der Ortsgruppe Wabern und habe eher wenig Rechte im"
+" System. Ich kann aber in meiner Gruppe einen Admin zu meiner Gruppe "
+"hinzufügen, der auf dem Dachverband sehr viele Rechte hat. Dadurch erhalte "
+"ich Schreibrechte auf dieser Person. Ich könnte die primäre Mailadresse auf "
+"eine mir zugängliche Adresse ändern, ein Passwortreset auf dem User machen "
+"und mich anschliessend als Dachverbands-Admin einloggen. Um das Ganze zu "
+"vertuschen, könnte ich danach die Mailadresse wieder zurückändern. Aus "
+"diesem Grund ist das Ändern der primären Mailadresse nur zugelassen wenn ich"
+" die Berechtigung über alle Gruppen des Admins habe."
+msgstr ""
+
+#: ../../faq.rst:19 ccbb777ea19347848b3345d982dd2686
+msgid "Geänderte Haupt-E-Mail muss bestätigt werden"
+msgstr ""
+
+#: ../../faq.rst:21 f2597e9ae24e4d69a88e8c565e0b5161
+msgid ""
+"Wird die Haupt-E-Mail einer Person mit Login geändert, so wird ein Mail mit "
+"Bestätigungslink an die **neue** E-Mail-Adresse gesendet. So wird "
+"sichergestellt, dass die neue Adresse funktioniert und die Person hinter der"
+" E-Mail-Adresse mit der Verwendung einverstanden ist. Die Haupt-E-Mail von "
+"Personen ohne aktiviertem Login lassen sich sofort ändern."
+msgstr ""
+
+#: ../../faq.rst:23 a88069ad070f4168a72e3496c845ee3f
+msgid ""
+"Die Bestätigung ist wichtig, da Hitobito als OAuth Provider genutzt werden "
+"kann und viele OAuth Dienste die E-Mail zur Identifikation nutzen. Ohne "
+"Bestätigung würde folgendes Angriffsszenario funktionieren:"
+msgstr ""
+
+#: ../../faq.rst:25 81c048302d984341811b40a188c153f2
+msgid "Eine Person A loggt sich via hitobito bei einem Drittservice ein"
+msgstr ""
+
+#: ../../faq.rst:26 c0099bfef81242739b9f60d1097f197f
+msgid "Der Drittservice merkt sich A anhand der Haupt-E-Mailadresse"
+msgstr ""
+
+#: ../../faq.rst:27 8bb00b40fb25430aa315101ef90be71d
+msgid ""
+"Eine Person X mit Schreibzugriff auf A bearbeitet A und löscht die Haupt-E-"
+"Mailadresse"
+msgstr ""
+
+#: ../../faq.rst:28 4fcbe79858f74926ae32de84a8c4d8d7
+msgid ""
+"Person X füllt bei sich selber die ehemalige Haupt-E-Mailadresse von Person "
+"A ein. *Dieser Schritt wird durch die aktuelle E-Mail-Verifikation "
+"verhindert.*"
+msgstr ""
+
+#: ../../faq.rst:29 1b533929916542c58f1f158dda7c4cf0
+msgid ""
+"Person X verwendet beim Drittservice den \"Login via hitobito\" und kann nun"
+" den dortigen Account von Person A übernehmen."
+msgstr ""
+
+#: ../../faq.rst:33 1e796e9444c4438a92fa0c9f25ea4155
+msgid "Mailadressen Export für Outlook"
+msgstr ""
+
+#: ../../faq.rst:35 289834d9a498492297f49e09a2c37c3e
+msgid ""
+"Der Export \"Mailadressen\" gibt eine Liste aller Mailadressen getrennt "
+"durch Kommas aus. Outlook erkennt standardmässig die einzelnen Mailadressen "
+"nicht. Bei den meisten Mailprogrammen, ausser Outlook, funktioniert Komma "
+"als Trennzeichen. Outlook kann konfiguriert werden, dass auch Kommas "
+"funktionieren: "
+"https://www.officetooltips.com/outlook_365/tips/how_to_use_commas_as_separators_for_multiple_email_recipients.html"
+msgstr ""
+
+#: ../../faq.rst:38 7b1e82ff149e4e679b12f696ecb7c652
+msgid "Wie werden Personen-Duplikate erkannt?"
+msgstr ""
+
+#: ../../faq.rst:40 58f8d3b62dba4b0686083d3867881a1f
+msgid ""
+"Wenn eine Person mehrfach erfasst wurde, dann kann man die Duplikate "
+"zusammenführen. Dazu gibt es auf dem \"Personen\"-Tab einer "
+":doc:`Ebene</access_concept>` (z.B. Dachverband, Region, Ortsgruppe) einen "
+"Button \"Duplikate\". Der Button ist nur für Personen mit sehr hohen "
+"Berechtigungen (``layer_and_below_full`` oder ``admin``) sichtbar."
+msgstr ""
+
+#: ../../faq.rst:42 23af95c060ae4de9bd058c1fa449e9c4
+msgid ""
+"Hitobito analysiert jede Nacht die Einträge in der Datenbank und ergänzt die"
+" Liste von Duplikaten. Zwei Personen zählen als Duplikate, wenn die Felder "
+"Vorname, Nachname, Firmenname, Postleitzahl und Geburtsdatum übereinstimmen "
+"(bei Postleitzahl und Geburtsdatum zählt es auch, wenn das Feld bei einer "
+"der Personen leer ist). Ein Beispiel: Anna Berger (PLZ 1000, Geburtsdatum "
+"01.01.1970) wird als Duplikat von Anna Berger (ohne PLZ oder Geburtsdatum) "
+"erkannt. Anna (PLZ 1000, Geburtsdatum 01.01.1970) ohne Nachname ist hingegen"
+" kein Duplikat, der Nachname muss zwingend übereinstimmen oder bei beiden "
+"Personen leer sein."
+msgstr ""
+
+#: ../../faq.rst:44 e7be9f71256247aaa0b0efbc3ff47c84
+msgid ""
+"Dieselbe Duplikatserkennung wird auch schon direkt während dem Import einer "
+"CSV-Datei angewendet. Dort bekommt man gleich während dem Import noch die "
+"Möglichkeit, auszuwählen welche Zeilen eine bestehende Person aktualisieren "
+"sollen und welche Zeilen wirklich neue Personen sind."
+msgstr ""
+
+#: ../../faq.rst:48 4f93352810cb48efbab27ca0a955901f
+msgid "Wann wird welche Referenznummer verwendet?"
+msgstr ""
+
+#: ../../faq.rst:50 b42f5f870a6243d38b38fca02aeef48d
+msgid ""
+"Hitobito unterstützt sowohl die QR-Referenz wie die Creditor Reference "
+"(SCOR). Die QR-Referenz entspricht im Aufbau der ESR-Referenz (immer 26 "
+"numerische Zeichen gefolgt von einer Prüfziffer nach Modulo 10 rekursiv) und"
+" kann vom Rechnungssteller als strukturierte Referenz verwendet werden. "
+"Creditor Reference ist gemäss ISO-11649-Standard implementiert. Die "
+"Prüfziffer der Creditor Reference muss mit Modulo 97-10 berechnet werden. "
+"Weitere Infos unter https://www.paymentstandards.ch/dam/downloads/ig-qr-"
+"bill-de.pdf"
+msgstr ""
+
+#: ../../faq.rst:54 81655a6fb18b44308778cf738a276e24
+msgid ""
+"Wenn keine QR-IBAN in Hitobito erfasst wurde, wird eine Creditor Reference "
+"(SCOR) bei der generierung von Rechnungen verwendet."
+msgstr ""
+
+#: ../../faq.rst:57 9e4f211094c14da7bbc00011b5b9c63e
+msgid "Was bedeutet Hitobito 人人"
+msgstr ""
+
+#: ../../faq.rst:59 1e620e3e3da148baa26623cd458653e5
+msgid ""
+"Hitobito kommt aus dem Japanischen und bedeutet Mensch. Durch die beiden 人人 "
+"ist die Mehrzahl gemeint: Menschen oder auch Gemeinschaft. Quelle: "
+"https://www.wordsense.eu/%E4%BA%BA%E4%BA%BA/"
+msgstr ""

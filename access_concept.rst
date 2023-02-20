@@ -1,4 +1,4 @@
-Berechtigunskonzept
+Berechtigungskonzept
 =======================
 
 

@@ -1,45 +1,51 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2018, hitobito AG
-# This file is distributed under the same license as the hitobito package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
-#
+# Copyright (C) 2021, hitobito AG
+# This file is distributed under the same license as the Hitobito package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Jenkins <hudson@puzzle.ch>, 2023
+# 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: hitobito \n"
+"Project-Id-Version: Hitobito\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-06 16:50+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2023-02-17 18:43+0100\n"
+"PO-Revision-Date: 2023-02-17 22:36+0000\n"
+"Last-Translator: Jenkins <hudson@puzzle.ch>, 2023\n"
+"Language-Team: Italian (https://www.transifex.com/hitobito/teams/4727/it/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.0\n"
+"Language: it\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../index.rst:15
 msgid "Anleitung"
-msgstr ""
+msgstr "Istruzioni"
 
-#: ../../index.rst:26
+#: ../../index.rst:27
 msgid "Anbindung"
+msgstr "Connessione"
+
+#: ../../index.rst:35
+msgid "FAQ"
 msgstr ""
 
-#: ../../index.rst:7
-msgid "Benutzeranleitung für hitobito"
+#: ../../index.rst:7 6763317cdc6c454fbf009cc2b4ca4f7d
+msgid "Benutzeranleitung für Hitobito"
 msgstr ""
 
-#: ../../index.rst:9
-msgid "Hier findest du die generische Benutzerdokumentatio für hitobito."
+#: ../../index.rst:9 da23bceee37b47618cfb13656adf34be
+msgid "Hier findest du die generische Benutzerdokumentation für Hitobito."
 msgstr ""
 
-#: ../../index.rst:11
+#: ../../index.rst:11 fd0d01baf1a5405fb82fe0b7c47bb260
 msgid ""
-"Du kannst selbst deinen Beitrag leisten und Ergänzungen vornehmen, in dem"
-" du auf  _Github: https://github.com/hitobito/user_documentation "
-"Korrekturen an den Anleitungsseiten vornimmst. Wenn dir das zu "
-"kompliziert ist, kannst du einfach auch Änderungen, Ergänzungen über "
-"_dieses Formular: "
+"Du kannst selbst deinen Beitrag leisten und Ergänzungen vornehmen, in dem du"
+" auf Github: https://github.com/hitobito/user_documentation Korrekturen an "
+"den Anleitungsseiten vornimmst. Wenn dir das zu kompliziert ist, kannst du "
+"einfach auch Änderungen, Ergänzungen über dieses Formular: "
 "https://github.com/hitobito/user_documentation/issues/new vorschlagen."
 msgstr ""
-
