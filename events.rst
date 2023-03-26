@@ -17,11 +17,11 @@ Einladungen sind nützliche, wenn bestimmte Personen an einem Anlass oder Kurs t
 In diesem Fall können die Verantwortlichen diese Personen auf dem *Einladungen*-Tab hinzufügen.
 Das *Einladungen*-Tab zeigt den Status aller eingeladenen Personen.
 
-.. image:: images/inviation_list.png
+.. image:: images/invitation_list.png
 
 Die eingeladenen Personen können sich dann auf der Anlass-Seite für den Anlass an- oder abmelden.
 
-.. image:: images/inviation_reply.png
+.. image:: images/invitation_reply.png
 
 Die eingeladenen Personen erhalten kein automatische Benachrichtigung,
 da die Betroffenen wohl in vielen Fällen (z.B. Sitzungen, Generalversammlung)
