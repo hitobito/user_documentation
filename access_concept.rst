@@ -189,10 +189,10 @@ Es wird überprüft, ob in der Ebene dieser Rolle die manuellen Freigaben aktivi
 
 Sind manuelle Freigaben in der Ebene aktiviert, dann wird John nicht direkt in die neue fremde Gruppe, Anlass oder Abo hinzugefügt, sondern es wird eine Zugriffsanfrage ausgelöst. Anna sieht dann folgende Nachricht:
 
-.. image:: person_add_requests/pending_role_approval.png
+.. image:: images/pending_role_approval.png
 
 Alle Personen die auf dem Anfragen-Tab ausgewählt sind, sowie John falls er einen Login hat, bekommen ein E-Mail welches darüber informiert dass Anna John an einem neuen Ort hinzufügen will. Von diesem E-Mail aus oder auf dem Anfragen-Tab der Gruppe kann die Zugriffsanfrage akzeptiert oder abgelehnt werden.
 
-.. image:: person_add_requests/approvals_tab.png
+.. image:: images/approvals_tab.png
 
 So bekommt Anna nie unberechtigten Zugriff auf die Personendaten von John. Das Ganze funktioniert aber nur, wenn die manuellen Freigaben auf der Ebene aktiviert sind. Es wird keine Zugriffsanfrage ausgelöst wenn Anna bereits vorher Zugriff auf John hat (z.B. wenn beide eine Rolle mit `contact_data` haben).
