@@ -5,6 +5,7 @@
 # 
 # Translators:
 # Jenkins <hudson@puzzle.ch>, 2023
+# Michael Schär <it@pbs.ch>, 2023
 # 
 #, fuzzy
 msgid ""
@@ -13,8 +14,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-17 18:43+0100\n"
 "PO-Revision-Date: 2023-02-17 22:36+0000\n"
-"Last-Translator: Jenkins <hudson@puzzle.ch>, 2023\n"
-"Language-Team: Italian (https://www.transifex.com/hitobito/teams/4727/it/)\n"
+"Last-Translator: Michael Schär <it@pbs.ch>, 2023\n"
+"Language-Team: Italian (https://app.transifex.com/hitobito/teams/4727/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -30,6 +31,8 @@ msgid ""
 "Mit dem MailChimp-Export können die Abonnent*innen von Mailinglisten "
 "exportiert werden in eine MailChimp-Liste."
 msgstr ""
+"Con l'esportazione MailChimp, gli abbonati alle mailing list possono essere "
+"esportati in una lista MailChimp."
 
 #: ../../mailing_lists_mailchimp_export.rst:6 984ec97cd8e641969a42541a9d29dac2
 msgid "Bitte beachtet vor Benutzung dieses Features zwei Dinge:"
@@ -48,6 +51,8 @@ msgid ""
 "Die MailChimp-Liste wird **regelmässig** (alle 24h) und bei Bedarf "
 "zusätzlich **auf Knopfdruck** exportiert"
 msgstr ""
+"L'elenco MailChimp viene esportato **regolarmente** (ogni 24 ore) e, se "
+"necessario, anche **premendo un pulsante**"
 
 #: ../../mailing_lists_mailchimp_export.rst:13
 #: fa65dc3bbc384582931bce2f590950c9
@@ -93,6 +98,10 @@ msgid ""
 " haben ebenfalls mit MailChimp synchronisiert werden, ist die Option \"Alle "
 "Versandadressen synchronisieren\" anzuwählen."
 msgstr ""
+"Per impostazione predefinita, vengono sincronizzati solo gli indirizzi "
+"e-mail principali degli abbonati. Se anche altri indirizzi e-mail che hanno "
+"l'opzione \"Spedizione\" devono essere sincronizzati con MailChimp, "
+"selezionare l'opzione \"Sincronizza tutti gli indirizzi di spedizione\"."
 
 #: ../../mailing_lists_mailchimp_export.rst:27
 #: 8064c9318e354044a0dcfbd1895d7e60
@@ -141,6 +150,9 @@ msgid ""
 "wähle die entsprechende Option im «Export»-Menu des «Abonnenten»-Tabs deiner"
 " Mailingliste in Hitobito aus."
 msgstr ""
+"Per esportare gli abbonati di una mailing list in MailChimp, seleziona "
+"l'opzione corrispondente nel menu «Esporta» della scheda «Iscritti» della "
+"tua mailing list in Hitobito."
 
 #: ../../mailing_lists_mailchimp_export.rst:43
 #: ae8c67ec648749ae810551689a7cdedf
@@ -160,6 +172,11 @@ msgid ""
 "Mailchimp den Status \"cleaned\" besitzen, wird in hitobito ein "
 "entsprechender Validation Tag gesetzt. (z.B. \"Haupt-E-Mail ungültig\")"
 msgstr ""
+"Dopo aver attivato l'esportazione, l'elenco verrà esportato nell'elenco "
+"MailChimp selezionato in background e gli iscritti alla tua mailing list "
+"dovrebbero apparire lì dopo un po' di tempo. Se gli indirizzi e-mail hanno "
+"lo stato \"pulito\" in Mailchimp, in hitobito viene impostato un tag di "
+"convalida corrispondente. (es. \"E-mail principale non valida\")"
 
 #: ../../mailing_lists_mailchimp_export.rst:50
 #: 6664ac6e827442de84cb3a276352c2a2
@@ -169,3 +186,8 @@ msgid ""
 "Ihrer E-Mail), behalten ihren «Unsubscribed»-Status und erhalten auch nach "
 "einem neuerlichen Export aus hitobito keine E-Mails mehr von Ihnen."
 msgstr ""
+"Gli abbonati alla tua mailing list che in passato hanno annullato "
+"attivamente l'iscrizione alla tua lista su MailChimp (tramite il link di "
+"annullamento dell'iscrizione nella tua e-mail) mantengono il loro stato "
+"\"Unsuscribed\" e non riceveranno e-mail anche dopo una nuova esportazione "
+"da hitobito."

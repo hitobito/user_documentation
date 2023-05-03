@@ -3,6 +3,9 @@
 # This file is distributed under the same license as the Hitobito package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Michael Schär <it@pbs.ch>, 2023
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -10,7 +13,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-17 18:43+0100\n"
 "PO-Revision-Date: 2023-02-17 22:36+0000\n"
-"Language-Team: French (https://www.transifex.com/hitobito/teams/4727/fr/)\n"
+"Last-Translator: Michael Schär <it@pbs.ch>, 2023\n"
+"Language-Team: French (https://app.transifex.com/hitobito/teams/4727/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -19,11 +23,11 @@ msgstr ""
 
 #: ../../faq.rst:2 2f4508158be0431ab8a4b67cb7617bef
 msgid "Fragen und Antworten"
-msgstr ""
+msgstr "Questions et réponses"
 
 #: ../../faq.rst:5 779f2ae02d9f44d98af994a7ec49f1be
 msgid "Hitobito meldet, dass die IBAN Nummer ungültig ist"
-msgstr ""
+msgstr "Hitobito signale que le numéro IBAN n'est pas valide"
 
 #: ../../faq.rst:7 7535a00238564ce1a766aa9e28918dfe
 msgid ""
@@ -31,10 +35,13 @@ msgid ""
 "spezielle QR-IBAN (https://www.moneytoday.ch/lexikon/qr-iban/) hinterlegt "
 "werden. Diese unterscheidet sich von der bestehenden IBAN Nummer."
 msgstr ""
+"Si des factures QR sont sélectionnées comme bulletin de versement, un IBAN "
+"QR spécial doit être enregistré (https://www.moneytoday.ch/lexikon/qr-"
+"iban/). Celui-ci est différent du numéro IBAN existant."
 
 #: ../../faq.rst:10 67421d1ff9d043c381c217df2700c199
 msgid "Die Haupt-E-Mail kann nicht geändert werden"
-msgstr ""
+msgstr "L'adresse e-mail principale ne peut pas être modifiée"
 
 #: ../../faq.rst:12 a092a1abdfab4f758a92d594bc4c532d
 msgid ""
@@ -45,6 +52,14 @@ msgid ""
 " Rollen kann nur von einem über alle diese Rollen übergeordneten Benutzer "
 "geändert werden\" Der Account selbst kann seine Haupt-E-Mail immer ändern."
 msgstr ""
+"Si un compte a par exemple un rôle actif dans un groupe local et dans "
+"l'association faîtière, l'**adresse e-mail principale** ne peut être "
+"modifiée que par une personne qui a des droits d'écriture dans les deux "
+"groupes. Le message suivant s'affiche alors : \"L'adresse e-mail principale "
+"d'une personne ayant plusieurs rôles ne peut être modifiée que par un·e "
+"utilisateur·trice de niveau supérieur à tous ces rôles.\" "
+"L'utilisateur·trice du compte lui·elle-même peut toujours modifier son "
+"adresse e-mail principale."
 
 #: ../../faq.rst:15 91f34fa0fb2f4abcacc5ab75f67174f0
 msgid ""
@@ -58,10 +73,20 @@ msgid ""
 "diesem Grund ist das Ändern der primären Mailadresse nur zugelassen wenn ich"
 " die Berechtigung über alle Gruppen des Admins habe."
 msgstr ""
+"Un exemple : Je fais partie du groupe local de Wabern et j'ai plutôt peu de "
+"droits dans le système. Cependant, dans mon groupe, je peux ajouter un admin"
+" à mon groupe qui a beaucoup de droits au niveau de l'association faîtière. "
+"J'obtiens ainsi des droits d'écriture sur cette personne. Je pourrais "
+"changer l'adresse e-mail principale pour une adresse qui m'est accessible, "
+"faire une réinitialisation du mot de passe sur l'utilisateur·trice et me "
+"connecter ensuite en tant qu'admin de l'association faîtière. Pour "
+"dissimuler le tout, je pourrais ensuite changer à nouveau l'adresse e-mail. "
+"C'est pourquoi la modification de l'adresse e-mail principale n'est "
+"autorisée que si j'ai le droit d'accéder à tous les groupes de cet admin."
 
 #: ../../faq.rst:19 ccbb777ea19347848b3345d982dd2686
 msgid "Geänderte Haupt-E-Mail muss bestätigt werden"
-msgstr ""
+msgstr "La modification de l'adresse e-mail principale doit être confirmée"
 
 #: ../../faq.rst:21 f2597e9ae24e4d69a88e8c565e0b5161
 msgid ""
@@ -71,6 +96,12 @@ msgid ""
 " E-Mail-Adresse mit der Verwendung einverstanden ist. Die Haupt-E-Mail von "
 "Personen ohne aktiviertem Login lassen sich sofort ändern."
 msgstr ""
+"Si l'adresse e-mail principale d'une personne ayant un login est modifiée, "
+"un e-mail avec un lien de confirmation est envoyé à la **nouvelle** adresse "
+"e-mail. Cela permet de s'assurer que la nouvelle adresse fonctionne et que "
+"la personne derrière cette adresse e-mail est d'accord avec son utilisation."
+" L'adresse e-mail principale des personnes sans login activé peut être "
+"modifiée directement."
 
 #: ../../faq.rst:23 a88069ad070f4168a72e3496c845ee3f
 msgid ""
@@ -78,20 +109,27 @@ msgid ""
 "kann und viele OAuth Dienste die E-Mail zur Identifikation nutzen. Ohne "
 "Bestätigung würde folgendes Angriffsszenario funktionieren:"
 msgstr ""
+"La confirmation est importante, car hitobito peut être utilisé comme "
+"fournisseur OAuth et de nombreux services OAuth utilisent l'adresse e-mail "
+"pour s'identifier. Sans confirmation, le scénario d'attaque suivant "
+"fonctionnerait :"
 
 #: ../../faq.rst:25 81c048302d984341811b40a188c153f2
 msgid "Eine Person A loggt sich via hitobito bei einem Drittservice ein"
-msgstr ""
+msgstr "Une personne A se connecte à un service tiers via hitobito"
 
 #: ../../faq.rst:26 c0099bfef81242739b9f60d1097f197f
 msgid "Der Drittservice merkt sich A anhand der Haupt-E-Mailadresse"
 msgstr ""
+"Le service tiers se souvient de A grâce à son adresse e-mail principale"
 
 #: ../../faq.rst:27 8bb00b40fb25430aa315101ef90be71d
 msgid ""
 "Eine Person X mit Schreibzugriff auf A bearbeitet A und löscht die Haupt-E-"
 "Mailadresse"
 msgstr ""
+"Une personne X ayant un accès d'écriture sur A modifie A et supprime son "
+"adresse e-mail principale"
 
 #: ../../faq.rst:28 4fcbe79858f74926ae32de84a8c4d8d7
 msgid ""
@@ -99,16 +137,21 @@ msgid ""
 "A ein. *Dieser Schritt wird durch die aktuelle E-Mail-Verifikation "
 "verhindert.*"
 msgstr ""
+"La personne X saisit elle-même l'ancienne adresse e-mail principale de la "
+"personne A. *Cette étape est empêchée par la vérification actuelle de "
+"l'adresse e-mail."
 
 #: ../../faq.rst:29 1b533929916542c58f1f158dda7c4cf0
 msgid ""
 "Person X verwendet beim Drittservice den \"Login via hitobito\" und kann nun"
 " den dortigen Account von Person A übernehmen."
 msgstr ""
+"La personne X utilise le \"login via hitobito\" auprès du service tiers et "
+"peut maintenant reprendre le compte de la personne A."
 
 #: ../../faq.rst:33 1e796e9444c4438a92fa0c9f25ea4155
 msgid "Mailadressen Export für Outlook"
-msgstr ""
+msgstr "Exportation d'adresses e-mail pour Outlook"
 
 #: ../../faq.rst:35 289834d9a498492297f49e09a2c37c3e
 msgid ""
@@ -119,10 +162,17 @@ msgid ""
 "funktionieren: "
 "https://www.officetooltips.com/outlook_365/tips/how_to_use_commas_as_separators_for_multiple_email_recipients.html"
 msgstr ""
+"L'exportation \"Adresses e-mail\" fournit une liste de toutes les adresses "
+"e-mail séparées par des virgules. Par défaut, Outlook ne reconnaît pas les "
+"différentes adresses de messagerie. Dans la plupart des programmes de "
+"messagerie, à l'exception d'Outlook, la virgule fonctionne comme séparateur."
+" Outlook peut être configuré pour que les virgules fonctionnent aussi comme "
+"séparateur : "
+"https://www.officetooltips.com/outlook_365/tips/how_to_use_commas_as_separators_for_multiple_email_recipients.html"
 
 #: ../../faq.rst:38 7b1e82ff149e4e679b12f696ecb7c652
 msgid "Wie werden Personen-Duplikate erkannt?"
-msgstr ""
+msgstr "Comment les doublons de personnes sont-ils détectés ?"
 
 #: ../../faq.rst:40 58f8d3b62dba4b0686083d3867881a1f
 msgid ""
@@ -132,6 +182,11 @@ msgid ""
 "Button \"Duplikate\". Der Button ist nur für Personen mit sehr hohen "
 "Berechtigungen (``layer_and_below_full`` oder ``admin``) sichtbar."
 msgstr ""
+"Si une personne a été saisie plusieurs fois, il est possible de fusionner "
+"les doublons. Pour cela, il y a un bouton \"Duplicata\" dans l'onglet "
+"\"Personnes\" d'un :doc:`niveau1` (par ex. association faîtière, région, "
+"groupe local). Ce bouton n'est visible que par des personnes disposant de "
+"droits très élevés (``layer_and_below_full`` ou ``admin``)."
 
 #: ../../faq.rst:42 23af95c060ae4de9bd058c1fa449e9c4
 msgid ""
@@ -145,6 +200,16 @@ msgid ""
 " kein Duplikat, der Nachname muss zwingend übereinstimmen oder bei beiden "
 "Personen leer sein."
 msgstr ""
+"Hitobito analyse chaque nuit les entrées dans la base de données et complète"
+" la liste des doublons. Deux personnes sont considérées comme des doublons "
+"si les champs Prénom, Nom, Nom de l'entreprise, Code postal et Date de "
+"naissance sont identiques (pour le Code postal et la Date de naissance, cela"
+" compte également si le champ est vide pour l'une des personnes). Un exemple"
+" : Anna Berger (NPA 1000, date de naissance 01.01.1970) est reconnue comme "
+"un doublon d'Anna Berger (sans NPA ni date de naissance). En revanche, Anna "
+"(NPA 1000, date de naissance 01.01.1970) sans nom de famille n'est pas un "
+"doublon, le nom de famille doit impérativement correspondre ou être vide "
+"pour les deux personnes."
 
 #: ../../faq.rst:44 e7be9f71256247aaa0b0efbc3ff47c84
 msgid ""
@@ -153,10 +218,14 @@ msgid ""
 "Möglichkeit, auszuwählen welche Zeilen eine bestehende Person aktualisieren "
 "sollen und welche Zeilen wirklich neue Personen sind."
 msgstr ""
+"Cette même détection de doublons est également appliquée directement lors de"
+" l'importation d'un fichier CSV. Lors de l'importation, on a la possibilité "
+"de choisir les lignes qui permettent de mettre à jour des personnes "
+"existantes et les lignes qui sont vraiment de nouvelles personnes."
 
 #: ../../faq.rst:48 4f93352810cb48efbab27ca0a955901f
 msgid "Wann wird welche Referenznummer verwendet?"
-msgstr ""
+msgstr "Quand et quel numéro de référence est utilisé ?"
 
 #: ../../faq.rst:50 b42f5f870a6243d38b38fca02aeef48d
 msgid ""
@@ -169,16 +238,26 @@ msgid ""
 "Weitere Infos unter https://www.paymentstandards.ch/dam/downloads/ig-qr-"
 "bill-de.pdf"
 msgstr ""
+"Hitobito est compatible avec la référence QR et la Creditor Reference "
+"(SCOR). La référence QR correspond dans sa structure à la Référence ESR "
+"(toujours 26 caractères numériques suivis d'un chiffre de contrôle selon le "
+"modulo 10 récursif) et peut être utilisée par l'émetteur·trice de factures "
+"comme référence structurée. La Creditor Reference est implémentée "
+"conformément à la norme ISO-11649. Le chiffre de contrôle de la Creditor "
+"Reference doit être calculé avec modulo 97-10. Plus d'informations sur "
+"https://www.paymentstandards.ch/dam/downloads/ig-qr-bill-de.pdf"
 
 #: ../../faq.rst:54 81655a6fb18b44308778cf738a276e24
 msgid ""
 "Wenn keine QR-IBAN in Hitobito erfasst wurde, wird eine Creditor Reference "
 "(SCOR) bei der generierung von Rechnungen verwendet."
 msgstr ""
+"Si aucun QR-IBAN n'a été saisi dans hitobito, une Creditor Reference (SCOR) "
+"est utilisée lors de la génération des factures."
 
 #: ../../faq.rst:57 9e4f211094c14da7bbc00011b5b9c63e
 msgid "Was bedeutet Hitobito 人人"
-msgstr ""
+msgstr "Que signifie Hitobito 人人 "
 
 #: ../../faq.rst:59 1e620e3e3da148baa26623cd458653e5
 msgid ""
@@ -186,3 +265,6 @@ msgid ""
 "ist die Mehrzahl gemeint: Menschen oder auch Gemeinschaft. Quelle: "
 "https://www.wordsense.eu/%E4%BA%BA%E4%BA%BA/"
 msgstr ""
+"Hitobito vient du japonais et signifie \"être humain\". Grâce aux deux 人人, "
+"on parle du pluriel : personnes ou aussi communauté. Source : "
+"https://www.wordsense.eu/%E4%BA%BA%E4%BA%BA/"

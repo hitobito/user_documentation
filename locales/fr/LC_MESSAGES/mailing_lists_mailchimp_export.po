@@ -3,6 +3,9 @@
 # This file is distributed under the same license as the Hitobito package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Michael Schär <it@pbs.ch>, 2023
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -10,7 +13,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-17 18:43+0100\n"
 "PO-Revision-Date: 2023-02-17 22:36+0000\n"
-"Language-Team: French (https://www.transifex.com/hitobito/teams/4727/fr/)\n"
+"Last-Translator: Michael Schär <it@pbs.ch>, 2023\n"
+"Language-Team: French (https://app.transifex.com/hitobito/teams/4727/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -19,34 +23,42 @@ msgstr ""
 
 #: ../../mailing_lists_mailchimp_export.rst:2 54706d72d5c7430f8915c9412b97a234
 msgid "MailChimp-Export von Mailinglisten / Abos"
-msgstr ""
+msgstr "Exportation MailChimp de listes de diffusion / abonnements"
 
 #: ../../mailing_lists_mailchimp_export.rst:4 dbcf33f7c9954af3b13d70069997837f
 msgid ""
 "Mit dem MailChimp-Export können die Abonnent*innen von Mailinglisten "
 "exportiert werden in eine MailChimp-Liste."
 msgstr ""
+"L'exportation MailChimp permet d'exporter les abonné·e·s aux listes de "
+"diffusion en une liste MailChimp."
 
 #: ../../mailing_lists_mailchimp_export.rst:6 984ec97cd8e641969a42541a9d29dac2
 msgid "Bitte beachtet vor Benutzung dieses Features zwei Dinge:"
 msgstr ""
+"Avant d'utiliser cette fonctionnalité, veuillez faire attention à ces deux "
+"choses :"
 
 #: ../../mailing_lists_mailchimp_export.rst:8 ff6e3053ed8c4fa18dace4a6227cd83c
 msgid ""
 "Die MailChimp-Liste wird durch den Export **überschrieben** (siehe auch "
 "folgenden Abschnitt)"
 msgstr ""
+"La liste MailChimp est **écrasée** par l'exportation (voir aussi le "
+"paragraphe suivant)"
 
 #: ../../mailing_lists_mailchimp_export.rst:9 2668220afe4b47d6b28a99c6e0f54002
 msgid ""
 "Die MailChimp-Liste wird **regelmässig** (alle 24h) und bei Bedarf "
 "zusätzlich **auf Knopfdruck** exportiert"
 msgstr ""
+"La liste MailChimp est exportée **régulièrement** (toutes les 24h) et si "
+"nécessaire **en appuyant sur un bouton**."
 
 #: ../../mailing_lists_mailchimp_export.rst:13
 #: fa65dc3bbc384582931bce2f590950c9
 msgid "Grundsatz"
-msgstr ""
+msgstr "Principe"
 
 #: ../../mailing_lists_mailchimp_export.rst:15
 #: dffa8b1ae56846c3a8d6adee884f171d
@@ -57,11 +69,16 @@ msgid ""
 "zu synchronisieren, da es **keine Daten von MailChimp importiert** und "
 "**bestehende Daten von MailChimp bei jedem Export überschreibt**."
 msgstr ""
+"La fonctionnalité MailChimp permet d'utiliser les données organisées dans "
+"hitobito pour envoyer des newsletters conçues avec MailChimp. Elle ne peut "
+"pas être utilisée pour synchroniser une liste MailChimp avec une liste de "
+"diffusion Hitobito, car elle **n'importe pas les données de MailChimp** et "
+"**écrase les données existantes de MailChimp à chaque exportation**."
 
 #: ../../mailing_lists_mailchimp_export.rst:19
 #: ba528212fce34b1a90acc41d70b82013
 msgid "Verknüpfen einer Mailingliste mit MailChimp"
-msgstr ""
+msgstr "Lier une liste de diffusion à MailChimp"
 
 #: ../../mailing_lists_mailchimp_export.rst:21
 #: 1857bbb9bf1b46cc9f81863984bd711c
@@ -70,6 +87,9 @@ msgid ""
 "Dies geschieht in den Einstellungen der Mailingliste durch die beiden Felder"
 " «MailChimp API-Schlüssel» und «MailChimp Listen-ID»:"
 msgstr ""
+"Une liste MailChimp peut être liée à chaque liste de diffusion. Cela se fait"
+" dans les paramètres de la liste de diffusion par les deux champs \"Clé API "
+"MailChimp\" et \"ID listes MailChimp\" :"
 
 #: ../../mailing_lists_mailchimp_export.rst:25
 #: ec84bb3a09e44fa1b019559e529e7a5b
@@ -79,6 +99,10 @@ msgid ""
 " haben ebenfalls mit MailChimp synchronisiert werden, ist die Option \"Alle "
 "Versandadressen synchronisieren\" anzuwählen."
 msgstr ""
+"Par défaut, seules les adresses e-mail principales des abonné·e·s sont "
+"synchronisées. Si d'autres adresses e-mail, qui autorisent l'option "
+"\"Envoi\", devraient également être synchronisées avec MailChimp, il faut "
+"sélectionner l'option \"Synchroniser toutes les adresses d'envoi\"."
 
 #: ../../mailing_lists_mailchimp_export.rst:27
 #: 8064c9318e354044a0dcfbd1895d7e60
@@ -86,6 +110,8 @@ msgid ""
 "Die **«MailChimp Listen-ID»** kannst Du in den Einstellungen der gewünschten"
 " Liste in MailChimp holen (in gelb unten rechts):"
 msgstr ""
+"Tu peux obtenir l'**\"ID listes MailChimp\"** dans les paramètres de la "
+"liste souhaitée dans MailChimp (en jaune en bas à droite) :"
 
 #: ../../mailing_lists_mailchimp_export.rst:31
 #: 7a45f301bc994a87b06b16c6ec1fc1f9
@@ -97,6 +123,13 @@ msgid ""
 "Key» drücken (im Bild unten links) und den «API key» aus dem Textfeld (im "
 "Bild gelb hinterlegt) in das entsprechende Feld in Hitobito kopieren:"
 msgstr ""
+"La **\"clé API MailChimp \"** permet à une application tierce comme hitobito"
+" d'effectuer des modifications en ton nom dans MailChimp. Tu peux créer une "
+"nouvelle clé API dans le menu \"Extras / API keys\" dans les paramètres de "
+"ton profil. Sur la page correspondante, tu peux appuyer sur \"Create A Key\""
+" (en bas à gauche sur l'image) et copier la \"API key\" du champ de texte "
+"(surligné en jaune sur l'image) et la coller dans le champ correspondant "
+"dans hitobito :"
 
 #: ../../mailing_lists_mailchimp_export.rst:35
 #: 773053e3324748fd8f18ca71938c8381
@@ -104,11 +137,13 @@ msgid ""
 "Gratuliere, nach dem Speichern dieser zwei Informationen ist nun deine "
 "Mailingliste mit der MailChimp-Liste verknüpft!"
 msgstr ""
+"Félicitations, après avoir enregistré ces deux informations, ta liste de "
+"diffusion est maintenant liée à la liste MailChimp !"
 
 #: ../../mailing_lists_mailchimp_export.rst:39
 #: df65f066efcd4d34ab8a9c6fa43988d9
 msgid "Exportieren nach MailChimp"
-msgstr ""
+msgstr "Exporter vers MailChimp"
 
 #: ../../mailing_lists_mailchimp_export.rst:41
 #: f8ecf458bc104155b2c3a03211a69b54
@@ -117,6 +152,9 @@ msgid ""
 "wähle die entsprechende Option im «Export»-Menu des «Abonnenten»-Tabs deiner"
 " Mailingliste in Hitobito aus."
 msgstr ""
+"Pour exporter les abonné·e·s d'une liste de diffusion vers MailChimp, "
+"sélectionne l'option correspondante dans le menu \"Exporter\" de l'onglet "
+"\"Abonné·e·s\" de ta liste de diffusion dans hitobito."
 
 #: ../../mailing_lists_mailchimp_export.rst:43
 #: ae8c67ec648749ae810551689a7cdedf
@@ -124,6 +162,8 @@ msgid ""
 "Bitte beachte, dass der Export deine verknüpfte Liste in MailChimp "
 "überschreiben. Bestehende Kontakte werden in Mailchimp archiviert."
 msgstr ""
+"Veuillez noter que l'exportation écrase votre liste liée dans MailChimp. Les"
+" contacts existants seront archivés dans Mailchimp."
 
 #: ../../mailing_lists_mailchimp_export.rst:47
 #: 8f855cc8879647d0aac28de3978edec2
@@ -134,6 +174,12 @@ msgid ""
 "Mailchimp den Status \"cleaned\" besitzen, wird in hitobito ein "
 "entsprechender Validation Tag gesetzt. (z.B. \"Haupt-E-Mail ungültig\")"
 msgstr ""
+"Après le déclenchement de l'exportation, la liste est exportée en arrière-"
+"plan dans la liste MailChimp choisie et les abonné·e·s de ta liste de "
+"diffusion devraient y apparaître après un certain temps. Si des adresses "
+"e-mail ont le statut \"cleaned\" dans Mailchimp, une balise de validation "
+"correspondante est placée dans hitobito. (par ex. \"Adresse e-mail principal"
+" non valide\")"
 
 #: ../../mailing_lists_mailchimp_export.rst:50
 #: 6664ac6e827442de84cb3a276352c2a2
@@ -143,3 +189,8 @@ msgid ""
 "Ihrer E-Mail), behalten ihren «Unsubscribed»-Status und erhalten auch nach "
 "einem neuerlichen Export aus hitobito keine E-Mails mehr von Ihnen."
 msgstr ""
+"Les abonné·e·s à votre liste de diffusion qui se sont activement "
+"désinscrit·e·s de votre liste auprès de MailChimp par le passé (via le lien "
+"de désinscription dans votre e-mail) conservent leur statut \"Unsubscribed\""
+" et ne recevront plus d'e-mails de votre part même après une nouvelle "
+"exportation depuis hitobito."

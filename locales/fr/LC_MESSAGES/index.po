@@ -3,6 +3,9 @@
 # This file is distributed under the same license as the Hitobito package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Michael Schär <it@pbs.ch>, 2023
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -10,7 +13,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-17 18:43+0100\n"
 "PO-Revision-Date: 2023-02-17 22:36+0000\n"
-"Language-Team: French (https://www.transifex.com/hitobito/teams/4727/fr/)\n"
+"Last-Translator: Michael Schär <it@pbs.ch>, 2023\n"
+"Language-Team: French (https://app.transifex.com/hitobito/teams/4727/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -19,23 +23,25 @@ msgstr ""
 
 #: ../../index.rst:15
 msgid "Anleitung"
-msgstr ""
+msgstr "Instructions"
 
 #: ../../index.rst:27
 msgid "Anbindung"
-msgstr ""
+msgstr "Connexion"
 
 #: ../../index.rst:35
 msgid "FAQ"
-msgstr ""
+msgstr "FAQ"
 
 #: ../../index.rst:7 6763317cdc6c454fbf009cc2b4ca4f7d
 msgid "Benutzeranleitung für Hitobito"
-msgstr ""
+msgstr "Instructions d'utilisation pour Hitobito"
 
 #: ../../index.rst:9 da23bceee37b47618cfb13656adf34be
 msgid "Hier findest du die generische Benutzerdokumentation für Hitobito."
 msgstr ""
+"Ici, tu trouveras la documentation générale pour les utilisateur·trice·s de "
+"Hitobito."
 
 #: ../../index.rst:11 fd0d01baf1a5405fb82fe0b7c47bb260
 msgid ""
@@ -45,3 +51,9 @@ msgid ""
 "einfach auch Änderungen, Ergänzungen über dieses Formular: "
 "https://github.com/hitobito/user_documentation/issues/new vorschlagen."
 msgstr ""
+"Tu peux toi-même apporter ta contribution et des compléments en effectuant "
+"des corrections sur les pages d'instructions sur Github : "
+"https://github.com/hitobito/user_documentation Si tu trouves cela trop "
+"compliqué, tu peux aussi simplement proposer des modifications, des "
+"compléments grâce à ce formulaire : "
+"https://github.com/hitobito/user_documentation/issues/new"

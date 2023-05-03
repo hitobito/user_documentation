@@ -3,6 +3,9 @@
 # This file is distributed under the same license as the Hitobito package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Michael Schär <it@pbs.ch>, 2023
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -10,7 +13,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-17 18:43+0100\n"
 "PO-Revision-Date: 2023-02-17 22:36+0000\n"
-"Language-Team: Italian (https://www.transifex.com/hitobito/teams/4727/it/)\n"
+"Last-Translator: Michael Schär <it@pbs.ch>, 2023\n"
+"Language-Team: Italian (https://app.transifex.com/hitobito/teams/4727/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -19,21 +23,23 @@ msgstr ""
 
 #: ../../two_factor_authentication.rst:2 9c2654c60afc42f4a8442a2c0aeacca5
 msgid "Zwei-Faktor-Authentifizierung"
-msgstr ""
+msgstr "Autenticazione a due fattori"
 
 #: ../../two_factor_authentication.rst:4 07d86d7be50f48c698346eda1d6fbdfb
 msgid ""
 "Hitobito unterstützt die Zwei-Faktor-Authentifizierung mit folgender "
 "Methode:"
 msgstr ""
+"Hitobito supporta l'autenticazione a due fattori utilizzando il seguente "
+"metodo:"
 
 #: ../../two_factor_authentication.rst:6 947bfdd92be042529dd959479ab3bfd6
 msgid "TOTP mittels Authenticator-App und sechsstelligem Code"
-msgstr ""
+msgstr "TOTP utilizzando l'app di autenticazione e il codice a sei cifre"
 
 #: ../../two_factor_authentication.rst:9 2f6c9c219b7e4c5388b2b69b2ea4aca9
 msgid "Voraussetzungen"
-msgstr ""
+msgstr "Requisiti"
 
 #: ../../two_factor_authentication.rst:11 8d6d32fe611e47acab79da70e40a21ff
 msgid ""
@@ -44,10 +50,15 @@ msgid ""
 "andOTP (https://github.com/andOTP/andOTP) oder Google Authenticator "
 "funktionieren."
 msgstr ""
+"Per l'autenticazione a due fattori sono necessari uno smartphone e un'app di"
+" autenticazione. L'autenticazione a due fattori è stata sviluppata e testata"
+" con l'app gratuita freeOTP (https://freeotp.github.io/), ma dovrebbe "
+"funzionare anche con altre app simili come andOTP "
+"(https://github.com/andOTP/andOTP ) o Google Authenticator."
 
 #: ../../two_factor_authentication.rst:14 0b89082c68624cb2b983d0a8b76fe234
 msgid "Einrichten"
-msgstr ""
+msgstr "Configurare"
 
 #: ../../two_factor_authentication.rst:16 e0fd0e00ce9244f5b8496d2e618f291f
 msgid ""
@@ -56,6 +67,10 @@ msgid ""
 " den Knopf \"Zwei Faktor Authentifizierung einrichten\" sehen. Durch Klicken"
 " auf diesen Knopf landet man auf einer Seite mit einem QR-Code."
 msgstr ""
+"Per configurare l'autenticazione a due fattori, devi prima accedere a "
+"hitobito. Ora puoi vedere il pulsante \"Imposta autenticazione a due "
+"fattori\" nel menu a discesa \"Accesso\" sul tuo profilo. Facendo clic su "
+"questo pulsante si accede a una pagina con un codice QR."
 
 #: ../../two_factor_authentication.rst:18 6fc9073b97af4a19b820872f749ec19a
 msgid ""
@@ -63,6 +78,9 @@ msgid ""
 "in der Kopfzeile. Dadurch öffnet sich die Kamera mit einem Quadrat in der "
 "Mitte. Der QR-Code in hitobito kann nun mit der Kamera gescannt werden."
 msgstr ""
+"Nell'app freeOTP sullo smartphone, fai clic sul pulsante del codice QR "
+"nell'intestazione. Questo aprirà la fotocamera con un quadrato nel mezzo. Il"
+" codice QR in hitobito può ora essere scansionato con la fotocamera."
 
 #: ../../two_factor_authentication.rst:20 e6094cacc0f24c0f8a4c7779a6a89060
 msgid ""
@@ -71,6 +89,10 @@ msgid ""
 "anhand der Bezeichnung ''hitobito'' und der E-Mail-Adresse. Durch einen "
 "Klick auf den Eintrag wird ein sechsstelliger Code wird angezeigt."
 msgstr ""
+"Una volta scansionato il codice, la fotocamera si chiuderà e sull'app "
+"dovrebbe apparire un nuovo elemento nell'elenco. Questo può essere "
+"riconosciuto dalla designazione ''hitobito'' e dall'indirizzo e-mail. "
+"Cliccando sulla voce verrà visualizzato un codice a sei cifre."
 
 #: ../../two_factor_authentication.rst:22 23a2713a58a2433a894568aec820d26b
 msgid ""
@@ -81,10 +103,15 @@ msgid ""
 "man auf das Profil zurückgeleitet, und die Zwei-Faktor-Authentifizierung ist"
 " eingerichtet."
 msgstr ""
+"Questo codice cambia ogni pochi secondi. Ora digita il codice in hitobito e "
+"fai clic su \"invia\". Se il codice non è corretto, verrà visualizzato un "
+"messaggio corrispondente e dovrai riprovare. Una volta che il codice è stato"
+" inserito correttamente e in tempo, verrai reindirizzato al profilo e verrà "
+"impostata l'autenticazione a due fattori."
 
 #: ../../two_factor_authentication.rst:25 5a868e0705714cc1a9891904dcbc90c2
 msgid "Login mit Zwei-Faktor-Authentifizierung"
-msgstr ""
+msgstr "Login con l'autenticazione a due fattori"
 
 #: ../../two_factor_authentication.rst:27 f718cad046f541c7a8c71c66634eb49e
 msgid ""
@@ -96,10 +123,17 @@ msgid ""
 "abgelaufen sein, wird eine entsprechende Nachricht angezeigt. Ist der Code "
 "jedoch korrekt, wird man authentifiziert und in hitobito weitergeleitet."
 msgstr ""
+"Una volta impostata l'autenticazione a due fattori, il codice deve essere "
+"inserito dall'app ogni volta che si effettua l'accesso. Dopo aver inserito "
+"la tua e-mail e password, verrai reindirizzato a una pagina con un prompt. "
+"Qui digiti nuovamente il codice dall'app freeOTP e fai clic su \"Invia\". Se"
+" il codice non è corretto o è già scaduto, verrà visualizzato un messaggio "
+"corrispondente. Tuttavia, se il codice è corretto, verrai autenticato e "
+"reindirizzato a hitobito."
 
 #: ../../two_factor_authentication.rst:30 401bd7623ede46aeb1f3247a0021746b
 msgid "Zurücksetzen und deaktivieren"
-msgstr ""
+msgstr "Ripristina e disabilita"
 
 #: ../../two_factor_authentication.rst:32 f31be3cf2c8a407e8b937717b652b253
 msgid ""
@@ -108,15 +142,23 @@ msgid ""
 "Dropdown \"Login\" zwei Knöpfe \"Zwei Faktor Authentifizierung "
 "zurücksetzen\" und \"Zwei Faktor Authentifizierung deaktivieren\"."
 msgstr ""
+"Gli amministratori possono reimpostare o disabilitare l'autenticazione a due"
+" fattori di un individuo sul proprio profilo. Due pulsanti \"Ripristina "
+"autenticazione a due fattori\" e \"Disabilita autenticazione a due fattori\""
+" vengono visualizzati sotto il menu a discesa \"Accesso\"."
 
 #: ../../two_factor_authentication.rst:34 7e9e577e545641dbab0a987795d704c0
 msgid ""
 "Wird die Zwei-Faktor-Authentifizierung zurückgesetzt, wird der Nutzer beim "
 "nächsten Login einen neuen QR Code scannen müssen."
 msgstr ""
+"Se l'autenticazione a due fattori viene ripristinata, l'utente dovrà "
+"scansionare un nuovo codice QR al successivo accesso."
 
 #: ../../two_factor_authentication.rst:36 4cb0811f88814a77953d896bc0289cda
 msgid ""
 "Bei der Deaktivierung wird der Nutzer nicht mehr zur Zwei-Faktor-"
 "Authentifizierung aufgefordert."
 msgstr ""
+"Se disattivato, all'utente non viene più richiesta l'autenticazione a due "
+"fattori."

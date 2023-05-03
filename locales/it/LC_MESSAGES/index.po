@@ -5,6 +5,7 @@
 # 
 # Translators:
 # Jenkins <hudson@puzzle.ch>, 2023
+# Michael Schär <it@pbs.ch>, 2023
 # 
 #, fuzzy
 msgid ""
@@ -13,8 +14,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-17 18:43+0100\n"
 "PO-Revision-Date: 2023-02-17 22:36+0000\n"
-"Last-Translator: Jenkins <hudson@puzzle.ch>, 2023\n"
-"Language-Team: Italian (https://www.transifex.com/hitobito/teams/4727/it/)\n"
+"Last-Translator: Michael Schär <it@pbs.ch>, 2023\n"
+"Language-Team: Italian (https://app.transifex.com/hitobito/teams/4727/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -31,15 +32,15 @@ msgstr "Connessione"
 
 #: ../../index.rst:35
 msgid "FAQ"
-msgstr ""
+msgstr "FAQ"
 
 #: ../../index.rst:7 6763317cdc6c454fbf009cc2b4ca4f7d
 msgid "Benutzeranleitung für Hitobito"
-msgstr ""
+msgstr "Manuale dell'utente di Hitobito"
 
 #: ../../index.rst:9 da23bceee37b47618cfb13656adf34be
 msgid "Hier findest du die generische Benutzerdokumentation für Hitobito."
-msgstr ""
+msgstr "Qui trovi la documentazione generica per gli utilizzatori di Hitobito"
 
 #: ../../index.rst:11 fd0d01baf1a5405fb82fe0b7c47bb260
 msgid ""
@@ -49,3 +50,8 @@ msgid ""
 "einfach auch Änderungen, Ergänzungen über dieses Formular: "
 "https://github.com/hitobito/user_documentation/issues/new vorschlagen."
 msgstr ""
+"Puoi dare il tuo contributo e apportare aggiunte correggendo le pagine del "
+"manuale su Github: https://github.com/hitobito/user_documentation. Se ciò "
+"dovessere risultare troppo complicato per te, puoi semplicemente suggerire "
+"modifiche o aggiunte tramite questo modulo: "
+"https://github.com/hitobito/user_documentation/issues/new."

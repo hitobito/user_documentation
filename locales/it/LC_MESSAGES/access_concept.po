@@ -5,6 +5,7 @@
 # 
 # Translators:
 # Jenkins <hudson@puzzle.ch>, 2023
+# Michael Schär <it@pbs.ch>, 2023
 # 
 #, fuzzy
 msgid ""
@@ -13,8 +14,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-17 18:43+0100\n"
 "PO-Revision-Date: 2023-02-17 22:36+0000\n"
-"Last-Translator: Jenkins <hudson@puzzle.ch>, 2023\n"
-"Language-Team: Italian (https://www.transifex.com/hitobito/teams/4727/it/)\n"
+"Last-Translator: Michael Schär <it@pbs.ch>, 2023\n"
+"Language-Team: Italian (https://app.transifex.com/hitobito/teams/4727/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -450,7 +451,7 @@ msgstr ""
 
 #: ../../access_concept.rst:183 22bcf751bfd748eaa28cc224439f11d7
 msgid "Security: Zugriffsanfragen und manuelle Freigabe"
-msgstr ""
+msgstr "Security:  richieste di accesso e concessione manuale"
 
 #: ../../access_concept.rst:185 5d28cb9a390a4f678daec484a10e85a3
 msgid ""
@@ -459,6 +460,11 @@ msgid ""
 "oder Abo hinzufügen, in der sie Zugriffsrechte hat. Dieses Datenschutz-"
 "Problem kann in hitobito mit den \"manuellen Freigaben\" verhindert werden."
 msgstr ""
+"Supponiamo che Anna desideri l'accesso non autorizzato alle informazioni "
+"personali di John. Per fare ciò, Anna può semplicemente aggiungere John a un"
+" gruppo, evento o abbonamento a cui ha diritti di accesso. Questo problema "
+"di protezione dei dati può essere prevenuto in hitobito con i \"concessione "
+"manuale\"."
 
 #: ../../access_concept.rst:187 fa55b466fa39453b9ec056faf976a2ee
 msgid ""
@@ -471,6 +477,14 @@ msgid ""
 "manuellen Freigaben können bei der Ebene (Verein Sterngucker Luzern) auf dem"
 " Anfragen-Tab aktiviert werden."
 msgstr ""
+"Quando si aggiunge John a gruppi, eventi e abbonamenti, hitobito controlla "
+"il ruolo principale di John (il ruolo contrassegnato da un asterisco). Se "
+"John non ha più un ruolo attivo, hitobito controllerà invece l'ultimo ruolo "
+"che era ancora attivo. Viene controllato se i rilasci manuali sono attivati "
+"​​nel livello di questo ruolo. Esempio: John ha il suo ruolo principale nel "
+"gruppo di lavoro \"Saturno\" dell'associazione \"Osservatori di stelle "
+"Lucerna\". Le approvazioni manuali possono essere attivate a livello "
+"(Associazione osservatori di stelle Lucerna) nella scheda Richieste."
 
 #: ../../access_concept.rst:190 36ae708a6cc841b4aae898a827d0df52
 msgid ""
@@ -478,6 +492,9 @@ msgid ""
 "in die neue fremde Gruppe, Anlass oder Abo hinzugefügt, sondern es wird eine"
 " Zugriffsanfrage ausgelöst. Anna sieht dann folgende Nachricht:"
 msgstr ""
+"Se nel livello sono attivati ​​rilasci manuali, John non verrà aggiunto "
+"direttamente al nuovo gruppo, evento o abbonamento straniero, ma verrà "
+"attivata una richiesta di accesso. Anna vede quindi il seguente messaggio:"
 
 #: ../../access_concept.rst:194 2f8e3a29b49740b9844575efb9883fc8
 msgid ""
@@ -487,6 +504,10 @@ msgid ""
 "Anfragen-Tab der Gruppe kann die Zugriffsanfrage akzeptiert oder abgelehnt "
 "werden."
 msgstr ""
+"Tutte le persone selezionate nella scheda Richieste, più John se ha un "
+"login, riceveranno un'e-mail che le informa che Anna desidera aggiungere "
+"John a una nuova posizione. Da questa email o dalla scheda Richieste del "
+"gruppo, la richiesta di accesso può essere accettata o negata."
 
 #: ../../access_concept.rst:198 06862aa0ee654384b310e3c12373abca
 msgid ""
@@ -496,3 +517,8 @@ msgid ""
 "vorher Zugriff auf John hat (z.B. wenn beide eine Rolle mit `contact_data` "
 "haben)."
 msgstr ""
+"In questo modo, Anna non ottiene mai l'accesso non autorizzato ai dati "
+"personali di John. Tuttavia, il tutto funziona solo se i rilasci manuali "
+"sono attivati ​​al livello. Nessuna richiesta di accesso viene attivata se "
+"Anna ha già accesso a John (ad esempio se entrambi hanno un ruolo con "
+"`contact_data`)."
