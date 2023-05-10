@@ -24,7 +24,7 @@ Die Benutzerdokumentation von Hitobito bringt einige Herausforderungen mit sich.
 Hier eine Sammlung von User Dokumentation/Dokumente von den Community Mitgliedern:
 
 * Hitobito generische [User Dokumentation](https://hitobito.readthedocs.io/de/latest/)
-* SBV: [Benutzerhandbuch](https://handbuch-hitobito.readthedocs.io/de/latest/) und [Erklärvideos](https://www.youtube.com/watch?v=-XPwxKcvS4c&list=UUjGtTWlk8_HvhjCo8eVUmvw&index=13)
+* SBV: [Benutzerhandbuch](https://hitobito-manual-sbv-de.readthedocs.io/de/latest/) und [Erklärvideos](https://www.youtube.com/watch?v=-XPwxKcvS4c&list=UUjGtTWlk8_HvhjCo8eVUmvw&index=13)
 * Cevi: [Wiki Seite Cevi.DB](https://wiki.cevi.ch/index.php/Cevi.DB)
 * Jubla: [Allgemeine Infos](http://jubla.ch/datenbank) und [Handbuch Jubladb](https://github.com/jubla-ch/handbuch-jubladb-hitobito)
 * PBS: Einstieg in [Deutsch](http://info-de.scouts.ch/) oder [Franzöisch](http://info-fr.scouts.ch/) oder [Italienisch](https://pfadi.swiss/it/midata/)
