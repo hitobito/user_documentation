@@ -28,12 +28,6 @@ Die Bestätigung ist wichtig, da Hitobito als OAuth Provider genutzt werden kann
 4. Person X füllt bei sich selber die ehemalige Haupt-E-Mailadresse von Person A ein. *Dieser Schritt wird durch die aktuelle E-Mail-Verifikation verhindert.*
 5. Person X verwendet beim Drittservice den "Login via hitobito" und kann nun den dortigen Account von Person A übernehmen.
 
-
-Mailadressen Export für Outlook
--------------------------------
-
-Der Export "Mailadressen" gibt eine Liste aller Mailadressen getrennt durch Kommas aus. Outlook erkennt standardmässig die einzelnen Mailadressen nicht. Bei den meisten Mailprogrammen, ausser Outlook, funktioniert Komma als Trennzeichen. Outlook kann konfiguriert werden, dass auch Kommas funktionieren: https://www.officetooltips.com/outlook_365/tips/how_to_use_commas_as_separators_for_multiple_email_recipients.html
-
 Wie werden Personen-Duplikate erkannt?
 --------------------------------------
 
