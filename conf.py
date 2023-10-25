@@ -20,7 +20,7 @@
 # -- Project information -----------------------------------------------------
 
 project = u'Hitobito'
-copyright = u'2021, hitobito AG'
+copyright = u'2023, Puzzle ITC'
 author = u'Hitobito Contritubtors'
 
 # The short X.Y version
@@ -41,6 +41,7 @@ release = u''
 extensions = [
     'sphinx.ext.todo',
     'sphinx.ext.ifconfig',
+    'sphinx_rtd_theme',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
