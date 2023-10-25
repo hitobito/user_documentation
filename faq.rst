@@ -47,6 +47,12 @@ https://www.paymentstandards.ch/dam/downloads/ig-qr-bill-de.pdf
 
 Wenn keine QR-IBAN in Hitobito erfasst wurde, wird eine Creditor Reference (SCOR) bei der generierung von Rechnungen verwendet.
 
+
+Über hitobito können verschiedene Mails verschickt werden. Welcher Absender wird da verwendet?
+------------------------------------------
+
+Wenn du ein Mail an ein Abo schickst, wirst du beim Empfänger auch als Absender angezeigt. Der technische Absender ist aber eine bounced Mailadresse pro Abo mit der Kundendomaine verwendet. Vom System generierte Mails wie Rechnungen, Passwortresets haben einen pro Instanz definierten Absender. Die Mails werden über den hitobito eigenen Mailserver (mxout.appuio.puzzle.ch) verschickt. Mittels SPF Eintrag sorgen wir dafür, dass dieser Mailserver im Namen der Kundendomaine verschicken darf.
+
 Was bedeutet Hitobito 人人
 --------------------------
 
