@@ -28,7 +28,7 @@ Wir richte ich die Schnittstelle ein?
 	c) Im Vertrag muss eine Software angegeben werde, damit ist hitobito gemeint. Angegeben werden soll als Software «hitobito» und als Hersteller «Puzzle ITC»
 	d) Die Buchungsart ist Sammelbuchung, die Periodizität ist Euch selbst überlassen.
 2) Der Vertrag wird der Bank/Post zurückgeschickt. Von Seiten der Bank/Post wird nun ein Dokument mit der Vertrags-ID und der Kunden-ID für EBICS erstellt und Euch zur Verfügung gestellt. (Die genaue Bezeichnung kann variieren und auch als Teilnehmer-ID / Partner-ID o.Ä. bezeichnet sein.)
-3) Mit diesem Dokument der Bank/Post könnt Ihr in hitobito unter den Rechnungseinstellungen->Zahlungsschnittstellen die Vertrags-ID und die Kunden-ID eingeben. Sobald dies gemacht ist, generiert Euch hitobito ein Initialisierungs-Dokument (INI-Brief).
+3) Mit diesem Dokument der Bank/Post könnt Ihr in hitobito unter den Rechnungseinstellungen->Zahlungsschnittstellen die Vertrags-ID und die Kunden-ID eingeben. Sobald dies gemacht ist, erscheint in Hitobito ein Button zur generierung des Initialisierungs-Dokuments (INI-Brief).
 4) Dieses Dokument muss dem Bankinstitut unterschrieben zurückgeschickt werden, damit die Verbindung zwischen Konto und hitobito erstellt werden kann.
 5) Die Bank informiert Euch, sobald die Schnittstelle eingerichtet und aktiv ist.
 6) Ist dies der Fall, werden Zahlungen, die in hitobito ausgelöst wurden, auch in hitobito abgebucht.
