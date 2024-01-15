@@ -23,7 +23,7 @@ technisch: ``layer_and_below_full`` direkt in Dachverband, inkl. ``contact_data`
 Karin sieht: 
 ^^^^^^^^^^^^^^^^^^
 
-.. image:: http://hitobito.com/images/berechtigungskonzept/TopLayerFullRestrained.png
+.. image:: images/TopLayerFullRestrained.png
 
 Karin hat vollen Zugriff auf ihrer Ebene und auf alle darunter liegenden Ebenen. Dadurch kann sie alle Personen im Dachverband, in Regionen und auf oberster Ebene der Ortsgruppen sehen und ändern.
 Nicht sichtbar und änderbar sind für sie alle Personen, die innerhalb einer Ortsgruppe, also in einer Untergruppe unter der Ortsgruppe, aufgehängt sind. 
@@ -45,7 +45,7 @@ technisch: ``group_read`` in Gremium ohne ``contact_data``
 Luca sieht: 
 ^^^^^^^^^^^^^^^^^
 
-.. image:: http://hitobito.com/images/berechtigungskonzept/TopLayerSubgroup.png
+.. image:: images/TopLayerSubgroup.png
 
 Luca sieht alle Mitglieder und Leitung innerhalb des Gremiums. Sonst sieht er niemanden ausserhalb des Gremiums. 
 
@@ -62,7 +62,7 @@ technisch: ``group_read`` inkl. ``contact_data``
 Maria sieht
 ^^^^^^^^^^^^^^^
 
-.. image:: http://hitobito.com/images/berechtigungskonzept/MidlayerGroup.png
+.. image:: images/MidlayerGroup.png
 
 Maria kann alle Mitglieder ihrer Gruppe sehen, also alle Mitarbeitenden auf Regionsebene. 
 
@@ -82,7 +82,7 @@ technisch: ``layer_read`` inkl. ``contact_data``
 Petra sieht: 
 ^^^^^^^^^^^^^^^^
 
-.. image:: http://hitobito.com/images/berechtigungskonzept/MidlayerFull.png
+.. image:: images/MidlayerFull.png
 
 
 Petra sieht alle Personen in der Region inkl. Personen in allfälligen Untergruppen. Sie sieht jedoch keine Personen in Ortsgruppen, welche der Region angehängt sind. 
@@ -104,7 +104,7 @@ technisch: ``layer_full`` incl. ``contact_data``
 Anna sieht
 ^^^^^^^^^^^^^^
 
-.. image:: http://hitobito.com/images/berechtigungskonzept/LowLayerFull.png
+.. image:: images/LowLayerFull.png
 
 
 Anna sieht alle Personen innerhalb der Ortsgruppe. 
@@ -125,7 +125,7 @@ technisch: ``layer_read`` (ohne ``contact_data``)
 
 Franz sieht
 ^^^^^^^^^^^^^^^^^^^^^
-.. image:: http://hitobito.com/images/berechtigungskonzept/LowLayerFull.png
+.. image:: images/LowLayerFull.png
 
 Franz sieht alle Personen innerhalb der Ortsgruppe, kann diese aber nicht ändern. 
 
@@ -142,7 +142,7 @@ technisch: ``none``
 Jonas sieht
 ^^^^^^^^^^^^^^^^^^^^
 
-.. image:: http://hitobito.com/images/berechtigungskonzept/LowLayerNone.png
+.. image:: images/LowLayerNone.png
 
 
 Jonas sieht keine weiteren Personen. 

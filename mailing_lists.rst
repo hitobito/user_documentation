@@ -37,13 +37,13 @@ In einem zweiten Schritt gilt es noch, die Empfänger dieses Abos zu bestimmen. 
 Gruppe/Rolle hinzufügen wählen
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: https://content.screencast.com/users/RolandStuder/folders/Jing/media/b3a21a77-c75f-443e-82f2-c0f2ca71597e/00000015.png
+.. image:: images/AboAdd.png
 
 Nach Tags einschränken (optional)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
-.. image:: https://content.screencast.com/users/RolandStuder/folders/Jing/media/1c3fd484-282d-40e6-bddf-018824c3a22c/00000014.png
+.. image:: images/AboTag.png
 
 
 Mailversände

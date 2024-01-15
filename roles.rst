@@ -14,7 +14,7 @@ Rollen sind ein zentrales Konzept in hitobito:
 Empfehlungen
 ------------
 
-.. image:: https://content.screencast.com/users/RolandStuder/folders/Jing/media/4c12cc10-353c-4fce-8146-8f6a55646929/00000011.png
+.. image:: images/GroupAdd.png
 
 Für jede Organisation stellen wir die passenden Rollen bereit. Versuch
 also möglich die passende Art von Gruppentyp auszuwählen, damit du dort
@@ -23,7 +23,7 @@ der Person die richtige Rolle zuweisen kannst.
 Eigene Bezeichnungen für Rollen
 -------------------------------
 
-.. image:: https://content.screencast.com/users/RolandStuder/folders/Jing/media/97acc286-db14-4d65-bb64-fbefa5a3d8c8/00000012.png
+.. image:: images/GroupDescription.png
 
 
 Du kannst neben der offiziellen Rollenbezeichnung noch deine eigene
