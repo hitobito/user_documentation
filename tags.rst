@@ -14,7 +14,7 @@ Bsp.:
 - Tag "Mailings: News" oder "Mailings: Events" vergeben, wenn es Newsletter für verschiedene Fälle gibt.
 
 
-.. image:: https://content.screencast.com/users/RolandStuder/folders/hitobito/media/53cc952e-0ba6-4356-8478-1198e15d0638/00000033.png
+.. image:: images/Tags.png
 
 Verwalten von Tags
 --------------------------------
