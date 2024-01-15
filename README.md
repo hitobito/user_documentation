@@ -31,10 +31,8 @@ Hier eine Sammlung von User Dokumentation/Dokumente von den Community Mitglieder
 * Die Mitte: Wir zur Zeit noch erstellt (Mehrsprachig)
 
 ## Contribute generic user documentation (this repo)
-
-This will be built with https://readthedocs.org/. The readthedocs page is rebuilt with each merged PR. At https://readthedocs.org/projects/hitobito/builds/ you can check whether the build was successful. If you are unsure, you can first merge into the beta branch. This is also built and can be reached at https://hitobito.readthedocs.io/de/beta/
-
-A helpful overview over the restructured syntax that we use can be found here: https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html
+The [readthedocs](https://readthedocs.org/) page is rebuilt with each merged PR. You can check whether the build was successful [here](https://readthedocs.org/projects/hitobito/builds/). If you are unsure, you can first merge into the beta branch. This is also built and can be reached in the [beta page](https://hitobito.readthedocs.io/de/beta/)
+A helpful overview over the restructured syntax that we use can be found [here](https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html)
 
 Manual building:
 
