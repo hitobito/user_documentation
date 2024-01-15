@@ -51,6 +51,11 @@ Mailversände
 
 Wenn ihr für das vorliegende Beispiel eine Einladung an alle Mitglieder der Region Bern versenden möchtet, könnt ihr diese an die gewählte E-Mail-Adresse senden. hitobito wird diese danach an die damit verknüpften Rollen, Anlässe etc. "weiterleiten". 
 
+Im Abo kann definiert werden, wer auf das Abo schreiben dar. Nur Abonnenten auf der Mailingsliste, oder beliebige Absender*innen. Im Feld "Zusätzlicher Absender" kann definiert werden, wenn von weiteren E-Mail Adressen auf den Mailverteiler geschrieben werden kann.
+Ein Beispiel:
+Abo ist ein Präsidiumsverteiler mit sämtlichen Personen mit der Rolle Präsident*in. Da dürfen nur Personen welche im Abo sind drauf schreiben. Zusätzlich soll aber von info@hitobitokunde.ch auf dieses Abo geschrieben werden. In diesem Fall muss die Mailadresse info@hitobitokunde.ch in das Feld "Zusätzlicher Absender" eingetragen werden. Mittels Strichpunkt (;) können auch mehrere Adressen erfasst werden.
+
+
 Etiketten drucken
 ----------------------
 
