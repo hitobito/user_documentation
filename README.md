@@ -10,7 +10,7 @@ Die Benutzerdokumentation von Hitobito bringt einige Herausforderungen mit sich.
 
 ## Generische Dokumentation
 
-* Ziel: Allgemeine Dokumentation mit einem überblick, was Hitobito alles kann. Ohne die spezifischen Anpassungen an den Wagons.
+* Ziel: Allgemeine Dokumentation mit einem Überblick, was Hitobito alles kann. Ohne die spezifischen Anpassungen an den Wagons.
 * Zielgruppe: Personen welche mehr über Hitobito wissen wollen und einen Überblick was alles möglich ist
 * Diese Doku wird gemeinsam gepflegt
 * Bemerkungen oder eine Infobox falls das Modul in mehreren Wagons oft oder gross abweicht. Analog der Dokumentation der [Rechnungen](https://hitobito.readthedocs.io/de/latest/access_concept.html)
@@ -32,7 +32,7 @@ Hier eine Sammlung von User Dokumentation/Dokumente von den Community Mitglieder
 
 ## Contribute generic user documentation (this repo)
 
-This will be built with https://readthedocs.org/. The readthedocs page is rebuilt with each merged PR. At https://readthedocs.org/projects/hitobito/builds/ you can check whether the build was successful.
+This will be built with https://readthedocs.org/. The readthedocs page is rebuilt with each merged PR. At https://readthedocs.org/projects/hitobito/builds/ you can check whether the build was successful. If you are unsure, you can first merge into the beta branch. This is also built and can be reached at https://hitobito.readthedocs.io/de/beta/
 
 A helpful overview over the restructured syntax that we use can be found here: https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html
 
