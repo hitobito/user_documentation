@@ -32,7 +32,7 @@ Hier eine Sammlung von User Dokumentation/Dokumente von den Community Mitglieder
 
 ## Contribute generic user documentation (this repo)
 
-This will be built with https://readthedocs.org/
+This will be built with https://readthedocs.org/. The readthedocs page is rebuilt with each merged PR. At https://readthedocs.org/projects/hitobito/builds/ you can check whether the build was successful.
 
 A helpful overview over the restructured syntax that we use can be found here: https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html
 
