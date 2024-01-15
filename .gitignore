@@ -1,1 +1,5 @@
-_build
+_build/
+
+bin/
+sphinx/
+locales/*/LC_MESSAGES/*.mo

@@ -11,18 +11,21 @@ More to come, watch this space.
 ### Via Python `virtualenv`
 
 Install python virtualenv
+
 ```bash
 $ sudo apt install virtualenv # on Ubuntu
 ```
 
 Create a virtualenv and install the sphinx dependencies
+
 ```bash
 $ cd workdir
-$ virtualenv sphinx 
+$ virtualenv sphinx
 $ sphinx/bin/pip install sphinx sphinx-intl[transifex] sphinx_rtd_theme
 ```
 
 Set the path to the virtualenv bin directory
+
 ```bash
 export PATH=$(pwd)/sphinx/bin:${PATH}
 ```

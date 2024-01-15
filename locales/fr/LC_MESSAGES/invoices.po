@@ -1,77 +1,89 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2018, hitobito AG
-# This file is distributed under the same license as the hitobito package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
-#
+# Copyright (C) 2021, hitobito AG
+# This file is distributed under the same license as the Hitobito package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Michael Schär <it@pbs.ch>, 2023
+# 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: hitobito \n"
+"Project-Id-Version: Hitobito\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-06 16:50+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2023-02-17 18:43+0100\n"
+"PO-Revision-Date: 2023-02-17 22:36+0000\n"
+"Last-Translator: Michael Schär <it@pbs.ch>, 2023\n"
+"Language-Team: French (https://app.transifex.com/hitobito/teams/4727/fr/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.0\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
-#: ../../invoices.rst:2
+#: ../../invoices.rst:2 726d0483782d49f98d75c30872fb8b8f
 msgid "Rechnungen"
-msgstr ""
+msgstr "Factures"
 
-#: ../../invoices.rst:4
+#: ../../invoices.rst:4 bf90a7d9bfc540b39666a9c6d91eeed8
 msgid "Rechnungen sind ein Feature welches pro Instanz aktiviert werden kann."
 msgstr ""
+"Les factures sont une fonctionnalité qui peut être activée par instance."
 
-#: ../../invoices.rst:7
+#: ../../invoices.rst:7 323b47f55fca4235901f0da393ec08fb
 msgid ""
-"Ob du Rechnungen verwalten kannst hängt davon ab, ob dir eine "
-"entsprechende Rolle vergeben wurde. Welche Rolle das ist hängt von der "
-"jeweiligen Organisation ab."
+"Ob du Rechnungen verwalten kannst hängt davon ab, ob dir eine entsprechende "
+"Rolle vergeben wurde. Welche Rolle das ist hängt von der jeweiligen "
+"Organisation ab."
 msgstr ""
+"Pour pouvoir gérer des factures, il faut qu'un rôle correspondant t'ait été "
+"attribué·e. La nature de ce rôle dépend de l'organisation."
 
-#: ../../invoices.rst:10
+#: ../../invoices.rst:10 1fce62817b3c48598c0ac247816f8000
 msgid "In hitobito können Rechnungen erstellt und Debitoren verwaltet werden."
 msgstr ""
+"Dans hitobito, il est possible de créer des factures et de gérer les "
+"débiteurs."
 
-#: ../../invoices.rst:14
+#: ../../invoices.rst:14 60ce4613e4b0415685bf9ac7ccff71e7
 msgid "Rechnungen erstellen"
-msgstr ""
+msgstr "Créer des factures"
 
-#: ../../invoices.rst:16
+#: ../../invoices.rst:16 7cbdeff60b0c40379559ccf152a8b21e
 msgid ""
 "Rechnungen werden nicht auf der Ansicht Rechnungen erstellt, sondern "
-"ausgehend von Personenlisten oder auf der Ansicht einer bestimmten "
-"Person."
+"ausgehend von Personenlisten oder auf der Ansicht einer bestimmten Person."
 msgstr ""
+"Les factures ne sont pas créées dans l'affichage Factures, mais à partir de "
+"listes de personnes ou de l'affichage d'une personne spécifique."
 
-#: ../../invoices.rst:18
+#: ../../invoices.rst:18 ec538c53b561434db58f47683f21c0cd
 msgid "Rechnungen können aus folgenden Ansichten erstellt werden:"
-msgstr ""
+msgstr "Les factures peuvent être créées à partir des affichages suivants :"
 
-#: ../../invoices.rst:20
+#: ../../invoices.rst:20 6109ac81fb0d4c12a16dd2a6ae284c8e
 msgid "Personenlisten"
-msgstr ""
+msgstr "Listes de personnes"
 
-#: ../../invoices.rst:21
+#: ../../invoices.rst:21 2e5ef13f80834e488e5de1e1d6024c5d
 msgid "Teilnehmerlisten von einem Event, Lager oder Kurs"
-msgstr ""
+msgstr "Listes des participants à un événement, un camp ou un cours"
 
-#: ../../invoices.rst:22
+#: ../../invoices.rst:22 5005f4cf83b4410582e63616a3f3e03f
 msgid "Einzelperson"
-msgstr ""
+msgstr "Personne seule"
 
-#: ../../invoices.rst:23
+#: ../../invoices.rst:23 f295e0c1deb948d6b8a0c45806bd54af
 msgid "im Abo an die jeweiligen Empfänger, dies erstellt eine Sammelrechnung"
 msgstr ""
+"dans un abonnement aux destinataires respectifs, ce qui crée une facture "
+"globale"
 
-#: ../../invoices.rst:26
+#: ../../invoices.rst:26 6f702026b9f949a883a26f6224ef73a6
 msgid "Rechnung"
-msgstr ""
+msgstr "Facture"
 
-#: ../../invoices.rst:27
+#: ../../invoices.rst:27 ed84aaac456149ab9bc65c62d32f6a10
 msgid ""
 "Hier finden Sie die Übersicht über alle erstellten Rechnungen und hier "
 "können diese verschickt, bearbeitet, gelöscht oder gedruckt werden. Pro "
@@ -79,70 +91,100 @@ msgid ""
 "jeweiligen Rechnung erfasst oder mittels camt.054 XML-Datei [#f2]_ "
 "eingelesen werden."
 msgstr ""
+"C'est ici que se trouve l'aperçu de toutes les factures créées et que "
+"celles-ci peuvent être envoyées, modifiées, supprimées ou imprimées. Le "
+"statut de chaque facture est visible. Les paiements peuvent être saisis "
+"manuellement sur la facture correspondante ou importés au moyen du fichier "
+"XML camt.054 [#f2]_."
 
-#: ../../invoices.rst:29
+#: ../../invoices.rst:29 ba2212552f6c4f4699243623e80d2c0c
 msgid ""
 "Bei Bedarf können die Rechnungen auch als CSV exportiert und in eine "
 "Buchhaltungsapplikation eingelesen werden."
 msgstr ""
+"Si nécessaire, les factures peuvent également être exportées au format CSV "
+"et importées dans une application de comptabilité."
 
-#: ../../invoices.rst:31
+#: ../../invoices.rst:31 1e71c7aa90204d328f5ef75181004305
 msgid ""
-"An dieser Stelle können auch **externe** Rechnungen erstellt werden, d.h."
-" Rechnungen, welche an externe Empfänger geschickt werden, welche nicht "
-"in hitobito erfasst sind."
+"An dieser Stelle können auch **externe** Rechnungen erstellt werden, d.h. "
+"Rechnungen, welche an externe Empfänger geschickt werden, welche nicht in "
+"hitobito erfasst sind."
 msgstr ""
+"A cet endroit, il est également possible de créer des factures **externes**,"
+" c'est-à-dire des factures qui sont envoyées à des destinataires externes "
+"qui ne sont pas saisis dans hitobito."
 
-#: ../../invoices.rst:34
+#: ../../invoices.rst:34 86ad1e42a22a45e8a6ac8a4466519ad8
 msgid "Sammelrechnungen"
-msgstr ""
+msgstr "Factures groupées"
 
-#: ../../invoices.rst:36
+#: ../../invoices.rst:36 cde87f8981d743e789b7cf9c4725d270
 msgid ""
-"Werden Rechnungen aus dem Abo generiert, wird eine Sammelrechnung "
-"erstellt. Dies fasst die Rechnungen zu einem Eintrag zusammen. Dabei wird"
-" neben der Anzahl Rechnungen auch die offenen und bezahlten Beträge "
-"angezeigt."
+"Werden Rechnungen aus dem Abo generiert, wird eine Sammelrechnung erstellt. "
+"Dies fasst die Rechnungen zu einem Eintrag zusammen. Dabei wird neben der "
+"Anzahl Rechnungen auch die offenen und bezahlten Beträge angezeigt."
 msgstr ""
+"Si des factures sont générées à partir d'un abonnement, une facture groupée "
+"est créée. Cela regroupe les factures en une seule entrée. En plus du nombre"
+" de factures, les montants ouverts et payés sont également affichés."
 
-#: ../../invoices.rst:40
+#: ../../invoices.rst:40 ead6934e31dc45aeb8e7ac8fc593ba39
 msgid "Rechnungsartikel"
-msgstr ""
+msgstr "Article de facturation"
 
-#: ../../invoices.rst:42
+#: ../../invoices.rst:42 c394f66e1e094d4fab093c94b83952e1
 msgid ""
-"Häufig verwendete Rechnungspositionen (z.B. Mitgliederbeitrag, Jahresabo,"
-" etc.) können hier vordefiniert werden. Diese Artikel können beim "
-"Erstellen von Rechnungen ausgewählt und individuell angepasst werden."
+"Häufig verwendete Rechnungspositionen (z.B. Mitgliederbeitrag, Jahresabo, "
+"etc.) können hier vordefiniert werden. Diese Artikel können beim Erstellen "
+"von Rechnungen ausgewählt und individuell angepasst werden."
 msgstr ""
+"Les articles de facturation fréquemment utilisés (par ex. cotisation de "
+"membre, abonnement annuel, etc.) peuvent être prédéfinis ici. Ces articles "
+"peuvent être sélectionnés et personnalisés lors de l'établissement des "
+"factures."
 
-#: ../../invoices.rst:45
+#: ../../invoices.rst:45 3331e16fba18455db92c72b3856f4997
 msgid "Einstellungen"
-msgstr ""
+msgstr "Paramètres"
 
-#: ../../invoices.rst:47
+#: ../../invoices.rst:47 823b468eae254c5e9f2401bf3399931b
 msgid ""
-"In den Rechnungseinstellungen können allgemeine Angaben gemacht werden, "
-"wie die Absenderadresse, Absender-E-Mail, Tage bis Fälligkeit, "
-"MwSt.-Nummer etc. Hier können auch die Texte für die erste, zweite und "
-"dritte Mahnung definiert werden."
+"In den Rechnungseinstellungen können allgemeine Angaben gemacht werden, wie "
+"die Absenderadresse, Absender-E-Mail, Tage bis Fälligkeit, MwSt.-Nummer etc."
+" Hier können auch die Texte für die erste, zweite und dritte Mahnung "
+"definiert werden."
 msgstr ""
+"Dans les paramètres de la facture, il est possible de définir des "
+"informations générales telles que l'adresse de l'expéditeur, l'e-mail de "
+"l'expéditeur, les jours jusqu'à l'échéance, le numéro de TVA, etc. Il est "
+"également possible d'y définir les textes pour le premier, le deuxième et le"
+" troisième rappel."
 
-#: ../../invoices.rst:49
+#: ../../invoices.rst:49 8fe4b6326394443d89a029ed756ba3df
 msgid "Diese Einstellungen können pro Ebene individuell vorgenommen werden."
-msgstr ""
+msgstr "Ces réglages peuvent être effectués individuellement par niveau."
 
-#: ../../invoices.rst:51
+#: ../../invoices.rst:51 407fb6a4c05746c3b8a431dc81f4ed13
 msgid ""
-"Du kannst rote und orange Einzahlungsscheine für Post und Bank erstellen."
-" Zusätzlich stehen noch QR Rechnungen zur Verfügung."
+"Du kannst rote und orange Einzahlungsscheine für Post und Bank erstellen. "
+"Zusätzlich stehen noch QR Rechnungen zur Verfügung. Für QR Rechnungen muss "
+"eine spezielle QR-IBAN (https://www.moneytoday.ch/lexikon/qr-iban/) "
+"hinterlegt werden. Diese unterscheidet sich von der bestehenden IBAN Nummer."
 msgstr ""
+"Tu peux créer des bulletins de versement rouges et orange pour la poste et "
+"la banque. De plus, des factures QR sont également disponibles. Pour les "
+"factures QR, un IBAN QR spécial (https://www.moneytoday.ch/lexikon/qr-iban/)"
+" doit être enregistré. Celui-ci est différent du numéro IBAN existant."
 
-#: ../../invoices.rst:56
+#: ../../invoices.rst:56 27929869b2c743958cba8f99bf2b1307
 msgid ""
-"Eine camt.054 XML-Datei ist die Sammelbuchungs-auflösung und Belastungs- "
-"und Gutschriftsanzeige. Diese enthält eine Reihe verschiedene "
-"Buchungspositionen welche automatisiert auf Basis der ESR-Nummer "
-"bestehenden Rechnungen zugeordnet werden."
+"Eine camt.054 XML-Datei ist die Sammelbuchungs-auflösung und Belastungs- und"
+" Gutschriftsanzeige. Diese enthält eine Reihe verschiedene "
+"Buchungspositionen welche automatisiert auf Basis der ESR-Nummer bestehenden"
+" Rechnungen zugeordnet werden."
 msgstr ""
-
+"Un fichier XML camt.054 correspond à la facture groupée et à l'avis de débit"
+" et de crédit. Ce fichier contient une série de différentes rubriques "
+"comptables qui sont attribuées automatiquement aux factures existantes sur "
+"la base du numéro BVR."
