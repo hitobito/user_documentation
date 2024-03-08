@@ -31,10 +31,13 @@ Hier eine Sammlung von User Dokumentation/Dokumente von den Community Mitglieder
 * Die Mitte: Wir zur Zeit noch erstellt (Mehrsprachig)
 
 ## Contribute generic user documentation (this repo)
-The [readthedocs](https://readthedocs.org/) page is rebuilt with each merged PR. You can check whether the build was successful [here](https://readthedocs.org/projects/hitobito/builds/). If you are unsure, you can first merge into the beta branch. This is also built and can be reached in the [beta page](https://hitobito.readthedocs.io/de/beta/)
-A helpful overview over the restructured syntax that we use can be found [here](https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html)
+The [readthedocs](https://readthedocs.org/) page is rebuilt with each merged PR. You can check whether the build was successful [here](https://readthedocs.org/projects/hitobito/builds/). If you are unsure, you can first merge into the beta branch. This is also built and can be reached in the [beta page](https://hitobito.readthedocs.io/de/beta/). We use [Sphinx](https://docs.readthedocs.io/en/stable/intro/getting-started-with-sphinx.html) to generate the documentation. The individual files of the documentation can be found in the "docs" folder. We use MyST - Markedly Structured Text for the description of the documentation. A helpful overview over the markdown syntax that we use can be found [here](https://myst-parser.readthedocs.io/en/latest/index.html).
 
 Manual building:
+
+To build html local use: 
+
+`make html`
 
 Ensure that you have virtualenv and rake installed. Then:
 

@@ -18,9 +18,9 @@ Mit jeder Mailingliste kann jeweils eine MailChimp-Liste verknüpft werden. Dies
 ```{image} mailing_lists_mailchimp_export/mailing_list_settings.png
 ```
 
-:::{hint}
+```{tip}
 Standardmässig werden nur die Haupt-E-Mailadressen der Abonnent\*innen synchronisiert. Sollen weitere E-Mailadressen, welche die Option "Versand" haben ebenfalls mit MailChimp synchronisiert werden, ist die Option "Alle Versandadressen synchronisieren" anzuwählen.
-:::
+```
 
 Die **«MailChimp Listen-ID»** kannst Du in den Einstellungen der gewünschten Liste in MailChimp holen (in gelb unten rechts):
 
@@ -38,9 +38,9 @@ Gratuliere, nach dem Speichern dieser zwei Informationen ist nun deine Mailingli
 
 Um die Abonnent\*innen einer Mailingliste nach MailChimp zu exportieren, wähle die entsprechende Option im «Export»-Menu des «Abonnenten»-Tabs deiner Mailingliste in Hitobito aus.
 
-:::{danger}
+```{caution}
 Bitte beachte, dass der Export deine verknüpfte Liste in MailChimp überschreiben. Bestehende Kontakte werden in Mailchimp archiviert.
-:::
+```
 
 ```{image} mailing_lists_mailchimp_export/mailing_list_export.png
 ```
@@ -48,6 +48,6 @@ Bitte beachte, dass der Export deine verknüpfte Liste in MailChimp überschreib
 Nach dem Auslösen des Exports wird die Liste im Hintergrund in die gewählte MailChimp-Liste exportiert und die Abonnent\*innen deiner Mailingliste sollten nach einiger Zeit dort erscheinen.
 Sollten E-Mailadressen in Mailchimp den Status "cleaned" besitzen, wird in hitobito ein entsprechender Validation Tag gesetzt. (z.B. "Haupt-E-Mail ungültig")
 
-:::{note}
+```{hint}
 Abonnent\*innen Ihrer Mailingliste, welche sich in der Vergangenheit aktiv bei MailChimp von Ihrer Liste abgemeldet haben (über den Abmelden-Link in Ihrer E-Mail), behalten ihren «Unsubscribed»-Status und erhalten auch nach einem neuerlichen Export aus hitobito keine E-Mails mehr von Ihnen.
-:::
+```

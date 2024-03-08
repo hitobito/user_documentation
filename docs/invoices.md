@@ -1,20 +1,18 @@
 # Rechnungen
 
-:::{warning}
 Rechnungen sind ein Feature welches pro Instanz aktiviert werden kann.
-:::
 
-:::{note}
+```{note}
 Ob du Rechnungen verwalten kannst hängt davon ab, ob dir eine entsprechende Rolle vergeben wurde. Welche Rolle das ist hängt von der jeweiligen Organisation ab.
-:::
+```
 
 In hitobito können Rechnungen erstellt und Debitoren verwaltet werden.
 
 ## Rechnungen erstellen
 
-:::{note}
+```{note}
 Rechnungen werden nicht auf der Ansicht Rechnungen erstellt, sondern ausgehend von Personenlisten oder auf der Ansicht einer bestimmten Person.
-:::
+```
 
 Rechnungen können aus folgenden Ansichten erstellt werden:
 
