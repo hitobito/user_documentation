@@ -24,11 +24,11 @@ Rechnungen erstellen
 
 Rechnungen können aus folgenden Ansichten erstellt werden:
 
-- Personenlisten in einer Gruppe. Erstellt eine Einzelrechnung an die ausgewählten Personen.
-- Teilnehmerlisten von einem Event. Erstellt eine Einzelrechnung an die ausgewählten Personen.
-- Auf dem Profil einer Einzelperson. Erstellt eine Einzelrechnung an die ausgewählte Person.
-- In einem Abo. Erstellt eine Sammelrechnung an die jeweiligen Empfänger des Abos.
-- Externe Rechnungen erstellen in der Übersicht Einzelrechnungen. Erstellt eine Einzelrechnung. Diese wird keiner Person in Hitobito zugeordnet.
+- Personenlisten in einer **Gruppe**. Erstellt eine Einzelrechnung an die ausgewählten Personen.
+- Teilnehmerlisten von einem **Event**. Erstellt eine Einzelrechnung an die ausgewählten Personen.
+- Auf dem Profil einer **Einzelperson**. Erstellt eine Einzelrechnung an die ausgewählte Person.
+- In einem **Abo**. Erstellt eine Sammelrechnung an die jeweiligen Empfänger des Abos.
+- **Externe Rechnungen** erstellen in der Übersicht Einzelrechnungen. Erstellt eine Einzelrechnung. Diese wird keiner Person in Hitobito zugeordnet.
 
 
 Rechnungen einsehen und bearbeiten
@@ -63,29 +63,28 @@ Unter Buchungsbeleg wird eine rudimentäre Übersicht über die eingegangenen Za
 
 Häufig gestellte Fragen:
 ---------------------------------------
-Q: Ich kann keine Rechnungen erstellen. Die Gruppe als welche ich Rechnungen stellen mögcht ist ausgegraut.
+Q1: Ich kann keine Rechnungen erstellen. Die Gruppe als welche ich Rechnungen stellen mögcht ist ausgegraut.
 
-A: Für die ausgegraute Gruppe sind keine gültigen Rechnungseinstellungen vorhanden. Bitte aktuallisiere die Rechnungseinstellungen.
-
-
-Q: Ich kann meine Rechnungseinstellungen nicht speichern? 
-
-A: Vermutlich ist in einem anderen Tab der Rechnungseinstellungen noch eine falsche Information vorhanden. Probiere auf den verschiedenen Tabs die Rechnungseinstellungen zu speichern.
+A1: Für die ausgegraute Gruppe sind keine gültigen Rechnungseinstellungen vorhanden. Bitte aktuallisiere die Rechnungseinstellungen.
 
 
-Q: Ich kann eine Rechnung nicht mehr löschen?
+Q2: Ich kann meine Rechnungseinstellungen nicht speichern? 
 
-A: Eine Rechnung kann nur gelöscht werden, solange sie noch den Status "Entwurf" hat. Eine Sammelrechnung kann nur gelöscht werden, wenn noch alle darin enthaltenen Rechnungen den Status "Entwurf" haben. Hat eine Rechnung bereits einen anderen Status, kann diese nur noch storniert werden.
-
-
-Q: Eine Rechnung mit dem Status "Gestellt" wird nicht gemahnt, obwohl ich diese bei Mahnen ausgewählt hatte.
-
-A: Rechnungen werden nur gemahnt, wenn das Mahndatum erreicht wird. Sschaue in den Rechnungseinstellungen nach, wie lange nach Rechnungsdatum hier die Mahnfrist ist.
+A2: Vermutlich ist in einem anderen Tab der Rechnungseinstellungen noch eine falsche Information vorhanden. Probiere auf den verschiedenen Tabs die Rechnungseinstellungen zu speichern.
 
 
-Q: Nach dem Speichern meiner Sammelrechnung werden keine Rechnungen erstellt.
+Q3: Ich kann eine Rechnung nicht mehr löschen?
 
-A: Damit Sammelrechnungen erfolgreich erstellt werden können, muss mindestens eine Rechnungspositon einen Betrag aufweisen (Dieser Betrag kann 0 sein).
+A3: Eine Rechnung kann nur gelöscht werden, solange sie noch den Status "Entwurf" hat. Eine Sammelrechnung kann nur gelöscht werden, wenn noch alle darin enthaltenen Rechnungen den Status "Entwurf" haben. Hat eine Rechnung bereits einen anderen Status, kann diese nur noch storniert werden.
 
----------------------------------------
+
+Q4: Eine Rechnung mit dem Status "Gestellt" wird nicht gemahnt, obwohl ich diese bei Mahnen ausgewählt hatte.
+
+A4: Rechnungen werden nur gemahnt, wenn das Mahndatum erreicht wird. Sschaue in den Rechnungseinstellungen nach, wie lange nach Rechnungsdatum hier die Mahnfrist ist.
+
+
+Q5: Nach dem Speichern meiner Sammelrechnung werden keine Rechnungen erstellt.
+
+A5: Damit Sammelrechnungen erfolgreich erstellt werden können, muss mindestens eine Rechnungspositon einen Betrag aufweisen (Dieser Betrag kann 0 sein).
+
 .. [#f2] Eine camt.054 XML-Datei ist die Sammelbuchungs-auflösung und Belastungs- und Gutschriftsanzeige. Diese enthält eine Reihe verschiedene Buchungspositionen welche automatisiert auf Basis der ESR-Nummer bestehenden Rechnungen zugeordnet werden.
