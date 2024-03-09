@@ -40,6 +40,11 @@ Ensure that you have virtualenv and rake installed. Then:
 
 `rake build:all`
 
+We use transifex to translate the documentation.
+
+Use `rake sources:update` to update po files and push to transifex. Next use transifex web ui for translation. With `translations:update` will pull from transifex and create a git commit. To update readthedocs push your changes to github.  
+
+
 In case the translations cannot be pulled, you need to configure transifex correctly.
 `rake tx:status` can help
 
