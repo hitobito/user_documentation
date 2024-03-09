@@ -10,7 +10,7 @@ Rechnungseinstellungen
 --------------------------
 In den Rechnungseinstellungen werden pro Ebene gültige Angaben gemacht. Hier werden die allgemeinen Rechnungseinstellungen verwaltet und Mahnungsfristen und -texte definiert. Zudem können Einstellungen zum Email-Versand und Rechnungslayout vorgenommen werden, sowie Zahlungsschnittstellen eingerichtet werden.
 
-.. note:: Damit Rechnungen versendet werden können müssen gültige Rechnungseinstellungen vorhanden sein.
+.. hint:: Damit Rechnungen versendet werden können müssen gültige Rechnungseinstellungen vorhanden sein.
 
 Rechnungsartikel
 ---------------------------------------
@@ -20,7 +20,7 @@ Häufig verwendete Rechnungspositionen (z.B. Mitgliederbeitrag, Jahresabo, etc.)
 
 Rechnungen erstellen
 --------------------------------------
-.. note:: Rechnungen werden nicht auf der Ansicht Rechnungen erstellt, sondern ausgehend von Personenlisten oder einer bestimmten Person.
+.. hint:: Rechnungen werden nicht auf der Ansicht Rechnungen erstellt, sondern ausgehend von Personenlisten oder einer bestimmten Person.
 
 Rechnungen können aus folgenden Ansichten erstellt werden:
 
