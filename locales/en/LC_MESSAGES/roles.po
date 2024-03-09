@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2021, hitobito AG
+# Copyright (C) 2024, Hitobito
 # This file is distributed under the same license as the Hitobito package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Hitobito\n"
+"Project-Id-Version: Hitobito 0.1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-17 18:43+0100\n"
+"POT-Creation-Date: 2024-03-09 15:57+0100\n"
 "PO-Revision-Date: 2023-02-17 22:36+0000\n"
 "Language-Team: English (https://app.transifex.com/hitobito/teams/4727/en/)\n"
 "MIME-Version: 1.0\n"
@@ -17,54 +17,54 @@ msgstr ""
 "Language: en\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../../roles.rst:2 2700abffa3c74398ba23003f7494d7b7
+#: ../../roles.rst:2
 msgid "Rollen"
 msgstr ""
 
-#: ../../roles.rst:4 17fe6fc832bd45c8badb35387dc097cc
+#: ../../roles.rst:4
 msgid "Rollen sind ein zentrales Konzept in hitobito:"
 msgstr ""
 
-#: ../../roles.rst:6 b4cb92e60d254b67b3496bc68d6aa51f
+#: ../../roles.rst:6
 msgid ""
 "Jede Person kann beliebig viele Rollen in verschiedenen Kontexten haben. "
 "Peter kann z. B. gleichzeitig Leiter eines Gremiums in einem Kantonalverband"
 " sein, als auch Mitglied in einer Ortsgruppe."
 msgstr ""
 
-#: ../../roles.rst:9 a931df67b62a41739f035b9b70e3adfd
+#: ../../roles.rst:9
 msgid ""
 "Welche Rollen zur Verfügung stehen, hängt davon ab, in welcher Gruppe du die"
 " Person zuweist. Z. B. hat eine Gruppe vom Typ Vorstand Rollen wie "
 "PräsidentIn und SekretärIn zur Verfügung."
 msgstr ""
 
-#: ../../roles.rst:12 4371d320e0c74212abb74c085e8f3f7b
+#: ../../roles.rst:12
 msgid "Die Rolle der Person bestimmt die `Zugriffsrechte`_ dieser Person."
 msgstr ""
 
-#: ../../roles.rst:15 0c279e59924f4e7a873eb2d698212bf2
+#: ../../roles.rst:15
 msgid "Empfehlungen"
 msgstr ""
 
-#: ../../roles.rst:20 70fce73c707549d89ba1f10cb9022048
+#: ../../roles.rst:19
 msgid ""
 "Für jede Organisation stellen wir die passenden Rollen bereit. Versuch also "
 "möglich die passende Art von Gruppentyp auszuwählen, damit du dort der "
 "Person die richtige Rolle zuweisen kannst."
 msgstr ""
 
-#: ../../roles.rst:25 9690c6447e834f85b6933b33aea9bfe5
+#: ../../roles.rst:24
 msgid "Eigene Bezeichnungen für Rollen"
 msgstr ""
 
-#: ../../roles.rst:31 96605ac79cc34d4b819d34e3a9caa44e
+#: ../../roles.rst:29
 msgid ""
 "Du kannst neben der offiziellen Rollenbezeichnung noch deine eigene "
 "ergänzen, indem du im Rollendialog das zusätzliche Feld ausfüllst."
 msgstr ""
 
-#: ../../roles.rst:34 e28f03936448437dbb9e1d7f5c9abb83
+#: ../../roles.rst:32
 msgid ""
 "Nach diesen Bezeichnung kann allerdings aktuell noch nicht gefiltert werden."
 msgstr ""

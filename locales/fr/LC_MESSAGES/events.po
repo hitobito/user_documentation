@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2021, hitobito AG
+# Copyright (C) 2024, Hitobito
 # This file is distributed under the same license as the Hitobito package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -9,9 +9,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Hitobito\n"
+"Project-Id-Version: Hitobito 0.1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-17 18:43+0100\n"
+"POT-Creation-Date: 2024-03-09 15:57+0100\n"
 "PO-Revision-Date: 2023-02-17 22:36+0000\n"
 "Last-Translator: Michael Schär <it@pbs.ch>, 2023\n"
 "Language-Team: French (https://app.transifex.com/hitobito/teams/4727/fr/)\n"
@@ -21,11 +21,11 @@ msgstr ""
 "Language: fr\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
-#: ../../events.rst:2 800b8b45def24b09889db1ef786ad709
+#: ../../events.rst:2
 msgid "Events"
 msgstr "Événements"
 
-#: ../../events.rst:3 89521ff15e4b40d98341ccd348d014ee
+#: ../../events.rst:3
 msgid ""
 "In Hitobito können unterschiedliche Arten von Events geführt werden. "
 "Einfache Anlässe und Kurse. Für gewisse Instanzen wurden zusätzliche "
@@ -36,11 +36,11 @@ msgstr ""
 "d'événements supplémentaires ont été ajoutés, comme les camps, les colonies "
 "de vacances ou les fêtes de musique."
 
-#: ../../events.rst:6 15fd352859554babb6e6b6fb1a7da9f2
+#: ../../events.rst:6
 msgid "Anlässe"
 msgstr "Manifestations"
 
-#: ../../events.rst:7 ecea4d1bd4e547cfae0f05c9d2e560aa
+#: ../../events.rst:7
 msgid ""
 "In der Organisation von Anlässen unterstützt Hitobito auf eine einfache "
 "Weise. Mitglieder können sich mit ihrem Benutzer direkt anmelden, ohne "
@@ -50,11 +50,11 @@ msgstr ""
 "s'inscrire directement avec leur utilisateur sans devoir saisir à nouveau "
 "leurs coordonnées."
 
-#: ../../events.rst:10 bc4e2c3a72c14fc6a036cd40cbc0e16f
+#: ../../events.rst:10
 msgid "Kurse"
 msgstr "Cours"
 
-#: ../../events.rst:11 1a5a648819d6457b865033df8d45e358
+#: ../../events.rst:11
 msgid ""
 "Die Kurse bauen auf den Anlässen auf, sind durch zusätzliche Funktionen "
 "ergänzt. So können Anmeldebedingugen definiert werden und Teilnehmer können "
@@ -63,3 +63,28 @@ msgstr ""
 "Les cours sont construits sur la base des manifestations et sont complétés "
 "par des fonctions supplémentaires. Il est ainsi possible de définir des "
 "conditions d'inscription et de classer les participants selon leur priorité."
+
+#: ../../events.rst:14
+msgid "Einladungen"
+msgstr ""
+
+#: ../../events.rst:16
+msgid ""
+"Einladungen sind nützliche, wenn bestimmte Personen an einem Anlass oder "
+"Kurs teilnehmen sollten. In diesem Fall können die Verantwortlichen diese "
+"Personen auf dem *Einladungen*-Tab hinzufügen. Das *Einladungen*-Tab zeigt "
+"den Status aller eingeladenen Personen."
+msgstr ""
+
+#: ../../events.rst:22
+msgid ""
+"Die eingeladenen Personen können sich dann auf der Anlass-Seite für den "
+"Anlass an- oder abmelden."
+msgstr ""
+
+#: ../../events.rst:26
+msgid ""
+"Die eingeladenen Personen erhalten kein automatische Benachrichtigung, da "
+"die Betroffenen wohl in vielen Fällen (z.B. Sitzungen, Generalversammlung) "
+"separat ausführlich informiert werden müssen."
+msgstr ""

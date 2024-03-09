@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2021, hitobito AG
+# Copyright (C) 2024, Hitobito
 # This file is distributed under the same license as the Hitobito package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -10,9 +10,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Hitobito\n"
+"Project-Id-Version: Hitobito 0.1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-17 18:43+0100\n"
+"POT-Creation-Date: 2024-03-09 15:57+0100\n"
 "PO-Revision-Date: 2023-02-17 22:36+0000\n"
 "Last-Translator: Michael Schär <it@pbs.ch>, 2023\n"
 "Language-Team: Italian (https://app.transifex.com/hitobito/teams/4727/it/)\n"
@@ -22,11 +22,11 @@ msgstr ""
 "Language: it\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
-#: ../../mailing_lists_mailchimp_export.rst:2 54706d72d5c7430f8915c9412b97a234
+#: ../../mailing_lists_mailchimp_export.rst:2
 msgid "MailChimp-Export von Mailinglisten / Abos"
 msgstr "MailChimp esportazione di mailing list/abbonamenti"
 
-#: ../../mailing_lists_mailchimp_export.rst:4 dbcf33f7c9954af3b13d70069997837f
+#: ../../mailing_lists_mailchimp_export.rst:4
 msgid ""
 "Mit dem MailChimp-Export können die Abonnent*innen von Mailinglisten "
 "exportiert werden in eine MailChimp-Liste."
@@ -34,11 +34,11 @@ msgstr ""
 "Con l'esportazione MailChimp, gli abbonati alle mailing list possono essere "
 "esportati in una lista MailChimp."
 
-#: ../../mailing_lists_mailchimp_export.rst:6 984ec97cd8e641969a42541a9d29dac2
+#: ../../mailing_lists_mailchimp_export.rst:6
 msgid "Bitte beachtet vor Benutzung dieses Features zwei Dinge:"
 msgstr "Si prega di notare due cose prima di utilizzare questa funzione:"
 
-#: ../../mailing_lists_mailchimp_export.rst:8 ff6e3053ed8c4fa18dace4a6227cd83c
+#: ../../mailing_lists_mailchimp_export.rst:8
 msgid ""
 "Die MailChimp-Liste wird durch den Export **überschrieben** (siehe auch "
 "folgenden Abschnitt)"
@@ -46,7 +46,7 @@ msgstr ""
 "La lista di MailChimp viene **sovrascritta** dall'esportazione (vedi anche "
 "la sezione seguente)"
 
-#: ../../mailing_lists_mailchimp_export.rst:9 2668220afe4b47d6b28a99c6e0f54002
+#: ../../mailing_lists_mailchimp_export.rst:9
 msgid ""
 "Die MailChimp-Liste wird **regelmässig** (alle 24h) und bei Bedarf "
 "zusätzlich **auf Knopfdruck** exportiert"
@@ -55,12 +55,10 @@ msgstr ""
 "necessario, anche **premendo un pulsante**"
 
 #: ../../mailing_lists_mailchimp_export.rst:13
-#: fa65dc3bbc384582931bce2f590950c9
 msgid "Grundsatz"
 msgstr "Principio"
 
 #: ../../mailing_lists_mailchimp_export.rst:15
-#: dffa8b1ae56846c3a8d6adee884f171d
 msgid ""
 "Das MailChimp-Feature ermöglicht es, die in Hitobito organisierten Daten zu "
 "brauchen, um mit MailChimp gestaltete Newsletter zu versenden. Es kann nicht"
@@ -75,12 +73,10 @@ msgstr ""
 "**sovrascrive i dati esistenti da MailChimp ad ogni esportazione**."
 
 #: ../../mailing_lists_mailchimp_export.rst:19
-#: ba528212fce34b1a90acc41d70b82013
 msgid "Verknüpfen einer Mailingliste mit MailChimp"
 msgstr "Collegamento di una mailing list a MailChimp"
 
 #: ../../mailing_lists_mailchimp_export.rst:21
-#: 1857bbb9bf1b46cc9f81863984bd711c
 msgid ""
 "Mit jeder Mailingliste kann jeweils eine MailChimp-Liste verknüpft werden. "
 "Dies geschieht in den Einstellungen der Mailingliste durch die beiden Felder"
@@ -91,7 +87,6 @@ msgstr ""
 " API MailChimp\" e \"ID lista MailChimp\":"
 
 #: ../../mailing_lists_mailchimp_export.rst:25
-#: ec84bb3a09e44fa1b019559e529e7a5b
 msgid ""
 "Standardmässig werden nur die Haupt-E-Mailadressen der Abonnent*innen "
 "synchronisiert. Sollen weitere E-Mailadressen, welche die Option \"Versand\""
@@ -104,7 +99,6 @@ msgstr ""
 "selezionare l'opzione \"Sincronizza tutti gli indirizzi di spedizione\"."
 
 #: ../../mailing_lists_mailchimp_export.rst:27
-#: 8064c9318e354044a0dcfbd1895d7e60
 msgid ""
 "Die **«MailChimp Listen-ID»** kannst Du in den Einstellungen der gewünschten"
 " Liste in MailChimp holen (in gelb unten rechts):"
@@ -113,7 +107,6 @@ msgstr ""
 "desiderato in MailChimp (in giallo in basso a destra):"
 
 #: ../../mailing_lists_mailchimp_export.rst:31
-#: 7a45f301bc994a87b06b16c6ec1fc1f9
 msgid ""
 "Der **«MailChimp API-Schlüssel»** ermöglicht es einer fremden Applikation "
 "wie Hitobito, in deinem Namen Änderungen in MailChimp vorzunehmen. Du kannst"
@@ -130,7 +123,6 @@ msgstr ""
 "testo (sfondo giallo nell'immagine) nel campo corrispondente in Hitobito:"
 
 #: ../../mailing_lists_mailchimp_export.rst:35
-#: 773053e3324748fd8f18ca71938c8381
 msgid ""
 "Gratuliere, nach dem Speichern dieser zwei Informationen ist nun deine "
 "Mailingliste mit der MailChimp-Liste verknüpft!"
@@ -139,12 +131,10 @@ msgstr ""
 "list è ora collegata alla mailing list di MailChimp!"
 
 #: ../../mailing_lists_mailchimp_export.rst:39
-#: df65f066efcd4d34ab8a9c6fa43988d9
 msgid "Exportieren nach MailChimp"
 msgstr "Esporta in MailChimp"
 
 #: ../../mailing_lists_mailchimp_export.rst:41
-#: f8ecf458bc104155b2c3a03211a69b54
 msgid ""
 "Um die Abonnent*innen einer Mailingliste nach MailChimp zu exportieren, "
 "wähle die entsprechende Option im «Export»-Menu des «Abonnenten»-Tabs deiner"
@@ -155,7 +145,6 @@ msgstr ""
 "tua mailing list in Hitobito."
 
 #: ../../mailing_lists_mailchimp_export.rst:43
-#: ae8c67ec648749ae810551689a7cdedf
 msgid ""
 "Bitte beachte, dass der Export deine verknüpfte Liste in MailChimp "
 "überschreiben. Bestehende Kontakte werden in Mailchimp archiviert."
@@ -164,7 +153,6 @@ msgstr ""
 "MailChimp. I contatti esistenti vengono archiviati in Mailchimp."
 
 #: ../../mailing_lists_mailchimp_export.rst:47
-#: 8f855cc8879647d0aac28de3978edec2
 msgid ""
 "Nach dem Auslösen des Exports wird die Liste im Hintergrund in die gewählte "
 "MailChimp-Liste exportiert und die Abonnent*innen deiner Mailingliste "
@@ -179,7 +167,6 @@ msgstr ""
 "convalida corrispondente. (es. \"E-mail principale non valida\")"
 
 #: ../../mailing_lists_mailchimp_export.rst:50
-#: 6664ac6e827442de84cb3a276352c2a2
 msgid ""
 "Abonnent*innen Ihrer Mailingliste, welche sich in der Vergangenheit aktiv "
 "bei MailChimp von Ihrer Liste abgemeldet haben (über den Abmelden-Link in "

@@ -1,19 +1,20 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2021, hitobito AG
+# Copyright (C) 2024, Hitobito
 # This file is distributed under the same license as the Hitobito package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
 # Michael Schär <it@pbs.ch>, 2023
+# Hitobito <hitobito@puzzle.ch>, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Hitobito\n"
+"Project-Id-Version: Hitobito 0.1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-18 00:04+0100\n"
+"POT-Creation-Date: 2024-03-09 15:57+0100\n"
 "PO-Revision-Date: 2023-02-17 22:36+0000\n"
-"Last-Translator: Michael Schär <it@pbs.ch>, 2023\n"
+"Last-Translator: Hitobito <hitobito@puzzle.ch>, 2024\n"
 "Language-Team: French (https://app.transifex.com/hitobito/teams/4727/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -21,15 +22,15 @@ msgstr ""
 "Language: fr\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
-#: ../../ebics.rst:2 bd17635565da447aa6186e269d246cbb
+#: ../../ebics.rst:2
 msgid "EBICS Schnittstelle"
 msgstr "Interface EBICS"
 
-#: ../../ebics.rst:5 ba71b080176540d9825357efff4354ce
+#: ../../ebics.rst:5
 msgid "Allgemeines"
 msgstr "Généralités"
 
-#: ../../ebics.rst:6 feb4e4609578426489455e7ce4cc9423
+#: ../../ebics.rst:6
 msgid ""
 "Hitobito lässt sich mit einem Bank- oder Postkonto verbinden. Dies bedeutet "
 "folgendes:"
@@ -37,7 +38,7 @@ msgstr ""
 "Hitobito peut être relié à un compte bancaire ou postal. Cela signifie ce "
 "qui suit :"
 
-#: ../../ebics.rst:8 8a8b1681c2c84fac9251b59086e6efe6
+#: ../../ebics.rst:8
 msgid ""
 "Wird eine Zahlung über hitobito ausgelöst und vom Empfänger bezahlt, ist "
 "diese Information nicht mehr nur im Bankkonto ersichtlich, sondern wird auch"
@@ -51,7 +52,7 @@ msgstr ""
 "comptabilité, car les entrées de paiement peuvent ainsi être surveillées de "
 "manière centralisée et personnalisée."
 
-#: ../../ebics.rst:12 c9ab201db9d84c679e68550ab85e4078
+#: ../../ebics.rst:12
 msgid ""
 "Als Schnittstelle verwendet hitobito die Technologie EBICS. EBICS ist eine "
 "standardisierte Schnittstelle zu Finanzapplikationen und wird in der Schweiz"
@@ -65,12 +66,12 @@ msgstr ""
 "nous n'en avons pas connaissance). Vous trouverez plus d'informations sur "
 "EBICS sur les sites internet des différentes banques."
 
-#: ../../ebics.rst:18 cc9e205ee1494d93af35b969d945d215
+#: ../../ebics.rst:18
 msgid ""
 "Über die `EBICS Schnittstelle <https://www.six-group.com/de/products-"
-"services/banking-services/standardization.html#scrollTo=ebics/>`_ können "
-"camt054 Dateien regelmässig von einem Finanzinstitut bezogen werden. Mittels"
-" Referenznummer werden die Zahlungen einer Rechnung von der Ebene "
+"services/banking-services/payment-standardization/standards/ebics.html>`_ "
+"können camt054 Dateien regelmässig von einem Finanzinstitut bezogen werden. "
+"Mittels Referenznummer werden die Zahlungen einer Rechnung von der Ebene "
 "zugewiesen. Zahlungen die keiner Rechnung zugewiesen werden können, werden "
 "ignoriert"
 msgstr ""
@@ -80,7 +81,7 @@ msgstr ""
 " numéro de référence, les paiements sont associés à une facture du niveau. "
 "Les paiements qui ne peuvent pas être attribués à une facture sont ignorés."
 
-#: ../../ebics.rst:20 d3f3302232b84f7da124406e5f58a2f0
+#: ../../ebics.rst:20
 msgid ""
 "In den Rechnungseinstellungen kann pro Ebene die EBICS Schnittstelle "
 "definiert werden. Zugangsdaten werden verschlüsselt in Hitobito abgelegt."
@@ -89,15 +90,15 @@ msgstr ""
 "EBICS par niveau. Les données d'accès sont enregistrées de manière cryptée "
 "dans hitobito."
 
-#: ../../ebics.rst:23 3b1a83938e194450b9a5115684a62ac3
+#: ../../ebics.rst:23
 msgid "Wir richte ich die Schnittstelle ein?"
 msgstr "Comment configurer l'interface ?"
 
-#: ../../ebics.rst:28 5f871387c73b4c5aa27694aa82e0b536
+#: ../../ebics.rst:28
 msgid "Über die eigene Bank/Post muss ein EBICS Vertrag angefordert werden."
 msgstr "Un contrat EBICS doit être demandé via sa propre banque/poste."
 
-#: ../../ebics.rst:26 edd214f1ff22473a99c180402d4c55e8
+#: ../../ebics.rst:26
 msgid ""
 "Der Vertrag regelt, welche Konten mit hitobito verknüpft werden. Es können "
 "mehrere Konten gleichzeitig über EBICS mit hitobito verknüpft werden."
@@ -105,7 +106,7 @@ msgstr ""
 "Le contrat détermine les comptes qui seront reliés à hitobito. Plusieurs "
 "comptes peuvent être reliés simultanément à hitobito via EBICS."
 
-#: ../../ebics.rst:27 87e7f5d872bd4a57ae7d8513b8eea881
+#: ../../ebics.rst:27
 msgid ""
 "Im Vertrag muss EBICS als Schnittstelle ausgewählt werden, falls Euch der "
 "Vertrag mehrere Optionen gibt."
@@ -113,7 +114,7 @@ msgstr ""
 "Dans le contrat, vous devez sélectionner EBICS comme interface si le contrat"
 " vous propose plusieurs options."
 
-#: ../../ebics.rst:28 fc56a20ead824d2290a22d6fda382bea
+#: ../../ebics.rst:28
 msgid ""
 "Im Vertrag muss eine Software angegeben werde, damit ist hitobito gemeint. "
 "Angegeben werden soll als Software «hitobito» und als Hersteller «Puzzle "
@@ -122,7 +123,7 @@ msgstr ""
 "Le contrat doit mentionner un logiciel, c'est-à-dire hitobito. Il faut "
 "indiquer \"hitobito\" comme logiciel et \"Puzzle ITC\" comme fabricant."
 
-#: ../../ebics.rst:29 5b7397b7cfef4caabbf618ac211edc0b
+#: ../../ebics.rst:29
 msgid ""
 "Die Buchungsart ist Sammelbuchung, die Periodizität ist Euch selbst "
 "überlassen."
@@ -130,7 +131,7 @@ msgstr ""
 "Le type de comptabilisation est une comptabilisation collective, la "
 "périodicité est laissée à votre appréciation."
 
-#: ../../ebics.rst:30 25ac1d6613424935a082dac14e23a6f9
+#: ../../ebics.rst:30
 msgid ""
 "Der Vertrag wird der Bank/Post zurückgeschickt. Von Seiten der Bank/Post "
 "wird nun ein Dokument mit der Vertrags-ID und der Kunden-ID für EBICS "
@@ -142,19 +143,19 @@ msgstr ""
 "votre disposition. (La désignation exacte peut varier et peut aussi être "
 "appelée ID de participant / ID de partenaire ou autre)."
 
-#: ../../ebics.rst:31 2a846ab8e9fe4ed79e748f32a5e25480
+#: ../../ebics.rst:31
 msgid ""
 "Mit diesem Dokument der Bank/Post könnt Ihr in hitobito unter den "
 "Rechnungseinstellungen->Zahlungsschnittstellen die Vertrags-ID und die "
-"Kunden-ID eingeben. Sobald dies gemacht ist, generiert Euch hitobito ein "
-"Initialisierungs-Dokument (INI-Brief)."
+"Kunden-ID eingeben. Sobald dies gemacht ist, erscheint in Hitobito ein "
+"Button zur generierung des Initialisierungs-Dokuments (INI-Brief)."
 msgstr ""
 "Avec ce document de la banque/poste, vous pouvez saisir l'ID du contrat et "
 "l'ID du client dans hitobito sous Paramètres de facturation->Interfaces de "
 "paiement. Une fois que cela est fait, hitobito vous génère un document "
 "d'initialisation (lettre INI)."
 
-#: ../../ebics.rst:32 42369efcff1f4c3d870685374ab9fe09
+#: ../../ebics.rst:32
 msgid ""
 "Dieses Dokument muss dem Bankinstitut unterschrieben zurückgeschickt werden,"
 " damit die Verbindung zwischen Konto und hitobito erstellt werden kann."
@@ -162,14 +163,14 @@ msgstr ""
 "Ce document doit être retourné signé à l'institut bancaire pour que le lien "
 "entre le compte et hitobito puisse être établi."
 
-#: ../../ebics.rst:33 22e01e814823485e8c7c915d34cc5692
+#: ../../ebics.rst:33
 msgid ""
 "Die Bank informiert Euch, sobald die Schnittstelle eingerichtet und aktiv "
 "ist."
 msgstr ""
 "La banque vous informera dès que l'interface sera configurée et active."
 
-#: ../../ebics.rst:34 c6506f1572b345418c23386ab13e8222
+#: ../../ebics.rst:34
 msgid ""
 "Ist dies der Fall, werden Zahlungen, die in hitobito ausgelöst wurden, auch "
 "in hitobito abgebucht."
@@ -177,7 +178,7 @@ msgstr ""
 "Si c'est le cas, les paiements déclenchés dans hitobito seront également "
 "débités dans hitobito."
 
-#: ../../ebics.rst:37 81de77dd9ae04090ba041a12de32dfec
+#: ../../ebics.rst:37
 msgid ""
 "ACHTUNG: Für die Zuordnung einer Zahlung an eine Person ist die "
 "Referenznummer einziges relevantes Merkmal. Macht Eure Mitglieder darauf "
@@ -195,11 +196,11 @@ msgstr ""
 "paiement en question via la banque. Ni Puzzle ITC ni hitobito ne peuvent "
 "apporter leur soutien dans ces cas."
 
-#: ../../ebics.rst:44 62dad36bd1a347bba8dd24f11cacb0fa
+#: ../../ebics.rst:44
 msgid "Einrichten"
 msgstr "Configurer"
 
-#: ../../ebics.rst:46 8d83e41d2c0942f1af08cea28ed11c64
+#: ../../ebics.rst:46
 msgid ""
 "Beim Einrichten der Schnittstelle wird ein HTML File generiert das "
 "ausgedruckt und per Post an die Bank gesendet wird."
@@ -207,11 +208,11 @@ msgstr ""
 "Lors de la configuration de l'interface, un fichier HTML est généré. Il doit"
 " être imprimé et envoyé par courrier à la banque."
 
-#: ../../ebics.rst:47 e684f6e57fbe4429bfcf35391eb34dea
+#: ../../ebics.rst:47
 msgid "Anschliessend kann Teilnehmer-ID und Kunden-ID ausgefüllt werden"
 msgstr "Ensuite, l'ID du participant et l'ID du client peuvent être remplis"
 
-#: ../../ebics.rst:48 c119566610ed49f48dba21cb7d65ba81
+#: ../../ebics.rst:48
 msgid ""
 "Das Passwort wird verwendet um die Kommunikation zu verschlüsseln. Wenn "
 "dieses Passwort geändert wird, muss die ganze Einrichtung der Schnittstelle "
@@ -221,67 +222,67 @@ msgstr ""
 "passe est modifié, il faut recommencer toute la configuration de "
 "l'interface."
 
-#: ../../ebics.rst:51 bbf8a0205f354db3b24735767faf9a06
+#: ../../ebics.rst:51
 msgid "Unterstützte Finanzinstitute"
 msgstr "Institutions financières compatibles"
 
-#: ../../ebics.rst:53 c070445b72a34cbd974365f014426af2
+#: ../../ebics.rst:53
 msgid "Folgende Banken können via EBICS angebunden werden."
 msgstr "Les banques suivantes peuvent être reliées via EBICS."
 
-#: ../../ebics.rst:55 bea74853197948a2959b22b40cb3b66f
+#: ../../ebics.rst:55
 msgid "Postfinance"
 msgstr "Postfinance"
 
-#: ../../ebics.rst:56 bf33457d30fe40b5a00f08c94aeb019a
+#: ../../ebics.rst:56
 msgid "Raiffeisen Schweiz"
 msgstr "Raiffeisen Suisse"
 
-#: ../../ebics.rst:58 60de1e414b3b418a8ea87d491c4a4679
+#: ../../ebics.rst:58
 msgid "Vorhanden, jedoch noch keine abschliessende Verifikation:"
 msgstr "Disponibles, mais pas encore vérifiées de manière définitive :"
 
-#: ../../ebics.rst:60 921f1aaf85e74bc6a9e67d0f6288d9b3
+#: ../../ebics.rst:60
 msgid "Credit Suisse"
 msgstr "Credit Suisse"
 
-#: ../../ebics.rst:61 7cbc57efe33e4fc884fed3d4587665b4
+#: ../../ebics.rst:61
 msgid "UBS"
 msgstr "UBS"
 
-#: ../../ebics.rst:62 7335b931bb8f40d09b98c6dbde476315
+#: ../../ebics.rst:62
 msgid "Luzerner Kantonalbank"
 msgstr "Banque cantonale de Lucerne"
 
-#: ../../ebics.rst:63 8a7f15e94cfc49059697756b569fe384
+#: ../../ebics.rst:63
 msgid "St.Galler Kantonalbank"
 msgstr "Banque cantonale de Saint-Gall"
 
-#: ../../ebics.rst:64 9d1e58390810430b8043b78ad699e78a
+#: ../../ebics.rst:64
 msgid "Thurgauer Kantonalbank"
 msgstr "Banque cantonale de Thurgovie"
 
-#: ../../ebics.rst:65 d71c9d008ff744fb945b930e5a7bb8dd
+#: ../../ebics.rst:65
 msgid "Zürcher Kantonalbank"
 msgstr "Banque cantonale de Zurich"
 
-#: ../../ebics.rst:66 6e24cf24e60649bdbc933472c6f5df74
+#: ../../ebics.rst:66
 msgid "BancaStato"
 msgstr "BancaStato"
 
-#: ../../ebics.rst:67 cf12794a2cd746f88fdbd34ec0744f75
+#: ../../ebics.rst:67
 msgid "BEKB | BCBE"
 msgstr "BEKB | BCBE"
 
-#: ../../ebics.rst:68 d29908a5d1724872bb4cf2491f2c8adc
+#: ../../ebics.rst:68
 msgid "Valiant"
 msgstr "Valiant"
 
-#: ../../ebics.rst:69 b825dd08264c4c63b1a54ea1100f18f6
+#: ../../ebics.rst:69
 msgid "Zuger Kantonalbank"
 msgstr "Banque cantonale de Zoug"
 
-#: ../../ebics.rst:71 1a64f4e9d5ce46a19dd68d0c347ab103
+#: ../../ebics.rst:71
 msgid "Gerne ergänzen wir diese Liste mit weiteren Banken."
 msgstr ""
 "C'est avec plaisir que nous complétons cette liste avec d'autres banques."

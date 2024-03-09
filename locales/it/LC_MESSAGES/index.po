@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2021, hitobito AG
+# Copyright (C) 2024, Hitobito
 # This file is distributed under the same license as the Hitobito package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -10,9 +10,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Hitobito\n"
+"Project-Id-Version: Hitobito 0.1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-17 18:43+0100\n"
+"POT-Creation-Date: 2024-03-09 15:57+0100\n"
 "PO-Revision-Date: 2023-02-17 22:36+0000\n"
 "Last-Translator: Michael Schär <it@pbs.ch>, 2023\n"
 "Language-Team: Italian (https://app.transifex.com/hitobito/teams/4727/it/)\n"
@@ -34,15 +34,15 @@ msgstr "Connessione"
 msgid "FAQ"
 msgstr "FAQ"
 
-#: ../../index.rst:7 6763317cdc6c454fbf009cc2b4ca4f7d
+#: ../../index.rst:7
 msgid "Benutzeranleitung für Hitobito"
 msgstr "Manuale dell'utente di Hitobito"
 
-#: ../../index.rst:9 da23bceee37b47618cfb13656adf34be
+#: ../../index.rst:9
 msgid "Hier findest du die generische Benutzerdokumentation für Hitobito."
 msgstr "Qui trovi la documentazione generica per gli utilizzatori di Hitobito"
 
-#: ../../index.rst:11 fd0d01baf1a5405fb82fe0b7c47bb260
+#: ../../index.rst:11
 msgid ""
 "Du kannst selbst deinen Beitrag leisten und Ergänzungen vornehmen, in dem du"
 " auf Github: https://github.com/hitobito/user_documentation Korrekturen an "

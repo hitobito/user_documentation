@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2021, hitobito AG
+# Copyright (C) 2024, Hitobito
 # This file is distributed under the same license as the Hitobito package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Hitobito\n"
+"Project-Id-Version: Hitobito 0.1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-17 18:43+0100\n"
+"POT-Creation-Date: 2024-03-09 15:57+0100\n"
 "PO-Revision-Date: 2023-02-17 22:36+0000\n"
 "Language-Team: English (https://app.transifex.com/hitobito/teams/4727/en/)\n"
 "MIME-Version: 1.0\n"
@@ -17,27 +17,27 @@ msgstr ""
 "Language: en\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../../mailing_lists.rst:2 26d8250276574455a1c2dcc66d4a9d9c
+#: ../../mailing_lists.rst:2
 msgid "Mailinglisten / Abos"
 msgstr ""
 
-#: ../../mailing_lists.rst:4 686241cac5c7462d8b85267a225c7001
+#: ../../mailing_lists.rst:4
 msgid ""
 "Mit Mailinglisten / Abos können die Empfänger von Zeitschriften / Abos "
 "verwaltet werden, man kann sie auch für die interne Kommunikation benutzen."
 msgstr ""
 
-#: ../../mailing_lists.rst:7 f3e4f0e6bbe0462dbb98825ee29c708b
+#: ../../mailing_lists.rst:7
 msgid ""
 "Für Mailversände und das Verwalten von Abonnementen könnt ihr entsprechende "
 "Verteilerlisten erfassen."
 msgstr ""
 
-#: ../../mailing_lists.rst:11 e653af5f766c4ead9c4f2e63a28d9f3f
+#: ../../mailing_lists.rst:11
 msgid "Neues Abo erstellen"
 msgstr ""
 
-#: ../../mailing_lists.rst:13 69edb2d0a1f1464481a0f9d175fcab16
+#: ../../mailing_lists.rst:13
 msgid ""
 "Mit den nötigen Berechtigungen könnt ihr im Tab \"Abos\" ein neues Abo "
 "erstellen. Minimal muss ein Name für das Abo vergeben werden. Falls das Abo "
@@ -45,11 +45,11 @@ msgid ""
 "Adresse\" eine Adresse eingetragen werden."
 msgstr ""
 
-#: ../../mailing_lists.rst:19 0e2487d281e64e2daaed38bf80e1fff7
+#: ../../mailing_lists.rst:19
 msgid "Absender-Rechte"
 msgstr ""
 
-#: ../../mailing_lists.rst:20 f26bb282a98f4a16801b4dad42cba5b9
+#: ../../mailing_lists.rst:20
 msgid ""
 "Ohne weitere Konfiguration dürfen alle Personen, die das Abo bearbeiten "
 "können auch Mails an den Verteiler senden. Kontrolliert wird dabei ob die im"
@@ -57,58 +57,58 @@ msgid ""
 "Haupt- oder weitere Mailadresse hinterlegt ist."
 msgstr ""
 
-#: ../../mailing_lists.rst:23 9b999accb36f44d982461adb7d3b9ba8
+#: ../../mailing_lists.rst:23
 msgid ""
 "Die Mailadressen der Gruppe, zu dem das Abo gehört, dürfen ebenfalls "
 "jederzeit Mails an den Verteiler senden."
 msgstr ""
 
-#: ../../mailing_lists.rst:25 5d50da6bcdf14b46a0de4b9b1f7b17a8
+#: ../../mailing_lists.rst:25
 msgid "Zusätzliche Absender können mit folgenden Optionen berechtigt werden"
 msgstr ""
 
-#: ../../mailing_lists.rst:27 afa9c2f1ffaa4a21b856836577741ea2
+#: ../../mailing_lists.rst:27
 msgid ""
 "Das Feld \"Zusätzliche Absender\": Mails mit den aufgeführten Absender-"
 "Adressen dürfen auf die Liste schreiben."
 msgstr ""
 
-#: ../../mailing_lists.rst:28 6af1ad468e5545f6af5ec533a225bd0c
+#: ../../mailing_lists.rst:28
 msgid ""
 "\"Abonnenten dürfen auf die Mailingliste schreiben\": Die bei den Abonnenten"
 " erfassten Mail-Adressen dürfen auf die Liste schreiben."
 msgstr ""
 
-#: ../../mailing_lists.rst:29 169d1e518b52425a827f01377ba97fd2
+#: ../../mailing_lists.rst:29
 msgid ""
 "\"Beliebige Absender/-innen dürfen auf die Mailingliste schreiben\": Alle, "
 "die die Abo-Adresse kennen, können Mails dorthin senden."
 msgstr ""
 
-#: ../../mailing_lists.rst:33 6fccfd57e23446409dc68eb0c28fef77
+#: ../../mailing_lists.rst:33
 msgid "Empfänger zuweisen"
 msgstr ""
 
-#: ../../mailing_lists.rst:35 de9f8d071f634c62a67be4363ace134f
+#: ../../mailing_lists.rst:35
 msgid ""
 "In einem zweiten Schritt gilt es noch, die Empfänger dieses Abos zu "
 "bestimmen. Hierfür orientieren wir uns primär an den Organisationsstrukturen"
 " und den definierten Rollen."
 msgstr ""
 
-#: ../../mailing_lists.rst:38 4a1688bb170249e18c773b23c36090a1
+#: ../../mailing_lists.rst:38
 msgid "Gruppe/Rolle hinzufügen wählen"
 msgstr ""
 
-#: ../../mailing_lists.rst:43 dc836fc9d31f4c1caa4ff083131c5a93
+#: ../../mailing_lists.rst:43
 msgid "Nach Tags einschränken (optional)"
 msgstr ""
 
-#: ../../mailing_lists.rst:50 b2a1abe178d1425babfd3d691c2a9b82
+#: ../../mailing_lists.rst:50
 msgid "Mailversände"
 msgstr ""
 
-#: ../../mailing_lists.rst:52 efb9a61722624b17a99b0985df5a638a
+#: ../../mailing_lists.rst:52
 msgid ""
 "Wenn ihr für das vorliegende Beispiel eine Einladung an alle Mitglieder der "
 "Region Bern versenden möchtet, könnt ihr diese an die gewählte E-Mail-"
@@ -116,22 +116,36 @@ msgid ""
 "Anlässe etc. \"weiterleiten\"."
 msgstr ""
 
-#: ../../mailing_lists.rst:55 253356603e204b3e88645c7e733cfc12
+#: ../../mailing_lists.rst:54
+msgid ""
+"Im Abo kann definiert werden, wer auf das Abo schreiben dar. Nur Abonnenten "
+"auf der Mailingsliste, oder beliebige Absender*innen. Im Feld \"Zusätzlicher"
+" Absender\" kann definiert werden, wenn von weiteren E-Mail Adressen auf den"
+" Mailverteiler geschrieben werden kann. Ein Beispiel: Abo ist ein "
+"Präsidiumsverteiler mit sämtlichen Personen mit der Rolle Präsident*in. Da "
+"dürfen nur Personen welche im Abo sind drauf schreiben. Zusätzlich soll aber"
+" von info@hitobitokunde.ch auf dieses Abo geschrieben werden. In diesem Fall"
+" muss die Mailadresse info@hitobitokunde.ch in das Feld \"Zusätzlicher "
+"Absender\" eingetragen werden. Mittels Strichpunkt (;) können auch mehrere "
+"Adressen erfasst werden."
+msgstr ""
+
+#: ../../mailing_lists.rst:60
 msgid "Etiketten drucken"
 msgstr ""
 
-#: ../../mailing_lists.rst:57 d6f150b0074c41a1bb7e317b528cbd25
+#: ../../mailing_lists.rst:62
 msgid ""
 "Falls ihr ein entsprechendes Etikettenformat definiert habt, könnt ihr diese"
 " im Abo unter \"Export\" auswählen, damit euch für physische Versände die "
 "Adressen der gewählten Mitglieder exportiert werden."
 msgstr ""
 
-#: ../../mailing_lists.rst:61 488e12b8db17402785cd63f464d8f407
+#: ../../mailing_lists.rst:66
 msgid "Mailinglisten nach Tags filtern"
 msgstr ""
 
-#: ../../mailing_lists.rst:62 5236c50cbb304feba7a76a4243cf8194
+#: ../../mailing_lists.rst:67
 msgid ""
 "Personen können beim hinzufügen via Rolle/Gruppe auch nach Tags gefiltert "
 "werden"

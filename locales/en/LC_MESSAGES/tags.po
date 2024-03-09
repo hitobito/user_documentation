@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2021, hitobito AG
+# Copyright (C) 2024, Hitobito
 # This file is distributed under the same license as the Hitobito package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Hitobito\n"
+"Project-Id-Version: Hitobito 0.1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-17 18:43+0100\n"
+"POT-Creation-Date: 2024-03-09 15:57+0100\n"
 "PO-Revision-Date: 2023-02-17 22:36+0000\n"
 "Language-Team: English (https://app.transifex.com/hitobito/teams/4727/en/)\n"
 "MIME-Version: 1.0\n"
@@ -17,11 +17,11 @@ msgstr ""
 "Language: en\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../../tags.rst:2 e8e95bf57d194b2aa08c26775f049c0d
+#: ../../tags.rst:2
 msgid "Tags"
 msgstr ""
 
-#: ../../tags.rst:4 734a4a5f7a0b4053a05861fe04c6bf88
+#: ../../tags.rst:4
 msgid ""
 "Mit Tags (engl. für Etikett, Schildchen) lassen sich in hitobito Kategorien "
 "oder Merkmale auf Personen abbilden. Tags sind nicht strukturierte "
@@ -29,47 +29,47 @@ msgid ""
 "schreibrechte auf der Person erforderlich."
 msgstr ""
 
-#: ../../tags.rst:7 946a52bad0a04364a3d9076873b38ee5
+#: ../../tags.rst:7
 msgid "Erfassen von Tags"
 msgstr ""
 
-#: ../../tags.rst:9 92997e602ded405d82f89e91924a6310
+#: ../../tags.rst:9
 msgid ""
 "Beim Erfassen der Tags könnt ihr die Kategorie direkt eingeben oder auch "
 "Unterkategorien bilden."
 msgstr ""
 
-#: ../../tags.rst:11 c5e393dc313147e285683f235a77e373
+#: ../../tags.rst:11
 msgid "Bsp.:"
 msgstr ""
 
-#: ../../tags.rst:13 45e4dd9abc3846928382946d464e465c
+#: ../../tags.rst:13
 msgid ""
 "Tag \"Newsletter\" vergeben, falls diese Person einen Newsletter erhalten "
 "soll."
 msgstr ""
 
-#: ../../tags.rst:14 5ecd1daea67243db8dd19c401f0c199e
+#: ../../tags.rst:14
 msgid ""
 "Tag \"Mailings: News\" oder \"Mailings: Events\" vergeben, wenn es "
 "Newsletter für verschiedene Fälle gibt."
 msgstr ""
 
-#: ../../tags.rst:20 3dd738ccbf2142a69736ed42580b0306
+#: ../../tags.rst:20
 msgid "Verwalten von Tags"
 msgstr ""
 
-#: ../../tags.rst:22 029f98ae554b407b9106cd3e385a471b
+#: ../../tags.rst:22
 msgid ""
 "Als Administrator können die Tags unter Einstellungen für die ganze Instanz "
 "erstellt, bearbeitet, gelöscht und zusammengeführt werden."
 msgstr ""
 
-#: ../../tags.rst:26 200120d008aa43a6bc7c8cf3e2f6c3f9
+#: ../../tags.rst:26
 msgid "Personen mit Tags auswählen"
 msgstr ""
 
-#: ../../tags.rst:28 6f0f8b6641774f73a2b988969545fe73
+#: ../../tags.rst:28
 msgid ""
 "Auf der Personenlisten können nach Tags gefilter werden. Weiter können bei "
 "Mailinglisten/Abo Personen aufgrund der gesetzten Tags ausgewählt werden."
