@@ -1,13 +1,11 @@
 Rechnungen
 ================
 
-.. warning:: Rechnungen sind ein Feature welches pro Instanz aktiviert werden kann.
+In Hitobito können Debitoren verwaltet, Rechnungen erstellt und Zahlungen verbucht werden. Hitobito hat keine Buchhaltungsfeatures. Bei Bedarf können die Rechnungs- und Zahlungsdaten exportiert, oder eine Buchhaltungssoftware via Schnittstellen angebunden werden.
 
-
-.. note:: Ob du Rechnungen verwalten kannst hängt davon ab, ob dir eine entsprechende Rolle vergeben wurde. Welche Rolle das ist hängt von der jeweiligen Organisation ab.
-
-
-In hitobito können Rechnungen erstellt und Debitoren verwaltet werden.
+.. note:: 
+- Rechnungen sind ein Feature welches pro Instanz aktiviert werden kann.
+- Ob eine Person Rechnungen verwalten kann hängt davon ab, ob sie eine entsprechende Rolle hat. Welche Rollen `:finance` Berechtigungen haben hängt von der jeweiligen Organisation ab.
 
 
 Rechnungen erstellen
