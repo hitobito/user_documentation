@@ -35,9 +35,13 @@ Rechnungen einsehen und bearbeiten
 --------------------------------------
 
 Rechnungen können in der Übersicht Rechnungen eingesehen und bearbeitet werden. Hier wird zwischen Einzelrechnungen und Sammelrechnungen unterschieden. 
+
 Rechnungen können gestellt, gemahnt und per Email versendet werden. Dabei werden immer sämtliche ausgewählten Rechnungen gestellt oder gemahnt abhängig von ihrem aktuellen Status.
+
 Hier können Rechnungen auch gedruckt oder exportiert werden, und es können Zahlungen erfasst werden.
+
 Sammelrechnungen werden in der Übersicht zusätzlich pro Rechnungslauf zusammengefasst. Dabei wird die Anzahl Empfänger, so wie die Anzahl und der Betrag der bezahlten Rechnungen angezeigt.
+
 Die Rechnungen einer spezifischen Person können auch auf der jeweiligen Personenansicht eingesehen werden.
 
 
@@ -59,20 +63,29 @@ Unter Buchungsbeleg wird eine rudimentäre Übersicht über die eingegangenen Za
 
 Häufig gestellte Fragen:
 ---------------------------------------
-Q: Ich kann keine Rechnungen erstellen. Die Gruppe als welche ich Rechnungen stellen mögcht ist ausgegraut
+Q: Ich kann keine Rechnungen erstellen. Die Gruppe als welche ich Rechnungen stellen mögcht ist ausgegraut.
+
 A: Für die ausgegraute Gruppe sind keine gültigen Rechnungseinstellungen vorhanden. Bitte aktuallisiere die Rechnungseinstellungen.
 
+
 Q: Ich kann meine Rechnungseinstellungen nicht speichern? 
+
 A: Vermutlich ist in einem anderen Tab der Rechnungseinstellungen noch eine falsche Information vorhanden. Probiere auf den verschiedenen Tabs die Rechnungseinstellungen zu speichern.
 
+
 Q: Ich kann eine Rechnung nicht mehr löschen?
+
 A: Eine Rechnung kann nur gelöscht werden, solange sie noch den Status "Entwurf" hat. Eine Sammelrechnung kann nur gelöscht werden, wenn noch alle darin enthaltenen Rechnungen den Status "Entwurf" haben. Hat eine Rechnung bereits einen anderen Status, kann diese nur noch storniert werden.
 
+
 Q: Eine Rechnung mit dem Status "Gestellt" wird nicht gemahnt, obwohl ich diese bei Mahnen ausgewählt hatte.
+
 A: Rechnungen werden nur gemahnt, wenn das Mahndatum erreicht wird. Sschaue in den Rechnungseinstellungen nach, wie lange nach Rechnungsdatum hier die Mahnfrist ist.
 
+
 Q: Nach dem Speichern meiner Sammelrechnung werden keine Rechnungen erstellt.
+
 A: Damit Sammelrechnungen erfolgreich erstellt werden können, muss mindestens eine Rechnungspositon einen Betrag aufweisen (Dieser Betrag kann 0 sein).
 
-
+---------------------------------------
 .. [#f2] Eine camt.054 XML-Datei ist die Sammelbuchungs-auflösung und Belastungs- und Gutschriftsanzeige. Diese enthält eine Reihe verschiedene Buchungspositionen welche automatisiert auf Basis der ESR-Nummer bestehenden Rechnungen zugeordnet werden.
