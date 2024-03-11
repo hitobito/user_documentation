@@ -1,0 +1,21 @@
+name: Update transifex with latest translations
+run-name: ${{ github.actor }} is updating transifex 🚀
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Transifex CLI action
+        uses: transifex/cli-action@v2
+        with:
+          token: ${{ secrets.TX_TOKEN }}
+      - uses: actions/checkout@v4
+      - name: List files in the repository
+        run: ls ${{ github.workspace }}
+      - name: Show tranisfex version
+        run: /tmp/tx/tx -v
+      - name: Update gettext and create po files
+        run: echo tbd
+      - name: Push to transifex
+        run: /tmp/tx/tx push
