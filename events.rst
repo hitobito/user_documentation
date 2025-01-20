@@ -26,3 +26,9 @@ Die eingeladenen Personen können sich dann auf der Anlass-Seite für den Anlass
 Die eingeladenen Personen erhalten kein automatische Benachrichtigung,
 da die Betroffenen wohl in vielen Fällen (z.B. Sitzungen, Generalversammlung)
 separat ausführlich informiert werden müssen.
+
+
+Über das Personen-Register der anbietenden Gruppe eines Anlasses oder Kurses
+können auch mehrere Personen gleichzeitig hinzugefügt werden.
+
+.. image:: images/invitation_mass-add.png
