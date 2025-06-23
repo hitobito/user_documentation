@@ -69,3 +69,4 @@ Vorhanden, jedoch noch keine abschliessende Verifikation:
 - Zuger Kantonalbank
 
 Gerne ergänzen wir diese Liste mit weiteren Banken. 
+Dafür wird ein Zahlungsexport (camt054) via Z54 Protokoll sowie eine Authentifizierung via die Protokolle INI, HIA oder HPB der jeweiligen Bank benötigt.
