@@ -37,6 +37,10 @@ Hitobito analysiert jede Nacht die Einträge in der Datenbank und ergänzt die L
 
 Dieselbe Duplikatserkennung wird auch schon direkt während dem Import einer CSV-Datei angewendet. Dort bekommt man gleich während dem Import noch die Möglichkeit, auszuwählen welche Zeilen eine bestehende Person aktualisieren sollen und welche Zeilen wirklich neue Personen sind.
 
+Auf der Ansicht "Duplikate" auf der Personenliste einer Ebene können Duplikate zusammengeführt oder permanent ignoriert werden, falls folgende Bedingungen erfüllt sind:
+- Um die Ansicht "Duplikate" überhaupt zu sehen, werden hohe Berechtigungen in der Ebene benötigt (:layer_and_below_full).
+- Um ein Duplikat zusammenzuführen oder permanent zu ignorieren muss man Leseberechtigung auf beide betroffenen Personeneinträge haben, und zusätzlich Schreibrechte auf mindestens einem der betroffenen Personeneinträge.
+
 
 Wann wird welche Referenznummer verwendet?
 ------------------------------------------
