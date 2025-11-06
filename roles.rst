@@ -1,3 +1,18 @@
+Startseite Benutzer
+==============================================
+
+Übersicht
+------------
+.. image:: images/Hauptuebersicht.png
+
+
+
+
+
+
+
+
+
 Gruppen & Rollen
 ==============================================
 
