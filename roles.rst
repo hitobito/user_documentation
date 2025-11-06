@@ -37,7 +37,7 @@ Notizen
 ------------
 Im eigenen Profil, sowohl als auch in den Profilen anderer Personen können Notizen erfasst werden. Diese Funktion ist nicht für Mitglieder sondern nur für Personen mit Leitungs- oder Administrationsrolle nutzbar.
 
-.. image:: images/Notiz.png
+.. image:: images/Notizen.png
 
 
 Gruppen & Rollen
