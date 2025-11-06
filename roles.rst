@@ -96,7 +96,7 @@ Im Menu „Personen“ werden - bei einem eigenen Verein - in der Grundeinstellu
 
 Über den Button „Spalten“ kann eingestellt werden, welche Angaben in der Übersicht angezeigt werden sollen. Mit den Befehelen „Export“ bzw. „Drucken“ können die angezeigten Daten heruntergeladen werden bzw. ausgedruckt werden.
 
-
+.. image:: images/MenuPersonen.png
 
 Über die Funktion „Weitere Ansichten“ können alle Personen („Gesamte Ebene“) angezeigt oder Filter gesetzt werden.
 
