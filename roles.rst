@@ -14,6 +14,7 @@ Startseite Benutzer
 Ansicht Info
 ------------
 In der Ansicht Info stehen, je nach Berechtigung, verschiedene Befehle zur Verfügung:
+.. image:: images/Info.png
 
 
 
