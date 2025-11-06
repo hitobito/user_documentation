@@ -53,7 +53,7 @@ Ansicht Nachrichten
 ------------
 In der Ansicht „Nachrichten“ wird ersichtlich, welche Mailings eine Person bisher erhalten hat. Es werden nur Mailings angezeigt, die die Person über einen Verteiler also ein Abo aus der Datenbank erhalten hat.
 
-
+.. image:: images/Nachrichten.png
 
 
 
