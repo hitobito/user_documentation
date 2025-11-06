@@ -78,7 +78,7 @@ In der Ansicht „Sicherheit“ können verschiedene Informationen abgeholt und 
 * Passwort überschreiben: Über diesen Button wird das aktuelle Passwort überschrieben und die Person kann sich über die Funktion „Passwort zurücksetzen“ ein neues zusenden lassen.
 * Login sperren: Über diese Ansicht gibt es die Möglichkeit die Haupt-E-Mail einer Person gelöscht werden, diese kann später wieder hinzugefügt werden.
 
-.. image:: images/Log.png
+.. image:: images/Sicherheit.png
 
 
 
