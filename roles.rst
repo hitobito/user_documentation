@@ -45,6 +45,18 @@ Ansicht Abos
 Auflistung, in welcher Mailingliste der Benutzer eingetragen ist. Mehr dazu...
 
 
+Ansicht Rechnungen
+------------
+In der Ansicht „Rechnungen“ finden sich alle Rechnungen, welche an diese Person geschickt wurden. Diese Ansicht ist jedoch nur für gewisse Rollen verfügbar.
+
+Ansicht Nachrichten
+------------
+In der Ansicht „Nachrichten“ wird ersichtlich, welche Mailings eine Person bisher erhalten hat. Es werden nur Mailings angezeigt, die die Person über einen Verteiler also ein Abo aus der Datenbank erhalten hat.
+
+
+
+
+
 Ansicht Verlauf
 ------------
 In der Ansicht „Verlauf“ findet sich eine Übersicht aller Gruppen, welchen eine Person aktuell und in der Vergangenheit angehörte und die entsprechende Rolle, die sie Inne hatte. Bei vergangenen Rollen in ein Von- und Bis-Datum vermerkt; bei aktuellen Rollen nur ein Von-Datum.
