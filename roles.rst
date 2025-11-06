@@ -90,6 +90,21 @@ Unter dem Menupunkt „Info“ kann für jede Gruppe eine Kontaktperson ausgewä
 
 .. image:: images/MenuInfo.png
 
+Menu Personen
+------------
+Im Menu „Personen“ werden - bei einem eigenen Verein - in der Grundeinstellung alle Mitglieder der Gruppe mit einer bestimmten Funktion angezeigt. Dieser Menupunkt ist bei fremden Vereinen nicht sichtbar.
+
+Über den Button „Spalten“ kann eingestellt werden, welche Angaben in der Übersicht angezeigt werden sollen. Mit den Befehelen „Export“ bzw. „Drucken“ können die angezeigten Daten heruntergeladen werden bzw. ausgedruckt werden.
+
+
+
+Über die Funktion „Weitere Ansichten“ können alle Personen („Gesamte Ebene“) angezeigt oder Filter gesetzt werden.
+
+Beispiel: Ist die Gruppe „Mitglieder“ eines eigenen Vereins ausgewählt, werden alle Personen dieser Gruppe angezeigt, also die Liste aller Aktivmitglieder.
+
+Bei der Gruppe „Vorstand“, werden alle Personen dieser Gruppe angezeigt, also die Liste aller Vorstandsmitglieder.
+
+Wird eine oder mehrere Personen markiert (Haken ganz links in der Liste), erscheinen weitere Befehle, mit welchen alle markierten Personen gleichzeitig bearbeitet werden können:
 
 
 
