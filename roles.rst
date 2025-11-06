@@ -24,7 +24,7 @@ In der Ansicht Info stehen, je nach Berechtigung, verschiedene Befehle zur Verf�
 * Export: Herunterladen der angezeigten Daten in verschiedenen Formaten (CSV, PDF, Excel etc.).
 * Login schicken: Dieser Befehl schickt dem Benutzer ein E-Mail mit dem Link zum setzen eines Passwortes. Fährt man mit der Maus über diesen Button erscheint die Information, ob der Benutzer bereits ein Login hat, oder nicht.
 
-.. image:: images/Kein Login.png
+.. image:: images/KeinLogin.png
 
 * Passwort ändern: Auf dem eigenen Profil, kann man unter Login sein Passwort ändern.
 
