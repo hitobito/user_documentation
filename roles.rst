@@ -18,6 +18,19 @@ In der Ansicht Info stehen, je nach Berechtigung, verschiedene Befehle zur Verf�
 .. image:: images/Info.png
 
 
+* Bearbeiten: Ändern der Angaben zur Person
+* Löschen: Löschen der Person
+* Rechnung erstellen: Erstellen einer Rechnung für diese Person
+* Export: Herunterladen der angezeigten Daten in verschiedenen Formaten (CSV, PDF, Excel etc.).
+* Login schicken: Dieser Befehl schickt dem Benutzer ein E-Mail mit dem Link zum setzen eines Passwortes. Fährt man mit der Maus über diesen Button erscheint die Information, ob der Benutzer bereits ein Login hat, oder nicht.
+
+
+
+
+
+
+
+
 
 
 Gruppen & Rollen
