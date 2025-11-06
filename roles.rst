@@ -107,6 +107,7 @@ Bei der Gruppe „Vorstand“, werden alle Personen dieser Gruppe angezeigt, als
 Wird eine oder mehrere Personen markiert (Haken ganz links in der Liste), erscheinen weitere Befehle, mit welchen alle markierten Personen gleichzeitig bearbeitet werden können:
 
 
+.. image:: images/Personenmarkiert.png
 
 
 
