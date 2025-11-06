@@ -81,10 +81,22 @@ In der Ansicht „Sicherheit“ können verschiedene Informationen abgeholt und 
 .. image:: images/Sicherheit.png
 
 
+Gruppen
+==============================================
+
+Menu Info
+------------
+Unter dem Menupunkt „Info“ kann für jede Gruppe eine Kontaktperson ausgewählt oder eine „Vereinsadresse“ definiert werden.
 
 
 
-Gruppen & Rollen
+
+
+
+
+
+
+Rollen
 ==============================================
 
 Rollen sind ein zentrales Konzept in hitobito:
