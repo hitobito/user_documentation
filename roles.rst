@@ -69,7 +69,7 @@ Ansicht Log
 ------------
 In der Ansicht „Log“ kann nachverfolgt werden, wer wann welche Informationen im Profil angepasst hat.
 
-
+.. image:: images/Log.png
 
 
 
