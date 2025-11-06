@@ -1,4 +1,4 @@
-Gruppen / Rollen
+Rollen
 ==============================================
 
 Rollen sind ein zentrales Konzept in hitobito:
