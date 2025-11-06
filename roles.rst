@@ -4,6 +4,7 @@ Startseite Benutzer
 Übersicht
 ------------
 .. image:: images/Hauptuebersicht.png
+Ansicht eines Mitglieds, was sich auf der Datenbank eingeloggt hat.
 
 
 
