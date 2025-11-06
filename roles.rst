@@ -40,6 +40,25 @@ Im eigenen Profil, sowohl als auch in den Profilen anderer Personen können Noti
 .. image:: images/Notizen.png
 
 
+Ansicht Abos
+------------
+Auflistung, in welcher Mailingliste der Benutzer eingetragen ist. Mehr dazu...
+
+
+Ansicht Verlauf
+------------
+In der Ansicht „Verlauf“ findet sich eine Übersicht aller Gruppen, welchen eine Person aktuell und in der Vergangenheit angehörte und die entsprechende Rolle, die sie Inne hatte. Bei vergangenen Rollen in ein Von- und Bis-Datum vermerkt; bei aktuellen Rollen nur ein Von-Datum.
+
+Ebenfalls werden hier die Anlässe und Kurse der entsprechenden Person ausgelistet ist, zu welchen sie anmgeldet ist bzw. war.
+
+
+
+
+
+
+
+
+
 Gruppen & Rollen
 ==============================================
 
