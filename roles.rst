@@ -4,7 +4,6 @@ Startseite Benutzer
 Übersicht
 ------------
 .. image:: images/Hauptuebersicht.png
-Ansicht eines Mitglieds, was sich auf der Datenbank eingeloggt hat.
 
 
 * Suchen: Im Suchfeld kann nach Personen, Vereinen, Verbänden, Anlässen, Kursen etc. gesucht werden.
