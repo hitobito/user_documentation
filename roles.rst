@@ -26,10 +26,12 @@ In der Ansicht Info stehen, je nach Berechtigung, verschiedene Befehle zur Verf�
 
 .. image:: images/Kein Login.png
 
+* Passwort ändern: Auf dem eigenen Profil, kann man unter Login sein Passwort ändern.
+
+.. image:: images/Login.png
 
 
-
-
+fsdf
 
 
 
