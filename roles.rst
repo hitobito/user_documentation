@@ -88,7 +88,7 @@ Menu Info
 ------------
 Unter dem Menupunkt „Info“ kann für jede Gruppe eine Kontaktperson ausgewählt oder eine „Vereinsadresse“ definiert werden.
 
-
+.. image:: images/MenuInfo.png
 
 
 
