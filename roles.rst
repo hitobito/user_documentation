@@ -30,6 +30,7 @@ In der Ansicht Info stehen, je nach Berechtigung, verschiedene Befehle zur Verf√
 
 .. image:: images/Login.png
 
+.. image:: images/Passwortaendern.png
 
 fsdf
 
