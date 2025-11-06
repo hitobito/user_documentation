@@ -56,7 +56,6 @@ In der Ansicht „Nachrichten“ wird ersichtlich, welche Mailings eine Person b
 .. image:: images/Nachrichten.png
 
 
-
 Ansicht Verlauf
 ------------
 In der Ansicht „Verlauf“ findet sich eine Übersicht aller Gruppen, welchen eine Person aktuell und in der Vergangenheit angehörte und die entsprechende Rolle, die sie Inne hatte. Bei vergangenen Rollen in ein Von- und Bis-Datum vermerkt; bei aktuellen Rollen nur ein Von-Datum.
@@ -64,6 +63,11 @@ In der Ansicht „Verlauf“ findet sich eine Übersicht aller Gruppen, welchen 
 Ebenfalls werden hier die Anlässe und Kurse der entsprechenden Person ausgelistet ist, zu welchen sie anmgeldet ist bzw. war.
 
 .. image:: images/Verlauf.png
+
+
+Ansicht Log
+------------
+In der Ansicht „Log“ kann nachverfolgt werden, wer wann welche Informationen im Profil angepasst hat.
 
 
 
