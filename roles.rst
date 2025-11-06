@@ -51,8 +51,7 @@ In der Ansicht „Verlauf“ findet sich eine Übersicht aller Gruppen, welchen 
 
 Ebenfalls werden hier die Anlässe und Kurse der entsprechenden Person ausgelistet ist, zu welchen sie anmgeldet ist bzw. war.
 
-
-
+.. image:: images/Verlauf.png
 
 
 
