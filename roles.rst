@@ -72,6 +72,16 @@ In der Ansicht „Log“ kann nachverfolgt werden, wer wann welche Informationen
 .. image:: images/Log.png
 
 
+Ansicht Sicherheit
+------------
+In der Ansicht „Sicherheit“ können verschiedene Informationen abgeholt und folgende Aktonen getätigt werden:
+* Passwort überschreiben: Über diesen Button wird das aktuelle Passwort überschrieben und die Person kann sich über die Funktion „Passwort zurücksetzen“ ein neues zusenden lassen.
+* Login sperren: Über diese Ansicht gibt es die Möglichkeit die Haupt-E-Mail einer Person gelöscht werden, diese kann später wieder hinzugefügt werden.
+
+.. image:: images/Log.png
+
+
+
 
 
 Gruppen & Rollen
