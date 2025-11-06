@@ -7,14 +7,13 @@ Startseite Benutzer
 
 
 * Suchen: Im Suchfeld kann nach Personen, Vereinen, Verbänden, Anlässen, Kursen etc. gesucht werden.
-
 * Sprachauswahl: Es kann zwischen den Sprachen Deutsch | Französisch | Italienisch umgeschaltet werden.
-
 * Abmelden: Mit dem Abmelden-Link wird der Benutzer von hitobito abgemeldet.
-
 * Logo: Ein Klick auf das Logo des Vereins bzw. Verbandes führt zur Startseite des Benutzers, d.h. zur Startseite der Hauptgruppe.
 
-
+Ansicht Info
+------------
+In der Ansicht Info stehen, je nach Berechtigung, verschiedene Befehle zur Verfügung:
 
 
 
