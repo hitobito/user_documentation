@@ -149,6 +149,20 @@ Unter Abonennten können die Empfänger fürs Mailing ausgewählt werden. Dies k
 
 .. image:: images/AnsichtAbo4.png
 
+Menu Notizen
+------------
+Unter diesem Menupunkt sind die unter dem Menupunkt „Info“ erfassten Notizen zum Verein oder zur Gruppe aufgelistet. Man kann sich dort auch die Notizen der Untergruppen anschauen. Dieser Menupunkt ist allerdings nur für Administratoren ersichtlich.
+
+Menu Gelöscht
+------------
+Unter dem Menupunkt „Gelöscht“ werden frühere, inzwischen gelöschte Untergruppen des Vereins angezeigt.
+
+Menu API-Keys
+------------
+Dieser Menupunkt ist nur für Administratoren ersichtlich. Für die technische Anbindung an Webseiten oder Apps können hier sogenannte API-Keys generiert werden.
+
+
+
 
 Rollen
 ==============================================
