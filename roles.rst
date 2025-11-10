@@ -109,6 +109,9 @@ Wird eine oder mehrere Personen markiert (Haken ganz links in der Liste), ersche
 
 .. image:: images/Personenmarkiert.png
 
+Menu Anlässe
+------------
+Unter dem Menupunkt „Anlässe“ werden die Anlässe, welche von der angezeigten Gruppe erstellt, bzw. von der jeweiligen Untergruppe erstellt wurden, aufgelistet. Hier können sich die Mitglieder für die Anlässe anmelden, die Anlässe exportieren oder direkt in den Kalender eitnragen (mit Hilfe einer iCalender-Datei).
 
 
 
