@@ -129,6 +129,10 @@ Um ein Abo anzulegen, muss zwingend ein Name für die Gruppe definiert werden. Z
 
 .. image:: images/MenuAbos.png
 
+Für das Abo kann des weiteren eine E-Mail-Adresse für die Mailingliste definiert werden. Des weiteren können Personen definiert werden, welche Nachrichten über diese Mailingliste verschicken können.
+
+.. image:: images/MenuAbos2.png
+
 
 
 
