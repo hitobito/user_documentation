@@ -1,10 +1,32 @@
-Events
+Administrieren
 ========================
-In Hitobito können unterschiedliche Arten von Events geführt werden. Einfache Anlässe und Kurse. Für gewisse Instanzen wurden zusätzliche Eventsarten wie Lager, Ferienlager oder Musikfeste ergänzt.
 
 Anlässe
 -------
-In der Organisation von Anlässen unterstützt Hitobito auf eine einfache Weise. Mitglieder können sich mit ihrem Benutzer direkt anmelden, ohne erneut ihre Angaben wie Adressen eingeben zu müssen.
+
+In Hitobito können unterschiedliche Arten von Events geführt werden. Einfache Anlässe und Kurse. Für gewisse Instanzen wurden zusätzliche Eventsarten wie Lager, Ferienlager oder Musikfeste ergänzt.
+
+Unter „Anlässe“ findet siche eine Übersicht über Anlässe von Gruppen, bei denen man selbst Mitglied ist, sowie deren Übergruppen. Andere Anlässe finden sich bei der organsierenden Gruppe:
+
+.. image:: images/AnsichtAnlaesse1.png
+
+Hier kann man sich direkt für einen Anlass anmelden, sofern die Anmledung bereits freigegeben beziehungsweise der Anmeldeschluss noch nicht eingetreten ist.
+
+Neuen Anlass erstellen
+-----
+Anlass erstellen in der gewünschten Gruppe, auf der entsprechenden Ebene:
+
+.. image:: images/AnlassErstellen.png
+
+.. image:: images/AnlassErstellen2.png
+
+
+
+
+
+
+
+
 
 Kurse
 -----
