@@ -133,7 +133,21 @@ Für das Abo kann des weiteren eine E-Mail-Adresse für die Mailingliste definie
 
 .. image:: images/MenuAbos2.png
 
+Wenn ein Abo erstellt ist, können die berechtigten Personen verschiedene Informationen dazu entnehmen und Aktionen vornehmen. Zum einen hat man jederzeit die Möglichkeit das Abo zu bearbeiten oder zu löschen und je nach dem, sich für das Abo an- oder abzumelden.
 
+.. image:: images/AnsichtAbo.png
+
+Des weiteren kann nachvollzogen werden, welche Nachrichten bereits über dieses Abo versendet wurden. Dort kann ebenfalls ausgelesen werden, in welchem Zustand sich das Mailing gerade befindet, wer der Absender ist und wann das Mailing verarbeitet wurde.
+
+.. image:: images/AnsichtAbo2.png
+
+Im Mailing selbst, kann man dann herausfinden, an wie viele Empfänger das Mailing ging und bei wie viele davon dies erfolgreich oder fehlerhaft ankam.
+
+.. image:: images/AnsichtAbo3.png
+
+Unter Abonennten können die Empfänger fürs Mailing ausgewählt werden. Dies können zum einen Gruppen oder Rollen oder zum anderen Einzelpersonen sein. Es ist zudem möglich Anlässe, also die entsprechenden Teilnehmenden, als Empfänger zu hinterlegen. Des weiteren können Personen explizit von einem Abo ausgeschlossen werden.
+
+.. image:: images/AnsichtAbo4.png
 
 
 Rollen
