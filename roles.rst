@@ -121,6 +121,16 @@ Unter dem Menupunkt „Kurse“ werden die Kurse, welche von der angezeigten Gru
 
 .. image:: images/MenuKurse.png
 
+Menu Abos
+------------
+Unter dem Menupunkt „Abos“ können Abos für bestimmte Gruppen erstellt werden. Diese können dann dafür genutzt werden, Mailings an diese definierten Gruppen senden zu können.
+
+Um ein Abo anzulegen, muss zwingend ein Name für die Gruppe definiert werden. Zudem muss festgelegt werden, ob und welche Mitglieder sich eigenständig für dieses Abo an- und abmelden können.
+
+.. image:: images/MenuAbos.png
+
+
+
 
 Rollen
 ==============================================
