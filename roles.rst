@@ -115,6 +115,12 @@ Unter dem Menupunkt „Anlässe“ werden die Anlässe, welche von der angezeigt
 
 .. image:: images/MenuAnlaesse.png
 
+Menu Kurse
+------------
+Unter dem Menupunkt „Kurse“ werden die Kurse, welche von der angezeigten Gruppe erstellt, bzw. von der jeweiligen Untergruppe erstellt wurden, aufgelistet. Hier können sich die Mitglieder für die Kurse anmelden, die Anlässe exportieren oder direkt in den Kalender eitnragen (mit Hilfe einer iCalender-Datei).
+
+.. image:: images/MenuKurse.png
+
 
 Rollen
 ==============================================
