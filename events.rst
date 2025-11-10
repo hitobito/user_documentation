@@ -1,6 +1,42 @@
 Administrieren
 ========================
 
+In diesem Kapitel werden Spezialfunktionen erläutert, um Vereine zu verwalten. Diese sind nur für Personen sichtbar oder zugänglich, welche die entsprechenden Gruppenzugehörigkeiten und Rollen besitzen.
+
+Personen
+-------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Anlässe
 -------
 
