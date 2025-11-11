@@ -38,7 +38,7 @@ Rechnungen können aus folgenden Ansichten erstellt werden:
 Rechnungen einsehen und bearbeiten
 --------------------------------------
 
-Rechnungen können in der Übersicht Rechnungen eingesehen und bearbeitet werden. Hier wird zwischen Einzelrechnungen und Sammelrechnungen unterschieden. 
+Rechnungen können in der Übersicht „Rechnungen“ eingesehen und bearbeitet werden. Hier wird zwischen Einzelrechnungen und Sammelrechnungen unterschieden. 
 
 Rechnungen können gestellt, gemahnt und per Email versendet werden. Dabei werden immer sämtliche ausgewählten Rechnungen gestellt oder gemahnt abhängig von ihrem aktuellen Status.
 
