@@ -112,7 +112,7 @@ msgstr ""
 
 #: ../../invoices.rst:30
 msgid ""
-"In einem **Abo**. Erstellt eine Sammelrechnung an die jeweiligen Empfänger "
+"In einem **Abo**. Erstellt einen Rechnungslauf an die jeweiligen Empfänger "
 "des Abos."
 msgstr ""
 
@@ -129,7 +129,7 @@ msgstr ""
 #: ../../invoices.rst:37
 msgid ""
 "Rechnungen können in der Übersicht Rechnungen eingesehen und bearbeitet "
-"werden. Hier wird zwischen Einzelrechnungen und Sammelrechnungen "
+"werden. Hier wird zwischen Einzelrechnungen und Rechnungsläufen "
 "unterschieden."
 msgstr ""
 
@@ -148,7 +148,7 @@ msgstr ""
 
 #: ../../invoices.rst:43
 msgid ""
-"Sammelrechnungen werden in der Übersicht zusätzlich pro Rechnungslauf "
+"Rechnungen werden in der Übersicht zusätzlich pro Rechnungslauf "
 "zusammengefasst. Dabei wird die Anzahl Empfänger, so wie die Anzahl und der "
 "Betrag der bezahlten Rechnungen angezeigt."
 msgstr ""
@@ -178,7 +178,7 @@ msgid ""
 "In der Übersicht Einzelrechnungen können camt.54 XML-Datei [#f2]_  "
 "hochgeladen werden. Diese erfassen die jeweiligen Zahlungen auf den "
 "dazugehörigen Rechnungen. Die Zahlungen werden auch erfasst, wenn es sich "
-"dabei um eine Sammelrechnung handelt."
+"dabei um einen Rechnungslauf handelt."
 msgstr ""
 
 #: ../../invoices.rst:56
@@ -235,7 +235,7 @@ msgstr ""
 #: ../../invoices.rst:78
 msgid ""
 "A3: Eine Rechnung kann nur gelöscht werden, solange sie noch den Status "
-"\"Entwurf\" hat. Eine Sammelrechnung kann nur gelöscht werden, wenn noch "
+"\"Entwurf\" hat. Ein Rechnungslauf kann nur gelöscht werden, wenn noch "
 "alle darin enthaltenen Rechnungen den Status \"Entwurf\" haben. Hat eine "
 "Rechnung bereits einen anderen Status, kann diese nur noch storniert werden."
 msgstr ""
@@ -255,13 +255,13 @@ msgstr ""
 
 #: ../../invoices.rst:86
 msgid ""
-"Q5: Nach dem Speichern meiner Sammelrechnung werden keine Rechnungen "
+"Q5: Nach dem Speichern meines Rechnungslaufs werden keine Rechnungen "
 "erstellt."
 msgstr ""
 
 #: ../../invoices.rst:88
 msgid ""
-"A5: Damit Sammelrechnungen erfolgreich erstellt werden können, muss "
+"A5: Damit Rechnungsläufe erfolgreich erstellt werden können, muss "
 "mindestens eine Rechnungspositon einen Betrag aufweisen (Dieser Betrag kann "
 "0 sein)."
 msgstr ""
