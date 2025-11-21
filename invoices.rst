@@ -31,20 +31,20 @@ Rechnungen können aus folgenden Ansichten erstellt werden:
 - Personenlisten in einer **Gruppe**. Erstellt eine Einzelrechnung an die ausgewählten Personen.
 - Teilnehmerlisten von einem **Event**. Erstellt eine Einzelrechnung an die ausgewählten Personen.
 - Auf dem Profil einer **Einzelperson**. Erstellt eine Einzelrechnung an die ausgewählte Person.
-- In einem **Abo**. Erstellt eine Sammelrechnung an die jeweiligen Empfänger des Abos.
+- In einem **Abo**. Erstellt einen Rechnungslauf an die jeweiligen Empfänger des Abos.
 - **Externe Rechnungen** erstellen in der Übersicht Einzelrechnungen. Erstellt eine Einzelrechnung. Diese wird keiner Person in Hitobito zugeordnet.
 
 
 Rechnungen einsehen und bearbeiten
 --------------------------------------
 
-Rechnungen können in der Übersicht „Rechnungen“ eingesehen und bearbeitet werden. Hier wird zwischen Einzelrechnungen und Sammelrechnungen unterschieden. 
+Rechnungen können in der Übersicht „Rechnungen“ eingesehen und bearbeitet werden. Hier wird zwischen Einzelrechnungen und Rechnungsläufen unterschieden.
 
 Rechnungen können gestellt, gemahnt und per Email versendet werden. Dabei werden immer sämtliche ausgewählten Rechnungen gestellt oder gemahnt abhängig von ihrem aktuellen Status.
 
 Hier können Rechnungen auch gedruckt oder exportiert werden, und es können Zahlungen erfasst werden.
 
-Sammelrechnungen werden in der Übersicht zusätzlich pro Rechnungslauf zusammengefasst. Dabei wird die Anzahl Empfänger, so wie die Anzahl und der Betrag der bezahlten Rechnungen angezeigt.
+Rechnungen werden in der Übersicht zusätzlich pro Rechnungslauf zusammengefasst. Dabei wird die Anzahl Empfänger, so wie die Anzahl und der Betrag der bezahlten Rechnungen angezeigt.
 
 Die Rechnungen einer spezifischen Person können auch auf der jeweiligen Personenansicht eingesehen werden.
 
@@ -55,7 +55,7 @@ Zahlungen können auf drei verschiedene Arten erfasst werden.
 
 Auf jeder Einzelrechnung können manuelle Zahlungen für die jeweilige Rechnung erfasst werden.
 
-In der Übersicht Einzelrechnungen können camt.54 XML-Datei [#f2]_  hochgeladen werden. Diese erfassen die jeweiligen Zahlungen auf den dazugehörigen Rechnungen. Die Zahlungen werden auch erfasst, wenn es sich dabei um eine Sammelrechnung handelt.
+In der Übersicht Einzelrechnungen können camt.54 XML-Datei [#f2]_  hochgeladen werden. Diese erfassen die jeweiligen Zahlungen auf den dazugehörigen Rechnungen. Die Zahlungen werden auch erfasst, wenn es sich dabei um einen Rechnungslauf handelt.
 
 Ist in den Rechnungseinstellungen eine Zahlungsschnittstelle eingerichtet, werden die Zahlungen nächtlich über die EBICS Schnittstelle mit der Bank abgeglichen.
 Anleitung zum einrichten der EBICS Schnittstelle: https://hitobito.readthedocs.io/de/latest/ebics.html
@@ -87,7 +87,7 @@ A3: Vermutlich ist in einem anderen Tab der Rechnungseinstellungen noch eine fal
 
 Q4: Ich kann eine Rechnung nicht mehr löschen?
 
-A4: Eine Rechnung kann nur gelöscht werden, solange sie noch den Status "Entwurf" hat. Eine Sammelrechnung kann nur gelöscht werden, wenn noch alle darin enthaltenen Rechnungen den Status "Entwurf" haben. Hat eine Rechnung bereits einen anderen Status, kann diese nur noch storniert werden.
+A4: Eine Rechnung kann nur gelöscht werden, solange sie noch den Status "Entwurf" hat. Ein Rechnungslauf kann nur gelöscht werden, wenn noch alle darin enthaltenen Rechnungen den Status "Entwurf" haben. Hat eine Rechnung bereits einen anderen Status, kann diese nur noch storniert werden.
 
 
 Q5: Eine Rechnung mit dem Status "Gestellt" wird nicht gemahnt, obwohl ich diese bei Mahnen ausgewählt hatte.
@@ -95,8 +95,8 @@ Q5: Eine Rechnung mit dem Status "Gestellt" wird nicht gemahnt, obwohl ich diese
 A5: Rechnungen werden nur gemahnt, wenn das Mahndatum erreicht wird. Sschaue in den Rechnungseinstellungen nach, wie lange nach Rechnungsdatum hier die Mahnfrist ist.
 
 
-Q6: Nach dem Speichern meiner Sammelrechnung werden keine Rechnungen erstellt.
+Q6: Nach dem Speichern meines Rechnungslaufs werden keine Rechnungen erstellt.
 
-A6: Damit Sammelrechnungen erfolgreich erstellt werden können, muss mindestens eine Rechnungspositon einen Betrag aufweisen (Dieser Betrag kann 0 sein).
+A6: Damit Rechnungsläufe erfolgreich erstellt werden können, muss mindestens eine Rechnungspositon einen Betrag aufweisen (Dieser Betrag kann 0 sein).
 
 .. [#f2] Eine camt.054 XML-Datei ist die Sammelbuchungs-auflösung und Belastungs- und Gutschriftsanzeige. Diese enthält eine Reihe verschiedene Buchungspositionen welche automatisiert auf Basis der ESR-Nummer bestehenden Rechnungen zugeordnet werden.
