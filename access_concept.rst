@@ -18,7 +18,6 @@ Grundsätzlich gilt in Hitobito aber:
 Die Organisation sieht in seiner Grundform folgendermassen aus:
 
 **Hauptebene**
-
 - Administrator*in: [:admin, :layer_and_below_full, :impersonation]
 
 - Vorstand
@@ -51,9 +50,7 @@ Die Organisation sieht in seiner Grundform folgendermassen aus:
   - Adressverwaltung: [:group_and_below_full]
   - Kontakt: []
 
-
 **Region/Kanton**
-
   - Administrator*in: [:layer_and_below_full, :contact_data, :finance]
 
 
