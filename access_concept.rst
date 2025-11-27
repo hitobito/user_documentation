@@ -18,6 +18,7 @@ Grundsätzlich gilt in Hitobito aber:
 Die Organisation sieht in seiner Grundform folgendermassen aus:
 
 **Hauptebene**
+
 - Hauptebene
   - Administrator*in: [:admin, :layer_and_below_full, :impersonation]
 
