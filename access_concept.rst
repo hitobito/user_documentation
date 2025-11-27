@@ -19,7 +19,7 @@ Die Organisation sieht in seiner Grundform folgendermassen aus:
 
 **Hauptebene**
 
-  - Administrator*in: [:admin, :layer_and_below_full, :impersonation]
+- Administrator*in: [:admin, :layer_and_below_full, :impersonation]
 
 - Vorstand
 
