@@ -15,6 +15,16 @@ Grundsätzlich gilt in Hitobito aber:
 - Kann jemand eine Person sehen, sieht er alle Informationen
 - Kann jemand eine Person bearbeiten, kann er alle Atribute bearbeiten
 
+Die Organisation sieht in seiner Grundform folgendermassen aus:
+
+*Hauptebene*
+
+
+
+
+
+
+
 Hier einige Beispiele, wie das aussehen kann:
 
 
