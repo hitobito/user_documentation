@@ -17,7 +17,7 @@ Grundsätzlich gilt in Hitobito aber:
 
 Die Organisation sieht in seiner Grundform folgendermassen aus:
 
-*Hauptebene*
+**Hauptebene**
 
 
 
