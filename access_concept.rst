@@ -15,7 +15,7 @@ Grundsätzlich gilt in Hitobito aber:
 - Kann jemand eine Person sehen, sieht er alle Informationen
 - Kann jemand eine Person bearbeiten, kann er alle Atribute bearbeiten
 
-Hier einige Beispiele, wie das aussehen kann.
+Hier einige Beispiele, wie das aussehen kann:
 
 
 Karin ist Geschäftsleiter direkt im Dachverband
@@ -33,7 +33,7 @@ Karin hat vollen Zugriff auf ihrer Ebene und auf alle darunter liegenden Ebenen.
 Nicht sichtbar und änderbar sind für sie alle Personen, die innerhalb einer Ortsgruppe, also in einer Untergruppe unter der Ortsgruppe, aufgehängt sind. 
 Da Karin's Rolle als kontaktrelevant geführt ist (sog. ContactData-Flag, siehe unten), kann sie alle anderen Personen mit Kontaktrelevanz sehen, unabhängig von deren Position innerhalb der Struktur. 
 
- 
+
 
 Karin sehen:  
 ^^^^^^^^^^^^^^^^^^
