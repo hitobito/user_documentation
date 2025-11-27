@@ -1,7 +1,6 @@
 Berechtigungskonzept
 =======================
 
-
 Gruppen / Rollen - Wie funktioniert das?
 -------------------------------------------------
 
@@ -10,6 +9,10 @@ In hitobito können komplexe hierarchische Organisationen abgebildet werden. All
 - Jede Organisation kann aus mehreren Ebenen bestehen, z. B. Dachverband, Kantonalverband (, optionale Zwischenstufen wie Regionen) und Ortsgruppen.
 - Jede Ebene kann intern wieder ihre innere Struktur haben, es gibt einen Vorstand, Arbeitsgruppen, Mitgliederlisten, Kontaktlisten.
 - Jede Person hat eine oder mehrere Rollen. Diese Rollen definieren, wen man sehen kann, und von vom man gesehen wird.
+
+Grundsätzlich gilt in Hitobito aber:
+- Kann jemand eine Person sehen, sieht er alle Informationen
+- Kann jemand eine Person bearbeiten, kann er alle Atribute bearbeiten
 
 Hier einige Beispiele, wie das aussehen kann.
 
