@@ -29,6 +29,32 @@ Die Organisation sieht in seiner Grundform folgendermassen aus:
   - Kassier*in: [:layer_read, :contact_data, :finance]
   - Vorstandsmitglied: [:layer_full, :contact_data]
 
+- Geschäftsstelle
+
+  - Leitung: [:layer_and_below_full, :admin, :contact_data, :approve_applications, :finance]
+  - Kassier*in: [:layer_and_below_full, :contact_data, :finance]
+  - Mitglied: [:layer_and_below_full, :contact_data, :approve_applications]
+
+- Gremium/Projektgruppe
+
+  - Leitung: [:group_and_below_full, :contact_data]
+  - Mitglied: [:group_and_below_read, :contact_data]
+
+- Mitglieder
+
+  - Adressverwaltung: [:group_and_below_full]
+  - Aktivmitglied: []
+  - Passivmitglied: []
+
+- Kontakte
+
+  - Adressverwaltung: [:group_and_below_full]
+  - Kontakt: []
+
+
+**Region/Kanton**
+
+  - Administrator*in: [:layer_and_below_full, :contact_data, :finance]
 
 
 
