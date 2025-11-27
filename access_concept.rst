@@ -11,6 +11,7 @@ In hitobito können komplexe hierarchische Organisationen abgebildet werden. All
 - Jede Person hat eine oder mehrere Rollen. Diese Rollen definieren, wen man sehen kann, und von vom man gesehen wird.
 
 Grundsätzlich gilt in Hitobito aber:
+
 - Kann jemand eine Person sehen, sieht er alle Informationen
 - Kann jemand eine Person bearbeiten, kann er alle Atribute bearbeiten
 
