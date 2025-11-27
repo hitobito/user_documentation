@@ -18,6 +18,16 @@ Grundsätzlich gilt in Hitobito aber:
 Die Organisation sieht in seiner Grundform folgendermassen aus:
 
 **Hauptebene**
+- Hauptebene
+  - Administrator*in: [:admin, :layer_and_below_full, :impersonation]
+- Vorstand
+  - Präsident*in: [:layer_full, :contact_data]
+  - Vizepräsident*in: [:layer_full, :contact_data]
+  - Sekretär*in: [:layer_full, :contact_data]
+  - Kassier*in: [:layer_read, :contact_data, :finance]
+  - Vorstandsmitglied: [:layer_full, :contact_data]
+
+
 
 
 
