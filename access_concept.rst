@@ -61,7 +61,7 @@ Luca ist für Personen mit vollen Rechten (``layer_full`` oder ``layer_and_below
 Maria hat eine Rolle in der Region
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-technisch: ``group_read`` inkl. ``contact_data``
+technisch: ``group_and_below`` inkl. ``contact_data``
 
 Maria sieht
 ^^^^^^^^^^^^^^^
