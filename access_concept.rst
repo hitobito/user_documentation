@@ -87,10 +87,10 @@ Die Organisation sieht in seiner Grundform folgendermassen aus:
 
 **Lokalgruppe/Sektion**
 
-  - Hauptleitung: [:layer_and_below_full]
-  - Adressverwaltung: [:group_and_below_full, :impersonation]
-  - Leitung: [:group_and_below_full, :contact_data]
-  - Aktivmitglied: [:group_and_below_read]
+- Hauptleitung: [:layer_and_below_full]
+- Adressverwaltung: [:group_and_below_full, :impersonation]
+- Leitung: [:group_and_below_full, :contact_data]
+- Aktivmitglied: [:group_and_below_read]
 
 - Vorstand
 
