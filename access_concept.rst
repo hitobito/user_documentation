@@ -291,7 +291,7 @@ Erlaubt auf der entsprechenden Ebene Rechnungen zu erstellen und einzusehen.
 Spezialfall ``layer_and_below_finance``
 -------------------------------------------------
 
-Erlaubt auf allen Ebenen Rechnungen zu erstellen und einzusehen.
+Erlaubt auf allen unterliegenden Ebenen Rechnungen zu erstellen und einzusehen.
 
 Spezialfall ``impersonation``
 -------------------------------------------------
