@@ -32,7 +32,7 @@ Die Organisation sieht in seiner Grundform folgendermassen aus:
 - Geschäftsstelle
 
   - Leitung: [:layer_and_below_full, :admin, :contact_data, :approve_applications, :finance]
-  - Kassier*in: [:layer_and_below_full, :contact_data, :finance]
+  - Kassier*in: [:layer_and_below_full, :contact_data, :layer_and_below_finance]
   - Mitglied: [:layer_and_below_full, :contact_data, :approve_applications]
 
 - Gremium/Projektgruppe
@@ -287,6 +287,11 @@ Spezialfall ``finance``
 -------------------------------------------------
 
 Erlaubt auf der entsprechenden Ebene Rechnungen zu erstellen und einzusehen.
+
+Spezialfall ``layer_and_below_finance``
+-------------------------------------------------
+
+Erlaubt auf allen unterliegenden Ebenen Rechnungen zu erstellen und einzusehen.
 
 Spezialfall ``impersonation``
 -------------------------------------------------
