@@ -52,20 +52,19 @@ Unterstützte Finanzinstitute
 
 Folgende Banken können via EBICS angebunden werden.
 
+- BancaStato
+- Banque Cantonale Neuchâteloise
+- BEKB | BCBE
+- Credit Suisse
+- Luzerner Kantonalbank
 - Postfinance
 - Raiffeisen Schweiz
-
-Vorhanden, jedoch noch keine abschliessende Verifikation:
-
-- Credit Suisse
-- UBS
-- Luzerner Kantonalbank
 - St.Galler Kantonalbank
 - Thurgauer Kantonalbank
-- Zürcher Kantonalbank
-- BancaStato
-- BEKB | BCBE
+- UBS
+- Urner Kantonalbank
 - Valiant
+- Zürcher Kantonalbank
 - Zuger Kantonalbank
 
 Gerne ergänzen wir diese Liste mit weiteren Banken. 
