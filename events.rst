@@ -4,9 +4,9 @@ Administrieren
 In diesem Kapitel werden Spezialfunktionen erläutert, um Vereine zu verwalten. Diese sind nur für Personen sichtbar oder zugänglich, welche die entsprechenden Gruppenzugehörigkeiten und Rollen besitzen.
 
 Personen
--------
+--------
 Mitglied einer Gruppe zuweisen
-~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Um ein Mitglied einer neuen Gruppe zuweisen zu können, muss zuerst die entsprechende Gruppen angewählt werden. Unter „Personen“ gibt es dann die Möglichkeit eine Person hinzuzufügen:
 
 .. image:: images/PersonHinzufügen.png
@@ -21,7 +21,7 @@ Anschliessend empfiehlt es sich, die Angaben der Person zu prüfen und gegebenen
 
 
 Neues Mitglied erfassen
-~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
 Wenn ein neues Mitglied erfasst werden solle. Kann dies ebenfalls direkt über die entsprechende Gruppe erledigt werden.
 
 .. image:: images/PersonHinzufügen.png
@@ -32,7 +32,7 @@ Unter „Neue Person erfassen“ können dann alle Daten der Person eingefügt u
 
 
 Mitglieder bearbeiten
-~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
 Personen mit Administratoren Rollen können die Daten sämtlicher Personen im Verein beziehungsweise der ihr zugeteilten Gruppen bearbeiten. Dazu ist die zu bearbeitende Person aufzurufen. In der Ansicht „Info“ findet sich der Button „Bearbeiten“:
 
 .. image:: images/MitgliedBearbeiten.png
@@ -68,7 +68,7 @@ Der "Aufläsen"-Button entfernt alle Mitglieder aus dem Haushalt, so dass deren 
 
 
 Rollen bearbeiten
-~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~
 Um einem Mitglied eine neue aktive Rolle in einem Verein/Verband hinzuzufügen, in welchem das Mitglied bereits eine Rolle besitzt, kann unter „Aktive Rollen“ auf „Rolle hinzufügen“ geklickt werden. Es kann dann innerhalb der gewählten Gruppe dem Mitglied eine zusätzliche Rolle hinzugefügt und angegeben werden, seit wann die Rolle gültig ist.
 
 Wenn das Mitglied bisher keine Rolle, im Bereich in dem sie eine neue Rolle erhalten soll, besitzt, muss sie direkt bei der entsprechenden Gruppe als Person hinzugefügt werden.
@@ -88,7 +88,7 @@ Unter „Anlässe“ findet siche eine Übersicht über Anlässe von Gruppen, be
 Hier kann man sich direkt für einen Anlass anmelden, sofern die Anmledung bereits freigegeben beziehungsweise der Anmeldeschluss noch nicht eingetreten ist.
 
 Neuen Anlass erstellen
-~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~
 Anlass erstellen in der gewünschten Gruppe, auf der entsprechenden Ebene:
 
 .. image:: images/AnlassErstellen.png
@@ -108,7 +108,7 @@ Unter „Kurse“ findet siche eine Übersicht über Kurse von Gruppen, bei dene
 Hier kann man sich direkt für einen Kurs anmelden, sofern die Anmledung bereits freigegeben beziehungsweise der Anmeldeschluss noch nicht eingetreten ist.
 
 Neuen Kurs erstellen
-~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~
 Anlass erstellen in der gewünschten Gruppe, auf der entsprechenden Ebene:
 
 .. image:: images/KursErstellen1.png
