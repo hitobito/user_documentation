@@ -37,6 +37,36 @@ Personen mit Administratoren Rollen können die Daten sämtlicher Personen im Ve
 
 .. image:: images/MitgliedBearbeiten.png
 
+
+Haushalte verwalten
+~~~~~~~~~~~~~~~~~~~
+Haushalte ermöglichen Personen zusammen zu fassen, die in einem Haushalt wohnen. Anschliessend können die Personen bei Versanden zusammengefasst werden und Anpassungen an der Adresse gelten für alle Personen im Haushalt.
+
+Haushalt erstellen
+""""""""""""""""""
+Um einen Haushalt zu erstellen wird am Besten eine Person ausgewählt bei der die Adresse bereits korrekt ist. Dann wird in der Rechten Spalte beim Abschnitt "Haushalt" auf "+ Erstellen" geklickt.
+Anschliessend können alle Mitglieder des Haushalts gesucht und hinzugefügt werden.
+
+**Wichtig**: Es können nur Kontakte hinzugefügt werden, auf die der eingeloggte Benutzer Schreibrechte hat.
+
+.. image:: images/haushalt-erstellen.png
+
+Haushalt bearbeiten
+"""""""""""""""""""
+Um die Adresse eines Haushalts zu ändern, kann ein beliebiges Mitglied des Haushalts, bearbeitet werden.
+Wie im Hinweis geschrieben, gelten Änderungen an der Adresse für alle Personen im Haushalt.
+
+.. image:: images/haushalt-warnung.png
+
+Die Zusammensetzung eines Haushalts kann über den Abschnitte "Haushalt" bei einem beliebigen Mitglied geändert werden.
+
+.. image:: images/haushalt-verwalten.png
+
+Der "Verwalten"-Button öffnet bereits vom Erstellen bekannte Seite. Dort können weitere Mitglieder ergänzt oder einzelne entfernt werden.
+Der "Aufläsen"-Button entfernt alle Mitglieder aus dem Haushalt, so dass deren Adressen wieder einzeln bearbeitet werden können.
+
+
+
 Rollen bearbeiten
 ~~~~~~~~~~~~~~~
 Um einem Mitglied eine neue aktive Rolle in einem Verein/Verband hinzuzufügen, in welchem das Mitglied bereits eine Rolle besitzt, kann unter „Aktive Rollen“ auf „Rolle hinzufügen“ geklickt werden. Es kann dann innerhalb der gewählten Gruppe dem Mitglied eine zusätzliche Rolle hinzugefügt und angegeben werden, seit wann die Rolle gültig ist.
