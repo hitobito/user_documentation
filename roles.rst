@@ -71,6 +71,10 @@ In der Ansicht „Log“ kann nachverfolgt werden, wer wann welche Informationen
 
 .. image:: images/Log.png
 
+*Hinweis:* Einträge wie der unterste im Log “Rolle wurde hinzugefügt” entstehen, wenn eine Rolle gelöscht
+statt mit einem Enddatum beendet wird. In diesem Fall ist im Log weder ersichtlich um welche Rolle es sich
+gehandelt hat, noch wann diese gelöscht wurde.
+
 
 Ansicht Sicherheit
 ------------
@@ -79,7 +83,6 @@ In der Ansicht „Sicherheit“ können verschiedene Informationen abgeholt und 
 * Login sperren: Über diese Ansicht gibt es die Möglichkeit die Haupt-E-Mail einer Person gelöscht werden, diese kann später wieder hinzugefügt werden.
 
 .. image:: images/Sicherheit.png
-
 
 Gruppen
 ==============================================
