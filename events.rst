@@ -103,7 +103,9 @@ Beim erstellen oder bearbeiten eines Anlasses hat man die Möglichkeit zu defini
 
 .. image:: images/Gäste2.png
 
+Wer sich nun für den Anlass anmelden möchte kann entscheiden, ob er oder sie nur sich selbst oder noch andere Personen für diesen anmelden möchte
 
+.. image:: images/Gäste3.png
 
 
 
