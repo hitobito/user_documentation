@@ -221,7 +221,7 @@ Die verwaltende Person kann somit einfach hinterlegt werden (dasselbe gilt für 
 
 Als Verwaltende Person kann das Profil des Kindes angepasst werden. Umgekehrt ist dies nicht möglich.
 
-.. image:: images/Elternzugang 4.png
+.. image:: images/Elternzugang4.png
 
 .. image:: images/Elternzugang5.png
 
