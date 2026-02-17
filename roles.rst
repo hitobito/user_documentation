@@ -177,6 +177,7 @@ Editiert werden kann die Landingpage in den Einstellungen unter Texte
 .. image:: images/Landingpage2.png
 
 Weitere Informationen dazu:
+
 * Die Landing Page ist für alle Benutzenden gleich
 * Die Landing Page kann Links zu externen Seiten enthalten
 * Übersetzungen der Landing Page sind in Transifex via CustomContents möglich
