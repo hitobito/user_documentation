@@ -209,6 +209,9 @@ Im Core gibt es die Funktion eines Elternzugangs. Dieser ist standardmässig nic
 
 Der Elternzugang ermöglicht es Erziehungsberechtigten in hitobito die Daten ihrer Kinder zu verwalten. Dies umfasst zum einen das Vornehmen von Änderungen im Personenprofil des Kindes sowie die Anmeldung des Kindes zur Lagern, Anlässen und Kursen.
 
+Eingerichtet kann die Verbindung zwischen Kind und Erziehungsberechtigem auf dem Profil einer der beiden Personen:
+
+.. image:: images/Elternzugang1.png
 
 
 
