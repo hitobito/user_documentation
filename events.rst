@@ -107,6 +107,19 @@ Wer sich nun für den Anlass anmelden möchte kann entscheiden, ob er oder sie n
 
 .. image:: images/Gäste3.png
 
+Möchte jemand Gäste anmelden kann dies wie folgt gemacht werden. Zuerst werden die Pflichtangaben eingetragen
+
+.. image:: images/Gäste4.png
+
+Anschliessend werden die Pflichfragen, wenn vorhanden, für den Gast ausgefüllt. Es kann dann auch entschieden werden, ob noch weitere Gäste angemeldet werden sollen. Das Prozedere der Anmeldung beginnt dann wieder von Vorne
+
+.. image:: images/Gäste5.png
+
+
+
+
+
+
 
 
 
