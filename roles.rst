@@ -217,6 +217,8 @@ Die verwaltende Person kann somit einfach hinterlegt werden (das selbe gilt für
 
 .. image:: images/Elternzugang2.png
 
+.. image:: images/Elternzugang3.png
+
 
 
 
