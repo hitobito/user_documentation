@@ -164,8 +164,17 @@ Menu API-Keys
 ------------
 Dieser Menupunkt ist nur für Administratoren ersichtlich. Für die technische Anbindung an Webseiten oder Apps können hier sogenannte API-Keys generiert werden.
 
+Landingpage
+------------
+Es ist möglich für hitobito eine Landingpage zu definieren. Diese Funktion kann angefragt werden.
 
+Die Landingpage kann unterschiedliche Informationen darstellen
 
+.. image:: images/Landingpage1.png
+
+Editiert werden kann die Landingpage in den Einstellungen unter Texte
+
+.. image:: images/Landingpage2.png
 
 Rollen
 ==============================================
