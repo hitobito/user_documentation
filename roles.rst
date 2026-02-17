@@ -224,6 +224,8 @@ Als Verwaltende Person kann das Profil des Kindes angepasst werden. Umgekehrt is
 .. image:: images/Elternzugang4.png
 Sicht von der verwaltenden Person auf das Profil des Kindes
 
+
+
 .. image:: images/Elternzugang5.png
 Sicht des Kindes auf das Profil der verwaltenden Person
 
