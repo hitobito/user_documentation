@@ -213,7 +213,7 @@ Eingerichtet kann die Verbindung zwischen Kind und Erziehungsberechtigem auf dem
 
 .. image:: images/Elternzugang1.png
 
-Die verwaltende Person kann somit einfach hinterlegt werden (dasselbe gilt für das Kind)
+Die verwaltende Person kann somit einfach hinterlegt werden (das selbe gilt für das Kind)
 
 .. image:: images/Elternzugang2.png
 
