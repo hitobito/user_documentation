@@ -229,8 +229,9 @@ Verwaltende Personen in hitobito können bei einer Anmeldung an einen Anlass ode
 
 .. image:: images/Elternzugang6.png
 
+Die zu verwaltende Person können sie nun so für den Anlass oder Kurs anmelden, wie sie es für sich selbst auch tun würden
 
-
+.. image:: images/Elternzugang7.png
 
 
 
