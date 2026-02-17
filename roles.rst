@@ -225,7 +225,9 @@ Als Verwaltende Person kann das Profil des Kindes angepasst werden. Umgekehrt is
 
 .. image:: images/Elternzugang5.png
 
+Verwaltende Personen in hitobito können bei einer Anmeldung an einen Anlass oder Kurs nun entscheiden, ob sie sich oder die verwalteten Profile für diesen anmelden möchten
 
+.. image:: images/Elternzugang6.png
 
 
 
