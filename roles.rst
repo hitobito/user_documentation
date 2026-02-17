@@ -202,3 +202,52 @@ Nach diesen Bezeichnung kann allerdings aktuell noch nicht gefiltert
 werden.
 
 .. _Zugriffsrechte: https://hitobito.readthedocs.io/de/latest/access_concept.html#berechtigunskonzept
+
+Elternzugang
+-------------------------------
+Im Core gibt es die Funktion eines Elternzugangs. Dieser ist standardmässig nicht verfügbar, kann aber angefragt werden.
+
+Der Elternzugang ermöglicht es Erziehungsberechtigten in hitobito die Daten ihrer Kinder zu verwalten. Dies umfasst zum einen das Vornehmen von Änderungen im Personenprofil des Kindes sowie die Anmeldung des Kindes zur Lagern, Anlässen und Kursen.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
