@@ -97,7 +97,7 @@ Anlass erstellen in der gewünschten Gruppe, auf der entsprechenden Ebene:
 
 Gästefeature
 ~~~~~~~~~~~~~~~~~~~~~~
-Im Core gibt es die Möglichkeit dass Personen ihre Gäste an Anlässe anmeleden können. Dieses Feature ist standardmässig nicht aktiviert, kann jedoch angefragt werden.
+Im Core gibt es die Möglichkeit dass Personen ihre Gäste an Anlässe anmeleden können.
 
 Beim erstellen oder bearbeiten eines Anlasses hat man die Möglichkeit zu definieren ob und wie viele Gäste pro angemeldete Person an diesem Anlass teilnehmen dürfen.
 
@@ -114,14 +114,6 @@ Möchte jemand Gäste anmelden kann dies wie folgt gemacht werden. Zuerst werden
 Anschliessend werden die Pflichfragen, wenn vorhanden, für den Gast ausgefüllt. Es kann dann auch entschieden werden, ob noch weitere Gäste angemeldet werden sollen. Das Prozedere der Anmeldung beginnt dann wieder von Vorne
 
 .. image:: images/Gäste5.png
-
-
-
-
-
-
-
-
 
 
 Kurse
