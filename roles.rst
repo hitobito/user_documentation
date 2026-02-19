@@ -84,6 +84,25 @@ In der Ansicht „Sicherheit“ können verschiedene Informationen abgeholt und 
 
 .. image:: images/Sicherheit.png
 
+Landing Page
+------------
+Es ist möglich für hitobito eine Landing Page zu definieren. Diese Funktion kann angefragt werden.
+
+Die Landing Page sorgt dafür, dass Benutzende beim Einloggen in hitobito nicht mehr auf ihrem Profil landen, sondern direkt auf der Landing Page. Diese Page kann unterschiedliche Informationen darstellen.
+
+.. image:: images/Landingpage1.png
+
+Editiert werden kann die Landingpage in den Einstellungen unter Texte
+
+.. image:: images/Landingpage2.png
+
+Weitere Informationen dazu:
+
+* Die Landing Page ist für alle Benutzenden gleich
+* Die Landing Page kann Links zu externen Seiten enthalten
+* Übersetzungen der Landing Page sind in Transifex via CustomContents möglich
+* Die Landing Page wird immer in der definierten Sprache des Benutzenden angezeigt
+
 Gruppen
 ==============================================
 
@@ -164,24 +183,6 @@ Menu API-Keys
 ------------
 Dieser Menupunkt ist nur für Administratoren ersichtlich. Für die technische Anbindung an Webseiten oder Apps können hier sogenannte API-Keys generiert werden.
 
-Landing Page
-------------
-Es ist möglich für hitobito eine Landing Page zu definieren. Diese Funktion kann angefragt werden.
-
-Die Landing Page sorgt dafür, dass Benutzende beim Einloggen in hitobito nicht mehr auf ihrem Profil landen, sondern direkt auf der Landing Page. Diese Page kann unterschiedliche Informationen darstellen.
-
-.. image:: images/Landingpage1.png
-
-Editiert werden kann die Landingpage in den Einstellungen unter Texte
-
-.. image:: images/Landingpage2.png
-
-Weitere Informationen dazu:
-
-* Die Landing Page ist für alle Benutzenden gleich
-* Die Landing Page kann Links zu externen Seiten enthalten
-* Übersetzungen der Landing Page sind in Transifex via CustomContents möglich
-* Die Landing Page wird immer in der definierten Sprache des Benutzenden angezeigt
 
 Rollen
 ==============================================
