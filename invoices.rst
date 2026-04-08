@@ -64,6 +64,9 @@ Buchungsbeleg
 ---------------------------------------
 Unter Buchungsbeleg wird eine rudimentäre Übersicht über die eingegangenen Zahlungen gegeben. Diese werden nach Rechnungsartikel sortiert. Dabei wird davon ausgegangen, dass gleiche Rechnungsartikel auch immer den gleichen Betrag aufweisen. 
 
+Sammelrechnungen
+---------------------------------------
+Es können, falls aktiviert, Sammelrechnungen erfasst werden. Diese können verwendet werden, um wiederholbare Rechnungsläufe an Gruppen zu versenden, mit berechneten Beträgen basierend auf der Anzahl Rollen, die während einer spezifischen Rechnungseriode in der jeweiligen Empfängergruppe aktiv waren.
 
 Häufig gestellte Fragen:
 ---------------------------------------
