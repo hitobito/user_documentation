@@ -68,6 +68,8 @@ Sammelrechnungen
 ---------------------------------------
 Es können, falls aktiviert, Sammelrechnungen erfasst werden. Diese können verwendet werden, um wiederholbare Rechnungsläufe an Gruppen zu versenden, mit berechneten Beträgen basierend auf der Anzahl Rollen, die während einer spezifischen Rechnungseriode in der jeweiligen Empfängergruppe aktiv waren.
 
+.. image:: images/Rechnungslauf.png
+
 Häufig gestellte Fragen:
 ---------------------------------------
 Q1: Ich kann keine Rechnungen stellen oder Zahlungen erfassen. Wenn ich auf den Button "Rechnung erstellen" oder "Zahlung erfassen" klicke, geschieht nichts.
