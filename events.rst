@@ -137,7 +137,7 @@ Anlass erstellen in der gewünschten Gruppe, auf der entsprechenden Ebene:
 
 In allen Umgebungen welche nach bestimmter Zeit automatisch Antworten auf Eventfragen löschen, werden nur noch als „sensibel“ markierte Antworten entfernt, wobei alle Fragen ab sofort standardmässig als sensibel voreingestellt sind.
 
-.. image:: images/KursErstellen2.png
+.. image:: images/SensibleAntworten.png
 
 Einladungen
 -----------
