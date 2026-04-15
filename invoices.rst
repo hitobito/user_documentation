@@ -66,9 +66,61 @@ Unter Buchungsbeleg wird eine rudimentäre Übersicht über die eingegangenen Za
 
 Sammelrechnungen
 ---------------------------------------
-Es können, falls aktiviert, Sammelrechnungen erfasst werden. Diese können verwendet werden, um wiederholbare Rechnungsläufe an Gruppen zu versenden, mit berechneten Beträgen basierend auf der Anzahl Rollen, die während einer spezifischen Rechnungseriode in der jeweiligen Empfängergruppe aktiv waren.
+Sammelrechnungen ermöglichen es, wiederkehrende Rechnungsläufe an eine Vielzahl von Empfängern zu versenden, wobei die Rechnungsbeträge automatisch basierend auf der Anzahl Rollen während einer definierten Abrechnungsperiode berechnet werden. Es gibt zwei Arten von Sammelrechnungen:
+
+- **Sammelrechnung an Gruppen**: Jede passende Untergruppe erhält eine Rechnung, deren Betrag sich nach der Anzahl Personen mit einer bestimmten Rolle in dieser Gruppe richtet.
+- **Sammelrechnung an Personen**: Jede Person in der Ebene erhält eine individuelle Rechnung basierend auf ihren Rollen.
+
+.. note:: Sammelrechnungen sind ein optionales Feature, welches pro Instanz aktiviert werden muss. Auf SaaS-Umgebungen (https://\*.hitobito.com) ist dieses Feature nicht verfügbar.
+
+**Einsatzszenario Gruppen**: Eine Dachorganisation möchte Mitgliederbeiträge an ihre Mitgliedsvereine verrechnen. Der Betrag pro Verein richtet sich nach der Anzahl Mitglieder während des Abrechnungsjahres. Ein Verein mit 10 Mitgliedern à CHF 10 erhält eine Rechnung über CHF 100.
+
+**Einsatzszenario Personen**: Eine Gruppe möchte den Jahresbeitrag direkt an ihre Mitglieder verrechnen. Jede Person erhält eine individuelle Rechnung basierend auf ihren Rollen in der Gruppe.
+
+Sammelrechnung konfigurieren
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Sammelrechnungen werden im Bereich "Finanzen" einer Ebene unter dem Menüpunkt "Sammelrechnungen" verwaltet. Über die Schaltflächen "Neue Sammelrechnung an Gruppen" bzw. "Neue Sammelrechnung an Personen" wird eine neue Sammelrechnung des jeweiligen Typs erstellt.
+
+Eine neue Sammelrechnung wird mit folgenden Angaben konfiguriert:
+
+- **Name**: Der Name der Sammelrechnung (kann in allen konfigurierten Sprachen erfasst werden).
+- **Abrechnungsperiode**: Start- und optionales Enddatum der Periode, für welche Rollen gezählt werden. Eine offene Periode (ohne Enddatum) ist möglich.
+- **Rechnungsempfänger**: Bei Sammelrechnungen an Gruppen wird der Gruppentyp der Empfänger gewählt (z.B. alle Gruppen vom Typ "Verein" unterhalb der rechnungsstellenden Ebene). Bei Sammelrechnungen an Personen werden alle Personen der aktuellen Ebene als Empfänger verwendet. Der Rechnungsempfänger kann nach dem Erstellen nicht mehr geändert werden.
+- **Rechnungspositionen**: Eine oder mehrere Positionen, die den Rechnungsbetrag berechnen (siehe unten).
+
+Rechnungspositionen (Rollen-Abrechnung)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Die Standardrechnungsposition "Rollen-Abrechnung" berechnet den Betrag basierend auf der Anzahl Personen, die während der Abrechnungsperiode eine bestimmte Rolle innehatten. Bei Sammelrechnungen an Gruppen wird pro Empfängergruppe gezählt; bei Sammelrechnungen an Personen erhält jede Person eine Rechnung für die ihr zugeordneten Rollen.
+
+Jede Rechnungsposition hat folgende Felder:
+
+- **Name** (kann mehrsprachig erfasst werden)
+- **Einheitspreis**: Der Betrag pro Person mit der gezählten Rolle
+- **Rollentypen**: Welche Rollentypen gezählt werden sollen
+- **Kostenstelle** und **Konto**: Für den Export in Buchhaltungssoftware (haben in Hitobito selbst keine Funktion)
+
+Pro Sammelrechnung können mehrere Rechnungspositionen mit unterschiedlichen Rollentypen und Einheitspreisen erfasst werden.
+
+Rechnungslauf starten
+~~~~~~~~~~~~~~~~~~~~~~
+Auf der Detailansicht einer Sammelrechnung kann über "Rechnungslauf starten" ein neuer Lauf ausgelöst werden. Das System erstellt dabei automatisch für jeden Empfänger eine Rechnung. Bei Sammelrechnungen an Gruppen erhält jede Empfängergruppe des konfigurierten Typs eine Rechnung; bei Sammelrechnungen an Personen erhält jede Person in der Ebene eine individuelle Rechnung.
 
 .. image:: images/Rechnungslauf.png
+
+.. note:: Die berechneten Beträge werden beim Erstellen der Rechnungen fest gespeichert. Spätere Änderungen an Mitgliederdaten haben keinen Einfluss auf bereits erstellte Rechnungen.
+
+Hinweise beim Erstellen eines Rechnungslaufs:
+
+- Empfänger ohne gültige Adressdaten werden als Warnung angezeigt und erhalten keine Rechnung.
+- Empfänger mit einem berechneten Gesamtbetrag von CHF 0 erhalten ebenfalls keine Rechnung.
+
+Wiederholte Rechnungsläufe
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Dieselbe Sammelrechnung kann mehrfach ausgeführt werden (Nachläufe). Das System verfolgt dabei, welche Personen oder Rollen bereits in früheren Läufen verrechnet wurden. Ein späterer Lauf verrechnet nur noch die Differenz – also Mitglieder, die seit dem letzten Lauf rückwirkend hinzugekommen sind – ohne dass bereits verrechnete Mitglieder doppelt in Rechnung gestellt werden.
+
+Rechnungen an Gruppen einsehen
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Da Sammelrechnungen an Gruppen direkt an Gruppen adressiert sind, verfügt jede Gruppe über einen Tab "Rechnungen". Dort können alle Sammelrechnungen eingesehen werden, die dieser Gruppe zugestellt wurden.
 
 Häufig gestellte Fragen:
 ---------------------------------------
