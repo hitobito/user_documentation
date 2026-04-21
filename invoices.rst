@@ -79,7 +79,7 @@ Sammelrechnungen ermöglichen es, wiederkehrende Rechnungsläufe an eine Vielzah
 
 Sammelrechnung konfigurieren
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Sammelrechnungen werden im Bereich "Finanzen" einer Ebene unter dem Menüpunkt "Sammelrechnungen" verwaltet. Über die Schaltflächen "Neue Sammelrechnung an Gruppen" bzw. "Neue Sammelrechnung an Personen" wird eine neue Sammelrechnung des jeweiligen Typs erstellt.
+Sammelrechnungen werden im Bereich "Rechnungen" einer Ebene unter dem Menüpunkt "Sammelrechnungen" verwaltet. Über die Schaltflächen "Neue Sammelrechnung an Gruppen" bzw. "Neue Sammelrechnung an Personen" wird eine neue Sammelrechnung des jeweiligen Typs erstellt.
 
 Eine neue Sammelrechnung wird mit folgenden Angaben konfiguriert:
 
