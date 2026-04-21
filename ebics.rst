@@ -68,4 +68,4 @@ Folgende Banken können via EBICS angebunden werden.
 - Zuger Kantonalbank
 
 Gerne ergänzen wir diese Liste mit weiteren Banken. 
-Dafür wird ein Zahlungsexport (camt054) via Z54 Protokoll sowie eine Authentifizierung via die Protokolle INI, HIA oder HPB der jeweiligen Bank benötigt.
+Dafür werden die EBICS Verbindungsparameter der Bank benötigt, diese kann man bei der Bank direkt anfragen.
