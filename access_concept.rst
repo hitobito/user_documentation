@@ -124,7 +124,6 @@ Die Organisation sieht in seiner Grundform folgendermassen aus:
   - Kontakt: []
 
 
-
 Hier einige Beispiele, wie das aussehen kann:
 
 
