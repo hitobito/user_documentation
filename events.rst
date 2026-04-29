@@ -51,6 +51,7 @@ Anschliessend können alle Mitglieder des Haushalts gesucht und hinzugefügt wer
 
 .. image:: images/haushalt-erstellen.png
 
+
 Haushalt bearbeiten
 """""""""""""""""""
 Um die Adresse eines Haushalts zu ändern, kann ein beliebiges Mitglied des Haushalts, bearbeitet werden.
