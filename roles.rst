@@ -111,7 +111,9 @@ Es ist möglich in Hitobito mit Mitgliederausweisen zu arbeiten. Puzzle ITC kann
 * Beschreibung (Text unter dem QR Code)
 * Logo 1
 * Logo 2
-* Hintergrundfarbe 
+* Hintergrundfarbe
+
+.. image:: images/Mitgliederausweis1.png
 
 Sobald der Mitgliederausweis konfiguriert und in der Umgebung aufgeschalten ist, ist dieser pro Person sichtbar.
 
