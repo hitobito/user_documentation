@@ -62,7 +62,7 @@ Anleitung zum einrichten der EBICS Schnittstelle: https://hitobito.readthedocs.i
 
 Hinter jeder Zahlung steht, über welchen Weg diese eingangen ist.
 
-.. image:: images/Zahlungen.png
+.. image:: images/Zahlung.png
 
 
 Falls eine Zahlung falsch erfasst wird, kann das durch das Erfassen von Zahlungen mit einem Minus vor der Zahl, angepasst werden.
@@ -70,19 +70,11 @@ Falls eine Zahlung falsch erfasst wird, kann das durch das Erfassen von Zahlunge
 .. image:: images/Stornieren.png
 
 
-
-
 Zahlungsübersicht
 ---------------------------------------
+Über die Zahlungsübersicht, unter Rechnungen, können alle Zahlungseingänge auf einen Blick betrachtet werden. Zudem kann nach unterschiedlichen Attributen gefiltern und sortiert werden.
 
-
-
-
-
-
-
-
-
+.. image:: images/Uebersicht.png
 
 Buchungsbeleg
 ---------------------------------------
