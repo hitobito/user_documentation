@@ -49,7 +49,7 @@ Rechnungen werden in der Übersicht zusätzlich pro Rechnungslauf zusammengefass
 Die Rechnungen einer spezifischen Person können auch auf der jeweiligen Personenansicht eingesehen werden.
 
 
-Zahlungen Erfassen
+Zahlungen erfassen
 ---------------------------------------
 Zahlungen können auf drei verschiedene Arten erfasst werden.
 
@@ -59,6 +59,30 @@ In der Übersicht Einzelrechnungen können camt.54 XML-Datei [#f2]_  hochgeladen
 
 Ist in den Rechnungseinstellungen eine Zahlungsschnittstelle eingerichtet, werden die Zahlungen nächtlich über die EBICS Schnittstelle mit der Bank abgeglichen.
 Anleitung zum einrichten der EBICS Schnittstelle: https://hitobito.readthedocs.io/de/latest/ebics.html
+
+Hinter jeder Zahlung steht, über welchen Weg diese eingangen ist.
+
+.. image:: images/Zahlungen.png
+
+
+Falls eine Zahlung falsch erfasst wird, kann das durch das Erfassen von Zahlungen mit einem Minus vor der Zahl, angepasst werden.
+
+.. image:: images/Stornieren.png
+
+
+
+
+Zahlungsübersicht
+---------------------------------------
+
+
+
+
+
+
+
+
+
 
 Buchungsbeleg
 ---------------------------------------
