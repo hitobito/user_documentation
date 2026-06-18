@@ -103,6 +103,28 @@ Weitere Informationen dazu:
 * Übersetzungen der Landing Page sind in Transifex via CustomContents möglich
 * Die Landing Page wird immer in der definierten Sprache des Benutzenden angezeigt
 
+Mitgliederausweis
+------------
+Es ist möglich in Hitobito mit Mitgliederausweisen zu arbeiten. Puzzle ITC kann folgende Attribute des Ausweises nach Wunsch für den Kundne konfigurieren:
+
+* Titel
+* Beschreibung (Text unter dem QR Code)
+* Logo 1
+* Logo 2
+* Hintergrundfarbe 
+
+Sobald der Mitgliederausweis konfiguriert und in der Umgebung aufgeschalten ist, ist dieser pro Person sichtbar.
+
+
+
+
+
+
+
+
+
+
+
 Gruppen
 ==============================================
 
