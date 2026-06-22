@@ -118,9 +118,9 @@ Anschliessend werden die Pflichfragen, wenn vorhanden, für den Gast ausgefüllt
 
 Event-Fragen Vorlagen
 ~~~~~~~~~~~~~~~~~~~~~~
-Pro Layer können Event-Fragen Vorlagen definiert werden. Diese werden standartmässig in allen Events übernommen, oder können dort per Dropdown hinzugefügt werden.
+Pro Layer können Event-Fragen Vorlagen definiert werden. Diese werden standardmässig in allen Events übernommen, oder können dort per Dropdown hinzugefügt werden.
 
-Um eine neue Fragen Vorlage zu erstellen, Navigiert man auf dem Info-Tab eines Layers über den Bearbeiten-Button zum Menüpunkt "Vorlagen Anmeldeangaben Anlässe.
+Um eine neue Fragen Vorlage zu erstellen, navigiert man auf dem Info-Tab eines Layers über den Bearbeiten-Button zum Menüpunkt "Vorlagen Anmeldeangaben Anlässe".
 
 .. image:: images/eventfragen1.png
 
