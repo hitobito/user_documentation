@@ -125,7 +125,7 @@ Gruppen
 
 Menu Info
 ------------
-Unter dem Menupunkt „Info“ kann für jede Gruppe eine Kontaktperson ausgewählt oder eine „Vereinsadresse“ definiert werden.
+Unter dem Menüpunkt „Info“ kann für jede Gruppe eine eine „Vereinsadresse“ definiert und eine Kontaktperson ausgewählt werden. Die Adresse der Kontaktperson wird zusätzlich zur Vereinsadresse angezeigt. Versände, welche in hitobito ausgelöst werden, gehen an die Gruppenadresse.
 
 .. image:: images/MenuInfo.png
 
