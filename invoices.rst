@@ -106,7 +106,9 @@ Eine neue Sammelrechnung wird mit folgenden Angaben konfiguriert:
 
 Rechnungspositionen (Rollen-Abrechnung)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Die Standardrechnungsposition "Rollen-Abrechnung" berechnet den Betrag basierend auf der Anzahl Personen, die während der Abrechnungsperiode eine bestimmte Rolle innehatten. Bei Sammelrechnungen an Gruppen wird pro Empfängergruppe gezählt; bei Sammelrechnungen an Personen erhält jede Person eine Rechnung für die ihr zugeordneten Rollen.
+Die Standardrechnungsposition "Rollen-Abrechnung" berechnet den Betrag basierend auf der Anzahl Personen, die während der Abrechnungsperiode eine bestimmte Rolle innehatten. Dabei reicht es aus, wenn die Rolle irgendwann während der Abrechnungsperiode aktiv war, auch nur während Teilen davon.
+
+Bei Sammelrechnungen an Gruppen wird pro Empfängergruppe gezählt; bei Sammelrechnungen an Personen erhält jede Person eine Rechnung für die ihr zugeordneten Rollen.
 
 Jede Rechnungsposition hat folgende Felder:
 
