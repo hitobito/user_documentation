@@ -28,7 +28,7 @@ Hier eine Sammlung von User Dokumentation/Dokumente von den Community Mitglieder
 * Cevi: [Wiki Seite Cevi.DB](https://wiki.cevi.ch/index.php/Cevi.DB)
 * Jubla: [Allgemeine Infos](http://jubla.ch/datenbank) und [Handbuch Jubladb](https://github.com/jubla-ch/handbuch-jubladb-hitobito)
 * PBS: Einstieg in [Deutsch](http://info-de.scouts.ch/) oder [Franzöisch](http://info-fr.scouts.ch/) oder [Italienisch](https://pfadi.swiss/it/midata/)
-* Die Mitte: Wir zur Zeit noch erstellt (Mehrsprachig)
+* EJV: [Benutzerhandbuch](https://hitobito-ejv-manual.readthedocs.io/de/latest/)
 
 ## Contribute generic user documentation (this repo)
 The [readthedocs](https://readthedocs.org/) page is rebuilt with each merged PR. You can check whether the build was successful [here](https://readthedocs.org/projects/hitobito/builds/). If you are unsure, you can first merge into the beta branch. This is also built and can be reached in the [beta page](https://hitobito.readthedocs.io/de/beta/)
