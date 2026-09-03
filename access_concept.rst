@@ -294,6 +294,13 @@ Welche Stufe man auf eine bestimmte Person erreicht, ergibt sich aus den Berecht
 
 Die Stufen werden pro Person ausgewertet. Es ist also normal, dass man auf der einen Person alle Angaben sieht und auf einer anderen nur den Namen und die Adresse.
 
+Nur-Lese-Zugriff auf alle Angaben
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Sichtbarkeit und Schreibrecht sind in hitobito getrennt. ``show_full`` ohne Schreibrecht ist möglich, aber nur auf Ebenen-Berechtigungen: ``layer_read`` und ``layer_and_below_read`` vergeben alle drei Sichtbarkeitsstufen, ohne dass die betroffenen Personen bearbeitet werden dürfen.
+
+Innerhalb einer einzelnen Gruppe geht das hingegen nicht. ``group_read`` und ``group_and_below_read`` reichen nur bis ``show_details``, und die einzigen Gruppen-Berechtigungen mit ``show_full`` sind ``group_full`` und ``group_and_below_full`` — diese enthalten immer auch das Schreibrecht. Wer also in einer Gruppe alle Angaben sehen soll, ohne sie ändern zu können, braucht dafür eine Rolle mit ``layer_read`` auf der entsprechenden Ebene.
+
 Welche Angaben auf welcher Stufe sichtbar sind
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
