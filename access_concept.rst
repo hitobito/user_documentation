@@ -12,8 +12,8 @@ In hitobito können komplexe hierarchische Organisationen abgebildet werden. All
 
 Grundsätzlich gilt in Hitobito aber:
 
-- Kann jemand eine Person sehen, sieht er alle Informationen
-- Kann jemand eine Person bearbeiten, kann er alle Atribute bearbeiten
+- Wie viel jemand von einer sichtbaren Person sieht, hängt von der erreichten Sichtbarkeitsstufe ab (siehe `Sichtbarkeit einzelner Attribute`_)
+- Kann jemand eine Person bearbeiten, kann er alle Attribute bearbeiten
 
 Die Organisation sieht in seiner Grundform folgendermassen aus:
 
@@ -269,6 +269,95 @@ Kumulierung von Rollen innerhalb der Struktur
 -------------------------------------------------
 
 Die Zugriffe durch mehrere Rollen kumulieren sich. So ist ein Mitglied einer Ortsgruppe, das gleichzeitig in der Region aktiv ist, trotzdem für die Regionsleitung sichtbar. 
+
+Sichtbarkeit einzelner Attribute
+-------------------------------------------------
+
+Ob eine Person überhaupt sichtbar ist, ist nur die eine Hälfte der Berechtigung. Wie viel man von ihr sieht, hängt von vier aufeinander aufbauenden Sichtbarkeitsstufen ab:
+
+``kein Zugriff`` → ``show`` → ``show_details`` → ``show_full``
+
+Welche Stufe man auf eine bestimmte Person erreicht, ergibt sich aus den Berechtigungen der eigenen Rollen:
+
+.. list-table::
+  :header-rows: 1
+  :widths: 40 60
+
+  * - Berechtigung der eigenen Rolle
+    - Erreichte Stufe auf die betroffenen Personen
+  * - ``contact_data``
+    - ``show``
+  * - ``group_read``, ``group_and_below_read``
+    - ``show``, ``show_details``
+  * - ``group_full``, ``group_and_below_full``, alle ``layer_*``
+    - ``show``, ``show_details``, ``show_full``
+
+Die Stufen werden pro Person ausgewertet. Es ist also normal, dass man auf der einen Person alle Angaben sieht und auf einer anderen nur den Namen und die Adresse.
+
+Nur-Lese-Zugriff auf alle Angaben
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Sichtbarkeit und Schreibrecht sind in hitobito getrennt. ``show_full`` ohne Schreibrecht ist möglich, aber nur auf Ebenen-Berechtigungen: ``layer_read`` und ``layer_and_below_read`` vergeben alle drei Sichtbarkeitsstufen, ohne dass die betroffenen Personen bearbeitet werden dürfen.
+
+Innerhalb einer einzelnen Gruppe geht das hingegen nicht. ``group_read`` und ``group_and_below_read`` reichen nur bis ``show_details``, und die einzigen Gruppen-Berechtigungen mit ``show_full`` sind ``group_full`` und ``group_and_below_full`` — diese enthalten immer auch das Schreibrecht. Wer also in einer Gruppe alle Angaben sehen soll, ohne sie ändern zu können, braucht dafür eine Rolle mit ``layer_read`` auf der entsprechenden Ebene.
+
+Welche Angaben auf welcher Stufe sichtbar sind
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Im hitobito-Core sind die generischen Attribute wie folgt eingeteilt. Wagons können weitere Attribute ergänzen und diese eigenen Stufen zuordnen.
+
+.. list-table::
+  :header-rows: 1
+  :widths: 25 75
+
+  * - Stufe
+    - Angaben
+  * - ``show``
+    - Vorname, Name, Übername, Firmenname, Adresse und Land, Haupt-E-Mail-Adresse, als öffentlich markierte weitere E-Mail-Adressen, Telefonnummern und Social Media, Hauptebene
+  * - ``show_details``
+    - Zusätzlich: nicht öffentliche weitere E-Mail-Adressen, Telefonnummern und Social Media, Geburtstag, Geschlecht, Korrespondenzsprache (nur wenn mehrere Sprachen aktiv sind), zusätzliche Angaben, Erstellungs- und Änderungsinformationen, die Tabs "Abos" und "Nachrichten"
+  * - ``show_full``
+    - Zusätzlich: Rollen, Tags, Anlass-Teilnahmen und Anmeldungen, Qualifikationen, Haushalt, Verantwortliche/Betreute, Verlauf
+
+Der Login-Status wird auf der Personenseite zusätzlich nur angezeigt, wenn man die Person auch bearbeiten darf.
+
+Einblendbare Spalten in Listen
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Über den Button "Spalten" lassen sich in Personenlisten und Anlass-Teilnahmelisten zusätzliche Spalten einblenden. Welche Spalten überhaupt zur Auswahl stehen, ist pro hitobito-Instanz bzw. Wagon festgelegt und unabhängig von den eigenen Berechtigungen.
+
+Die Berechtigung wird jedoch beim Anzeigen pro Person und Spalte nochmals nach den obigen Stufen geprüft. Fehlt die nötige Stufe bei einer Person, steht in der Zelle "fehlende Berechtigung" statt des Werts.
+
+.. note:: Eine Ausnahme bildet die feste Spalte "Rollen" in der Personenliste: Sie zeigt ohne zusätzliche Berechtigungsprüfung die Rollen der Person in der aktuellen Gruppe. Wer eine Person in einer Liste sieht, sieht dort also auch ihre Rollen in dieser Gruppe. Auf der Personenseite hingegen sind die Rollen erst ab ``show_full`` sichtbar.
+
+Berechtigungen bei Exporten
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Jeder Export enthält nur diejenigen Personen, welche man in der jeweiligen Liste auch sehen kann. Welche Angaben exportiert werden, hängt vom gewählten Export ab:
+
+.. list-table::
+  :header-rows: 1
+  :widths: 25 75
+
+  * - Export
+    - Inhalt
+  * - Adressliste
+    - Immer verfügbar. Enthält die ``show``-Angaben plus Hauptebene und Rollen.
+  * - Spaltenauswahl
+    - Wie die Adressliste, zusätzlich die aktuell eingeblendeten Spalten. Die Berechtigung wird dort pro Person und Spalte ausgewertet.
+  * - Haushaltsliste
+    - Immer verfügbar. Fasst Personen im gleichen Haushalt zusammen und exportiert eine feste, limitierte Spaltenauswahl (Anrede, Name, zusätzliche Adresszeile, Strasse, Hausnummer, Postfach, PLZ, Ort, Land, Hauptebene).
+  * - Alle Angaben
+    - Nur verfügbar, wenn man auf der Liste ``show_full`` hat. Exportiert alle Attribute bis zur Stufe ``show_full``.
+
+.. note:: Die Haushaltsliste hat genau eine Namensspalte. Alle Haushaltsmitglieder werden darin zusammengefasst ("Andreas und Mara Mäder, Peter Muster"), ab einer gewissen Länge mit abgekürzten Vornamen. Die Spalte "Anrede" enthält eine generierte Briefanrede, kein Personenattribut.
+
+In Abos ist der Export zusätzlich eingeschränkt: Umfasst das Abo Gruppen oder Rollen ausserhalb des eigenen Berechtigungsbereichs, kann man es gar nicht exportieren. Andernfalls stehen Adressliste, Spaltenauswahl und Haushaltsliste zur Verfügung. "Alle Angaben" ist in Abos nie verfügbar.
+
+Berechtigungen in der API
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Auch in der API gelten dieselben Sichtbarkeitsstufen. Bei OAuth werden die Berechtigungen der angemeldeten Person verwendet. Service Tokens haben auf allen für sie zugänglichen Personen immer ``show_full``; feinere Abstufungen gibt es für Service Tokens nicht.
 
 Daten in Anlässen (Lagern, Kursen)
 -------------------------------------------------
