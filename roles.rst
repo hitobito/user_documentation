@@ -72,9 +72,9 @@ In der Ansicht „Log“ kann nachverfolgt werden, wer wann welche Informationen
 
 .. image:: images/Log.png
 
-*Hinweis:* Einträge wie der unterste im Log “Rolle wurde hinzugefügt” entstehen, wenn eine Rolle gelöscht
-statt mit einem Enddatum beendet wird. In diesem Fall ist im Log weder ersichtlich um welche Rolle es sich
-gehandelt hat, noch wann diese gelöscht wurde.
+*Hinweis:* Wird eine Rolle beendet statt gelöscht, bleibt sie mit ihrem Enddatum in der
+Ansicht „Verlauf“ sichtbar. Wird eine Rolle gelöscht, erscheint im Log ein Eintrag
+„Rolle wurde gelöscht“ mit Angabe, um welche Rolle es sich gehandelt hat.
 
 
 Ansicht Sicherheit
@@ -266,34 +266,3 @@ Verwaltende Personen in hitobito können bei einer Anmeldung an einen Anlass ode
 Die zu verwaltende Person können sie nun so für den Anlass oder Kurs anmelden, wie sie es für sich selbst auch tun würden
 
 .. image:: images/Elternzugang7.png
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
