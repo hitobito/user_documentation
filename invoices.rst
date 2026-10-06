@@ -110,7 +110,7 @@ Die Standardrechnungsposition "Rollen-Abrechnung" berechnet den Betrag basierend
 
 Bei Sammelrechnungen an Gruppen werden pro Empfängergruppe die Anzahl Personen mit der gewählten Rolle in beliebigen Untergruppen und Unter-Ebenen gezählt; bei Sammelrechnungen an Personen erhält jede Person eine Rechnung für die ihr zugeordneten Rollen.
 
-In jeder Rechnungsposition "Rollen-Abrechnung" kann jede Person genau 0 oder 1 Mal mitgezählt werden. Personen mit mehreren passenden Rollen werden trotzdem nur ein Mal gezählt.
+Die "Rollen-Abrechnung" zählt intern effektiv die Anzahl Gruppen, in der die Person die ausgewählten Rolle(n) hat. Hat eine Person also in genau derselben Gruppe mehrere passende Rollen, dann zählt das trotzdem nur ein Mal. Passende Rollen, die über mehrere Gruppen verteilt sind, zählen hingegen je ein Mal.
 
 Jede Rechnungsposition hat folgende Felder:
 
