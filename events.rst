@@ -74,7 +74,7 @@ Um einem Mitglied eine neue aktive Rolle in einem Verein/Verband hinzuzufügen, 
 
 Wenn das Mitglied bisher keine Rolle, im Bereich in dem sie eine neue Rolle erhalten soll, besitzt, muss sie direkt bei der entsprechenden Gruppe als Person hinzugefügt werden.
 
-Um aktive Rollen zu entfernen, kann unter der Ansicht „Info“ im Abschnitt „Aktive Rollen“ das Symbol „Abfalleimer“ angewählt werden. Somit wird die aktuelle Rolle per sofort beendet.
+Um aktive Rollen zu entfernen, kann unter der Ansicht „Info“ im Abschnitt „Aktive Rollen“ das entsprechende Symbol angewählt werden. Liegt das Startdatum der Rolle in der Vergangenheit, wird sie per sofort beendet und bleibt im Verlauf sichtbar. Beginnt die Rolle erst heute oder in der Zukunft, wird sie unwiderruflich gelöscht.
 
 
 Anlässe
