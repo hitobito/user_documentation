@@ -43,10 +43,17 @@ Auf Personen kann zusätzlich zur Adresse auch noch der Kanton ausgewählt werde
 
 .. image:: images/Kanton.png
 
+Kontaktangaben erfassen
+~~~~~~~~~~~~~~~~~~~~~
+Auf Personen können weitere Kontaktangaben wie E-Mails und Telefonnummern erfasst werden. Dabei kann pro Kontaktangabe via Dropdown Menu die entsprechende Kategorie erfasst werden. Die Kategorien können pro Wagon erweitert werden, via Anfrage ans Hitobito-Team.
+
+.. image:: images/Weitere_Emails.png
+
+.. image:: images/Weitere_Telefonnummern.png
 
 Weitere Adressen auf Person erfassen
 ~~~~~~~~~~~~~~~~~~~~~
-Auf Personen können mehr als eine Adresse erfasst werden. Es gibt die Möglichkeit pro weitere Adresse zu definieren, in welche Kategorie diese Adresse fällt. Via Hitbito-Team können weitere Kategorien angefragt und erstellt werden.
+Auf Personen kann mehr als eine Adresse erfasst werden. Es gibt die Möglichkeit pro weitere Adresse zu definieren, in welche Kategorie diese Adresse fällt. Via Hitbito-Team können weitere Kategorien angefragt und erstellt werden.
 
 .. image:: images/Weitere_Adressen.png
 
