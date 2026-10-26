@@ -38,6 +38,15 @@ Personen mit Administratoren Rollen können die Daten sämtlicher Personen im Ve
 .. image:: images/MitgliedBearbeiten.png
 
 
+Weitere Adressen auf Person erfassen
+~~~~~~~~~~~~~~~~~~~~~
+Auf Personen können mehr als eine Adresse erfasst werden. Es gibt die Möglichkeit pro weitere Adresse zu definieren, in welche Kategorie diese Adresse fällt. Via Hitbito-Team können weitere Kategorien angefragt und erstellt werden.
+
+.. image:: images/Weitere_Adressen.png
+
+.. image:: images/Weitere_Adressen2.png
+
+
 Haushalte verwalten
 ~~~~~~~~~~~~~~~~~~~
 Haushalte ermöglichen Personen zusammen zu fassen, die in einem Haushalt wohnen. Anschliessend können die Personen bei Versanden zusammengefasst werden und Anpassungen an der Adresse gelten für alle Personen im Haushalt.
