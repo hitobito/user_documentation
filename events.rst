@@ -30,7 +30,6 @@ Unter „Neue Person erfassen“ können dann alle Daten der Person eingefügt u
 
 .. image:: images/PersonHinzufügen3.png
 
-
 Mitglieder bearbeiten
 ~~~~~~~~~~~~~~~~~~~~~
 Personen mit Administratoren Rollen können die Daten sämtlicher Personen im Verein beziehungsweise der ihr zugeteilten Gruppen bearbeiten. Dazu ist die zu bearbeitende Person aufzurufen. In der Ansicht „Info“ findet sich der Button „Bearbeiten“:
