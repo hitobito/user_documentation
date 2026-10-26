@@ -46,6 +46,8 @@ Auf Personen können mehr als eine Adresse erfasst werden. Es gibt die Möglichk
 
 .. image:: images/Weitere_Adressen2.png
 
+Wenn eine Weitere Adresse unter der Kategorie Rechnungsadresse erfasst wird, wird diese zukünftig bei jeder Rechnung als Standard-Adresse verwendet.
+
 
 Haushalte verwalten
 ~~~~~~~~~~~~~~~~~~~
