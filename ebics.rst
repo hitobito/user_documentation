@@ -35,13 +35,12 @@ Wir richte ich die Schnittstelle ein?
 7) Die Bank informiert Euch, sobald die Schnittstelle eingerichtet und aktiv ist.
 8) Ist dies der Fall, werden Zahlungen, die in Hitobito ausgelöst wurden, auch in Hitobito abgebucht.
 
+.. image:: images/EBICS_Felder.png
 
 ACHTUNG: Für die Zuordnung einer Zahlung an eine Person ist die Referenznummer das einzige relevante
 Merkmal. Macht Eure Mitglieder darauf Aufmerksam, dass Zahlungen nicht mit alten Referenznummern
 gemacht werden sollen. Fehlerquellen sind hauptsächlich falsch eingegebene oder alte Referenznummern.
 In solchen Fällen muss über die Bank die Nachforschung zur entsprechenden Zahlung gemacht werden. Weder Puzzle ITC noch Hitobito kann in solchen Fällen unterstützen.
-
-
 
 
 
