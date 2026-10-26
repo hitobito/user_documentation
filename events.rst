@@ -37,6 +37,12 @@ Personen mit Administratoren Rollen können die Daten sämtlicher Personen im Ve
 
 .. image:: images/MitgliedBearbeiten.png
 
+Kanton erfassen
+~~~~~~~~~~~~~~~~~~~~~
+Auf Personen kann zusätzlich zur Adresse auch noch der Kanton ausgewählt werden, sofern als Land "Schweiz" angegeben ist.
+
+.. image:: images/Kanton.png
+
 
 Weitere Adressen auf Person erfassen
 ~~~~~~~~~~~~~~~~~~~~~
