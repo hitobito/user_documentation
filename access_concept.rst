@@ -284,12 +284,12 @@ Welche Stufe man auf eine bestimmte Person erreicht, ergibt sich aus den Berecht
   :widths: 40 60
 
   * - Berechtigung der eigenen Rolle
-    - Erreichte Stufe auf die betroffenen Personen
-  * - ``contact_data``
+    - Erreichte Stufe auf den betroffenen Personen
+  * - ``contact_data``, ``group_read_contact_data``
     - ``show``
-  * - ``group_read``, ``group_and_below_read``
+  * - ``group_read``, ``group_and_below_read``, ``layer_and_below_read_details``
     - ``show``, ``show_details``
-  * - ``group_full``, ``group_and_below_full``, alle ``layer_*``
+  * - ``group_full``, ``group_and_below_full``, alle anderen ``layer_*``
     - ``show``, ``show_details``, ``show_full``
 
 Die Stufen werden pro Person ausgewertet. Es ist also normal, dass man auf der einen Person alle Angaben sieht und auf einer anderen nur den Namen und die Adresse.
@@ -313,13 +313,11 @@ Im hitobito-Core sind die generischen Attribute wie folgt eingeteilt. Wagons kö
   * - Stufe
     - Angaben
   * - ``show``
-    - Vorname, Name, Übername, Firmenname, Adresse und Land, Haupt-E-Mail-Adresse, als öffentlich markierte weitere E-Mail-Adressen, Telefonnummern und Social Media, Hauptebene
+    - Vorname, Name, Übername, Firmenname, Adresse und Land, Haupt-E-Mail-Adresse, als öffentlich markierte E-Mail-Adressen, Telefonnummern und Social Media, Hauptebene
   * - ``show_details``
-    - Zusätzlich: nicht öffentliche weitere E-Mail-Adressen, Telefonnummern und Social Media, Geburtstag, Geschlecht, Korrespondenzsprache (nur wenn mehrere Sprachen aktiv sind), zusätzliche Angaben, Erstellungs- und Änderungsinformationen, die Tabs "Abos" und "Nachrichten"
+    - Zusätzlich: nicht öffentliche E-Mail-Adressen, Telefonnummern und Social Media, Geburtstag, Geschlecht, Korrespondenzsprache, zusätzliche Angaben, die Tabs "Abos" und "Nachrichten"
   * - ``show_full``
-    - Zusätzlich: Rollen, Tags, Anlass-Teilnahmen und Anmeldungen, Qualifikationen, Haushalt, Verantwortliche/Betreute, Verlauf
-
-Der Login-Status wird auf der Personenseite zusätzlich nur angezeigt, wenn man die Person auch bearbeiten darf.
+    - Zusätzlich: Rollen, Tags, Anlass-Teilnahmen und Anmeldungen, Qualifikationen, Haushalt, Verantwortliche/Betreute, Verlauf, Log (nicht mit ``layer_read`` oder ``layer_and_below_read``), Login-Status
 
 Einblendbare Spalten in Listen
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -365,7 +363,7 @@ Daten in Anlässen (Lagern, Kursen)
 Teilnehmer in einem Anlass können die Teilnehmerliste einsehen und sehen dort ihre gegenseitigen Kontaktdaten. Die Daten sind nur im Kontext "Anlass" sichtbar, wenn über die Teilnehmerliste zur Person navigiert wird. 
 Im Kontext einer "Gruppe", wenn über die Gruppenhierarchie zur Person navigiert wird, gelten die Zugriffsrechte gemäss den strukturbasierten Rechten oben. 
 
-Spezialfall ``Contact_Data``
+Spezialfall ``contact_data``
 -------------------------------------------------
 
 Ist die Rolle einer Person als kontaktrelevant markiert, so hat diese Person auf alle anderen Personen mit kontaktrelevanten Rollen Zugriff. Gleichzeitig ist sie auch für alle anderen Personen mit kontaktrelevanten Rollen sichtbar. 
